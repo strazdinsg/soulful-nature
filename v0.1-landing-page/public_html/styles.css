@@ -15,7 +15,7 @@ html {
 }
 body {
   min-width: 35rem;
-  background-color: #2a1100;
+  background-color: #0b1316;
 }
 
 /***********************************
@@ -23,15 +23,15 @@ body {
  ***********************************/
 #hero-section {
   background-image: url("hero-desktop.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: right center;
-  height: 60vw;
+  height: 100vw;
   min-height: 52rem;
   position: relative;
   right: 0;
   max-width: 195rem;
-  max-height: 90vh;
+  max-height: 100vh;
   margin: auto;
   z-index: 0;
 }
@@ -53,18 +53,15 @@ h1 {
 }
 
 footer {
-  background-color: #0b391e;
-  height: 10vh;
-  min-height: 8rem;
   max-width: 195rem;
+  position: relative;
   margin: auto;
-  font-size: 1.2rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
 }
+
 #image-copyright {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
   justify-self: flex-end;
 }
 
@@ -86,7 +83,7 @@ footer {
 @media (max-width: 56.25em) {
   #hero-section {
     background-image: url("hero-mobile.jpg");
-    height: 65vh;
+    height: 75vh;
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -107,9 +104,6 @@ footer {
   #text-box p {
     font-size: 2.9rem;
     padding-top: 0.5rem;
-  }
-  footer {
-    height: 10vh;
   }
 }
 
