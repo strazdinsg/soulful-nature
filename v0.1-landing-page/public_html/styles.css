@@ -1,0 +1,132 @@
+/***********************************
+ General styles
+ ***********************************/
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Roboto&display=swap");
+
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #b8b67d;
+}
+body {
+  min-width: 35rem;
+  background-color: #2a1100;
+}
+
+/***********************************
+ Hero section
+ ***********************************/
+#hero-section {
+  background-image: url("hero-desktop.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: right center;
+  height: 60vw;
+  min-height: 52rem;
+  position: relative;
+  right: 0;
+  max-width: 195rem;
+  max-height: 90vh;
+  margin: auto;
+  z-index: 0;
+}
+
+#text-box {
+  padding-left: 8rem;
+  padding-top: 14rem;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+h1 {
+  font-size: 6.8rem;
+  font-weight: normal;
+}
+#text-box p {
+  font-size: 3.2rem;
+}
+
+footer {
+  background-color: #0b391e;
+  height: 10vh;
+  min-height: 8rem;
+  max-width: 195rem;
+  margin: auto;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#image-copyright {
+  justify-self: flex-end;
+}
+
+/***********************************
+ Responsive layouts
+ ***********************************/
+@media (max-width: 72em) {
+  h1 {
+    font-size: 6.4rem;
+  }
+  #text-box {
+    padding-top: 8rem;
+  }
+  #hero-section p {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 56.25em) {
+  #hero-section {
+    background-image: url("hero-mobile.jpg");
+    height: 65vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    min-height: 40rem;
+  }
+  #text-box {
+    position: relative;
+    background-color: #0b391e;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 25vh;
+    min-height: 16rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #text-box p {
+    font-size: 2.9rem;
+    padding-top: 0.5rem;
+  }
+  footer {
+    height: 10vh;
+  }
+}
+
+@media (max-width: 30em) {
+  h1 {
+    font-size: 5.8rem;
+  }
+  #text-box p {
+    font-size: 2.7rem;
+  }
+}
+@media (max-width: 26em) {
+  h1 {
+    font-size: 4.4rem;
+    padding: 0 3.5rem;
+  }
+  #text-box p {
+    font-size: 2rem;
+  }
+}
