@@ -13,7 +13,7 @@ export default function HeroSection(): JSX.Element {
 
       <DarkOverlayForMobile />
 
-      <div className="container mx-auto px-4 z-10 pt-16 md:pt-0">
+      <div className="container mx-auto px-4 z-10 pt-8 md:pt-0">
         <div className="max-w-2xl text-accent">
           <h1 className="md:text-6xl text-5xl mb-4">Soulful Nature</h1>
           <p className="md:text-2xl text-xl">Where bond with nature matters</p>
