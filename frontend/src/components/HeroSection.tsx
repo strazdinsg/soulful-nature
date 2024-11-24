@@ -1,5 +1,5 @@
 import Image from "next/image"
-
+import { lemonTuesday, moontime } from "@/app/layout"
 /**
  * Hero Section
  * @returns
@@ -13,12 +13,7 @@ export default function HeroSection(): JSX.Element {
 
       <DarkOverlayForMobile />
 
-      <div className="container mx-auto px-4 z-10 pt-8 md:pt-0">
-        <div className="max-w-2xl text-accent">
-          <h1 className="md:text-6xl text-5xl mb-4">Soulful Nature</h1>
-          <p className="md:text-2xl text-xl">Where bond with nature matters</p>
-        </div>
-      </div>
+      <HeroText />
     </section>
   )
 }
@@ -34,9 +29,8 @@ function HeroImage({
     <Image
       src={src}
       alt="Close-up of a dandelion seed head with delicate white fibers against a blurred green background."
-      layout="fill"
-      objectFit="cover"
-      className={className}
+      fill
+      className={`object-cover ${className}`}
     />
   )
 }
@@ -48,5 +42,20 @@ function HeroImage({
 function DarkOverlayForMobile(): JSX.Element {
   return (
     <div className="absolute inset-0 bg-black/70 md:bg-transparent z-[1]" />
+  )
+}
+
+function HeroText(): JSX.Element {
+  return (
+    <div className="container mx-auto px-4 z-10 pt-8 md:pt-0">
+      <div className="max-w-2xl text-accent">
+        <h1 className={`md:text-6xl text-4xl mb-4 ${lemonTuesday.className}`}>
+          SOULFUL NATURE
+        </h1>
+        <p className={`md:text-5xl text-4xl ${moontime.className}`}>
+          Where bond with nature matters...
+        </p>
+      </div>
+    </div>
   )
 }
