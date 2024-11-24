@@ -17,5 +17,5 @@ export default function ContactSection(): JSX.Element {
         </p>
       </div>
     </section>
-  )
+  );
 }

@@ -1,5 +1,5 @@
-import Image from "next/image"
-import { lemonTuesday, moontime } from "@/app/layout"
+import Image from "next/image";
+import { lemonTuesday, moontime } from "@/app/layout";
 /**
  * Hero Section
  * @returns
@@ -15,15 +15,15 @@ export default function HeroSection(): JSX.Element {
 
       <HeroText />
     </section>
-  )
+  );
 }
 
 function HeroImage({
   src,
   className,
 }: {
-  src: string
-  className: string
+  src: string;
+  className: string;
 }): JSX.Element {
   return (
     <Image
@@ -32,7 +32,7 @@ function HeroImage({
       fill
       className={`object-cover ${className}`}
     />
-  )
+  );
 }
 
 /**
@@ -55,5 +55,5 @@ function HeroText(): JSX.Element {
         </p>
       </div>
     </div>
-  )
+  );
 }

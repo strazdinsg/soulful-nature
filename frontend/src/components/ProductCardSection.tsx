@@ -1,4 +1,4 @@
-import ProductCard from "./ProductCard"
+import ProductCard from "./ProductCard";
 
 const products = [
   {
@@ -25,7 +25,7 @@ const products = [
     description:
       "Discover Soulful Creations: handmade beeswax candles, pearl crowns, and unique pieces crafted with intention, adding warmth, charm, and joy to life.",
   },
-]
+];
 
 export default function ProductCardsSection(): JSX.Element {
   return (
@@ -38,5 +38,5 @@ export default function ProductCardsSection(): JSX.Element {
         </div>
       </div>
     </section>
-  )
+  );
 }

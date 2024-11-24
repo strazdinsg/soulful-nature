@@ -1,4 +1,4 @@
-import Image from "next/image"
+import Image from "next/image";
 
 export default function ProductCard({
   id,
@@ -7,11 +7,11 @@ export default function ProductCard({
   imgSrc,
   description,
 }: {
-  id: number
-  name: string
-  altName: string
-  imgSrc: string
-  description: string
+  id: number;
+  name: string;
+  altName: string;
+  imgSrc: string;
+  description: string;
 }): JSX.Element {
   return (
     <div key={id} className="bg-white rounded-lg shadow-md overflow-hidden">
@@ -27,5 +27,5 @@ export default function ProductCard({
         <p className="text-gray-600">{description}</p>
       </div>
     </div>
-  )
+  );
 }
