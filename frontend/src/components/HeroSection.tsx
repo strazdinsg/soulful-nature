@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { lemonTuesday, moontime } from "@/app/layout";
+import { lemonTuesday, moontime } from "@/app/fonts";
 /**
  * Hero Section
  * @returns
