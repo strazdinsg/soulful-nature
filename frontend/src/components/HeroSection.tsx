@@ -47,10 +47,10 @@ function HeroText(): JSX.Element {
   return (
     <div className="container mx-auto px-4 z-10 pt-8 md:pt-0">
       <div className="max-w-2xl text-accent">
-        <h1 className={`md:text-6xl text-4xl mb-4 ${lemonTuesday.className}`}>
+        <h1 className={`sm:text-6xl text-4xl mb-4 ${lemonTuesday.className}`}>
           SOULFUL NATURE
         </h1>
-        <p className={`md:text-5xl text-4xl ${moontime.className}`}>
+        <p className={`sm:text-5xl text-4xl ${moontime.className}`}>
           Where bond with nature matters...
         </p>
       </div>
