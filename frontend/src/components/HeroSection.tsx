@@ -30,6 +30,8 @@ function HeroImage({
       src={src}
       alt="Close-up of a dandelion seed head with delicate white fibers against a blurred green background."
       fill
+      priority
+      sizes="(max-width: 768px) 100vw, 70vw"
       className={`object-cover ${className}`}
     />
   );
