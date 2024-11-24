@@ -11,7 +11,7 @@ export default function HeroSection(): JSX.Element {
       <HeroImage src="/hero-desktop.jpg" className="hidden md:block z-0" />
       <HeroImage src="/hero-mobile.jpg" className="md:hidden z-0" />
 
-      <DarkOverlayForMobile />
+      <DarkOverlay />
 
       <HeroText />
     </section>
@@ -39,10 +39,8 @@ function HeroImage({
  * A semi-transparent background for mobile to make the text more readable.
  * @returns
  */
-function DarkOverlayForMobile(): JSX.Element {
-  return (
-    <div className="absolute inset-0 bg-black/70 md:bg-transparent z-[1]" />
-  )
+function DarkOverlay(): JSX.Element {
+  return <div className="absolute inset-0 bg-black/70 md:bg-black/30 z-[1]" />;
 }
 
 function HeroText(): JSX.Element {
