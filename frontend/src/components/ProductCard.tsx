@@ -6,15 +6,20 @@ export default function ProductCard({
   altName,
   imgSrc,
   description,
+  url,
 }: {
   id: number;
   name: string;
   altName: string;
   imgSrc: string;
   description: string;
+  url: string;
 }): JSX.Element {
   return (
-    <div key={id} className="bg-white rounded-lg shadow-md overflow-hidden">
+    <a
+      href={url}
+      className="block bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
+    >
       <Image
         src={imgSrc}
         alt={altName}
@@ -25,7 +30,9 @@ export default function ProductCard({
       <div className="p-6">
         <h3 className="text-xl font-semibold mb-2">{name}</h3>
         <p className="text-gray-600">{description}</p>
+        <div className="h-2" />
+        <span className="text-blue-600 hover:underline">Learn more</span>
       </div>
-    </div>
+    </a>
   );
 }
