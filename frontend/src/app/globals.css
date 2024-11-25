@@ -8,14 +8,6 @@
   --accent: #b8b67d;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #030e08;
-    --foreground: #cfdad4;
-    --accent: #b8b67d;
-  }
-}
-
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap");
 
 body {
