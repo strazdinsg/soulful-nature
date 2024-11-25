@@ -1,14 +1,12 @@
 import Image from "next/image";
 
 export default function ProductCard({
-  id,
   name,
   altName,
   imgSrc,
   description,
   url,
 }: {
-  id: number;
   name: string;
   altName: string;
   imgSrc: string;
