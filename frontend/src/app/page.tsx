@@ -1,7 +1,6 @@
 import HeroSection from "@/components/HeroSection";
 import ProductCardsSection from "@/components/ProductCardSection";
 import ContactSection from "@/components/ContactSection";
-import MediumVerticalSpacer from "@/components/MediumVerticalSpacer";
 
 export default function LandingPage() {
   return (

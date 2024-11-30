@@ -8,7 +8,7 @@ export default function ProductCardsSection(): JSX.Element {
     <Section>
       <MediumVerticalSpacer />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16">
-        {products.map((product, index) => (
+        {products.map((product) => (
           <ProductCard key={product.id} {...product} />
         ))}
       </div>
