@@ -2,18 +2,29 @@ import Image from "next/image";
 import { lemonTuesday, moontime } from "@/app/fonts";
 /**
  * Hero Section
+ * @param title - The title of the hero section
+ * @param subtitle - The subtitle of the hero section
  * @returns
  */
-export default function HeroSection(): JSX.Element {
+export default function HeroSection({
+  title,
+  subtitle,
+}: {
+  title: string;
+  subtitle: string;
+}): JSX.Element {
   return (
     <section className="relative h-[70vh] flex md:items-center items-start pt-16 md:pt-0">
       {/* Two alternative images for the hero section - one for desktop and one for mobile */}
-      <HeroImage src="/hero-desktop.jpg" className="hidden md:block z-0" />
-      <HeroImage src="/hero-mobile.jpg" className="md:hidden z-0" />
+      <HeroImage
+        src="/images/hero-desktop.jpg"
+        className="hidden md:block z-0"
+      />
+      <HeroImage src="/images/hero-mobile.jpg" className="md:hidden z-0" />
 
       <DarkOverlay />
 
-      <HeroText />
+      <HeroText title={title} subtitle={subtitle} />
     </section>
   );
 }
@@ -45,15 +56,15 @@ function DarkOverlay(): JSX.Element {
   return <div className="absolute inset-0 bg-black/70 md:bg-black/30 z-[1]" />;
 }
 
-function HeroText(): JSX.Element {
+function HeroText({ title, subtitle }: { title: string; subtitle: string }) {
   return (
     <div className="container mx-auto px-4 z-10 pt-8 md:pt-0">
       <div className="max-w-2xl text-accent">
         <h1 className={`sm:text-6xl text-4xl mb-4 ${lemonTuesday.className}`}>
-          SOULFUL NATURE
+          {title}
         </h1>
         <p className={`sm:text-5xl text-4xl ${moontime.className}`}>
-          Where bond with nature matters...
+          {subtitle}
         </p>
       </div>
     </div>

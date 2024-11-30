@@ -1,4 +1,8 @@
-import Image from "next/image";
+import ClickableCard from "./ClickableCard";
+import Card from "./Card";
+import SmallVerticalSpacer from "./SmallVerticalSpacer";
+import ProductImage from "./ProductImage";
+import CardHeading from "./CardHeading";
 
 export default function ProductCard({
   name,
@@ -11,26 +15,56 @@ export default function ProductCard({
   altName: string;
   imgSrc: string;
   description: string;
-  url: string;
+  url?: string;
+}): JSX.Element {
+  if (url) {
+    return (
+      <ClickableCard url={url}>
+        <ProductImage imgSrc={imgSrc} altText={altName} />
+        <ProductDescription
+          name={name}
+          description={description}
+          showLearnMore={true}
+        />
+      </ClickableCard>
+    );
+  } else {
+    return (
+      <Card>
+        <ProductImage imgSrc={imgSrc} altText={altName} />
+        <ProductDescription
+          name={name}
+          description={description}
+          showLearnMore={false}
+        />
+      </Card>
+    );
+  }
+}
+
+function ProductDescription({
+  name,
+  description,
+  showLearnMore,
+}: {
+  name: string;
+  description: string;
+  showLearnMore: boolean;
 }): JSX.Element {
   return (
-    <a
-      href={url}
-      className="block bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
-    >
-      <Image
-        src={imgSrc}
-        alt={altName}
-        width={400}
-        height={300}
-        className="w-full h-48 object-cover"
-      />
-      <div className="p-6">
-        <h3 className="text-xl font-semibold mb-2">{name}</h3>
-        <p className="text-gray-600">{description}</p>
-        <div className="h-2" />
-        <span className="text-blue-600 hover:underline">Learn more</span>
-      </div>
-    </a>
+    <div className="p-6">
+      <CardHeading title={name} />
+      <p className="text-gray-600">{description}</p>
+      {showLearnMore && (
+        <>
+          <SmallVerticalSpacer />
+          <LearnMoreButton />
+        </>
+      )}
+    </div>
   );
+}
+
+function LearnMoreButton(): JSX.Element {
+  return <span className="text-blue-600 hover:underline">Learn more</span>;
 }
