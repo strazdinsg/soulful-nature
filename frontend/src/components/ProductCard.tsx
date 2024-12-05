@@ -1,4 +1,3 @@
-import ClickableCard from "./ClickableCard";
 import Card from "./Card";
 import SmallVerticalSpacer from "./SmallVerticalSpacer";
 import ProductImage from "./ProductImage";
@@ -17,29 +16,16 @@ export default function ProductCard({
   description: string;
   url?: string;
 }): JSX.Element {
-  if (url) {
-    return (
-      <ClickableCard url={url}>
-        <ProductImage imgSrc={imgSrc} altText={altName} />
-        <ProductDescription
-          name={name}
-          description={description}
-          showLearnMore={true}
-        />
-      </ClickableCard>
-    );
-  } else {
-    return (
-      <Card>
-        <ProductImage imgSrc={imgSrc} altText={altName} />
-        <ProductDescription
-          name={name}
-          description={description}
-          showLearnMore={false}
-        />
-      </Card>
-    );
-  }
+  return (
+    <Card clickUrl={url}>
+      <ProductImage imgSrc={imgSrc} altText={altName} />
+      <ProductDescription
+        name={name}
+        description={description}
+        showLearnMore={!!url}
+      />
+    </Card>
+  );
 }
 
 function ProductDescription({
