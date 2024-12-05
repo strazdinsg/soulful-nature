@@ -6,7 +6,7 @@ export default function ContactSection(): JSX.Element {
   return (
     <section className="py-8 bg-gray-200">
       <div className="container mx-auto px-4 text-center">
-        <p className="text-lg">
+        <p>
           Get in touch:{" "}
           <a
             href="mailto:inguna@sfnature.no"
