@@ -14,7 +14,7 @@ export default function HeroSection({
   subtitle: string;
 }): JSX.Element {
   return (
-    <section className="relative h-[70vh] flex md:items-center items-start pt-16 md:pt-0">
+    <section className="relative h-[70vh] flex md:items-center items-start pt-16 md:pt-0 pl-8 md:pl-0">
       {/* Two alternative images for the hero section - one for desktop and one for mobile */}
       <HeroImage
         src="/images/hero-desktop.jpg"

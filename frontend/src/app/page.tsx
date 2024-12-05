@@ -6,7 +6,7 @@ export default function LandingPage() {
   return (
     <div className="min-h-screen flex flex-col">
       <HeroSection
-        title="Soulful Nature"
+        title="SOULFUL NATURE"
         subtitle="Where bond with nature matters..."
       />
       <ProductCardsSection />
