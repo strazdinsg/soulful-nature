@@ -6,11 +6,13 @@
  */
 export default function Section({
   children,
+  bgColor = "bg-gray-100",
 }: {
   children: React.ReactNode;
+  bgColor?: string;
 }): JSX.Element {
   return (
-    <div className="bg-gray-100 overflow-hidden">
+    <div className={`${bgColor} overflow-hidden`}>
       <div className="container mx-auto px-4 my-8">
         <div className="space-y-16">{children}</div>
       </div>

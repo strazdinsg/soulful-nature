@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import '../lib/fontawesome'
 
 export const metadata: Metadata = {
   title: "Soulful Nature",
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: Readonly<{ 
   children: React.ReactNode;
 }>) {
   return (
