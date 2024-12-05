@@ -8,9 +8,5 @@ export default function Card({
 }: {
   children: React.ReactNode;
 }): JSX.Element {
-  return (
-    <div className="block bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
-      {children}
-    </div>
-  );
+  return <div className="card">{children}</div>;
 }

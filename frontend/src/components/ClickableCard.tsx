@@ -12,10 +12,7 @@ export default function ClickableCard({
   url: string;
 }): JSX.Element {
   return (
-    <a
-      href={url}
-      className="block bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
-    >
+    <a href={url} className="card">
       {children}
     </a>
   );

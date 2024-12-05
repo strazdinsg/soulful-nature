@@ -19,7 +19,7 @@ export default function ProductImage({
       alt={altText}
       width={400}
       height={300}
-      className="w-full h-48 object-cover"
+      className="w-full h-60 object-cover"
     />
   );
 }
