@@ -7,7 +7,7 @@ export default function ProductCardsSection(): JSX.Element {
   return (
     <Section mobileHorPad={false}>
       <MediumVerticalSpacer />
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16">
+      <div className="flex flex-wrap gap-16 justify-center">
         {products.map((product) => (
           <ProductCard key={product.id} {...product} />
         ))}

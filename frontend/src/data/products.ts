@@ -9,14 +9,6 @@ export const products = [
     url: "/cacao-circle",
   },
   {
-    id: 2,
-    name: "Footprints of Happiness",
-    altName: "Footprints of Happiness",
-    imgSrc: "footprints.jpg",
-    description:
-      "Explore life’s happiest moments through inspiring stories. Footprints of Happiness dives into joy, memories, and what truly fulfills us.",
-  },
-  {
     id: 3,
     name: "Soulful Creations",
     altName: "Soulful Creations",

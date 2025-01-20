@@ -13,11 +13,11 @@ export default function Card({
 }): JSX.Element {
   if (clickUrl) {
     return (
-      <a href={clickUrl} className="card">
+      <a href={clickUrl} className="card max-w-80">
         {children}
       </a>
     );
   } else {
-    return <div className="card">{children}</div>;
+    return <div className="card max-w-80">{children}</div>;
   }
 }
