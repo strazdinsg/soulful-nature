@@ -6,7 +6,7 @@ export const products = [
     imgSrc: "cacao-circle.jpg",
     description:
       "Step into the Cacao Circle—where ceremonial cacao, meditation, and mindful connection invite relaxation, self-awareness, and a sense of belonging.",
-    url: "/cacao-circle",
+    url: "/cacao",
   },
   {
     id: 3,
