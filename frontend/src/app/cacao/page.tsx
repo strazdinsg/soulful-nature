@@ -15,8 +15,8 @@ export default function CacaoCirclePage(): JSX.Element {
     <>
       <HeroSection title="CACAO CIRCLE" subtitle="Enjoy your true self" />
       <AboutSection />
-      <TipsSection />
       <EventSection />
+      <TipsSection />
       <ContactSection />
     </>
   );
@@ -48,16 +48,11 @@ function AboutSection(): JSX.Element {
 
 function TipsSection(): JSX.Element {
   return (
-    <Section bgColor="bg-[#e7ede9]">
+    <Section>
       <div className="py-16 px-8">
         <h2 className="text-3xl font-bold mb-4">Preparation Tips</h2>
         <ul className="space-y-4">
           {[
-            { icon: faRug, text: "Bring a blanket, and a pillow to sit on" },
-            {
-              icon: faLightbulb,
-              text: "Formulate an intention for yourself",
-            },
             {
               icon: faMugHot,
               text: "Avoid drinking caffeine the day of the event",
@@ -65,6 +60,10 @@ function TipsSection(): JSX.Element {
             {
               icon: faGlassWater,
               text: "Drink plenty of water throughout the day",
+            },
+            {
+              icon: faLightbulb,
+              text: "Formulate an intention for yourself",
             },
           ].map((tip, index) => (
             <li key={index} className="flex items-start gap-2">
@@ -80,10 +79,21 @@ function TipsSection(): JSX.Element {
 
 function EventSection(): JSX.Element {
   return (
-    <Section>
+    <Section bgColor="bg-[#e7ede9]">
       <div className="p-6">
         <CardHeading title="Upcoming Events" />
-        <p>Coming soon...</p>
+        <ul className="list-inside list-disc">
+          {[
+            "Tuesday, 11th of February, 18:00",
+            "Tuesday, 4th of March, 18:00",
+            "Tuesday, 8th of April, 18:00",
+            "Tuesday, 6th of May, 18:00",
+            "Tuesday, 3rd of June, 18:00",
+            "Tuesday, 1st of July, 18:00",
+          ].map((eventDate) => (
+            <li key={eventDate}>{eventDate}</li>
+          ))}
+        </ul>
       </div>
     </Section>
   );
