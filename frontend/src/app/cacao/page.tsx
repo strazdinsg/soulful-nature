@@ -6,7 +6,6 @@ import {
   faLightbulb,
   faMugHot,
   faGlassWater,
-  faRug,
 } from "@fortawesome/free-solid-svg-icons";
 import CardHeading from "@/components/CardHeading";
 
