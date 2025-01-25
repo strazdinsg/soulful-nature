@@ -12,7 +12,12 @@ import CardHeading from "@/components/CardHeading";
 export default function CacaoCirclePage(): JSX.Element {
   return (
     <>
-      <HeroSection title="CACAO CIRCLE" subtitle="Enjoy your true self" />
+      <HeroSection
+        desktopImage="hero-cacao-desktop.jpg"
+        mobileImage="hero-cacao-mobile.jpg"
+        title="CACAO CIRCLE"
+        subtitle="Enjoy your true self"
+      />
       <AboutSection />
       <EventSection />
       <TipsSection />

@@ -9,18 +9,22 @@ import { lemonTuesday, moontime } from "@/app/fonts";
 export default function HeroSection({
   title,
   subtitle,
+  desktopImage = "hero-desktop.jpg",
+  mobileImage = "hero-mobile.jpg",
 }: {
   title: string;
   subtitle: string;
+  desktopImage: string;
+  mobileImage: string;
 }): JSX.Element {
   return (
     <section className="relative h-[70vh] flex md:items-center items-start pt-16 md:pt-0 pl-8 md:pl-0">
       {/* Two alternative images for the hero section - one for desktop and one for mobile */}
       <HeroImage
-        src="/images/hero-desktop.jpg"
+        src={`/images/${desktopImage}`}
         className="hidden md:block z-0"
       />
-      <HeroImage src="/images/hero-mobile.jpg" className="md:hidden z-0" />
+      <HeroImage src={`/images/${mobileImage}`} className="md:hidden z-0" />
 
       <DarkOverlay />
 
@@ -53,7 +57,7 @@ function HeroImage({
  * @returns
  */
 function DarkOverlay(): JSX.Element {
-  return <div className="absolute inset-0 bg-black/70 md:bg-black/30 z-[1]" />;
+  return <div className="absolute inset-0 bg-black/50 md:bg-black/30 z-[1]" />;
 }
 
 function HeroText({ title, subtitle }: { title: string; subtitle: string }) {
