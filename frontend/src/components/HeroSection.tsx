@@ -57,7 +57,7 @@ function HeroImage({
  * @returns
  */
 function DarkOverlay(): JSX.Element {
-  return <div className="absolute inset-0 bg-black/50 md:bg-black/30 z-[1]" />;
+  return <div className="absolute inset-0 bg-black/50 z-[1]" />;
 }
 
 function HeroText({ title, subtitle }: { title: string; subtitle: string }) {
