@@ -91,7 +91,7 @@ function EventSection(): JSX.Element {
         <CardHeading title="Upcoming Events in 2025" />
         <div className="flex gap-6 flex-wrap">
           {cacaoCircleEvents.map((event) => (
-            <EventCard event={event} />
+            <EventCard key={event.date} event={event} />
           ))}
         </div>
       </div>
@@ -130,19 +130,16 @@ function formatEventDate(dateStr: string) {
 
 function EventCard({ event }: { event: Event }): JSX.Element {
   return (
-    <Card
-      clickUrl={event.signUpUrl}
-      children={[
-        <div className="p-6 min-w-60">
-          <CardHeading title={formatEventDate(event.date)} />
-          <p className="text-gray-600">
-            {getWeekday(event.date) + " " + event.time}
-          </p>
-          <SmallVerticalSpacer />
-          <SignUpButton />
-        </div>,
-      ]}
-    />
+    <Card clickUrl={event.signUpUrl}>
+      <div className="p-6 min-w-60">
+        <CardHeading title={formatEventDate(event.date)} />
+        <p className="text-gray-600">
+          {getWeekday(event.date) + " " + event.time}
+        </p>
+        <SmallVerticalSpacer />
+        <SignUpButton />
+      </div>
+    </Card>
   );
 }
 
