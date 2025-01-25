@@ -14,8 +14,8 @@ export default function HeroSection({
 }: {
   title: string;
   subtitle: string;
-  desktopImage: string;
-  mobileImage: string;
+  desktopImage?: string;
+  mobileImage?: string;
 }): JSX.Element {
   return (
     <section className="relative h-[70vh] flex md:items-center items-start pt-16 md:pt-0 pl-8 md:pl-0">
