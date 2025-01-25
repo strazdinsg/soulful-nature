@@ -47,7 +47,7 @@ function HeroImage({
       fill
       priority
       sizes="(max-width: 768px) 100vw, 70vw"
-      className={`object-cover ${className}`}
+      className={`object-cover ${className} object-top`}
     />
   );
 }
