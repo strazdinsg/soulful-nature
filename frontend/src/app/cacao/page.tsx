@@ -8,6 +8,9 @@ import {
   faGlassWater,
 } from "@fortawesome/free-solid-svg-icons";
 import CardHeading from "@/components/CardHeading";
+import { cacaoCircleEvents, Event } from "@/data/events";
+import Card from "@/components/Card";
+import SmallVerticalSpacer from "@/components/SmallVerticalSpacer";
 
 export default function CacaoCirclePage(): JSX.Element {
   return (
@@ -85,20 +88,79 @@ function EventSection(): JSX.Element {
   return (
     <Section bgColor="bg-[#e7ede9]">
       <div className="p-6">
-        <CardHeading title="Upcoming Events" />
-        <ul className="list-inside list-disc">
-          {[
-            "Tuesday, 11th of February, 18:00",
-            "Tuesday, 4th of March, 18:00",
-            "Tuesday, 8th of April, 18:00",
-            "Tuesday, 6th of May, 18:00",
-            "Tuesday, 3rd of June, 18:00",
-            "Tuesday, 1st of July, 18:00",
-          ].map((eventDate) => (
-            <li key={eventDate}>{eventDate}</li>
+        <CardHeading title="Upcoming Events in 2025" />
+        <div className="flex gap-6 flex-wrap">
+          {cacaoCircleEvents.map((event) => (
+            <EventCard event={event} />
           ))}
-        </ul>
+        </div>
       </div>
     </Section>
   );
+}
+
+function formatEventDate(dateStr: string) {
+  const date = new Date(dateStr);
+  const monthNames = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ];
+  const day = date.getDate();
+  const monthIndex = date.getMonth();
+  const suffix =
+    day % 10 === 1 && day !== 11
+      ? "st"
+      : day % 10 === 2 && day !== 12
+      ? "nd"
+      : day % 10 === 3 && day !== 13
+      ? "rd"
+      : "th";
+  return `${monthNames[monthIndex]} ${day}${suffix}`;
+}
+
+function EventCard({ event }: { event: Event }): JSX.Element {
+  return (
+    <Card
+      clickUrl={event.signUpUrl}
+      children={[
+        <div className="p-6 min-w-60">
+          <CardHeading title={formatEventDate(event.date)} />
+          <p className="text-gray-600">
+            {getWeekday(event.date) + " " + event.time}
+          </p>
+          <SmallVerticalSpacer />
+          <SignUpButton />
+        </div>,
+      ]}
+    />
+  );
+}
+
+function SignUpButton(): JSX.Element {
+  return <span className="text-blue-600 hover:underline">Sign up</span>;
+}
+
+function getWeekday(dateStr: string) {
+  const date = new Date(dateStr);
+  const weekday = date.getDay();
+  const days = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+  ];
+  return days[weekday];
 }
