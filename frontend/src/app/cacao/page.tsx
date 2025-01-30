@@ -6,6 +6,9 @@ import {
   faLightbulb,
   faMugHot,
   faGlassWater,
+  faEnvelope,
+  faCommentSms,
+  faLink,
 } from "@fortawesome/free-solid-svg-icons";
 import CardHeading from "@/components/CardHeading";
 import { cacaoCircleEvents, Event } from "@/data/events";
@@ -35,18 +38,70 @@ function AboutSection(): JSX.Element {
       <div className="mb-16 pt-16 pb-8 px-8 space-y-4 text-[#252419]">
         <h2 className="text-3xl font-bold">About Cacao Circle</h2>
         <p className="leading-relaxed">
-          The Cacao Circle offers a heart-centered experience, blending
-          meditation with the mindful drinking of cacao to encourage relaxation
-          and deeper self-connection.
+          We invite you to join our Cacao Circle in Ålesund to experience a
+          heart-centered practice, blending cacao, meditation and mindfulness
+          elements to encourage relaxation and deeper self-connection.
         </p>
         <p className="leading-relaxed">
-          Inguna serves freshly made drink of Ceremonial Cacao from Peru, guide
-          you to connect with Cacao, meditate/listen and finish with silent
-          comtemplation or sharing.
+          Join a small group (around 10 participants), sharpen your senses, and
+          give yourself this special time.
         </p>
         <p className="leading-relaxed">
-          Be part of a cozy group (max 10 people), find belonging, and build
-          connections.
+          The event is organised once a month, it is held in English, but you`re
+          welcome to respond in Norwegian, Latvian and Russian as well.
+        </p>
+        <p className="leading-relaxed">
+          Available for anyone, with or without meditation experience.
+        </p>
+        <p className="leading-relaxed">
+          <b>Location</b>: ARtstudio, Keiser Wilhelms gate 53, Ålesund.
+        </p>
+        <p className="leading-relaxed">
+          <b>Contribution</b>: 220 NOK.
+        </p>
+        <p className="leading-relaxed">
+          <b>Sign up before coming</b>:
+          <ul className="">
+            {[
+              {
+                icon: faCommentSms,
+                text: (
+                  <>
+                    <a
+                      href="tel:+4796746355"
+                      className="text-blue-600 hover:underline"
+                    >
+                      +47 967 46 355
+                    </a>
+                    {", or"}
+                  </>
+                ),
+              },
+              {
+                icon: faEnvelope,
+                text: (
+                  <>
+                    <a
+                      href="mailto:inguna@sfnature.no"
+                      className="text-blue-600 hover:underline"
+                    >
+                      inguna@sfnature.no
+                    </a>
+                    {", or"}
+                  </>
+                ),
+              },
+              {
+                icon: faLink,
+                text: "Upcoming event link below",
+              },
+            ].map((tip, index) => (
+              <li key={index} className="flex items-start gap-2">
+                <FontAwesomeIcon icon={tip.icon} className="w-5 h-5 mt-0.5" />
+                <span>{tip.text}</span>
+              </li>
+            ))}
+          </ul>
         </p>
       </div>
     </Section>
