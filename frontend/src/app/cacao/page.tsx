@@ -68,7 +68,7 @@ function AboutSection(): JSX.Element {
                 text: (
                   <>
                     <a
-                      href="tel:+4796746355"
+                      href="sms:+4796746355"
                       className="text-blue-600 hover:underline"
                     >
                       +47 967 46 355
