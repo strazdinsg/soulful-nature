@@ -145,13 +145,18 @@ function EventSection(): JSX.Element {
       <div className="p-6">
         <CardHeading title="Upcoming Events in 2025" />
         <div className="flex gap-6 flex-wrap">
-          {cacaoCircleEvents.map((event) => (
+          {getUpcoming(cacaoCircleEvents).map((event) => (
             <EventCard key={event.date} event={event} />
           ))}
         </div>
       </div>
     </Section>
   );
+}
+
+function getUpcoming(events: Event[]) {
+  const today = new Date();
+  return events.filter((event) => new Date(event.date) >= today);
 }
 
 function formatEventDate(dateStr: string) {
