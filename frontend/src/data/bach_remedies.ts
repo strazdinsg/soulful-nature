@@ -1,5 +1,3 @@
-import bachRemedies from "@/data/bach_remedies.json";
-
 interface BachRemedy {
   id: number;
   name: {
@@ -61,17 +59,3 @@ interface BachRemedy {
     norwegian: string;
   };
 }
-
-const remediesByGroup = bachRemedies.reduce(
-  (acc: Record<string, BachRemedy[]>, remedy) => {
-    const groupId = remedy.group;
-    if (!acc[groupId]) {
-      acc[groupId] = [];
-    }
-    acc[groupId].push(remedy);
-    return acc;
-  },
-  {}
-);
-
-export default remediesByGroup;
