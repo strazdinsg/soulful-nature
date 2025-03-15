@@ -4,6 +4,7 @@ export interface BachRemedy {
     latvian: string;
     english: string;
     norwegian: string;
+    latin: string;
   };
   short_description: {
     latvian: string;
@@ -22,16 +23,16 @@ export interface BachRemedy {
     english: string;
     norwegian: string;
   };
-  //   negative_state: {
-  //     latvian: string[];
-  //     english: string[];
-  //     norwegian: string[];
-  //   };
-  //   positive_state: {
-  //     latvian: string[];
-  //     english: string[];
-  //     norwegian: string[];
-  //   };
+  negative_state: {
+    latvian: string[];
+    english: string[];
+    norwegian: string[];
+  };
+  positive_state: {
+    latvian: string[];
+    english: string[];
+    norwegian: string[];
+  };
   similar_remedies: {
     latvian: string;
     english: string;
@@ -43,11 +44,11 @@ export interface BachRemedy {
     norwegian: string;
   };
   alternative_latvian_name: string;
-  //   indicative_statements: {
-  //     latvian: string[];
-  //     english: string[];
-  //     norwegian: string[];
-  //   };
+  indicative_statements: {
+    latvian: string[];
+    english: string[];
+    norwegian: string[];
+  };
   indicative_states: {
     latvian: string;
     english: string;
