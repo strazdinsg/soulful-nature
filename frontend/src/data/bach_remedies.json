@@ -1,0 +1,2651 @@
+[
+  {
+    "id": 1,
+    "picture": "pictures/1.jpg",
+    "name": {
+      "latvian": "Ancītis",
+      "english": "Agrimony",
+      "norwegian": "Agrimonia",
+      "latin": ""
+    },
+    "group": "healers",
+    "short_description": {
+      "latvian": "Iekšējs nemiers, raizes un ciešanas, kas no citiem tiek slēptas aiz prieka un bezrūpības maskas.",
+      "english": "Inner anxiety, worry and suffering, which are hidden from others for joy and carelessness.",
+      "norwegian": "Indre angst, bekymring og lidelse, som er skjult for andre for glede og uforsiktighet."
+    },
+    "Bach_description": {
+      "latvian": "Šis līdzeklis palīdzēs jautrajiem, dzīvespriecīgajiem cilvēkiem ar humora izjūtu, kam patīk miers. Domstarpības un strīdi viņiem sagādā ciešanas, un, lai no tiem izvairītos, viņi ir gatavi no daudz kā atteikties. Viņi slēpj savas rūpes un grūtības, kā arī iekšēju un ārēju nemieru aiz humora un joku maskas. Sabiedrībā viņus mīl. Nereti viņi lieto pārāk daudz alkohola vai apreibinošu vielu, lai tādējādi uzlabotu garastāvokli un gūtu prieku, kas palīdzētu viņiem uzveikt grūtības.",
+      "english": "This remedy will help the fun, cheerful people with a sense of humor who enjoy peace.Disagreements and disputes are suffering from them, and to avoid them, they are ready to give up a lot.They hide their worries and difficulties, as well as inner and external anxiety for humor and joke masks.They love them in society.Often they use too much alcohol or intoxicating substances to improve their mood and enjoy them to overcome them.",
+      "norwegian": "Dette middelet vil hjelpe de morsomme, muntre menneskene med en sans for humor som liker fred.Uenigheter og tvister lider av dem, og for å unngå dem er de klare til å gi opp mye.De skjuler sine bekymringer og vanskeligheter, så vel som indre og ytre angst for humor og vitsemasker.De elsker dem i samfunnet.Ofte bruker de for mye alkohol eller berusende stoffer for å forbedre humøret og glede seg over dem for å overvinne dem."
+    },
+    "negative_state": {
+      "latvian": [
+        "mentālas mokas un raizes",
+        "slēpj raizes aiz bezrūpības maskas",
+        "cenšas mazināt mentālās mokas, lietojot apreibinošas vielas",
+        "\"Ar mani viss ir kārtībā!\""
+      ],
+      "english": [
+        "mental torment and worries",
+        "hides worry behind a mask of carelessness",
+        "trying to reduce mental torment using intoxicating substances",
+        "\"Everything is fine with me!\""
+      ],
+      "norwegian": [
+        "mental pine og bekymringer",
+        "Skjuler bekymring bak en maske av uforsiktighet",
+        "Prøver å redusere mental pine ved hjelp av berusende stoffer",
+        "\"Alt er bra med meg!\""
+      ]
+    },
+    "positive_state": {
+      "latvian": [
+        "spēj objektīvi izvērtēt savas grūtības",
+        "optimistisks",
+        "bezrūpīgs",
+        "nesatricināms iekšējs miers"
+      ],
+      "english": [
+        "are able to objectively evaluate their difficulties",
+        "optimistic",
+        "carefree",
+        "unshakable inner peace"
+      ],
+      "norwegian": [
+        "er i stand til objektivt å evaluere vanskene deres",
+        "optimistisk",
+        "bekymringsløs",
+        "urokkelig indre fred"
+      ]
+    },
+    "Bernard_description": {
+      "latvian": "Ancīša tipa personas atstāj priecīgu un jautru cilvēku iespaidu. Viņi nesūdzas, bet slēpj rūpes un dvēseles ciešanas aiz bezrūpības maskas. Viņi ir nemierīgi cilvēki, kas meklē uzbudinājumu un dažādas nodarbes, kas palīdzētu pārvarēt raizes; bieži lieto narkotikas vai alkoholu, lai aizmirstos un nomāktu sāpes un ciešanas. Ancīša tipa cilvēki mīl mieru, izvairās no strīdiem un diskusijām, slēpj savu jūtīgumu, taču ir nemierīgi un nervozi. Apjautājoties par viņu pašsajūtu, šādi cilvēki bieži apgalvo, ka viņiem nav problēmu, un, arī būdami slimi, viņi joko par savu slimību un neņem to nopietni.",
+      "english": "Ancītis type people leave the impression of a happy and funny people.They do not complain, but hide care and soul suffering behind a mask of carelessness.They are troubled people looking for agitation and various activities to help overcome worries;Often used drugs or alcohol to forget and suppress pain and suffering.Ancis type people love peace, avoid quarrels and discussions, hide their sensitivity, but are restless and nervous.When asked about their well -being, such people often claim that they have no problem, and when they are sick, they joke about their illness and do not take it seriously.",
+      "norwegian": "Ancītis type mennesker etterlater inntrykk av et lykkelig og morsomt folk.De klager ikke, men skjuler omsorg og sjel som lider bak en maske av uforsiktighet.De er urolige mennesker som leter etter agitasjon og forskjellige aktiviteter for å overvinne bekymringer;Brukte ofte medisiner eller alkohol for å glemme og undertrykke smerter og lidelser.ANCIS -type mennesker elsker fred, unngå krangel og diskusjoner, skjuler følsomheten deres, men er rastløse og nervøse.På spørsmål om deres velvære, hevder slike mennesker ofte at de ikke har noe problem, og når de er syke, spøker de om sykdommen sin og tar det ikke på alvor."
+    },
+    "indicative_statements": {
+      "latvian": [
+        "Lai arī man ir problēmas, ar kurām netieku galā, es citiem savas grūtības neizrādu. Es uzlieku masku, pasmaidu un saku: \"Ar mani viss ir kārtībā!\"",
+        "Man nepatīk strīdēties, es visu vienmēr gribu atrisināt mierīgi. Mīļā miera labad es daudzas lietas noklusēju.",
+        "Lai arī sabiedrībā atstāju jautra, priecīga un optimistiska cilvēka iespaidu, mājās, nespējot rast risinājumu problēmām, varu būt nerunīgs vai spriedzes dēļ iedzert kādu glāzi alkohola (diemžēl dažkārt ar vienu glāzi nepietiek…)"
+      ],
+      "english": [
+        "Although I have problems that I do not deal with, I do not show my difficulties to others.I put on the mask, smile and say, \"Everything is fine with me!\"",
+        "I don't like arguing, I always want to solve everything peacefully.For the sake of dear peace, I have many things silent.",
+        "Although I leave the impression of a fun, happy and optimistic person in the community, I can be disliked at home without being able to find a solution to problems or drink a glass of alcohol due to tension (unfortunately, sometimes one glass is not enough…)"
+      ],
+      "norwegian": [
+        "Selv om jeg har problemer som jeg ikke takler, viser jeg ikke mine vanskeligheter for andre.Jeg tok på masken, smiler og sier: \"Alt er bra med meg!\"",
+        "Jeg liker ikke å krangle, jeg vil alltid løse alt fredelig.For kjære fredens skyld har jeg mange ting stille.",
+        "Selv om jeg etterlater inntrykk av en morsom, glad og optimistisk person i samfunnet, kan jeg ikke bli mislikt hjemme uten å kunne finne en løsning på problemer eller drikke et glass alkohol på grunn av spenning (dessverre er det ikke et glass noen ganger ...)"
+      ]
+    },
+    "indicative_states": {
+      "latvian": "Tu esi emocionālajā stāvoklī, kad vēlme pēc mierīgas, priecīgas un skaistas pasaules arvien vairāk neatbilst reālajai situācijai. Varbūt tas ir tavs raksturs, varbūt tā tev ir mācījuši vecāki (dzīvot ar devīzi \"Uz āru visam jāizskatās skaisti\"), taču tev ir grūti paust savas patiesās emocijas un domas, tu mīļā miera labad, lai izvairītos no strīdiem, lai nesāpinātu citus tās apspied vai norij, sakot: \"Viss kārībā! Nekas!\" Tu alksti miera, taču nespēj to rast. Tu gribētu dusmoties, tu gribētu raudāt, taču tā vietā smaidi un tēlo, ka viss ir kārtībā: \"Vai citiem jāzina, kā man klājas?\" Jo vairāk pretrunu starp iedomāto dzīvi un reālo, jo sliktāka ir tava pašsajūta. Bieži vien pasliktinās miega kvalitāte un veselības stāvoklis (jo emocijas mēģina atrast citu ceļu, kā tikt laukā no ķermeņa, piemēram, izraisot niezi, alerģijas u.tml.).",
+      "english": "You are in an emotional state when the desire for a peaceful, happy and beautiful world is increasingly in line with the real situation.Maybe it's your character, maybe it has been taught by your parents (to live with the motto \"Outward to everything to look beautiful\"), but you find it difficult to express your true emotions and thoughts, for the sake of dear peace, to avoid quarrels, not to hurt others to oppress or swallow.You crave peace but can't find it.You would like to be angry, you would like to cry, but instead smile and say everything is fine, \"Do others need to know how I am doing?\"The more contradictions between the imaginary life and the real, the worse your well -being is.Often the quality of sleep and health deteriorate (because emotions try to find another path to get out of the body, for example, causing itching, allergies, etc.).",
+      "norwegian": "Du er i en emosjonell tilstand når ønsket om en fredelig, lykkelig og vakker verden i økende grad blir i tråd med den virkelige situasjonen.Kanskje det er din karakter, kanskje det har blitt lært av foreldrene dine (å leve med mottoet \"utover til alt for å se vakkert ut\"), men du synes det er vanskelig å uttrykke dine sanne følelser og tanker, for kjære fred, for å unngå krangel, ikke å skade andre til å undertrykke eller svelge.Du ønsker fred, men finner den ikke.Du vil gjerne være sint, du vil gjerne gråte, men i stedet smile og si at alt er i orden, \"Må andre vite hvordan jeg har det?\"Jo mer motsetninger mellom det imaginære livet og det virkelige, jo verre er det.Ofte forverres kvaliteten på søvn og helse (fordi følelser prøver å finne en annen vei for å komme ut av kroppen, for eksempel forårsake kløe, allergier, etc.)."
+    },
+    "effect": {
+      "latvian": "Ancīša ziedu līdzeklis var palīdzēt tev iegūt iekšējo mieru. Tu iemācīsies reaģēt uz situāciju atbilstoši savām emocijām - ja ir lietas, kas tevi sadusmo, tu spēsi paust dusmas, ja šodien nav priecīgs garastāvoklis, tu varēsi atļauties nevalkāt prieka masku. Ja tas būs nepieciešams, tu spēsi paust savu viedokli, nedomājot par to, kā šajā situācijā jutīsies otrs. Nē, bažām nav pamata, ka tu tūlīt skriesi visiem stāstīt savas problēmas (tā nereti cilvēki iztēlojas ancīša iedarbību) - tas nebūt neliecina par iekšējo līdzsvaru. Tu dzīvosi reālajā pasaulē, kurā ir ne tikai prieks, bet arī citas emocijas, un tu spēsi tās izturēt, jo tikai tā ir iespējams rast patiesu iekšējo mieru.",
+      "english": "Ancītis flower product can help you get inner peace.You will learn to respond to the situation according to your emotions - if there are things that are angry you, you will be able to express anger, if you are not happy today, you can afford not to wear a mask of joy.If necessary, you will be able to express your opinion without thinking about how the other will feel in this situation.No, there is no cause for concern that you will run your problems right away (so often people imagine Ancis' exposure) - it does not indicate an inner balance.You will live in a real world with not only joy but other emotions, and you will be able to withstand them, because it is only possible to find true inner peace.",
+      "norwegian": "Ancītis blomsterprodukt kan hjelpe deg med å få indre fred.Du vil lære å svare på situasjonen i henhold til følelsene dine - hvis det er ting som er sinte deg, vil du kunne uttrykke sinne, hvis du ikke er lykkelig i dag, har du råd til å ikke bruke en maske av glede.Om nødvendig vil du kunne uttrykke din mening uten å tenke på hvordan den andre vil føle seg i denne situasjonen.Nei, det er ingen grunn til bekymring for at du vil kjøre problemene dine med en gang (så ofte ser folk til å forestille seg Ancis 'eksponering) - det indikerer ikke en indre balanse.Du vil leve i en ekte verden med ikke bare glede, men andre følelser, og du vil kunne motstå dem, fordi det bare er mulig å finne sann indre fred."
+    },
+    "similar_remedies": {
+      "latvian": "Apse (nemiers, jutīgums), augstiņš (mīļā miera labad), kastaņa (iekšējas mokas), parastā zirgkastaņa (raižpilnas domas), pērtiķmutīte (nestāsta citiem, kas viņu satrauc), plūme (iekšējā spriedze), priede (gribu būt labs visiem), riekstkoks (ietekmējas no apkārtējiem cilvēkiem), sermulīte (savas sāpes pārcieš vientulībā), sprigane (nervozitāte), verbēna (spēj iedvesmot citus, enerģisks), virsis (nepatīk būt vienam, vēlas būt sabiedrībā).",
+      "english": "Apse (anxiety, sensitivity), high (dear peace), chestnut (inner torment), ordinary horse chestnut (worried thoughts), monkey (not telling others who are worried), plum (internal tension), pine (I want to be good for everyone)Sprigane (nervousness), verbena (able to inspire others, energetic), heath (don't like being alone, wanting to be in society).",
+      "norwegian": "APSE (angst, følsomhet), høy (kjære fred), kastanje (indre pine), vanlig hestekastanje (bekymret tanker), ape (ikke forteller andre som er bekymret), plomme (indre spenning), furu (jeg vil være bra for alle)Sprigane (nervøsitet), Verbena (i stand til å inspirere andre, energiske), Heath (liker ikke å være alene, ønsker å være i samfunnet)."
+    },
+    "similar_remedy_ids": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "alternative_latvian_name": "Parastais Ancītis"
+  },
+  {
+    "id": 2,
+    "picture": "pictures/2.jpg",
+    "name": {
+      "latvian": "Apse",
+      "english": "Aspen",
+      "norwegian": "Lapskaus",
+      "latin": ""
+    },
+    "group": "other19",
+    "short_description": {
+      "latvian": "Iekšēja trauksme, kurai nav pamata, bailes un pastiprināta jūtība uz neredzamām (maģiskām, nereālām un pārdabiskām) lietām.",
+      "english": "Inner alarms that have no basis, fear and increased sensitivity to invisible (magical, unrealistic and supernatural) things.",
+      "norwegian": "Indre alarmer som ikke har noe grunnlag, frykt og økt følsomhet for usynlige (magiske, urealistiske og overnaturlige) ting."
+    },
+    "Bach_description": {
+      "latvian": "Palīdz, ja pārņem neskaidras, nezināmas bailes, kurām nav objektīva pamata un iemesla. Šis līdzeklis noder cilvēkiem, kas baidās, ka varētu notikt kaut kas briesmīgs, bet kas tas varētu būt, nav zināms. Šīs neskaidrās, neizskaidrojamās bailes apdraud dienu un nakti, bet pacienti bieži baidās par tām runāt ar citiem.",
+      "english": "Helps if you take over unclear, unknown fears that have no objective basis and reason. This product is useful for people who fear that something terrible could happen, but what it might be is unknown. These uncertain, unexplained fears endanger day and night, but patients are often afraid to talk to others.",
+      "norwegian": "Hjelper hvis du overtar uklar, ukjent frykt som ikke har noe objektivt grunnlag og grunn. Dette produktet er nyttig for folk som frykter at noe forferdelig kan skje, men hva det kan være er ukjent. Disse usikre, uforklarlige fryktene i fare dag og natt, men pasienter er ofte redde for å snakke med andre."
+    },
+    "negative_state": {
+      "latvian": [
+        "neskaidras, neobjektīvas, bieži vien neizskaidrojamas bailes",
+        "nemiers un sliktas priekšnojautas",
+        "dreb kā apšu lapa",
+        "\"Es jūtu, ka notiks kas nelāgs.\""
+      ],
+      "english": [
+        "unclear, biased, often unexplained fear",
+        "anxiety and bad foresight",
+        "trembling like an apartment leaf",
+        "\"I feel something bad will happen.\""
+      ],
+      "norwegian": [
+        "uklar, partisk, ofte uforklarlig frykt",
+        "angst og dårlig framsyn",
+        "Skjelvende som et leilighetsblad",
+        "\"Jeg føler at noe dårlig vil skje.\""
+      ]
+    },
+    "positive_state": {
+      "latvian": [
+        "bezbailīgs",
+        "spēj uzticēties nezināmajam, gūt pieredzi un ļauties piedzīvojumam",
+        "norobežojas no pārdabiskā"
+      ],
+      "english": [
+        "fearless",
+        "are able to trust the unknown, gain experience and indulge in adventure",
+        "isolated from supernatural"
+      ],
+      "norwegian": [
+        "fryktløs",
+        "er i stand til å stole på det ukjente, få erfaring og unne seg eventyr",
+        "isolert fra overnaturlig"
+      ]
+    },
+    "Bernard_description": {
+      "latvian": "Apse palīdzēs tikt galā ar psiholoģiskām bailēm, kurām nav objektīva pamata un kurām nevar rast izskaidrojumu, kā arī tad, ja pārņem pēkšņas sliktas nojautas. Šis ziedu līdzeklis noderēs pret bailēm no neredzamiem spēkiem un varas, kā arī pret bailēm iemigt, kas radušās, baiļojoties par notikumiem nākotnē. Šo Baha ziedu lieto arī sapņu, nāves un reliģijas izraisītu baiļu gadījumā, par kurām reti runā. Iespējamie simptomi: galvassāpes, acu pārpūle, tramīgs skatiens, svīšana, drebuļi, zosāda, pēkšņa ģībšana, mēnessērdzība, runāšana miegā, nogurums un nervozitāte.",
+      "english": "The aspen will help to cope with psychological fears that have no objective basis and cannot be explained, and when suddenly bad predicted. This flower remedy will be useful for fear of invisible forces and power, as well as the fear of falling asleep when in future events. This Bach flower is also used in the case of dreams, death and religion, which is rarely talked about. Possible symptoms: headache, eye -catching, crazy gaze, sweating, chills, geese, sudden fainting, lunatic, talking, tired and nervous.",
+      "norwegian": "Aspen vil bidra til å takle psykologisk frykt som ikke har noe objektivt grunnlag og ikke kan forklares, og når plutselig er dårlig spådd. Dette blomstermiddelet vil være nyttig av frykt for usynlige krefter og makt, så vel som frykten for å sovne når de er i fremtidige hendelser. Denne Bach -blomsten brukes også når det gjelder drømmer, død og religion, som sjelden blir snakket om. Mulige symptomer: Hodepine, øyefangende, vanvittig blikk, svette, frysninger, gjess, plutselig besvimelse, galning, snakkende, trøtt og nervøs."
+    },
+    "indicative_statements": {
+      "latvian": [
+        "Es jūtu, ka notiks kas nelāgs, taču nezinu, kas tas varētu būt. Man ir slikta priekšnojauta.",
+        "Es vēroju zīmes savā apkārtnē - vai tās liecina par kaut ko labu vai vēsta sliktu. Piemēram, kā melni kaķi šķērso ielu. Tāpat man ir savi rituāli, kā pasargāt sevi, piem., es trīs reizes spļauju pār kreiso plecu."
+      ],
+      "english": [
+        "I feel something bad, but I don't know what it might be. I have a bad forerunner.",
+        "I watch the signs in my neighborhood - whether they indicate something good or say bad. For example, as black cats cross the street. I also have my own rituals to protect myself, for example, I spit over my left shoulder three times."
+      ],
+      "norwegian": [
+        "Jeg føler noe dårlig, men jeg vet ikke hva det kan være. Jeg har en dårlig forløper.",
+        "Jeg ser skiltene i nabolaget mitt - enten de indikerer noe bra eller sier dårlig. For eksempel når svarte katter krysser gaten. Jeg har også mine egne ritualer for å beskytte meg selv, for eksempel spytter jeg over venstre skulder tre ganger."
+      ]
+    },
+    "indicative_states": {
+      "latvian": "Tu atrodies emocionālajā stāvoklī, kam raksturīgs pārlieku liels jūtīgums - tu jūti kaut ko, kā reāli nav (t.i., tu to nevari sataustīt ar rokām vai to neredz citi cilvēki): iedomātus tēlus, garus, sliktas enerģijas u.tml. Tu esi atvēries neredzamajai pasaulei, un šis ir brīdis, kad tev klāt var tikt lāsti, ļauna acs utt. Nereti, lai justos pasargāti, cilvēki meklē un vēro zīmes apkārtējā pasaulē (melnus kaķus, vārnas, cilvēku skatienus utt.) un veido savus rituālus (spļauj pār kreiso plecu, piesit pie koka stenderes, izvairās no konkrētiem jautājumiem, piem., par bērnu veselību, jo tie var piesaukt ko sliktu). Tu, iespējams, jūti trīsas ķermenī (parasti krūšu rajonā), kas izraisa neomulīgu pašsajūtu. Tu trīci kā apšu lapa! Nereti šis emocionālais stāvoklis pastiprinās līdz ar tumsas iestāšanos. Iespējams, naktī tu murgo, varbūt esi mēnessērdzīgs vai bez jebkāda iemesla pārlieku svīsti. Tā kā bailes, no kurām tu ciet, nav izskaidrojamas, tu par tām citiem nestāsti.",
+      "english": "You are in an emotional state, which is characterized by too much sensitivity - you feel something that is not really (i. e., you can't touch it by hand or other people do not see it): imaginary images, spirits, bad energy, and so on. You have opened the invisible world, and this is the moment when you can be cursed, evil eye, etc. Often, in order to feel protected, people are looking and watching the signs in the world (black cats, crows, people's glances, etc.) and form their own rituals (spitting over the left shoulder, tapping on a wooden bench, avoiding specific issues, such as children's health, because they can call something bad). You may feel a tremor in the body (usually in the chest area), which causes uneasy well -being. You tremble like an Apse page!Often this emotional state intensifies with the onset of darkness. Perhaps at night you are nightmares, maybe you are sleepless or for no reason. Since the fears you close are not explained, you do not tell others about them.",
+      "norwegian": "Du er i en emosjonell tilstand, som er preget av for mye følsomhet - du føler noe som egentlig ikke er (dvs. du kan ikke berøre det for hånd eller andre mennesker ikke ser det): imaginære bilder, brennevin, dårlig energi og så videre. Du har åpnet den usynlige verden, og dette er øyeblikket når du kan bli forbannet, onde øye osv. Ofte, for å føle seg beskyttet, ser folk og ser på tegnene i verden (svarte katter, kråker, folks blikk osv.) Og danner sine egne ritualer (spytter over venstre skulder, tapper på en trebenk, og unngår spesifikke problemer, for eksempel barns helse, fordi de kan kalle noe dårlig). Du kan føle en skjelving i kroppen (vanligvis i brystområdet), noe som forårsaker urolig velvære. Du skjelver som en APSE -side!Ofte intensiveres denne emosjonelle tilstanden med begynnelsen av mørket. Kanskje om natten er du mareritt, kanskje du er søvnløs eller uten grunn. Siden frykten du lukker ikke blir forklart, forteller du ikke andre om dem."
+    },
+    "effect": {
+      "latvian": "Apses ziedu esence palīdzēs tev norobežoties no pārdabiskā un justies pasargātam. Tu iemācīsies uzticēties nezināmajam un neizskaidrojamajam, nepiešķirot tam nozīmi savā dzīvē. Atbrīvojoties no domām par iespējamo ļaunumu, tu spēsi pilnībā būt šeit, šajā pasaulē. Lai kas notiktu paralēlajās pasaulēs, tas netiek tev klāt!",
+      "english": "The essence of aspen flowers will help you to distance yourself from the supernatural and feel protected. You will learn to trust the unknown and unexplained without giving it the meaning in your life. By getting rid of the thought of possible evil, you will be able to be completely here in this world. Whatever happens in the parallel worlds, it is not here for you!",
+      "norwegian": "Essensen av Aspen -blomster vil hjelpe deg å distansere deg fra det overnaturlige og føle deg beskyttet. Du vil lære å stole på det ukjente og uforklarlige uten å gi det betydningen i livet ditt. Ved å bli kvitt tanken på mulig ondskap, vil du kunne være helt her i denne verden. Uansett hva som skjer i de parallelle verdenene, er det ikke her for deg!"
+    },
+    "similar_remedies": {
+      "latvian": " Ancītis (nemiers, jutīgums), parastā zirgkastaņa (nespēj beigt domāt), pērtiķmutīte (nervozitāte), riekstkoks (ietekmējas no apkārtējā), sārtā zirgkastaņa (sliktas priekšnojautas, baiļu fantāzijas, izteikts jūtīgums), saulrozīte (šausmas, iekšēja trauksme, murgi).",
+      "english": "Ancītis (anxiety, sensitivity), ordinary horse chestnut (unable to stop thinking), monkey (nervousness), walnut (affected by the surrounding), pink horse chestnut (bad foresight, fear fantasies, pronounced sensitivity), sunrose (horror, inner anxiety, nightmares).",
+      "norwegian": "Ancītis (angst, følsomhet), vanlig hestekastanje (ikke i stand til å slutte å tenke), ape (nervøsitet), valnøtt (påvirket av omgivelsene), rosa hestekastanje (dårlig framsyn, fryktfantasier, uttalt følsomhet), Sunrose (skrekk, indre angst, nightmares)."
+    },
+    "similar_remedy_ids": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "alternative_latvian_name": ""
+  },
+  {
+    "id": 3,
+    "picture": "pictures/3.jpg",
+    "name": {
+      "latvian": "Dižskābardis",
+      "english": "Beech",
+      "norwegian": "",
+      "latin": ""
+    },
+    "group": "other19",
+    "short_description": {
+      "latvian": "Aizkaitinājums par nejēdzībām pasaulē un nepareizībām citos cilvēkos.",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bach_description": {
+      "latvian": "Dižskābardis palīdzēs tiem, kas izjūt nepieciešamību saredzēt apkārtējā vidē vairāk labā un skaistā. Lai gan daudzas lietas šķiet nepareizas, viņi vēlas, lai spētu redzēt, kā labais vairojas katrā no tām. Viņi vēlas kļūt tolerantāki, saudzīgāki un saprotošāki pret dažādajiem dzīves ceļiem, pa kuriem katrs cilvēks individuāli un visi kopumā sasniegs savu ideālo pilnību.",
+      "english": "",
+      "norwegian": ""
+    },
+    "negative_state": {
+      "latvian": [
+        "vēlas pārmainīt citus",
+        "kritisks un neiecietīgs",
+        "vērtējoša attieksme",
+        "\"Ar jums visiem kaut kas nav kārtībā!\""
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "positive_state": {
+      "latvian": [
+        "iecietīgs un pieņemošs",
+        "vēlas atbalstīt citus",
+        "spēj saskatīt vairāk labā"
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "Bernard_description": {
+      "latvian": "Dižskābardis derēs kritiskiem, nepamierinātiem, netolerantiem, viegli aizkaitināmiem cilvēkiem, kuri vienmēr atrod kļūdas un meklē tikai negatīvo pusi. Šādus cilvēkus kaitina sīkumi - citu savādības, dīvainības un paradumi; viņi pieprasa precizitāti, kārtību un disciplīnu. Cilvēki, kuriem nepieciešama dižskābarža ziedu esence, bieži ir augstprātīgi, sīkumu dēļ žēlojas par citiem. Viņiem ir labas spriešanas spējas, taču viņi ir īgni, ciniski, stingri pret citiem, neizjūt līdzjūtību un ir saspringti. Simptomi saistīti ar augšējo krūškurvja daļu, sasprindzinājumu žoklī, rokās un plaukstās, kas radies no pārāk ciešā tvēriena.",
+      "english": "",
+      "norwegian": ""
+    },
+    "indicative_statements": {
+      "latvian": [
+        "Es vienmēr pamanu lietas, darbus vai rīcību, kas nav pareiza, un uz to arī norādu. Jā, man ir asa mēle!",
+        "Mani kaitina nejēdzības, stulbums un bezgaumība - šīs lietas griežas man ausīs (piem., nepareizi izteikts vārds, klepošana koncerta laikā u.tml.) un duras acīs (piem., citu kļūdas, nepilnības, nomestas zeķes mājās u.tml.).",
+        "Man ir grūti saskatīt otrā cilvēkā vai situācijā kaut ko labu, es redzu tikai kļūdas, sliktus paradumus un to, kas man nepatīk."
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "indicative_states": {
+      "latvian": "Tu atrodies emocionālajā stāvoklī, kuram raksturīgs liels sasprindzinājums un sakāpinātas emocijas, jo tu sev apkārt pamani lietas, kas neatbilst taviem priekšstatiem, un tāpēc reaģē aizkaitināti: \"Es varu par to cepties\". Tu domā, ka pasaule kļūs labāka, ja uz kļūdām un nejēdzībām - uz visu nepareizo - norādīsi tieši. Tādējādi tavas acis un ausis tiek uztrenētas uzreiz redzēt un dzirdēt nepareizo - to, kas tevi kaitina. Saskaņā ar latviešu sakāmvārdu \"Kā mežā sauc, tā atskan\" tavā dzīvē arvien vairāk ienāk cilvēki, situācijas un notikumi, kuri šķiet nepareizi un nepieņemami. Tu vairs nespēj saskatīt labo sev apkārt un šādi nodari sev pāri.",
+      "english": "",
+      "norwegian": ""
+    },
+    "effect": {
+      "latvian": "Katrai lietai ir divas puses, nekas nav tīri balts vai melns, un tie esam tikai mēs, kas izvēlamies, kuru pusi redzēt. Dižskābarža ziedu esence var palīdzēt tev saskatīt labo sev apkārt, savukārt to, ko nevari mainīt, iemācīs laist gar ausīm. Tu pamanīsi, ka kritika otru sāpina, nevis, kā pierasts domāt, veicina pozitīvu izaugsmi. Jā, varbūt notiek attīstība, taču tā izaug no sāpēm. Tu ievērosi, ka kritika bojā attiecības. Tu apzināsies, ka domas un emocijas ir enerģija, ar kuru mēs barojam notikumus. Jo vairāk pievēršamies tam, ko mēs patiesībā gribētu redzēt (un to mums iemāca dižskābardis - pamanīt mazākos uzlabojumus, mazākos sasniegumus), jo vairāk tā kļūst! Tu iemācīsies pieņemt to, ko nevar mainīt, un koncentrēties uz to, kas tev patīk! Lūk, gudrs pasaules mainīšanas veids!",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedies": {
+      "latvian": "Līdzīgi Baha ziedi. Avota ūdens (zina, kā ir pareizi, un kritizē), cigoriņš (neapmierināts), plūme (viegli aizkaitināms), ilekss (sāpina citus, neiejūtīgs), mežābele (sīkumains), priede (kritisks, neapmierināts), sermulīte (kritiska attieksme, augstprātīgs), sprigane (neiecietīgs, viegli aizkaitināms), verbēna (neiecietība pret citādo, vienīgais pareizais viedoklis, vēlme pārveidot pasauli), vīnkoks (stingrs pret citiem, patīk kārtība un disciplīna).",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedy_ids": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "alternative_latvian_name": ""
+  },
+  {
+    "id": 4,
+    "picture": "pictures/4.jpg",
+    "name": {
+      "latvian": "Augstiņš",
+      "english": "Centaury",
+      "norwegian": "",
+      "latin": ""
+    },
+    "group": "healers",
+    "short_description": {
+      "latvian": "Grūti pateikt \"nē\", viegli pakļaujas spēcīgākām personībām.",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bach_description": {
+      "latvian": "Čemuru augustiņš derēs klusajiem, pieklājīgajiem un lēnprātīgajiem cilvēkiem, kam pārlieku patīk palīdzēt citiem. Centībā viņi pārvērtē savus spēkus. Viņi ir tā pārņemti ar vēlmi palīdzēt, ka sāk līdzināties vergiem, nevis labprātīgiem palīgiem. Labsirdīgās dabas dēļ viņi dara vairāk, nekā būtu jādara, un riskē atstāt novārtā paši savu dzīves uzdevumu.",
+      "english": "",
+      "norwegian": ""
+    },
+    "negative_state": {
+      "latvian": [
+        "vāja griba",
+        "viegli ietekmējams un ļauj sevi izmantot",
+        "pieklājīgs, kluss, maigs, padevīgs",
+        "\"Es nespēju pateikt \"nē\"."
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "positive_state": {
+      "latvian": [
+        "stipra griba",
+        "spēj izvērtēt, kad palīdzēt un kad ne",
+        "spēcīga individualitāte"
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "Bernard_description": {
+      "latvian": "Augstiņa tipa cilvēki ir kautrīgi, mierīgi, laipni, lēnprātīgi, konvencionāli, ar vāju gribasspēku, paklausīgi, viegli ietekmējami, un viņiem patīk izpatikt citiem. Palīdzot citiem, šie cilvēki riskē padarīt sevi par vergiem. Parasti viņiem ir cieša saistība ar kādu stiprāku personību, kura ļaunprātīgi izmanto augstiņa tipa cilvēka labo dabu, taču pēdējie paši meklē šādas situācijas, jo viņi ir pakļāvīgi, un tā vietā, lai personības stiprumu meklētu sevī, viņi cer atrast to citos. Iespējamie simptomi varētu būt saistīti ar pleciem un muguru (nastas nešana), bāla seja ar tumšiem riņķiem zem acīm, gurdenums, sakumpusi sēdus poza.",
+      "english": "",
+      "norwegian": ""
+    },
+    "indicative_statements": {
+      "latvian": [
+        "Kā ir, tā ir. Ko liks, to darīs. Mīļā miera labad…",
+        "Man vajadzētu iemācīties pateikt \"nē\"."
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "indicative_states": {
+      "latvian": "Tu esi nonācis emocionālajā stāvoklī, kurā tev nav spēka aizstāvēt savas vēlmes, tāpēc bieži vien tu ne tikai piesaisti spēcīgākus cilvēkus, kas tiecas izmantot tavu labo sirdi, čaklās rokas un vēlmi palīdzēt, bet arī padevīgi klausi viņus un dari, ko viņi liek. Neretas ir situācijas, ka tu nespēj pateikt \"nē, šoreiz man ir citi plāni\" brīdī, kad tevi kāds aicina palīgā, taču tu esi iecerējis/-usi darīt ko citu. Tāpēc, iespējams, ar tevi vairs neviens nerēķinās un uztver kā darbarīku, kurš vienmēr būs rokas stiepiena attālumā un izdarīs nepieciešamo.",
+      "english": "",
+      "norwegian": ""
+    },
+    "effect": {
+      "latvian": "Izeja no šādas situācijas ir savas pašcieņas stiprināšana. Tev var nākt talkā Augstiņa ziedu līdzeklis, kas iemācīs tev pateikt \"nē\", sniegs spēku stāties pretī spēcīgākajam. Jā, liekot savas intereses un dzīves mērķi augstāk par citu cilvēku vēlmēm, tu, iespējams, izraisīsi lielu neapmierinātību citos, jo viņiem pašiem būs jātiek galā ar saviem darbiem un grūtībām, taču tu iegūsi arī viņu cieņu un respektu. Taču pats galvenais - savu dzīvi!",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedies": {
+      "latvian": " Ancītis (mīļā miera labad), ceratostigma (ietekmējas no apkārtējiem), cigoriņš (vēlme būt noderīgam citiem), olīvkoks (nespēks), ozols (izturība, savu spēka robežu neapzināšanās), priede (gribu būt visiem labs, dzīvoju saskaņā ar citu gaidām, jūtos nevērtīgāks par citiem), riekstkoks (nespēju turēties pie savas pārliecības), skābardis (nespēks).",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedy_ids": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "alternative_latvian_name": "Čemuru augstiņš"
+  },
+  {
+    "id": 5,
+    "picture": "pictures/5.jpg",
+    "name": {
+      "latvian": "Ceratostigma",
+      "english": "Crerato",
+      "norwegian": "",
+      "latin": ""
+    },
+    "group": "healers",
+    "short_description": {
+      "latvian": "Vēlas visu izdarīt pareizi, apšauba savu gudrību, domas un idejas, meklē padomu.",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bach_description": {
+      "latvian": "Šis līdzeklis derēs tiem, kas, pieņemot lēmumus, nepietiekami paļaujas paši uz sevi. Viņi nepārtraukti prasa citiem padomus, lai gan tie bieži vien izrādās nepareizi.",
+      "english": "",
+      "norwegian": ""
+    },
+    "negative_state": {
+      "latvian": [
+        "neuzticas sev un savai intuīcijai",
+        "nemitīgi meklē citu padomus",
+        "jūtas nepārliecināts par sevi",
+        "\"Kā tu domā, ko man darīt?\""
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "positive_state": {
+      "latvian": [
+        "uzticas savai intuīcijai",
+        "lēmumus pieņem patstāvīgi",
+        "spēj izšķirt, kad lūgt padomu un kad ne",
+        "pašpaļāvīgs"
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "Bernard_description": {
+      "latvian": "Ceratostigmas tipa cilvēki šaubās par savām spējām, viņiem trūkst gribasspēka un drosmes turēties pie savas pārliecības. Šādi cilvēki neuzticas sev un vienmēr jautā padomu citiem. Viņi neuzticas savai intuīcijai un spriedumiem, bieži atstāj muļķīga un nepastāvīga cilvēka iespaidu; viņi atdarina citus, un šādus cilvēkus ir viegli novirzīt no mērķa. Šī tipa cilvēki bieži ir pļāpīgi, uzdod daudz jautājumu, seko kādam ideālam; bērnībā viņi bieži vien ir izstumti no vienaudžu kolektīva.",
+      "english": "",
+      "norwegian": ""
+    },
+    "indicative_statements": {
+      "latvian": [
+        "Es nezinu, kā pareizi jārīkojas.",
+        "Ko citi darītu manā vietā?",
+        "Jāpajautā kādam draugam/draudzenei, kolēģiem, kādam speciālistam."
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "indicative_states": {
+      "latvian": "Tu esi pazaudējis saikni ar savu iekšējo gudrību - intuīciju, tāpēc nezini, kā pareizi rīkoties vienā vai otrā situācijā. Patiesībā tu bieži intuitīvi zini atbildi uz jautājumu, taču ļoti ātri apšaubi savas idejas: \"Vai tad viss varētu būt tik vienkārši?\" Tāpēc jūties nepārliecināts/-a un atbildes sāc meklēt plašajā pasaulē - tu apjautājies draugiem, paziņām, tavupārt, gudrākiem cilvēkiem, kā viņi rīkotos, vai vērsies pēc padoma pie dažādiem speciālistiem. Nereti tu seko kādam ieteikumam, taču beigās nākas secināt: \"Eh, vajadzēja klausīt sevi!\"",
+      "english": "",
+      "norwegian": ""
+    },
+    "effect": {
+      "latvian": "Izrādās, šajā pasaulē kas vienam pareizs, tas otram mēdz būt nepareizs, jo mums katram ir sava pieredze, sava tagadne, atšķirīgs domāšanas un dzīvošanas veids. Katram ir jāatrod savs pareizais risinājums atbilstoši savai individuālajai situācijai. Augs, kura dzimtene ir gudrības zeme Tibeta, - Ceratostigma var palīdzēt tev sadzirdēt sevi, savu intuīciju un iekšējo gudrību. Tu jutīsi un zināsi, kas tev ir pareizi un kas nepareizi. Jā, tas ir Tik Vienkārši!",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedies": {
+      "latvian": " Augstiņš (ietekmējas no apkārtējiem), avota ūdens (dzīvo saskaņā ar pareiziem principiem), lapegle (citi šķiet esam gudrāki), lāčauza (nedzird savu iekšējo balsi), pērtiķmutīte (jaunās situācijās jūtas nedrošs), priede (dzīvo saskaņā ar citu gaidām), riekstkoks (nespēj turēties pie savas pārliecības), virsis (pļāpīgs, nepieciešama sabiedrība), zirgkastaņas pumpurs (arvien no jauna pieļauj vienas un tās pašas kļūdas), žultszālīte (neizlēmība).",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedy_ids": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "alternative_latvian_name": "Cerato"
+  },
+  {
+    "id": 6,
+    "picture": "pictures/6.jpg",
+    "name": {
+      "latvian": "Kaukāza plūme",
+      "english": "Cherry Plum",
+      "norwegian": "",
+      "latin": ""
+    },
+    "group": "other19",
+    "short_description": {
+      "latvian": "Mentāla spriedze, saspringti nervi, pēkšņa histērija vai nekontrolējama rīcība, bailes sajukt prātā.",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bach_description": {
+      "latvian": "Kaukāza plūme līdzēs tiem, kas baidās zaudēt prātu, vai intelektuālās pārslodzes gadījumā, kā arī tad, ja cilvēks izjūt vēlmi darīt bīstamas un baisas lietas, kuras pats apzinās kā nepareizas, bet tik un tā nevar apslāpēt sevī šīs vēlmes.",
+      "english": "",
+      "norwegian": ""
+    },
+    "negative_state": {
+      "latvian": [
+        "bailes no sevis un no prāta aptumšošanās",
+        "bailes zaudēt kontroli un darīt baisas lietas",
+        "izmisīgas pašnāvnieciskas domas",
+        "\"Man bail, ka varētu izdarīt ko baisu.\""
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "positive_state": {
+      "latvian": [
+        "uzticas savām spējām",
+        "iekšēja apņēmība un spēja tikt galā",
+        "prāta skaidrība un veselais saprāts"
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "Bernard_description": {
+      "latvian": "Plūme noderēs tiem, kas cieš no izmisuma, baidās sajukt prātā, zaudēt kontroli un izdarīt pašnāvību, kas baidās no nekontrolējamiem impulsiem un nervu sabrukuma. Šis Baha zieds palīdzēs pārvarēt uzmācīgas bailes un domas. Simptomi parasti rodas ilgākā laika periodā: bālums, sastindzis skats, nemiers, dažkārt nervozs runas veids vai uzmācīga jautāšana, predispozīcija uz garīgām slimībām. Stāvoklis, kad nepieciešama plūmes ziedu esence, atgādina psihes sabrukumu, kam ir graujoša ietekme uz patību. ",
+      "english": "",
+      "norwegian": ""
+    },
+    "indicative_statements": {
+      "latvian": [
+        "Es palikšu traks… Vai sajukšu prātā. Man ir bail, ka es nojūgšos.",
+        "Es turu sevi rokās, bet tad vienā brīdī man aizbrauc jumts, un es vairs nekontrolēju, kas notiek… Es varu norauties un kliegt, raudāt bez iemesla vai plēst šķīvjus.",
+        "Man ir uzmācīgas domas par nāvi, man ir bail, ka varētu sev vai kādam citam nodarīt ko sliktu…"
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "indicative_states": {
+      "latvian": "Tu atrodies emocionālajā stāvoklī, kam raksturīga milzīga iekšēja spriedze - tas varētu būt, piemēram, pārslodzes dēļ (it īpaši, ja jāveic intelektuāls darbs), miega traucējumu dēļ, varbūt tev ir mazi bērni, kas prasa uzmanību un lielu stresa noturību. Tu pamani, ka kļūst arvien grūtāk savaldīties. Ja darbā vēl izdodas būt mierīgam, tad, atgriežoties mājās, vadzis lūst un emocijas iet pa gaisu - mazākais sīkums var tevi nokaitināt, tu, iespējams, sāc kliegt vai kādam (bērnam, mājdzīvniekam) pat iesit! Kad spriedze mazinājusies, tu brīnies par sevi un pats sev uzdod jautājumu: \"Kas ar mani notika?\" Jo lielāka iekšējā spriedze, jo biežāk un spēcīgāk mēs noraujamies. Šādas situācijas liek baidīties, vai ar mūsu veselo saprātu viss ir kārtībā. Šis emocionālais stāvoklis ir ļoti daudzpusīgs: nekontrolēta lamāšanās, raudāšana, nervu sabrukums, miega traucējumi, uzmācīgas, neveselīgas domas (piemēram, par pašnāvību) utt.",
+      "english": "",
+      "norwegian": ""
+    },
+    "effect": {
+      "latvian": "Tev noderēs Plūmes ziedu līdzeklis - tas aizdzen slimās domas, kas iezogas prātā un sāk valdīt pār mums, palīdz saglabāt skaidru saprātu un kontroli pār prātu un ķermeni visās dzīves situācijās",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedies": {
+      "latvian": " Ancītis (iekšējā spriedze), dižskābardis (viegli aizkaitināms), ilekss (agresija, destruktīva rīcība), kastaņa (izmisums), saulrozīte (histēriska reakcija), vīnkoks (agresija), sprigane (ātri aizkaitināms).",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedy_ids": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "alternative_latvian_name": "Plūme"
+  },
+  {
+    "id": 7,
+    "picture": "pictures/7.jpg",
+    "name": {
+      "latvian": "Pumpurs",
+      "english": "Chestnut Bud",
+      "norwegian": "",
+      "latin": ""
+    },
+    "group": "other19",
+    "short_description": {
+      "latvian": "Pieļauj vienas un tās pašas kļūdas, nespēj mācīties no pieredzes.",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bach_description": {
+      "latvian": "Šī esence derēs tiem, kas nespēj mācīties no novērojumiem un pieredzes un kam ir nepieciešams ilgāks laiks, lai \"gūtu dzīves skolu\".Kamēr citiem pietiek ar vienu kļūdīšanās reizi, šiem cilvēkiem bieži nepieciešamas vairākas, pat daudzas reizes, lai kaut ko iemācītos.Sev par nožēlu arvien tiek pieļautas vienas un tās pašas kļūdas dažādās situācijās, kaut gan pietiktu ar tikai ar vienu reizi vai citu novērošanu, lai nākamajā reizē šo kļūdu nepieļautu.",
+      "english": "",
+      "norwegian": ""
+    },
+    "negative_state": {
+      "latvian": [
+        "savā prātā nepacietīgs doties uz priekšu",
+        "nespēj mācīties no pieredzes",
+        "atkārto vienas un tās pašas kļūdas",
+        "trūkst novērošanas spēju",
+        "\"Kāpēc ar mani tā notiek?\""
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "positive_state": {
+      "latvian": [
+        "pacietība un miers",
+        "spēj mācīties no pieredzes",
+        "spēj objektīvi izvērtēt dzīves notikumus"
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "Bernard_description": {
+      "latvian": "Pumpurs derēs tiem, kuri nespēj mācīties no pieredzes un arvien pieļauj vienas un tās pašas kļūdas. Šādi cilvēki var būt nepacietīgi un domās atrasties vairākus soļus priekšā notikumiem, tāpēc nespēj sekot notikumiem tagadnē. Viņi nav spējīgi rīkoties tagadnē, izvērtējot pagātnē gūto pieredzi. Bieži vien šādi cilvēki ir pavirši, neveikli, neuzmanīgi un bērnībā nereti pieskaitīti atpalikušo pulkam.",
+      "english": "",
+      "norwegian": ""
+    },
+    "indicative_statements": {
+      "latvian": [
+        "Atkal uz tā paša grābekļa! Ko es daru nepareizi? Kāpēc es atkal pieļauju vienas un tās pašas kļūdas?",
+        "Man ar vienu reizi nepielec. Man ir grūta galva. Nespēju tikt līdzi mācībās/vielas apguvē, lai arī ļoti cenšos."
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "indicative_states": {
+      "latvian": "Tu kārtējo reizi esi situācijā, kuru (vai kurai līdzīgu) tu jau esi piedzīvojis - tu atkal esi uzkāpis uz tā paša grābekļa! Atkal tas pats! \"Kāpēc es arvien no jauna pieļauju vienas un tās pašas kļūdas? Jau kuro reizi aizmirstu dzīvoklī atslēgas, jau kuro reizi piededzinu katlu, jau kuro reizi iepazīstos ar viena un tā paša tipa cilvēkiem? Ko es daru nepareizi?\" tu brīnīdamies jautā pats sev. Protams, tev līdzās ir cilvēki, kas var nosaukt tavas kļūdas, taču viņu atbildes, ieteikumi un padomi tev neliekas saistoši. Tas ir tāpat kā ar rakstīšanu vai rēķināšanu - tā mums katram ir jāiemācās pašam.",
+      "english": "",
+      "norwegian": ""
+    },
+    "effect": {
+      "latvian": "Lai apzinātos savas kļūdas un apgūtu dzīves mācībstundas, nepieciešams attīstīt novērošanas spējas. Ārstniecības līdzeklis, kas pagatavots no Parastās Zirgkastaņas Pumpuriem, var nākt tev talkā. Kā kompetents konsultants vai privātskolotājs tas parādīs tev uzvedības modeļus, kurus tu atkārto arvien no jauna, nonākot līdzīgās situācijās un piesaistot sev viena un tā paša tipa cilvēkus. Tavas novērošanas spējas pilnveidosies, tevī raisīsies atziņas par savu dzīvi, tu spēsi to mainīt un tiksi pārcelts dzīves nākamajā klasē!",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedies": {
+      "latvian": "Ceratostigma (arvien no jauna pieļauj vienas un tās pašas kļūdas), mežvītenis (aizmāršība, nespēja būt šeit un tagad), parastā zirgkastaņa (cikliskums), sprigane (nepacietība, steiga).",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedy_ids": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "alternative_latvian_name": "Parastais Zirgkastaņas pumpurs"
+  },
+  {
+    "id": 8,
+    "picture": "pictures/8.jpg",
+    "name": {
+      "latvian": "Cigoriņš",
+      "english": "Chicory",
+      "norwegian": "",
+      "latin": ""
+    },
+    "group": "healers",
+    "short_description": {
+      "latvian": "Žēlo sevi, gaida mīlestību un novērtējumu, uz visu skatās caur savas pašsajūtas prizmu, īpašniecisks, emocionāls.",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bach_description": {
+      "latvian": "Cigoriņš palīdzēs tiem, kas ļoti rūpējas par citu vajadzībām un kas ir pārāk aizņemti ar rūpēm par bērniem, radiniekiem, draugiem un vienmēr atrod vēl kaut ko, kas būtu jāsakārto. Viņi nepārtraukti labo to, ko uzskata par nepareizu, un izbauda to. Viņi vēlas savā tuvumā tos, par kuriem viņi rūpējas.",
+      "english": "",
+      "norwegian": ""
+    },
+    "negative_state": {
+      "latvian": [
+        "vēlme valdīt pār citiem",
+        "pārlieku patmīlīgs",
+        "žēlo sevi, sāpināts un raudulīgs",
+        "emocionālais manipulators",
+        "\"Kādu dienu jūs sapratīsiet, cik daudz esmu darījis jūsu labā!\""
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "positive_state": {
+      "latvian": [
+        "nesavtīgs",
+        "mīl un rūpējas, negaidot neko pretī",
+        "saprot un pieņem, ka citiem ir tiesības būt brīviem"
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "Bernard_description": {
+      "latvian": "Cigoriņš derēs cilvēkiem, kas spējīgi uz patiesu mīlestību, taču negatīvā stāvoklī kļūst īpašnieciski. Šo cilvēku egoisms, sevis žēlošana un patmīlība liek attiecībām piešķirt pārāk lielu nozīmi. Viņi kļūst kritiski, sīkumaini, visu laiku aizrāda un komandē citus. Cilvēki ir pārblīvēti ar negatīvām domām un jūtām, pievērš sev uzmanību, ir raudulīgi, viņiem nepatīk būt vieniem. Tos, kurus viņi mīl, viņi vēlas savā tuvumā, lai ietekmētu un vadītu viņu aktivitātes. Šādus cilvēkus var atpazīt pēc mātišķās izturēšanās. Taču bieži vien arī bērniem, kuri pieprasa uzmanību, būs nepieciešama zigoriņa ziedu esence.",
+      "english": "",
+      "norwegian": ""
+    },
+    "indicative_statements": {
+      "latvian": [
+        "Es jūtos nemīlēts un nenovērtēts. Esmu tik daudz darījis citu labā, bet pretī nesaņemu pat ne pliku paldies.",
+        "Jā, atzīstos, lai kaut ko panāktu, es izmantoju emocionālus līdzekļus: asaras, klusēšanu, ja tu man tā, tad es tev šitā…",
+        "Man sabojājas garastāvoklis brīdī, kad mani mīļie nav izdarījuši to, ko es no viņiem gaidu. (Taču, godīgi sakot, es arī neesmu viņiem pateicis, kas tas ir, ko es gaidu…)"
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "indicative_states": {
+      "latvian": "Tu uz dzīvi raugies caur savas pašsajūtas prizmu. Kad jūties slikti, tā vietā, lai pašsajūtu uzlabotu saviem spēkiem, tu sāc gaidīt savu vēlmju piepildījumu no citiem. Tu gaidi uzmanības apliecinājumus, novērtējumu par tavu ieguldījumu attiecībās un ģimenes dzīvē, jā, arī to, lai partneris mainītos un vairāk iesaistītos. Diemžēl uzminēt otra neizteiktās vēlmes iespējams tikai gaišreģiem, tāpēc tavas gaidas bieži vien netiek piepildītas, un tas liek izjust neapmierinātību un sarūgtinājumu. Savukārt sarūgtinājums liek tev raudāt vai varbūt arī kādu laiku klusēt (lai otrs var saprast, cik ļoti tu ciet), taču, iespējams, arī kalt plānus, kā otram likt justies tikpat slikti. Tu tik ļoti koncentrējies uz savām izjūtām un gaidām, ka pat nepamani, ko otrs ir izdarījis, - varbūt tu pats esi aizmirsis pateikt otram labu vārdu vai sniegt siltu glāstu. Tu pārdzīvo, ja mīļotais cilvēks vai draugi nav kopā ar tevi, tu jūties nemīlēts un pamests. Tu jūties labi tikai tad, ja otrs tev ir blakus.",
+      "english": "",
+      "norwegian": ""
+    },
+    "effect": {
+      "latvian": "Cigoriņa ziedu esence palīdzēs tev mainīt domu virzienu - prom no sevis. Tu nevis gaidīsi no citiem, bet būsi tas/tā, kas dos - uzmanības apliecinājumus, mīlestību, rūpes. Tad tu secināsi, ka tieši šādi iegūsi visu to, ko gaidīji. Turklāt tu apjautīsi, ka mīlestībai tevī nav ne gala, ne malas - tās ir tik daudz kā bezgalīgās debesis!",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedies": {
+      "latvian": "Augstiņš (patīk būt citiem noderīgam), dižskābardis (neapmierināts), ilekss (neapmierināts, vēlas atriebties, sāpināt otru), sārtā zirgkastaņa (noraizējies par citiem), verbēna (enerģisks un aktīvs, norūpējies par citiem, organizē citu dzīvi), virsis (vēlme dalīties, nepatīk būt vienam, patīk runāt par sevi, vēlme pēc uzmanības), vīnkoks (norūpējies par citu labklājību, apņēmība panākt savu), vītols (gaidas, vilšanās un sarūgtinājums), žultszālīte (straujas garastāvokļa pārmaiņas).",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedy_ids": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "alternative_latvian_name": ""
+  },
+  {
+    "id": 9,
+    "picture": "pictures/9.jpg",
+    "name": {
+      "latvian": "Mežvītenis",
+      "english": "Clematis",
+      "norwegian": "",
+      "latin": ""
+    },
+    "group": "healers",
+    "short_description": {
+      "latvian": "Miegainība, intereses un enerģijas trūkums, grūtības koncentrēties, dzīvošana sapņos un iedomu pasaulē.",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bach_description": {
+      "latvian": "Mežvītenis līdzēs sapņotājiem un miegainajiem, kas nejūtas pilnībā \"pamodušies\" un kam nav īpašas intereses par dzīvi. Viņi ir mierīgi un pašreizējā situācijā nejūtas īsti laimīgi. Vairāk dzīvo nākotnē nekā tagadnē, visu laiku cer, ka pienāks laimīgāki laiki un viņu ideāli tiks piepildīti. Saslimstot daži nepūlas drīz \"tikt uz kājām\". Viņi dažkārt pat vēlas nokļūt debesu valstībā cerībā uz labāku nākotni vai vēloties sastapt tur reiz zaudēto mīļoto cilvēku.",
+      "english": "",
+      "norwegian": ""
+    },
+    "negative_state": {
+      "latvian": [
+        "dzīvo sapņos par nākotni",
+        "neuzmanīgs, miegains, aizsapņojies",
+        "atrodas bezsamaņā",
+        "izjūta, ka atrodas ārpus ķermeņa",
+        "\"Man patīk sapņot vaļējām acīm.\""
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "positive_state": {
+      "latvian": [
+        "modrs",
+        "ir šeit un tagad",
+        "uzticas notikumiem nākotnē",
+        "spēj īstenot savas idejas"
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "Bernard_description": {
+      "latvian": "Mežvīteņa tipa cilvēki ir sapņotāji, aizmāršas, ar zemām koncentrēšanās spējām; viņiem trūkst enerģijas. Šādi cilvēki ir klusi un neizrāda pietiekamu interesi par notikumiem tagadnē, viņi vienmēr ir nogrimuši domās un savā fantāzijas pasaulē. Mežvīteņa tipa cilvēki ir miegaini un neuzmanīgi, romantiski, apveltīti ar bagātu fantāziju un nereālistiski. Iespējamie simptomi: miegainība, nosliece uz iemigšanu, prombūtnes izjūta, pašplūsmas izjūta, izteikts bālums, lēnīgums un jutīgums pret trokšņiem; sastingums, ģīboņi, vienaldzība; šādi cilvēki daudz nepiepūlas, lai viņiem atkal klātos labi, un dažkārt pat šķiet, ka viņi labāk vēlas aiziet no šīs pasaules. Cilvēki, kam nepieciešams mežvīteņa ziedu līdzeklis , bieži paklūp, neuzmanības dēļ viņiem izkrīt no rokām lietas, sarunas laikā viņi it kā \"aizpeld\", viņiem mēdz būt apātiska un vienaldzīga sejas izteiksme.",
+      "english": "",
+      "norwegian": ""
+    },
+    "indicative_statements": {
+      "latvian": [
+        "Es nespēju koncentrēties. Es aizpeldu, sapņoju vaļējām acīm, man trūkst enerģijas savus sapņus īstenot reālajā dzīvē.",
+        "Es bieži pazaudēju lietas un nevaru atcerēties, kur ko esmu nolicis. Man ir grūti būt šeit un tagad."
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "indicative_states": {
+      "latvian": "Tu jūties miegains un īsti nepamodies. Tu patiesi daudz guli. Tu ievēro, ka tev ir grūti koncentrēties, it īpaši tad, ja saturs tevi neinteresē. Tu viegli aizpeldi citā pasaulē, nedzirdi citu teikto. Tu mēdz nozaudēt lietas vai aizmirsti to, ko gribēji pateikt vai pēc kā gāji un ko meklēji. Citi pārmet, ka tu esi izklaidīgs un slinks. Jā, tev labāk patīk skatīties televīziju, sērfot internetā, lasīt grāmatas, respektīvi, dzīvot citā pasaulē. Taču, iespējams, tajā pašā laikā tu esi ļoti radošs un tev ir daudz spīdošu ideju, lai arī nereti tās ir tikai fantāzijas lidojums, jo tev trūkst realitātes izjūtas un enerģijas to visu īstenot.",
+      "english": "",
+      "norwegian": ""
+    },
+    "effect": {
+      "latvian": "Mežvīteņa ziedu esence tev var palīdzēt vairot enerģiju un spēku, lai tu varētu īstenot savus sapņus un idejas. Tu kļūsi možāks, paaugstināsies tavas koncentrēšanās spējas, tu kļūsi aktīvāks un darbīgāks. Tu būsi pilnībā šeit un tagad!",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedies": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedy_ids": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "alternative_latvian_name": ""
+  },
+  {
+    "id": 10,
+    "picture": "pictures/10.jpg",
+    "name": {
+      "latvian": "Mežābele",
+      "english": "Crab Apple",
+      "norwegian": "",
+      "latin": ""
+    },
+    "group": "other19",
+    "short_description": {
+      "latvian": "Jūtas netīrs, sev pretīgs un inficēts, nespēj pieņemt savu ķermeni, sīkumains.",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bach_description": {
+      "latvian": "Mežābele tiek dēvēta par \"tīrīšanas līdzekli\", kas noderēs tiem, kuri kaut kādā veidā jūtas netīri. Bieži tās ir šķietami nenozīmīgas lietas. Taču ir gadījumi, kad runa var būt par nopietnu slimību, kura paliek gandrīz neievērota, jo visa uzmanība tiek veltīta tikai vienai lietai. Abos gadījumos runa ir par cilvēkiem, kuri ļoti vēlas tikt vaļā no šīs vienas lietas, kas aizņem visas viņu domas un viņiem šķiet tik svarīga, ka viņi ļoti vēlas no tās atbrīvoties.Šādi cilvēki krīt izmisumā, ja ārstēšanai nav gaidītā rezultāta. Ar savu tīrošo spēku šis līdzeklis attīra arī brūces, kurās, pēc pacienta domām, ir iekļuvušas indīgas vielas, no kurām jāatbrīvojas.",
+      "english": "",
+      "norwegian": ""
+    },
+    "negative_state": {
+      "latvian": [
+        "jūtas netīrs un sev pretīgs mentālā, emocionālā vai fiziskā līmenī",
+        "sīkumains, neredz lietas īstajās proporcijās",
+        "\"Jūtos netīrs un pretīgs.\""
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "positive_state": {
+      "latvian": [
+        "apzinās skaistumu, kas mājo visā",
+        "tīrs prāts un ķermenis",
+        "spēj uztvert lietas kopumā"
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "Bernard_description": {
+      "latvian": "Mežābele ir \"tīrīšanas\" līdzeklis, kas būs nepieciešams tiem, kuri kaut kādā veidā jūtas netīri, aptraipīti vai inficēti. Šādos gadījumos bieži vien runa ir par vieglu slimību, kas cietējam šķiet tik ļoti nozīmīga, ka izraisa izmisumu un iedveš riebumu pret sevi. Mežābele palīdz gan garīgu, gan fizisku stāvokļu gadījumā, visās situācijās, kad cietējs izjūt sevī kaut ko pretīgu. Šis Baha zieds palīdzēs atjaunot samērīguma izjūtu. Simptomi: ādas slimības, saindēts ķermenis vai inficēta brūce, neveselīgi paradumi, smakojošas pēdas, nepatika pret fizisku kontaktu, piemēram, zīdīšanu.",
+      "english": "",
+      "norwegian": ""
+    },
+    "indicative_statements": {
+      "latvian": [
+        "Es jūtos netīrs un sev pretīgs. Es gribu attīrīties.",
+        "Es neesmu apmierināts ar savu ķermeni. Kad skatos uz sevi spogulī (vai fotogrāfijās), pirmais, ko pamanu, ir resnais dibens, tuklās kājas, apaļais vēders, lielās ausis, spalvainās rokas vai šķībais deguns…",
+        "Es izjūtu kaunu.",
+        "Es nespēju aiziet gulēt, ja viss nav sakārtots un satīrīts. Esmu pedants."
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "indicative_states": {
+      "latvian": "Tu atrodies emocionālajā stāvoklī, kam raksturīgas dažādas izpausmes. Pirmkārt, tu varētu būt neapmierināts ar savu ķermeni - lai tas būtu deguns, ausis, lūpas, acis, mati, vēders, kājas vai dibens. Tiklīdz tu ieskaties spogulī vai redzi sevi kādā fotogrāfijā, tūlīt pievērs uzmanību tieši tai vietai, ar kuru neesi apmierināts. Tu esi sevi sadalījis puzles gabaliņos un neredzi kopainu. Tieši tāpat tu vari iedomāties, ka kādā orgānā iemitinājusies slimība. Iespējams, ārsti nevar apliecināt, ka tu esi slims, taču tev tā liekas, un tu gribi atbrīvoties no šīs kaites, lai kas tā arī būtu. Otrkārt, tu vari justies netīrs un tāpēc sev pretīgs - piemēram, pēc zāļu lietošanas, smēķēšanas, pēc ziemas, pēc neķītriem pieskārieniem vai asiņainas filmas. Tu vēlies attīrīties. Dažkārt nekas nespēj sniegt cerēto tīrības izjūtu tāpēc, ka tā ir tikai izjūta. Tu ķeries pie apkārtējās vides uzspodrināšanas. Visam ir jābūt tīram, pat supertīram. Tu nevari vien beigt pucēt virtuvi, traukus, tualeti, vannu, izlietnes, grīdas… Tu pamani ik sīkāko puteklīti. Nekārtība tevi Tra-Ci-Na! Treškārt, tu izjūti kaunu. Tev ir skelets skapī, ko tu labāk nevilktu saules gaismā.",
+      "english": "",
+      "norwegian": ""
+    },
+    "effect": {
+      "latvian": "Viss iepriekšminētais atrisinātos tikai ar vienu domu un pārliecību, ka tu esi vesels un skaists. Ārsts Edvards Bahs, ziedu terapijas pamatlicējs, uzskatīja, ka slimība un veselība sākas domās - postošās vai dziedinošās. Mežābeles ziedu līdzeklis, kas tiek dēvēts par tīrīšanas līdzekli, varētu tev palīdzēt ne tikai attīrīt galvu un ķermeni, bet arī veidot pieņemošu attieksmi pret savu ķermeni. Pārmaiņas sākas ar pieņemšanu. Tu iemīlēsi savu ķermeni un jutīsies tajā komfortabli. Izzudīs diskomforts starp vēlamo un esošo, tu uztversi sevi kā vienu veselumu, nevis puzles daļas. Tīrības un kārtības izjūta ļaus veselīgāk uztvert nepārtraukti mainīgo apkārtējo vidi.",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedies": {
+      "latvian": "Avota ūdens (pārņemts ar veselīgo un savu ķermeni), dižskābardis (sīkumains), parastā zirgkastaņa (domas riņķo ap vienu lietu), priede (neapmierināts ar sevi), sprigane (vēlas ātri izveseļoties). ",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedy_ids": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "alternative_latvian_name": ""
+  },
+  {
+    "id": 11,
+    "picture": "pictures/11.jpg",
+    "name": {
+      "latvian": "Goba",
+      "english": "Elm",
+      "norwegian": "",
+      "latin": ""
+    },
+    "group": "other19",
+    "short_description": {
+      "latvian": "Pārslodze, kas īslaicīgi, bet intensīvi laupa pašpaļāvību un iedragā pašapziņu.",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bach_description": {
+      "latvian": "Tiem, kas labi padara savu darbu un uzticīgi seko savam dzīves aicinājumam. Viņi cer dzīvē paveikt kaut ko īpašu, bieži vien visas cilvēces labā, taču laiku pa laikam viņi jūtas nomākti, jo viņiem šķiet, ka uzdevums, ko viņi ir apņēmušies izdarīt, ir pārāk grūts, pat pārcilvēcisks.",
+      "english": "",
+      "norwegian": ""
+    },
+    "negative_state": {
+      "latvian": [
+        "īslaicīgi jūtas nepiemērots savam darbam",
+        "vilcinās un īslaicīgi zaudē pašpaļāvību",
+        "pārslodze dēļ pārlieku daudzajiem pienākumiem",
+        "\"Tas iet pāri maniem spēkiem.\""
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "positive_state": {
+      "latvian": [
+        "spēks pildīt pienākumus",
+        "pārliecība par saviem spēkiem un pašpaļāvība",
+        "apzinās savu spēju robežas, spēj deleģēt"
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "Bernard_description": {
+      "latvian": "Goba palīdzēs tiem, kas ir ļoti spējīgi un kam bieži ir jāuzņemas liela atbildība, bet kuriem laiku pa laikam šķiet, ka viņi nespēj tikt galā ar viņiem uzticēto. Tāpēc viņi dažreiz jūtas satriekti, sāk vilcināties un uz brīdi zaudē pašapziņu. Šķiet, ka šādiem cilvēkiem īslaicīgi pazudusi izpratne par lietām, un tas viņos rada lielu diskomfortu, nemieru un ciešanas.",
+      "english": "",
+      "norwegian": ""
+    },
+    "indicative_statements": {
+      "latvian": [
+        "Esmu pārguris. Tik daudz darba, netieku ar visu galā. Visa kā ir par daudz šajā dzīves posmā. Pārslodze.",
+        "No manis tiek prasīts pārāk daudz. Es vienmēr esmu ticis ar visu galā, taču nu šķiet, ka tas ir pāri maniem spēkiem."
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "indicative_states": {
+      "latvian": "Tu, visticamāk, jau esi konstatējis, ka ciet no pārslodzes. Tavus ikdienas darbus un pienākumus ir papildinājuši ārkārtas darbi (piemēram, kāda tuva cilvēka slimība, kas prasa papildu rūpes un iesaistīšanos, eksāmenu laiks, dzemdības u.tml.). Tā kā tu esi radis ar visu tikt galā, tu mēģini arī tagad visu paveikt. Taču šis brīdis, ko citi dēvē par pēdējo pilienu, laupa tavu pašpaļāvību, un tu sāc šaubīties, vai ar tev uzticēto vispār vari tikt galā, tik vilinoša šķiet ideja kaut ko mest pie malas… Stiprā cilvēka vājais brīdis.",
+      "english": "",
+      "norwegian": ""
+    },
+    "effect": {
+      "latvian": "Pārslodzes brīdī nepieciešama dubulta pašpaļāvības deva - Anglijas Goba būs tavs atbalsts. Gobas ziedu esence palīdzēs tev atgūt pārliecību par savām spējām, atjaunos tavus spēkus, un tu sapratīsi, ka galvenais ir soli pa solim turpināt darboties.",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedies": {
+      "latvian": "Kastaņa (izmisums), lapegle (zaudējis pašpaļāvību), olīvkoks (nogurums), priede (iedragāta pašapziņa), skābardis (šķiet, ka nespēj veikt darbu).",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedy_ids": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "alternative_latvian_name": "Anglijas goba"
+  },
+  {
+    "id": 12,
+    "picture": "pictures/12.jpg",
+    "name": {
+      "latvian": "Drudzenīte",
+      "english": "Gentian",
+      "norwegian": "",
+      "latin": ""
+    },
+    "group": "healers",
+    "short_description": {
+      "latvian": "Zina, ka plānotais neizdosies un noteikti būs grūti, pesimistiska attieksme pret dzīvi, grūtību un šķēršļu priekšā ātri padodas.",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bach_description": {
+      "latvian": "Līdzeklis tiem, kas ātri zaudē drosmi. Viņi strauji atveseļojas, savā darbā gūst labus panākumus, taču katra mazākā vilcināšanās, katrs šķērslis izraisa viņos šaubas un mazina cerības.",
+      "english": "",
+      "norwegian": ""
+    },
+    "negative_state": {
+      "latvian": [
+        "netic, ka izdosies",
+        "šaubās un krīt pesimismā un izmisumā",
+        "cieš no depresijas, kurai zināms iemesls",
+        "viegli zaudē drosmi",
+        "\"Man neizdosies.\""
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "positive_state": {
+      "latvian": [
+        "tic, ka izdosies",
+        "ar optimistisku skatu raugās nākotnē",
+        "paļaujas uz nākotni"
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "Bernard_description": {
+      "latvian": "Dzudzenīte būs nepieciešama tiem, kuri ātri zaudē drosmi un kļūst depresīvi. Šis Baha zieds palīdzēs pārvarēt šaubas, melanholiju, skepsi un vilšanos, kā arī depresiju, kurai ir zināms cēlonis vai kas radusies vilcināšanās vai šķēršļu rezultātā. Drudzenītes ziedu esence līdzēs pret ciešanām, kas radušās pārejošu neveiksmju dēļ; pret pesimismu, kas barojas no neizdošanās, kā arī tad, ja trūkst pašpaļāvības. Cilvēki, kuriem nepieciešama drudzenītes ziedu esence , ir nomākti un skumji.",
+      "english": "",
+      "norwegian": ""
+    },
+    "indicative_statements": {
+      "latvian": [
+        "Es to zinu jau tagad, ka neizdosies un nebūs labi. Būs grūtības un šķēršļi…",
+        "Citi mani dēvē par pesimistu, taču uzskatu, ka esmu reālists."
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "indicative_states": {
+      "latvian": "Tu dzīvo ar skatu nākotnē un redzi, ka sabiezē mākoņi un tūlīt būs pērkona negaiss. Tikko sācies pavasaris, bet tu jau zini, ka tūlīt būs Jāņi un tad arī līdz Ziemassvētkiem vairs nav tālu. Citi saka, ka tu ūdens glāzi vienmēr redzi pustukšu (ar to domājot tavu pesimistisko dabu), taču, tavuprāt, tu spēj reāli skatīties nākotnē - tu redzi iespējamās problēmas un situācijas, kāpēc kaut kas varētu neizdoties (vai cik daudz dažādām lietām jāsakrīt, lai sasniegtu labu rezultātu!). Un galu galā, kad piepildās tavas prognozes, tu ar gandarījumu saki: \"Bet es taču tā teicu!\" Taču būtībā šķēršļi un grūtības tev ir kārtīgs pārbaudījums, jo tie laupa tev drosmi mēģināt vēlreiz.",
+      "english": "",
+      "norwegian": ""
+    },
+    "effect": {
+      "latvian": "Drudzenīte var palīdzēt tev saskatīt dzīves otru pusi - pozitīvo, gaišo un cerīgo. Tu pamanīsi, ka līdz ar tavas attieksmes maiņu arī dzīve kļūs vieglāka un priecīgāka, tu spēsi pilnvērtīgi izbaudīt tagadni un darboties tajā, zinot, ka pat vistumšākie mākoņi reiz pazūd un pēc lietus vienmēr uzspīd saule. Ar optimismu un pārliecību par izdošanos tu no dzīves gūsi daudz vairāk!",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedies": {
+      "latvian": "Lapegle (neticība saviem spēkiem, pesimistiska attieksme pret panākumiem), ulekss (skepse, nomāktība), riekstkoks (ātri atkāpjas no savas ieceres), sinepe (nomāktība), vīteņsausserdis (pesimistisks skats nākotnē), vītols (sarūgtinājums, bezspēcība).",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedy_ids": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "alternative_latvian_name": ""
+  },
+  {
+    "id": 13,
+    "picture": "pictures/13.jpg",
+    "name": {
+      "latvian": "Sprigane",
+      "english": "Impatiens",
+      "norwegian": "",
+      "latin": ""
+    },
+    "group": "healers",
+    "short_description": {
+      "latvian": "Nepacietīgs, straujš, saspringts, kaitina lēnīgums.",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bach_description": {
+      "latvian": "Puķu sprigane derēs tiem, kas ir ātri savās domās un rīcībā un visu grib darīt tūlīt un bez kavēšanās. Ja šādi cilvēki saslimst, viņi vēlas ātri izveseļoties. Šādiem cilvēkiem ir grūti būt pietiekami pacietīgiem saskarsmē ar lēnākas dabas cilvēkiem, lēnīgumu viņi uzskata par veltīgu laika izniekošanu. Lēnīgos viņi cenšas dažādi pasteidzināt. Viņi labprātāk domā un strādā vienatnē, jo tikai tā viņi visu var izdarīt savā ierastajā tempā.",
+      "english": "",
+      "norwegian": ""
+    },
+    "negative_state": {
+      "latvian": [
+        "nespēj sadarboties ar citiem",
+        "nepacietīgs, neiecietīgs, saspringts un viegli aizkaitināms, necieš ierobežojumus",
+        "ārkārtīga mentāla spriedze",
+        "\"Ļauj man to izdarīt vienam!\""
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "positive_state": {
+      "latvian": [
+        "spēj sadarboties",
+        "pacietīgs, ar vēsu prātu",
+        "iecietīgs pret lēnīgākiem"
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "Bernard_description": {
+      "latvian": "Sprigane palīdzēs tiem nepacietīgajiem cilvēkiem, kuriem nepatīk ierobežojumi. Viņi dod priekšroku strādāt vienatnē savā tempā, viņiem patīk steiga visās lietās, patīk kritizēt citu kļūmes. Šādi cilvēki ir ātri aizkaitināmi, impulsīvi, strauji, aktīvi un inteliģenti, taču ar tieksmi uz nervozu sasprindzinājumu, pārpūli un negadījumiem. Iespējamie simptomi: pēkšņas sāpes, krampji, sasprindzinājums muguras, kakla, žokļa, roku un plecu daļā, gremošanas traucējumi. Bērni, kuriem noderētu spriganes ziedu esence, var būt ātri aizkaitināmi un ar augstām prasībām. Šādi cilvēki rīkojas ātri, viņu ķermenis bieži noliekts uz priekšu, viņiem patīk vadīt citus, ejot pa priekšu, kā arī patīk pabeigt teikumu lēnāk domājošu/lēnīgāku cilvēku vietā. Cilvēkiem, kuriem nepieciešams spriganes ziedu līdzeklis, raksturīgi jūtu uzliesmojumi, kuri tikpat ātri norimst.",
+      "english": "",
+      "norwegian": ""
+    },
+    "indicative_statements": {
+      "latvian": [
+        "Man nav laika, es jūtos kā vāvere ritenī.",
+        "Mani kaitina, ka viss notiek tik lēni. Esmu nepacietīgs.",
+        "\"Ātrāk! Es skrienu! Ko var čammāties?\""
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "indicative_states": {
+      "latvian": "Tu atrodies emocionālajā stāvoklī, kam raksturīga nepacietība, vēlme visu izdarīt un sasniegt ātri, kā arī liels iekšējs sasprindzinājums. Tu skrien un skrien pa dzīvi, taču, lai arī tev ir laba laika plānošana, tev šķiet, ka nevari visu paspēt. Nav laika satikties ar draugiem, nav laika lasīt grāmatas, nav laika iepazīties ar informāciju, nav laika izskaidrot, nav laika paēst, nav laika atpūsties utt. Bieži vien, atrodoties šajā emocionālajā stāvoklī, mūs kaitina lēnīgāki cilvēki, un mēs visādi mēģinām viņus pasteidzināt vai, ja vien varam, labāk izdarām paši: \"Palaid mani, es to paveikšu viens un divi!\" Nereti mēs steidzoties ķeram un grābjam, neapdomājamies un tieši tāpēc pieļaujam daudz kļūdu vai izdarām nepareizi. Dažkārt šāds iekšējs sasprindzinājums atspoguļojas arī fiziskajā ķermenī kā spēcīgas spazmatiskas sāpes.",
+      "english": "",
+      "norwegian": ""
+    },
+    "effect": {
+      "latvian": "Ja kaut nelielu daļu no iepriekš aprakstītā vari attiecināt uz sevi, Spriganes ziedu līdzeklis palīdzēs tev \"sakārtot\" attiecības ar laiku, tu atslābināsies, līdz ar to arī laiks ritēs lēnāk un tu varēsi visu paspēt neskrienot. Tu kļūsi iecietīgāks pret cilvēkiem, kas nav tik ātri kā tu. Tu spēsi atrast laiku sev svarīgām lietām. Tu spēsi pagaidīt un rīkoties tikai pēc tam, ka visu būsi apdomājis. Tu mazināsi savu iekšējo spriedzi, palīdzot fiziskajam ķermenim justies labāk.",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedies": {
+      "latvian": "Ancītis (nervozitāte, nemiers), dižskābardis (neiecietīgs, viegli aizkaitināms), ilekss (dusmas un agresija), mežābele (vēlas ātri izveseļoties), ozols (vēlas ātri izveseļoties), pērtiķmutīte (nervozitāte), pumpurs (nepacietība, steiga), sermulīte (patīk būt vienam), verbēna (stress un sasprindzinājums), vīnkoks (mērķtiecīgs un pārliecināts).",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedy_ids": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "alternative_latvian_name": ""
+  },
+  {
+    "id": 14,
+    "picture": "pictures/14.jpg",
+    "name": {
+      "latvian": "Pērtiķmutīte",
+      "english": "Mimulus",
+      "norwegian": "",
+      "latin": ""
+    },
+    "group": "healers",
+    "short_description": {
+      "latvian": "Baidās, nervozē, satraucas, ir kautrīgs.",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bach_description": {
+      "latvian": "Noder, ja māc bailes no pasaulīgām lietām, slimībām, sāpēm, negadījumiem, nabadzības, tumsas, vientulības un nelaimes, tāpat arī ja ciešat no ikdienas bailēm. Šis līdzeklis palīdzēs cilvēkiem, kas savas bailes un bažas patur sevī un tikai ļoti retos gadījumos uztic tās citiem.",
+      "english": "",
+      "norwegian": ""
+    },
+    "negative_state": {
+      "latvian": [
+        "baidās no zināmām un pazīstamām lietām (piem., augstuma, tumsas, nabadzības)",
+        "kautrīgs un nedrošs",
+        "\"Man bail.\""
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "positive_state": {
+      "latvian": [
+        "pašpaļāvīgs",
+        "gatavs pieņemt izaicinājumus un riskēt",
+        "drosme skatīties bailēm acīs"
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "Bernard_description": {
+      "latvian": "Pērtiķmutīte palīdzēs pārvarēt konkrētas un specifiskas bailes - no dzīvniekiem, augstuma, sāpēm, negadījumiem, ūdens, tumsas, slimības, nāves, vienatnes, citiem cilvēkiem, kā arī derēs pret lampu drudzi. Iespējamie simptomi: stostīšanās, nosarkšana, deguna blakusdobumu traucējumi (izdalījumi no acīm un deguna), sekla elpa, izteikts jutīgums pret trokšņiem, domstarpībām un cilvēku pūļiem, slieksme uz nervozitāti, kautrīgums.",
+      "english": "",
+      "norwegian": ""
+    },
+    "indicative_statements": {
+      "latvian": [
+        "Es satraucos un bažījos par daudzām lietām - kā būs nākotnē, vai pietiks naudas, vai viss izdosies…",
+        "Man ir bail no konkrētām un zināmām lietām: slimībām, zobārsta apmeklējuma, suņiem, tumsas, augstuma, zagļiem utt.",
+        "Ja man kaut kur iesāpas, es tūlīt iztēlojos, ka man ir kāda neārstējama slimība. Es meklēju informāciju internetā, taču citiem par savām bailēm nestāstu.",
+        "Dzīvoju saskaņā ar principu - ja man ir no kaut kā bail, man jāstājas tam pretī, lai to pārvarētu.",
+        "Man ir bail no svešiem cilvēkiem (arī svešām vietām un lietām). Ja man jārunā citu priekšā, mani pārņem lampu drudzis, sažņaudzas kakls un es mulstu."
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "indicative_states": {
+      "latvian": "Tevi ir pārņēmušas vienas no pamatemocijām - bailes. Stāsta, ka bailes mūs sargājot, tomēr ārsts Edvards Bahs bija pretējās domās. Viņš uzskatīja, ka bailēm nav vietas cilvēku pasaulē, jo tās atver vārtus tam, no kā baidāmies. Vai esi ievērojis, kā bailes paralizē tavu domāšanu (un līdz ar to arī visu ķermeņa darbību)? Ir dažāda veida bailes, taču šīs ir bailes no konkrētām uz zināmām lietām: naudas trūkuma, slimības, notikumiem nākotnē, vientulības, tumsas, suņiem, braukšanas liftā, augstuma un zagļiem utt. Paskaties, tu nedzīvo tagadnē, bet jau nākotnē, satraucoties un bažījoties par lietām, kas vēl nav notikušas un, iespējams, arī nenotiks, jo - viss vienmēr var mainīties.",
+      "english": "",
+      "norwegian": ""
+    },
+    "effect": {
+      "latvian": "Kļūt drosmīgam tev var palīdzēt iemācīties Pērtiķmutīte. No tās ziediem pagatavotā esence aktivizē prāta darbību, izraujot mūs ārā no baiļu plūdiem. Mēs sākam elpot ar pilnu krūti un baiļu vietā, kā līdz šim uzlūkojām visus notikumus, liekam uzticēšanos dzīvei. Dzīve ir droša! Meties tās straumē, jo tu esi šeit, lai gūtu pieredzi un zināšanas, - tā mūs iedrošina pērtiķmutīte un E. Bahs, kurš zināja, ka bailes ir pirmā lieta, kas jāpārvar slimībā, kā arī lielākais šķērslis, no kura jāatbrīvojas, lai atveseļotos.",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedies": {
+      "latvian": "Ancītis (nestāsta citiem, kas viņu satrauc), apse (satraukums par nezināmo), augstiņš (kautrīgs), ceratostigma (jaunās situācijās jūtas nedrošs), lapegle (kautrīgs), saulrozīte (satraukums un bailes), sārtā zirgkastaņa (bailes), sprigane (nervozitāte).",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedy_ids": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "alternative_latvian_name": ""
+  },
+  {
+    "id": 15,
+    "picture": "pictures/15.jpg",
+    "name": {
+      "latvian": "Saulrozīte",
+      "english": "Rock Rose",
+      "norwegian": "",
+      "latin": ""
+    },
+    "group": "healers",
+    "short_description": {
+      "latvian": "Spēcīga emocionāla un ķermeniska reakcija uz notikumiem, trauksme, galējas bailes un panika.",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bach_description": {
+      "latvian": "Glābējlīdzeklis. Palīdz visās ārkārtas situācijās, pat šķietami bezcerīgās - negadījumos vai pēkšņas saslimšanas gadījumā, vai kad slimnieks ir ļoti nobijies un izjūt galējas bailes. Kā arī tad, ja stāvoklis ir tik nopietns, ka tas rada bailes pārējiem klātesošajiem. Ja nelaimē nokļuvušais ir bez samaņas, viņa lūpas var samitrināt ar šī zieda esenci. Iespējams, ka būs nepieciešamas arī citas ziedu esences. Piemēram, ja bezsamaņa ir līdzīga dziļam miegam, derēs mežvītenis ; mokošu sāpju gadījumā - ancītis u.c.",
+      "english": "",
+      "norwegian": ""
+    },
+    "negative_state": {
+      "latvian": [
+        "izjūt galējas bailes un paniku",
+        "šausmu pārņemts",
+        "ārkārtīgas izbailes, baiļu lēkmes",
+        "\"Šausmas!\""
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "positive_state": {
+      "latvian": [
+        "drosme un drošsirdība rīkoties ārkārtas situācijās",
+        "rīkojas, nezaudējot galvu",
+        "ar stipru gribu un raksturu"
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "Bernard_description": {
+      "latvian": "Saulrozīte derēs ārkārtas situācijās, pēkšņas saslimšanas vai nelaimes gadījumos, izjūtot galējas bailes, teroru, paniku, histēriju, nāves bailes, šausmas un bailes pēc nakts murgiem, kā arī pēc sastapšanās ar tumšajiem un ļaunajiem spēkiem. Iespējamie simptomi: paralīze, bezsamaņa, pēkšņs kurlums vai mēmums, ledains aukstums, trīsas, kontroles zudums.",
+      "english": "",
+      "norwegian": ""
+    },
+    "indicative_statements": {
+      "latvian": [
+        "Kad esmu satraucies, man svīst plaukstas, joņo sirds un galvā pilnīgs tukšums.",
+        "Stresa situācijās mani pārņem panika."
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "indicative_states": {
+      "latvian": "Tu esi nonācis emocionālajā stāvoklī, kādu gandrīz visi cilvēki piedzīvo ārkārtas situācijās, atšķirība tikai tā, ka tu to piedzīvo arī pavisam ikdienišķos notikumos. Galējas bailes, šausmas, panika. Sirds joņo, daudzās un grasās izlēkt pa muti ārā, sasprindzinājums saules pinumā, spēcīgas trīsas un trauksme, sasvīdušas plaukstas, savukārt galvā - Pilnīgs Tukšums! Trauksmes poga tevī skan biežāk nekā citiem. Taču, iespējams, tu esi piedzīvojis kādu šausminošu notikumu, piemēram, avāriju vai esi bijis aculiecinieks postošam ugunsgrēkam. Varbūt vēl tagad tevi naktīs vajā murgi un baiļu sviedri pārskrien pār muguru.",
+      "english": "",
+      "norwegian": ""
+    },
+    "effect": {
+      "latvian": "Tev var palīdzēt ārstniecības līdzeklis, ko ārsts Edvards Bahs pagatavoja no Saulrozītes ziediem un nodēvēja par glābējlīdzekli. Tas ir kā ātrā palīdzība, kā ugunsdzēsēji vai policija, kas steidz tev palīgā. Maksimāli ātri tiek atjaunota spriestspēja un nodzēstas emociju liesmas. Tu spēj mobilizēties, atjaunot ceļu pie saviem iekšējiem resursiem un drošsirdīgi rīkoties ārkārtas situācijās.",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedies": {
+      "latvian": "Baltstarīte (intensīvas emocijas pēc piedzīvota negadījuma), apse un pērtiķmutīte (bailes un satraukums), plūme (histēriska reakcija).",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedy_ids": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "alternative_latvian_name": ""
+  },
+  {
+    "id": 16,
+    "picture": "pictures/16.jpg",
+    "name": {
+      "latvian": "Žultszālīte",
+      "english": "Scleranthus",
+      "norwegian": "",
+      "latin": ""
+    },
+    "group": "healers",
+    "short_description": {
+      "latvian": "Grūti pieņemt lēmumus, ilgi svārstās un bieži maina domas.",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bach_description": {
+      "latvian": "Žultszālītes esence palīdzēs tiem, kam ir grūti izšķirties starp divām iespējām; te viņiem šķiet, ka pareiza ir viena, pēc brīža - otra. Lielākoties tie ir klusi cilvēki, kuri ar savām problēmām cenšas tikt galā vieni, jo nav gatavi tajās dalīties ar citiem.",
+      "english": "",
+      "norwegian": ""
+    },
+    "negative_state": {
+      "latvian": [
+        "neizlēmīgs, nespēj izšķirties starp divām iespējām",
+        "vilcinās",
+        "nelīdzsvarots",
+        "\"Es nevaru pieņemt lēmumu.\""
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "positive_state": {
+      "latvian": [
+        "spēj pieņemt lēmumus",
+        "spontāns",
+        "līdzsvarots un noteikts"
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "Bernard_description": {
+      "latvian": "Žultszālīte tipa cilvēki nespēj pieņemt lēmumus un izvēlēties starp divām iespējām. Viņi ir nepastāvīgi un neizlēmīgi, ar sliktām koncentrēšanās spējām, svārstīgi, nestabili un bieži vien neuzticami. Šādi cilvēki ir klusi un nemeklē padoma, cieš no enerģijas un garastāvokļa svārstībām un nespēj tikt ar tām galā. Cilvēkus, kuriem nepieciešama žultszālītes ziedu esence, var pazīt pēc līdzsvara un stājas trūkuma, haotiskas tēmu maiņas sarunas laikā, vilcināšanās, nemiera, kā arī biežas apģērbu un domu maiņas. Simptomi ir \"klejojoši\", tie nāk un iet, bieži novērojama slikta dūša ceļojuma laikā.",
+      "english": "",
+      "norwegian": ""
+    },
+    "indicative_statements": {
+      "latvian": [
+        "- Man ir jāpieņem lēmums starp divām iespējām vai jāizvēlas viena no divām lietām. Es to nespēju. Te man šķiet, ka pareizs ir viens lēmums, pēc brīža esmu pilnīgi - pārliecināts/-a par pretējo. Vienu brīdi man patīk viena lieta, taču, kad to gribu iegādāties, domāju, ka tomēr tā otra būtu labāka."
+      ],
+      "english": "",
+      "norwegian": ""
+    },
+    "indicative_states": {
+      "latvian": "Tu svārsties un šaubies, tu nespēj pieņemt lēmumu. Neizlēmība tevi plēš uz pusēm, jo vienmēr ir divas iespējas. Trakums ir tas, ka abas šķiet vienlīdz labas. Tiklīdz nosveries par labu vienai, tā otra kļūst pievilcīgāka. Palikt ģimenē vai iet pie mīļākā? Braukt uz ārzemēm vai palikt Latvijā? Mainīt darbu vai tomēr palikt tepat? Vienas mokas! Vienu dienu pareiza šķiet viena izvēle, otrā dienā esi tikpat pārliecināts par otras izvēles pareizību. Tu prāto, skaiti plusus un mīnusus, taču lēmumu pieņemt neizdodas… Līdzīgi var notikt pat ļoti ikdienišķās situācijās, piemēram, veikalā, kad jāizvēlas piens, maize, saldējums, kurpes, kleita, bikses… Vai tad, kad jādodas ciemos, - te esi saģērbies vienās drēbēs, te atkal pārģērbies un piemēri jau citu drēbju komplektu. Tiek zaudēts tik vērtīgais dzīves laiks un nevajadzīgi patērēta enerģija…",
+      "english": "",
+      "norwegian": ""
+    },
+    "effect": {
+      "latvian": "Tev var palīdzēt Žultszālīte. Tā stiprinās tavu intuīciju, un tu viens un divi spontāni zināsi, kura no abām izvēlēm tev ir piemērotākā. Turklāt tevi nevajās šaubas par to, vai tas otrais ceļš būtu bijis pareizāks. Tu pieņemsi lēmumu, un tava dzīve atkal ritēs uz priekšu! Turklāt drīz vien arī citi ievēros, cik izlēmīgs tu būsi kļuvis!",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedies": {
+      "latvian": "Ceratostigma (neizlēmība), cigoriņš (straujas garastāvokļa pārmaiņas), lāčauza (nespēj pieņemt lēmumu), riekstkoks (iekšējs svārstīgums).",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedy_ids": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "alternative_latvian_name": ""
+  },
+  {
+    "id": 17,
+    "picture": "pictures/17.jpg",
+    "name": {
+      "latvian": "Verbēna",
+      "english": "Vervain",
+      "norwegian": "",
+      "latin": ""
+    },
+    "group": "healers",
+    "short_description": {
+      "latvian": "Nelokāma pārliecība par savu taisnību, aizkaitinājums pret citu cilvēku viedokli, liels sasprindzinājums un stress, entuziasms, kas iznīcina pašu.",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bach_description": {
+      "latvian": "Šis līdzeklis derēs cilvēkiem ar nelokāmiem principiem un idejām, kuras viņi uzskata par pareizām un ļoti reti kad maina.Viņi ļoti vēlas saviem dzīves uzskatiem pievērst visus apkārtējos. Šiem cilvēkiem piemīt stipra griba un liela drosme, ja viņi ir pārliecināti par lietām, kuras viņi vēlas citiem iemācīt. Slimodami viņi turpina cīnīties vēl ilgi pēc tam, kad citi jau būtu atteikušies no savu pienākumu veikšanas.",
+      "english": "",
+      "norwegian": ""
+    },
+    "negative_state": {
+      "latvian": [
+        "vēlme pārliecināt un pierunāt citus",
+        "pārlieku liela sajūsma un centība",
+        "saniknots par netaisnību",
+        "neatlaidīgs, stūrgalvīgs, dedzīgs, saspringts",
+        "\"Mums kaut kas ir jādara lietas labā!\""
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "positive_state": {
+      "latvian": [
+        "atturīgs un iecietīgs",
+        "rīkojas apdomīgi un taktiski",
+        "spēj ieklausīties citos",
+        "spēj mainīt savus uzskatus, ja nepieciešams"
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "Bernard_description": {
+      "latvian": "Verbēnas tipa cilvēki ir enerģiski, pilni entuziasma, valdonīgi, saspringti, pavēlnieciski, dedzīgi un fanātiski; viņiem patīk strīdēties, viņi reti kad maina savus stingros uzskatus un uzstāj, lai arī citi tiem piekristu. Šiem cilvēkiem ir stiprs gribasspēks; viņi spēj strādāt pārpūlē līdz nogurumam. Simptomi: fizisks sasprindzinājums, muskulatūras pārpūle, galvassāpes, acu pārpūle, saspringta sejas izteiksme, pārāk liela aktivitāte un nespēja atpūsties. ",
+      "english": "",
+      "norwegian": ""
+    },
+    "indicative_statements": {
+      "latvian": [
+        "Man ārkārtīgi nepatīk, ja man uzbāžas ar savām dzīves receptēm un padomiem. Es pats zinu, kas un kā ir pareizi man.",
+        "Es nespēju atslābināties un iemigt, esmu pārņemts ar domāšanu un plānošanu, jūtos enerģijas pārpilns."
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "indicative_states": {
+      "latvian": "Ir brīnišķīgi, ja ir daudz enerģijas. Taču, kad tās ir tik daudz, ka mēs vairs nespējam atslābināties un atpūsties, tas pilnīgi noteikti ir postoši. Tu esi pārņemts ar kādu ideju, plāno, organizē, darbojies - ir jāizdara šis un vēl tas. Tiklīdz viena ideja īstenota, otra jau klāt, taču parasti vienlaicīgi tiek realizētas vairākas idejas. Darbaholiķis - tā saka citi. Jā, tev patīk strādāt, turklāt tev visam pietiek enerģijas! Savā aizrautībā pat nepamani, ka sāc jau izdegt. Miega vietā ir uzlādējošas domas. Iespējams, pie tavas gultas ir pat pildspalva ar papīru, lai visas jaunās idejas var pierakstīt. Šādiem aktīviem un enerģiskiem cilvēkiem par visu parasti ir savs viedoklis un nostāja, diemžēl gan tas ir vienīgais pareizais, tāpēc lielu sasprindzinājumu ķermenī rada arī tas, ja citiem ir atšķirīgs redzējums. Strīdi un diskusijas ir garantētas!",
+      "english": "",
+      "norwegian": ""
+    },
+    "effect": {
+      "latvian": "Verbēna tev palīdzēs apzināties, ka pārlieku lielā aizrautība ir kā ugunskurs, kurā sadedzini ne tikai sevi (jo atslābt un atpūsties īsti nemāki un pārlieku aktīvā prāta un ķermeņa dēļ nesanāk), bet arī citus (jo ar savu pārliecināšanu un padomiem tu drīzāk aizbaidi, nevis piesaisti). Tu iemācīsies līdzsvarot darbu ar atpūtu. Tu sapratīsi, ka nav viena pareizā ceļa, kā nokļūt līdz mērķim, un ka dažkārt vērtīgāks ir apvedceļš, jo tieši tas sniedz nepieciešamo pieredzi.",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedies": {
+      "latvian": "Ancītis (spēj iedvesmot citus, enerģisks), avota ūdens (principialitāte, nelokāmi uzskati), cigoriņš (enerģisks un aktīvs, norūpējies par citiem, organizē citu dzīvi), dižskābardis (neiecietība pret citādo, vienīgais pareizais viedoklis, vēlme pārveidot pasauli), ozols (strādā pāri savu spēku robežām), parastā zirgkastaņa (pārlieku aktīvs prāts), sprigane (sasprindzinājums un stress), vīnkoks (es zinu labāk), virsis (lieli runas plūdi).",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedy_ids": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "alternative_latvian_name": ""
+  },
+  {
+    "id": 18,
+    "picture": "pictures/18.jpg",
+    "name": {
+      "latvian": "Sermulīte",
+      "english": "Water Violet",
+      "norwegian": "",
+      "latin": ""
+    },
+    "group": "healers",
+    "short_description": {
+      "latvian": "Skumjas, nevēlēšanās komunicēt, neiederības izjūta.",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bach_description": {
+      "latvian": "Līdzeklis tiem, kam patīk būt vieniem, gan veseliem, gan slimiem esot. Tie ir ļoti klusi cilvēki, kas pārvietojas bez trokšņa, maz runā, ja reiz runā, tad maigā balsī. Viņi ir ļoti spējīgi, neatkarīgi un pašpaļāvīgi. Viņus gandrīz neuztrauc citu domas. Viņi ir atturīgi, liek citus mierā un iet savu ceļu. Bieži tie ir gudri un talantīgi cilvēki. Viņu iekšējais miers ir svētība apkārtējiem.",
+      "english": "",
+      "norwegian": ""
+    },
+    "negative_state": {
+      "latvian": [
+        "izjūta, ka citi nesaprot",
+        "vēss, lepns un atturīgs",
+        "patīk būt vienam",
+        "\"Negribu ar citiem kontaktēties.\""
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "positive_state": {
+      "latvian": ["izjūt vēlmi pēc citiem", "gatavs dalīties un piedalīties"],
+      "english": [],
+      "norwegian": []
+    },
+    "Bernard_description": {
+      "latvian": "Sermulīte derēs tiem, kam patīk būt vieniem. Šādi cilvēki ir atturīgi, dažreiz lepni, mierīgi un sevī noslēgušies; viņi izvairās no diskusijām un strīdiem, ir pašpārliecināti, intraverti, ļoti spējīgi, miermīlīgi un spēj nomierinoši iedarboties uz apkārtējiem. Sermulītes tipa cilvēki ir nosvērti un zina, ko vēlas sasniegt. Viņi var atstāt iedomīga un augstprātīga cilvēka iespaidu, taču viņi ir toleranti un nekad neiejauksies citu lietās, tieši tāpat kā viņi nevēlas, lai citi iejauktos viņējās. Rūpes un raizes viņi labāk patur pie sevis. Cilvēki, kuriem nepieciešama sermulītes ziedu esence, nereti cieš no fiziska stīvuma un sasprindzinājuma, jo viņu enerģijas plūsma bieži vien ir bloķēta.",
+      "english": "",
+      "norwegian": ""
+    },
+    "indicative_statements": {
+      "latvian": [
+        "Man nevajag citus cilvēkus. Man nav ar viņiem par ko runāt. Man ir labi ar sevi.",
+        "Man grūti vedas saviesīgas sarunas. Man tās šķiet pilnīgi tukšas un bezjēdzīgas."
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "indicative_states": {
+      "latvian": "Visā visumā tu jūties labi, it īpaši, ja tev nav jādodas ārpus savas ierastās vides un jākomunicē ar cilvēkiem, kuri tev šķiet muļķi. Kas tas par līmeni! Par ko gan viņi runā! Nē, tu neizsaki kritiku, tikai tā pie sevis nodomā. Visticamāk, citi tevi uzskata par iedomīgu un augstprātīgu, jo tev nav ne mazākās vēlmes sēdēt ar viņiem pie viena galda un pļāpāt par neko. Pasākumu neoficiālās daļas pie kafijas krūzes un vīna glāzes (ja vien tie nav cilvēki no tava plaukta) tev pilnīgi nesaista. Citu uzskati tevi nesatricina. Tu dzīvo ar moto: \"Es nejaucos citu dzīvē un negribu, lai citi jaucas manējā.\" Varbūt kaut kur ieskanas vientulības nots, taču tā tevi satrauc mazāk nekā doma, ka jāsatiekas ar cilvēkiem.",
+      "english": "",
+      "norwegian": ""
+    },
+    "effect": {
+      "latvian": "Mēs esam šajā pasaulē, lai gūtu pieredzi un zināšanas un pilnveidotu apziņu. Tikai saziņā ar citiem mēs varam iepazīt sevi un attīstīties, tikai tad iespējama enerģijas apmaiņa, kas ir būtiska dzīvības nodrošināšanai un veselībai. Norobežojoties cilvēks sevi nolemj iznīcībai. Sermulīte palīdz nojaukt iekšējo barjeru un veidot saziņu ar cilvēkiem un pasauli. Tā māca, kā ar savām izcilajām spējām un zināšanām dalīties, tādējādi sniedzot ieguldījumu kopējā attīstībā. Mēs iemācāmies Visuma likumu - mēs visi esam vienoti un esam šeit, lai palīdzētu viens otram.",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedies": {
+      "latvian": "Ancītis (savas sāpes pārcieš vientulībā), dižskābardis (kritiska attieksme, augstprātīgs), avota ūdens (kritiska attieksme), sprigane (patīk būt vienam).",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedy_ids": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "alternative_latvian_name": ""
+  },
+  {
+    "id": 19,
+    "picture": "pictures/19.jpg",
+    "name": {
+      "latvian": "Ulekss",
+      "english": "Gorse",
+      "norwegian": "",
+      "latin": ""
+    },
+    "alternative_latvian_name": "",
+    "group": "helpers",
+    "short_description": {
+      "latvian": "Bezcerība, nejūt vēlmi kaut ko darīt, lai mainītu situāciju, netic, ka vēl kaut kas var palīdzēt.",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bach_description": {
+      "latvian": "Šo ziedu līdzekli lieto pilnīgas bezcerības gadījumā - tad, kad cilvēki netic, ka kāds viņiem vēl varētu palīdzēt. Šādi cilvēki ļaujas pierunāties vai par prieku citiem viņi izmēģina dažādas terapijas, taču tajā pašā laikā apgalvo apkārtējiem, ka nav nekādu cerību rast atvieglojumu.\"",
+      "english": "",
+      "norwegian": ""
+    },
+    "negative_state": {
+      "latvian": [
+        "zaudējis visas cerības",
+        "nepretojas grūtībām, nevēlas mēģināt mainīt situāciju",
+        "cieš no depresijas, kas radusies grūti ārstējamas un ilgstošas slimības rezultātā",
+        "\"Es padodos.\""
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "positive_state": {
+      "latvian": [
+        "cerība un optimisms",
+        "izturība un neatlaidība, neskatoties uz recidīviem",
+        "mostas jaunam dzīves pavasarim"
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "Bernard_description": {
+      "latvian": "Uleksu lieto izmisuma, lielas bezcerības, hroniskas depresijas un rezignācijas stāvoklī, kā arī tad, kad zudusi vēlēšanās mainīt apstākļus. Šādi cilvēki uzskata, ka viņiem nekas vairs nevar palīdzēt, viņi gan ļaujas tikt pierunāti mēģināt no jauna, bet tajā pašā laikā ir pārliecināti par šāda mēģinājuma veltīgumu. Šādiem cilvēkiem nepieciešams uzmundrinājums - uleksa ziedu esence dziedina iekšējo gribu. Iespējamie simptomi: šķietami nedziedināms stāvoklis, iedzimtas kaites; stāvoklis, kas radies pēc atkārtotas vilšanās un neizdošanās. Šādiem cilvēkiem bieži ir tumši loki zem acīm, bezcerīga izteiksme, viņi sēž kā bez dzīvības, ir kūtri, vairs nespēj raudāt un paust skumjas, hroniskā gadījumā novērojama dzeltenīga sejas krāsa. ",
+      "english": "",
+      "norwegian": ""
+    },
+    "indicative_statements": {
+      "latvian": [
+        "Esmu jau tik daudz darījis un centies, nu esmu samierinājies. Ir jānotiek brīnumam, lai kaut kas manītos.",
+        "Tur nekas vairs nav līdzams. Tas ir bezcerīgi. Neko vairs nav iespējams darīt, lai stāvokli mainītu."
+      ],
+      "english": [],
+      "norwegian": []
+    },
+    "indicative_states": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "effect": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedies": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedy_ids": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    }
+  },
+  {
+    "id": 20,
+    "picture": "pictures/20.jpg",
+    "name": {
+      "latvian": "Virsis",
+      "english": "Heather",
+      "norwegian": "",
+      "latin": ""
+    },
+    "alternative_latvian_name": "",
+    "group": "helpers",
+    "short_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bach_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "negative_state": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "positive_state": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bernard_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "indicative_statements": {
+      "latvian": [""],
+      "english": [""],
+      "norwegian": [""]
+    },
+    "indicative_states": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "effect": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedies": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedy_ids": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    }
+  },
+  {
+    "id": 21,
+    "picture": "pictures/21.jpg",
+    "name": {
+      "latvian": "Ozols",
+      "english": "Oak",
+      "norwegian": "",
+      "latin": ""
+    },
+    "alternative_latvian_name": "",
+    "group": "helpers",
+    "short_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bach_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "negative_state": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "positive_state": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bernard_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "indicative_statements": {
+      "latvian": [""],
+      "english": [""],
+      "norwegian": [""]
+    },
+    "indicative_states": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "effect": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedies": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedy_ids": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    }
+  },
+  {
+    "id": 22,
+    "picture": "pictures/22.jpg",
+    "name": {
+      "latvian": "Olīvkoks",
+      "english": "Olive",
+      "norwegian": "",
+      "latin": ""
+    },
+    "alternative_latvian_name": "",
+    "group": "helpers",
+    "short_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bach_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "negative_state": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "positive_state": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bernard_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "indicative_statements": {
+      "latvian": [""],
+      "english": [""],
+      "norwegian": [""]
+    },
+    "indicative_states": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "effect": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedies": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedy_ids": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    }
+  },
+  {
+    "id": 23,
+    "picture": "pictures/23.jpg",
+    "name": {
+      "latvian": "Avota Ūdens",
+      "english": "Rock Water",
+      "norwegian": "",
+      "latin": ""
+    },
+    "alternative_latvian_name": "",
+    "group": "helpers",
+    "short_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bach_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "negative_state": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "positive_state": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bernard_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "indicative_statements": {
+      "latvian": [""],
+      "english": [""],
+      "norwegian": [""]
+    },
+    "indicative_states": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "effect": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedies": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedy_ids": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    }
+  },
+  {
+    "id": 24,
+    "picture": "pictures/24.jpg",
+    "name": {
+      "latvian": "Vīnkoks",
+      "english": "Vine",
+      "norwegian": "",
+      "latin": ""
+    },
+    "alternative_latvian_name": "",
+    "group": "helpers",
+    "short_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bach_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "negative_state": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "positive_state": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bernard_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "indicative_statements": {
+      "latvian": [""],
+      "english": [""],
+      "norwegian": [""]
+    },
+    "indicative_states": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "effect": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedies": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedy_ids": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    }
+  },
+  {
+    "id": 25,
+    "picture": "pictures/25.jpg",
+    "name": {
+      "latvian": "Lāčauza",
+      "english": "Wild Oat",
+      "norwegian": "",
+      "latin": ""
+    },
+    "alternative_latvian_name": "",
+    "group": "helpers",
+    "short_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bach_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "negative_state": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "positive_state": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bernard_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "indicative_statements": {
+      "latvian": [""],
+      "english": [""],
+      "norwegian": [""]
+    },
+    "indicative_states": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "effect": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedies": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedy_ids": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    }
+  },
+  {
+    "id": 26,
+    "picture": "pictures/26.jpg",
+    "name": {
+      "latvian": "Ilekss",
+      "english": "Holly",
+      "norwegian": "",
+      "latin": ""
+    },
+    "alternative_latvian_name": "",
+    "group": "other19",
+    "short_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bach_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "negative_state": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "positive_state": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bernard_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "indicative_statements": {
+      "latvian": [""],
+      "english": [""],
+      "norwegian": [""]
+    },
+    "indicative_states": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "effect": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedies": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedy_ids": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    }
+  },
+  {
+    "id": 27,
+    "picture": "pictures/27.jpg",
+    "name": {
+      "latvian": "Vīteņsausserdis",
+      "english": "Honeysuckle",
+      "norwegian": "",
+      "latin": ""
+    },
+    "alternative_latvian_name": "",
+    "group": "other19",
+    "short_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bach_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "negative_state": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "positive_state": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bernard_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "indicative_statements": {
+      "latvian": [""],
+      "english": [""],
+      "norwegian": [""]
+    },
+    "indicative_states": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "effect": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedies": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedy_ids": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    }
+  },
+  {
+    "id": 28,
+    "picture": "pictures/28.jpg",
+    "name": {
+      "latvian": "Skābardis",
+      "english": "Hornbeam",
+      "norwegian": "",
+      "latin": ""
+    },
+    "alternative_latvian_name": "",
+    "group": "other19",
+    "short_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bach_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "negative_state": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "positive_state": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bernard_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "indicative_statements": {
+      "latvian": [""],
+      "english": [""],
+      "norwegian": [""]
+    },
+    "indicative_states": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "effect": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedies": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedy_ids": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    }
+  },
+  {
+    "id": 29,
+    "picture": "pictures/29.jpg",
+    "name": {
+      "latvian": "Lapegle",
+      "english": "Larch",
+      "norwegian": "",
+      "latin": ""
+    },
+    "alternative_latvian_name": "",
+    "group": "other19",
+    "short_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bach_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "negative_state": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "positive_state": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bernard_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "indicative_statements": {
+      "latvian": [""],
+      "english": [""],
+      "norwegian": [""]
+    },
+    "indicative_states": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "effect": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedies": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedy_ids": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    }
+  },
+  {
+    "id": 30,
+    "picture": "pictures/30.jpg",
+    "name": {
+      "latvian": "Sinepe",
+      "english": "Mustard",
+      "norwegian": "",
+      "latin": ""
+    },
+    "alternative_latvian_name": "",
+    "group": "other19",
+    "short_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bach_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "negative_state": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "positive_state": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bernard_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "indicative_statements": {
+      "latvian": [""],
+      "english": [""],
+      "norwegian": [""]
+    },
+    "indicative_states": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "effect": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedies": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedy_ids": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    }
+  },
+  {
+    "id": 31,
+    "picture": "pictures/31.jpg",
+    "name": {
+      "latvian": "Priede",
+      "english": "Pine",
+      "norwegian": "",
+      "latin": ""
+    },
+    "alternative_latvian_name": "",
+    "group": "other19",
+    "short_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bach_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "negative_state": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "positive_state": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bernard_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "indicative_statements": {
+      "latvian": [""],
+      "english": [""],
+      "norwegian": [""]
+    },
+    "indicative_states": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "effect": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedies": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedy_ids": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    }
+  },
+  {
+    "id": 32,
+    "picture": "pictures/32.jpg",
+    "name": {
+      "latvian": "Sārtā zirgkastaņa",
+      "english": "Red Chestnut",
+      "norwegian": "",
+      "latin": ""
+    },
+    "alternative_latvian_name": "",
+    "group": "other19",
+    "short_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bach_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "negative_state": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "positive_state": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bernard_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "indicative_statements": {
+      "latvian": [""],
+      "english": [""],
+      "norwegian": [""]
+    },
+    "indicative_states": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "effect": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedies": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedy_ids": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    }
+  },
+  {
+    "id": 33,
+    "picture": "pictures/33.jpg",
+    "name": {
+      "latvian": "Baltstarīte",
+      "english": "Star of Bethlem",
+      "norwegian": "",
+      "latin": ""
+    },
+    "alternative_latvian_name": "",
+    "group": "other19",
+    "short_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bach_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "negative_state": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "positive_state": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bernard_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "indicative_statements": {
+      "latvian": [""],
+      "english": [""],
+      "norwegian": [""]
+    },
+    "indicative_states": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "effect": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedies": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedy_ids": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    }
+  },
+  {
+    "id": 34,
+    "picture": "pictures/34.jpg",
+    "name": {
+      "latvian": "Kastaņa",
+      "english": "Sweet Chestnut",
+      "norwegian": "",
+      "latin": ""
+    },
+    "alternative_latvian_name": "",
+    "group": "other19",
+    "short_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bach_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "negative_state": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "positive_state": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bernard_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "indicative_statements": {
+      "latvian": [""],
+      "english": [""],
+      "norwegian": [""]
+    },
+    "indicative_states": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "effect": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedies": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedy_ids": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    }
+  },
+  {
+    "id": 35,
+    "picture": "pictures/35.jpg",
+    "name": {
+      "latvian": "Riekstkoks",
+      "english": "Walnut",
+      "norwegian": "",
+      "latin": ""
+    },
+    "alternative_latvian_name": "",
+    "group": "other19",
+    "short_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bach_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "negative_state": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "positive_state": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bernard_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "indicative_statements": {
+      "latvian": [""],
+      "english": [""],
+      "norwegian": [""]
+    },
+    "indicative_states": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "effect": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedies": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedy_ids": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    }
+  },
+  {
+    "id": 36,
+    "picture": "pictures/36.jpg",
+    "name": {
+      "latvian": "Parastā zirgkastaņa",
+      "english": "White Chestnut",
+      "norwegian": "",
+      "latin": ""
+    },
+    "alternative_latvian_name": "",
+    "group": "other19",
+    "short_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bach_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "negative_state": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "positive_state": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bernard_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "indicative_statements": {
+      "latvian": [""],
+      "english": [""],
+      "norwegian": [""]
+    },
+    "indicative_states": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "effect": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedies": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedy_ids": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    }
+  },
+  {
+    "id": 37,
+    "picture": "pictures/37.jpg",
+    "name": {
+      "latvian": "Roze",
+      "english": "Wild Rose",
+      "norwegian": "",
+      "latin": ""
+    },
+    "alternative_latvian_name": "Suņu roze",
+    "group": "other19",
+    "short_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bach_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "negative_state": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "positive_state": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bernard_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "indicative_statements": {
+      "latvian": [""],
+      "english": [""],
+      "norwegian": [""]
+    },
+    "indicative_states": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "effect": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedies": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedy_ids": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    }
+  },
+  {
+    "id": 38,
+    "picture": "pictures/38.jpg",
+    "name": {
+      "latvian": "Vītols",
+      "english": "Willow",
+      "norwegian": "",
+      "latin": ""
+    },
+    "alternative_latvian_name": "",
+    "group": "other19",
+    "short_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bach_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "negative_state": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "positive_state": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "Bernard_description": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "indicative_statements": {
+      "latvian": [""],
+      "english": [""],
+      "norwegian": [""]
+    },
+    "indicative_states": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "effect": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedies": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    },
+    "similar_remedy_ids": {
+      "latvian": "",
+      "english": "",
+      "norwegian": ""
+    }
+  }
+]
