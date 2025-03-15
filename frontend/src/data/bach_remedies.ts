@@ -1,4 +1,4 @@
-interface BachRemedy {
+export interface BachRemedy {
   id: number;
   name: {
     latvian: string;
@@ -49,9 +49,9 @@ interface BachRemedy {
   //     norwegian: string[];
   //   };
   indicative_states: {
-    latvian: string[];
-    english: string[];
-    norwegian: string[];
+    latvian: string;
+    english: string;
+    norwegian: string;
   };
   effect: {
     latvian: string;

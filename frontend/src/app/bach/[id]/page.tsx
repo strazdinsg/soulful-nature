@@ -1,15 +1,15 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useParams } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import HeroSection from "@/components/HeroSection";
 import Section from "@/components/Section";
-import CardHeading from "@/components/CardHeading";
 import LanguageSelector, { Language } from "@/components/LanguageSelector";
 import bachRemedies from "@/data/bach_remedies.json";
 import ContactSection from "@/components/ContactSection";
+import { BachRemedy } from "@/data/bach_remedies";
 
 export default function BachRemedyDetailPage(): JSX.Element {
   const params = useParams();
@@ -47,7 +47,7 @@ function RemedyDetails({
   remedy,
   language,
 }: {
-  remedy: any;
+  remedy: BachRemedy;
   language: Language;
 }): JSX.Element {
   return (
