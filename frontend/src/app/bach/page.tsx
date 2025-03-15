@@ -11,9 +11,7 @@ import MediumVerticalSpacer from "@/components/MediumVerticalSpacer";
 import Image from "next/image";
 import bachRemedies from "@/data/bach_remedies.json";
 import bachGroups from "@/data/bach_groups.json";
-
-// Define language type for type safety
-type Language = "latvian" | "english" | "norwegian";
+import LanguageSelector, { Language } from "@/components/LanguageSelector";
 
 /**
  * Bach Flower Remedies Page
@@ -133,51 +131,6 @@ function SearchSection({
   );
 }
 
-function LanguageSelector({
-  language,
-  setLanguage,
-}: {
-  language: Language;
-  setLanguage: (lang: Language) => void;
-}): JSX.Element {
-  return (
-    <Section>
-      <div className="flex justify-center gap-4 mb-8">
-        <button
-          onClick={() => setLanguage("latvian")}
-          className={`px-4 py-2 rounded-md ${
-            language === "latvian"
-              ? "bg-blue-600 text-white"
-              : "bg-gray-200 hover:bg-gray-300"
-          }`}
-        >
-          Latviešu
-        </button>
-        <button
-          onClick={() => setLanguage("english")}
-          className={`px-4 py-2 rounded-md ${
-            language === "english"
-              ? "bg-blue-600 text-white"
-              : "bg-gray-200 hover:bg-gray-300"
-          }`}
-        >
-          English
-        </button>
-        <button
-          onClick={() => setLanguage("norwegian")}
-          className={`px-4 py-2 rounded-md ${
-            language === "norwegian"
-              ? "bg-blue-600 text-white"
-              : "bg-gray-200 hover:bg-gray-300"
-          }`}
-        >
-          Norsk
-        </button>
-      </div>
-    </Section>
-  );
-}
-
 function BachFlowerCardsSection({
   language,
   remedies,
@@ -250,7 +203,7 @@ function BachFlowerCard({
   id: number;
 }): JSX.Element {
   return (
-    <Card>
+    <Card clickUrl={`/bach/${id}`}>
       <div className="w-72 min-h-[24rem]">
         <div className="relative w-full h-48">
           <Image
@@ -264,6 +217,7 @@ function BachFlowerCard({
           <CardHeading title={name || "—"} />
           <p className="text-gray-600 min-h-[4rem]">{description || "—"}</p>
           <SmallVerticalSpacer />
+          <span className="text-blue-600 hover:underline">View details</span>
         </div>
       </div>
     </Card>
