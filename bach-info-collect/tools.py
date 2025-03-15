@@ -1,5 +1,14 @@
 import re
 from collections import Counter
+import deepl
+import time
+import os
+import sys
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+
 def convert_all_caps_words(text):
     """Convert all-caps words to capitalized words (first letter capital, rest lowercase)"""
     if not isinstance(text, str):
@@ -106,6 +115,62 @@ def check_structure_consistency(records):
     
     return structure_consistent and not type_inconsistencies
 
+def translate_string_or_list(input, target_lang, api_key):
+    """Translate text or list of texts to target language."""
+    # Handle empty values
+    if not input:
+        return input
+    
+    # Handle lists
+    if isinstance(input, list):
+        translated_list = []
+        for item in input:
+            translated_item = translate_text(item, target_lang, api_key)
+            translated_list.append(translated_item)
+        
+        # Fix periods in the translated list
+        translated_list = [fix_periods(item) for item in translated_list]
+        return translated_list
+        
+    # Handle strings
+    elif isinstance(input, str) and input.strip():
+        translated_text = translate_text(input, target_lang, api_key)
+        # Fix periods in the translated text
+        translated_text = fix_periods(translated_text)
+        return translated_text
+    else:
+        raise ValueError(f"Invalid input: {input}")
+
+def translate_text(text, target_lang, api_key):
+    """Translate a single string from Latvian to target language using DeepL."""
+    if not isinstance(text, str) or not text.strip():
+        return text
+    
+    # Map our language codes to DeepL's
+    lang_map = {
+        'en': 'EN-US',  # or 'EN-GB' for British English
+        'no': 'NB'      # Norwegian Bokmål
+    }
+    
+    # Initialize DeepL translator with API key
+    translator = deepl.Translator(api_key)
+    
+    try:
+        # Translate the text
+        result = translator.translate_text(
+            text,
+            source_lang="LV",
+            target_lang=lang_map[target_lang]
+        )
+        
+        print(f"    {text}\n      =>\n      {result.text}")
+        # Add a small delay to avoid rate limiting
+        time.sleep(1)
+        return result.text
+    except Exception as e:
+        print(f"Translation error: {e}")
+        # Return original text if translation fails
+        return text
 
 def clean_text(text):
     """Clean text by removing tabs, replacing dashes and quotes, and converting all-caps words."""
@@ -133,9 +198,23 @@ def clean_list_item(item):
     # Remove any leading list symbols
     return re.sub(r'^- |^• |^\d+[\s).]+\s*', '', cleaned_item)
 
+def fix_periods(text):
+    """Add space after periods that don't have one, except at the end of the string."""
+    if not isinstance(text, str):
+        return text
+        
+    # Find periods followed by a letter (not at the end of the string)
+    # and add a space after them
+    return re.sub(r'\.([A-Za-z0-9])', r'. \1', text)
+
+def load_deepl_api_key():
+    """Load the DeepL API key from the environment variables."""
+    return os.getenv("DEEPL_API_KEY")
+
 if __name__ == "__main__":
     # Test cases:
     assert convert_all_caps_words("ANCĪŠA") == "Ancīša"
     assert convert_all_caps_words("ancīša") == "ancīša"
     assert convert_all_caps_words("EGLE") == "Egle"
     assert convert_all_caps_words("egle") == "egle"
+

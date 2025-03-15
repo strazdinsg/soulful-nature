@@ -14,6 +14,10 @@ We start with an Excel file where the information is stored in Latvian.
 
 1. You may want to use a virtual environment: `python -m venv .venv && source .venv/bin/activate` (on Unix). On windows: `python -m venv .venv && .venv\Scripts\activate`.
 2. Install the required packages: `pip install -r requirements.txt`.
+3. **DeepL API Key**:
+   - Obtain a DeepL API key from [DeepL's website](https://www.deepl.com/pro-api)
+   - Create a `.env` file in the project root directory based on the provided `.env.template`
+   - Add your DeepL API key to the `.env` file
 
 ## Excel to JSON
 
@@ -28,3 +32,7 @@ Run `lv_to_multilang_skeleton.py`. It reads the data from `bach_lv.json` and `gr
 ## Translate to English and Norwegian
 
 Run `translate_to_eng_and_nor.py`. It reads the `bach_multi_language_skeleton.json` file and creates a new file `bach_multi_language.json` with the translated data.
+
+The script uses the DeepL API to translate Latvian text to English and Norwegian. It only translates fields that have empty values in the target languages.
+
+Note: The DeepL API has usage limits based on your subscription plan. The script includes delays between translations to avoid hitting rate limits. For large datasets, the translation process may take some time.
