@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug with args",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "args": ["bach.xlsx", "bach_lv.json"],
+      "console": "integratedTerminal"
+    }
+  ]
+}
