@@ -34,60 +34,60 @@ export default function CacaoCirclePage(): JSX.Element {
 function AboutSection(): JSX.Element {
   return (
     <Section>
-      <div className="mb-16 pt-16 pb-8 px-8 space-y-4 text-[#252419]">
-        <h2 className="text-3xl font-bold">About Cacao Circle</h2>
-        <p className="leading-relaxed">
+      <div className="mb-16 pt-16 pb-8 px-8 text-[#252419]">
+        <h2 className="text-3xl font-bold mb-4">About Cacao Circle</h2>
+        <p className="leading-relaxed mb-4">
           We invite you to join our Cacao Circle in Ålesund to experience a
           heart-centered practice, blending cacao, meditation and mindfulness
           elements to encourage relaxation and deeper self-connection.
         </p>
-        <p className="leading-relaxed">
+        <p className="leading-relaxed mb-4">
           Join a small group (around 10 participants), sharpen your senses, and
           give yourself this special time.
         </p>
-        <p className="leading-relaxed">
+        <p className="leading-relaxed mb-4">
           The event is organised once a month, it is held in English, but you`re
           welcome to respond in Norwegian, Latvian and Russian as well.
         </p>
-        <p className="leading-relaxed">
+        <p className="leading-relaxed mb-4">
           Available for anyone, with or without meditation experience.
         </p>
-        <p className="leading-relaxed">
+        <p className="leading-relaxed mb-4">
           <b>Location</b>: ARtstudio, Keiser Wilhelms gate 53, Ålesund.
         </p>
-        <p className="leading-relaxed">
+        <p className="leading-relaxed mb-4">
           <b>Contribution</b>: 220 NOK.
         </p>
-        <p className="leading-relaxed">
+        <p className="mb-0">
           <b>Sign up before coming</b>:
-          <ul className="">
-            {[
-              {
-                icon: faCommentSms,
-                text: (
-                  <>
-                    <a
-                      href="sms:+4796746355"
-                      className="text-blue-600 hover:underline"
-                    >
-                      +47 967 46 355
-                    </a>
-                    {", or"}
-                  </>
-                ),
-              },
-              {
-                icon: faLink,
-                text: "Upcoming event link below",
-              },
-            ].map((tip, index) => (
-              <li key={index} className="flex items-start gap-2">
-                <FontAwesomeIcon icon={tip.icon} className="w-5 h-5 mt-0.5" />
-                <span>{tip.text}</span>
-              </li>
-            ))}
-          </ul>
         </p>
+        <ul className="mt-1">
+          {[
+            {
+              icon: faCommentSms,
+              text: (
+                <>
+                  <a
+                    href="sms:+4796746355"
+                    className="text-blue-600 hover:underline"
+                  >
+                    +47 967 46 355
+                  </a>
+                  {", or"}
+                </>
+              ),
+            },
+            {
+              icon: faLink,
+              text: "Upcoming event link below",
+            },
+          ].map((tip, index) => (
+            <li key={index} className="flex items-start gap-2">
+              <FontAwesomeIcon icon={tip.icon} className="w-5 h-5 mt-0.5" />
+              <span>{tip.text}</span>
+            </li>
+          ))}
+        </ul>
       </div>
     </Section>
   );
