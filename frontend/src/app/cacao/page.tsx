@@ -6,7 +6,6 @@ import {
   faLightbulb,
   faMugHot,
   faGlassWater,
-  faEnvelope,
   faCommentSms,
   faLink,
 } from "@fortawesome/free-solid-svg-icons";
@@ -72,20 +71,6 @@ function AboutSection(): JSX.Element {
                       className="text-blue-600 hover:underline"
                     >
                       +47 967 46 355
-                    </a>
-                    {", or"}
-                  </>
-                ),
-              },
-              {
-                icon: faEnvelope,
-                text: (
-                  <>
-                    <a
-                      href="mailto:inguna@sfnature.no"
-                      className="text-blue-600 hover:underline"
-                    >
-                      inguna@sfnature.no
                     </a>
                     {", or"}
                   </>
