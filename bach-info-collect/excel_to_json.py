@@ -2,7 +2,7 @@ import pandas as pd
 import json
 import sys
 import re
-from tools import convert_all_caps_words, check_structure_consistency
+from tools import convert_all_caps_words, check_structure_consistency, clean_text, clean_list_item
 
 def parse_list_items(text):
     if not isinstance(text, str):
@@ -21,14 +21,11 @@ def parse_list_items(text):
             # Clean leading list symbols from each item
             cleaned_items = []
             for item in items:
-                # Remove leading "- " or number followed by space or parenthesis and space
-                item = re.sub(r'^- |^\d+[\s).]+\s*', '', item)
-                cleaned_items.append(item)
+                cleaned_items.append(clean_list_item(item))
             return cleaned_items
         # If we have exactly one item, return it as a string
         elif len(items) == 1:
-            # Remove leading "- " or number followed by space or parenthesis and space
-            return re.sub(r'^- |^\d+[\s).]+\s*', '', items[0])
+            return clean_list_item(items[0])
     
     # Check for bullet points, numbered lists, or tabbed items
     pattern = r'(?:^|\n)(?:[-*•]|\d+[.)]|\t+|[-*•]\t+)\s*(.+?)(?=\n(?:[-*•]|\d+[.)]|\t+|[-*•]\t+)|\n*$)'
@@ -72,32 +69,16 @@ def excel_to_json(excel_file, output_file=None, list_columns=None):
             if list_columns is None or key in list_columns:
                 parsed_value = parse_list_items(value)
                 
-                # Replace tabs, en dashes, and German quotes in strings and lists
+                # Process based on type
                 if isinstance(parsed_value, str):
-                    processed_text = (parsed_value.replace('\t', ' ')
-                                   .replace('–', '-')
-                                   .replace('„', '"')
-                                   .replace('”', '"')
-                                   .replace('“', '"'))
-                    # Convert all-caps words to capitalized
-                    record[key] = convert_all_caps_words(processed_text)
+                    record[key] = clean_text(parsed_value)
                 elif isinstance(parsed_value, list):
-                    # Filter out empty strings and replace tabs, en dashes, and German quotes
+                    # Filter out empty strings and clean each item
                     filtered_list = []
                     for item in parsed_value:
                         if item:
                             if isinstance(item, str):
-                                # Clean the item
-                                processed_item = (item.replace('\t', ' ')
-                                       .replace('–', '-')
-                                       .replace('„', '"')
-                                       .replace('”', '"')
-                                       .replace('“', '"'))
-                                # Remove any remaining leading list symbols that might have been missed
-                                processed_item = re.sub(r'^- |^\d+[\s).]+\s*', '', processed_item)
-                                # Convert all-caps words to capitalized
-                                processed_item = convert_all_caps_words(processed_item)
-                                filtered_list.append(processed_item)
+                                filtered_list.append(clean_list_item(item))
                             else:
                                 filtered_list.append(item)
                     

@@ -107,6 +107,32 @@ def check_structure_consistency(records):
     return structure_consistent and not type_inconsistencies
 
 
+def clean_text(text):
+    """Clean text by removing tabs, replacing dashes and quotes, and converting all-caps words."""
+    if not isinstance(text, str):
+        return text
+        
+    # Replace tabs, en dashes, and German quotes
+    cleaned_text = (text.replace('\t', ' ')
+                   .replace('–', '-')
+                   .replace('„', '"')
+                   .replace('”', '"')
+                   .replace('“', '"'))
+                   
+    # Convert all-caps words to capitalized
+    return convert_all_caps_words(cleaned_text)
+
+def clean_list_item(item):
+    """Clean a list item by removing leading symbols and cleaning the text."""
+    if not isinstance(item, str):
+        return item
+        
+    # Clean the text first
+    cleaned_item = clean_text(item)
+    
+    # Remove any leading list symbols
+    return re.sub(r'^- |^• |^\d+[\s).]+\s*', '', cleaned_item)
+
 if __name__ == "__main__":
     # Test cases:
     assert convert_all_caps_words("ANCĪŠA") == "Ancīša"
