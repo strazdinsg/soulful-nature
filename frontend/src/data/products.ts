@@ -9,11 +9,19 @@ export const products = [
     url: "/cacao",
   },
   {
-    id: 3,
+    id: 2,
     name: "Soulful Creations",
     altName: "Soulful Creations",
     imgSrc: "soulful-creations.jpg",
     description:
       "Discover Soulful Creations: handmade beeswax candles, pearl crowns, and unique pieces crafted with intention, adding warmth, charm, and joy to life.",
+  },
+  {
+    id: 3,
+    name: "Bach Flower Remedies",
+    altName: "Bach Flower Remedies",
+    imgSrc: "bach-remedies.jpg",
+    description: "Guide of Bach Flower Remedies.",
+    url: "/bach",
   },
 ];

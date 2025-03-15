@@ -1,0 +1,29 @@
+[
+  {
+    "id": "healers",
+    "name": {
+      "latvian": "Dziednieki",
+      "english": "Healers",
+      "norwegian": "Leger",
+      "latin": "Healer"
+    }
+  },
+  {
+    "id": "helpers",
+    "name": {
+      "latvian": "Palīgi",
+      "english": "Helpers",
+      "norwegian": "Hjelpere",
+      "latin": "Helpers"
+    }
+  },
+  {
+    "id": "other19",
+    "name": {
+      "latvian": "Otrie",
+      "english": "Other 19",
+      "norwegian": "Annet 19",
+      "latin": "Aliter 19"
+    }
+  }
+]
