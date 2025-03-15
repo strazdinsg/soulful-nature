@@ -68,13 +68,14 @@ def convert_to_multi_language():
             }
             was_updated = True
         
-        # Create or update alternative_names property
-        if 'alternative_names' not in new_item:
-            new_item['alternative_names'] = {
-                'latvian': item.get('alternative latvian name', ''),
-                'english': '',
-                'norwegian': ''
-            }
+        # Create or update alternative_latvian_name property (not a translated list)
+        if 'alternative_latvian_name' not in new_item:
+            new_item['alternative_latvian_name'] = item.get('alternative latvian name', '')
+            was_updated = True
+        
+        # Remove alternative_names if it exists (from previous version)
+        if 'alternative_names' in new_item:
+            del new_item['alternative_names']
             was_updated = True
         
         # Handle group property using the mapping from groups.json
