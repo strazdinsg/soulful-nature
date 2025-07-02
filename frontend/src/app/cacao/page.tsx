@@ -88,6 +88,12 @@ function AboutSection(): JSX.Element {
             </li>
           ))}
         </ul>
+        <h2 className="text-2xl font-bold mb-0 mt-8">If you can't make it</h2>
+        <p className="leading-relaxed mb-4">
+          Please send an SMS at least 24 hours before the event. If not, I
+          kindly ask you to cover the event fee, as the cacao and materials will
+          already be prepared.
+        </p>
       </div>
     </Section>
   );
