@@ -1,3 +1,5 @@
+"use client";
+
 import ContactSection from "@/components/ContactSection";
 import HeroSection from "@/components/HeroSection";
 import Section from "@/components/Section";
@@ -13,6 +15,7 @@ import CardHeading from "@/components/CardHeading";
 import { cacaoCircleEvents, Event } from "@/data/events";
 import Card from "@/components/Card";
 import SmallVerticalSpacer from "@/components/SmallVerticalSpacer";
+import { useEffect, useState } from "react";
 
 export default function CacaoCirclePage(): JSX.Element {
   return (
@@ -79,7 +82,7 @@ function AboutSection(): JSX.Element {
             },
             {
               icon: faLink,
-              text: "Upcoming event link below",
+              text: "Upcoming event links below",
             },
           ].map((tip, index) => (
             <li key={index} className="flex items-start gap-2">
@@ -133,12 +136,22 @@ function TipsSection(): JSX.Element {
 }
 
 function EventSection(): JSX.Element {
+  const [today, setToday] = useState<string>("");
+
+  useEffect(() => {
+    const t = new Date().toISOString().split("T")[0];
+    console.log("Today's date:", t);
+    setToday(t);
+  }, []);
+
+  if (!today) return <></>;
+
   return (
     <Section bgColor="bg-[#e7ede9]">
       <div className="p-6">
         <CardHeading title="Upcoming Events in 2025" />
         <div className="flex gap-6 flex-wrap">
-          {getUpcoming(cacaoCircleEvents).map((event) => (
+          {getUpcoming(cacaoCircleEvents, today).map((event) => (
             <EventCard key={event.date} event={event} />
           ))}
         </div>
@@ -147,9 +160,8 @@ function EventSection(): JSX.Element {
   );
 }
 
-function getUpcoming(events: Event[]) {
-  const today = new Date();
-  return events.filter((event) => new Date(event.date) >= today);
+function getUpcoming(events: Event[], today: string) {
+  return events.filter((event) => event.date >= today);
 }
 
 function formatEventDate(dateStr: string) {
