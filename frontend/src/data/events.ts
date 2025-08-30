@@ -46,7 +46,7 @@ export const cacaoCircleEvents = [
     signUpUrl: "https://forms.gle/41mierSGTupT7wDQ6",
   },
   {
-    date: "2025-10-07",
+    date: "2025-10-14",
     time: "18:00",
     signUpUrl: "https://forms.gle/mthRm3z6SJFTtb696",
   },
