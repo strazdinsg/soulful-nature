@@ -4,20 +4,22 @@ import PageImage from "./PageImage";
 import CardHeading from "./CardHeading";
 
 export default function PageCard({
-  name,
+  translationKey,
   altName,
   imgSrc,
-  description,
   url,
-  moreLinkTitle,
-}: {
-  name: string;
+  t,
+}: Readonly<{
+  translationKey: string;
   altName: string;
   imgSrc: string;
-  description: string;
   url: string;
-  moreLinkTitle: string;
-}): JSX.Element {
+  t: (key: string) => string;
+}>): JSX.Element {
+  const name = t(`pages.${translationKey}.name`);
+  const description = t(`pages.${translationKey}.description`);
+  const moreLinkTitle = t(`pages.${translationKey}.moreLinkTitle`);
+
   return (
     <Card clickUrl={url}>
       <div className="flex flex-col md:flex-row md:h-72 lg:h-[432px]">
@@ -42,12 +44,12 @@ function PageDescription({
   description,
   showLearnMore,
   moreLinkTitle,
-}: {
+}: Readonly<{
   name: string;
   description: string;
   showLearnMore: boolean;
   moreLinkTitle: string;
-}): JSX.Element {
+}>): JSX.Element {
   return (
     <div className="p-6 lg:p-9 h-full flex flex-col justify-center">
       <CardHeading title={name} />
@@ -64,9 +66,9 @@ function PageDescription({
 
 function LearnMoreButton({
   moreLinkTitle,
-}: {
+}: Readonly<{
   moreLinkTitle: string;
-}): JSX.Element {
+}>): JSX.Element {
   return (
     <span className="text-green-600 hover:underline lg:text-xl">
       {moreLinkTitle}

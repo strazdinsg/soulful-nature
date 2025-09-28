@@ -1,3 +1,9 @@
+"use client";
+
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { getLocaleFromPathname } from "@/lib/locale";
+
 /**
  * A card.
  * @param children - The children of the card.
@@ -7,15 +13,22 @@
 export default function Card({
   children,
   clickUrl,
-}: {
+}: Readonly<{
   children: React.ReactNode;
   clickUrl?: string;
-}): JSX.Element {
+}>): JSX.Element {
+  const pathname = usePathname();
+  const currentLocale = getLocaleFromPathname(pathname);
+
   if (clickUrl) {
+    const localeAwareUrl = `/${currentLocale}${clickUrl}`;
     return (
-      <a href={clickUrl} className="card w-full max-w-2xl lg:max-w-4xl">
+      <Link
+        href={localeAwareUrl}
+        className="card w-full max-w-2xl lg:max-w-4xl"
+      >
         {children}
-      </a>
+      </Link>
     );
   } else {
     return <div className="card w-full max-w-2xl lg:max-w-4xl">{children}</div>;

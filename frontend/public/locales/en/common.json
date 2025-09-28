@@ -1,0 +1,24 @@
+{
+  "hero": {
+    "title": "SOULFUL NATURE",
+    "subtitle": "Where bond with self matters..."
+  },
+  "welcome": {
+    "text": "Welcome to a space to pause, reflect, and reconnect with clarity and calm…"
+  },
+  "contact": {
+    "title": "Get in Touch"
+  },
+  "pages": {
+    "cacaoAndMe": {
+      "name": "Cacao and Me",
+      "description": "For me, cacao is more than a drink—it is a gentle way to pause, be in the moment, and reconnect with myself. Through cacao mindfulness practice, I have found calm, focus, and appreciation for simple moments.",
+      "moreLinkTitle": "Read my story"
+    },
+    "cacaoMindfulness": {
+      "name": "Cacao Mindfulness Practice",
+      "description": "Cacao mindfulness practice combines warm cacao with reflection and presence. It offers a simple and effective way to slow down, reduce stress, and create space for clarity and balance in everyday life.",
+      "moreLinkTitle": "Learn more"
+    }
+  }
+}

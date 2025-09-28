@@ -1,0 +1,24 @@
+{
+  "hero": {
+    "title": "SOULFUL NATURE",
+    "subtitle": "Hvor forbindelse med deg selv betyr noe..."
+  },
+  "welcome": {
+    "text": "Velkommen til et rom for å ta en pause, reflektere og finne tilbake til klarhet og ro…"
+  },
+  "contact": {
+    "title": "Ta kontakt"
+  },
+  "pages": {
+    "cacaoAndMe": {
+      "name": "Kakao og meg",
+      "description": "For meg er kakao mer enn en drikk—det er en mild måte å stoppe opp på, være i øyeblikket og koble til meg selv. Gjennom kakao-mindfulness praksis har jeg funnet ro, fokus og takknemlighet for enkle øyeblikk.",
+      "moreLinkTitle": "Les min historie"
+    },
+    "cacaoMindfulness": {
+      "name": "Kakao-mindfulness praksis",
+      "description": "Kakao-mindfulness praksis kombinerer varm kakao med refleksjon og nærvær. Det tilbyr en enkel og effektiv måte å sakke ned på, redusere stress og skape rom for klarhet og balanse i hverdagen.",
+      "moreLinkTitle": "Lær mer"
+    }
+  }
+}
