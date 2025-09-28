@@ -294,8 +294,8 @@ function TestimonialsSection(): JSX.Element {
         <div className="bg-[#e7ede9] p-6">
           <SectionHeading title={t("testimonials.title")} />
           <div className="space-y-6">
-            {testimonials.map((testimonial) => (
-              <div key={testimonial.name}>
+            {testimonials.map((testimonial, index) => (
+              <div key={testimonial.name + index}>
                 <p className="leading-relaxed text-gray-700 italic">
                   &quot;{testimonial.message}&quot; -- {testimonial.name}
                 </p>
