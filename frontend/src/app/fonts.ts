@@ -8,3 +8,7 @@ export const moontime = localFont({
   src: "../fonts/moontime.ttf",
   display: "swap",
 });
+export const zapfino = localFont({
+  src: "../fonts/zapfino.ttf",
+  display: "swap",
+});
