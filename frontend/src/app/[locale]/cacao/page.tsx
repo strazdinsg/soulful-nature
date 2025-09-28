@@ -8,6 +8,8 @@ import Card from "@/components/Card";
 import SmallVerticalSpacer from "@/components/SmallVerticalSpacer";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
 export default function CacaoCirclePage(): JSX.Element {
   const { t } = useTranslation("common");
@@ -62,7 +64,7 @@ function AboutSection(): JSX.Element {
 
   return (
     <>
-      <h2 className="text-3xl font-bold mb-4">{t("cacao.about.title")}</h2>
+      <SectionHeading title={t("cacao.about.title")} />
       <p className="leading-relaxed mb-4">
         <b>{t("cacao.about.leadingText")}</b> {t("cacao.about.description1")}
       </p>
@@ -112,13 +114,17 @@ function AboutSection(): JSX.Element {
   );
 }
 
+function SectionHeading({ title }: Readonly<{ title: string }>): JSX.Element {
+  return <h2 className="text-3xl font-bold mb-4">{title}</h2>;
+}
+
 function EventsSection({ today }: Readonly<{ today: string }>): JSX.Element {
   const { t } = useTranslation("common");
 
   if (!today) return <></>;
 
   return (
-    <div className="bg-[#e7ede9] p-6 rounded-lg">
+    <div className="bg-[#e7ede9] p-6 mb-16">
       <EventHeading title={t("cacao.events.title")} />
       <div className="flex flex-col gap-4 mt-4">
         {getUpcoming(cacaoCircleEvents, today).map((event) => (
@@ -140,10 +146,8 @@ function ExpectationSection(): JSX.Element {
   }>;
 
   return (
-    <div className="mt-16">
-      <h2 className="text-3xl font-bold mb-4">
-        {t("cacao.expectations.title")}
-      </h2>
+    <div className="mt-8">
+      <SectionHeading title={t("cacao.expectations.title")} />
       <p className="leading-relaxed">{t("cacao.expectations.leadingText")}:</p>
       <ul className="space-y-2 list-disc list-outside ml-4 mb-4">
         {items.map((item) => (
@@ -162,29 +166,6 @@ function ExpectationSection(): JSX.Element {
   );
 }
 
-/* <h2 className="text-3xl font-bold mb-4">{t("cacao.tips.title")}</h2>
-      <ul className="space-y-4">
-        {[
-          {
-            icon: faMugHot,
-            text: t("cacao.tips.caffeine"),
-          },
-          {
-            icon: faGlassWater,
-            text: t("cacao.tips.water"),
-          },
-          {
-            icon: faLightbulb,
-            text: t("cacao.tips.intention"),
-          },
-        ].map((tip) => (
-          <li key={tip.icon.iconName} className="flex items-start gap-2">
-            <FontAwesomeIcon icon={tip.icon} className="w-5 h-5 mt-0.5" />
-            <span>{tip.text}</span>
-          </li>
-        ))}
-      </ul> */
-
 function getUpcoming(events: Event[], today: string) {
   return events.filter((event) => event.date >= today);
 }
@@ -196,18 +177,18 @@ function formatEventDate(
 ) {
   const date = new Date(dateStr);
   const monthNames = [
-    t("cacao.months.january"),
-    t("cacao.months.february"),
-    t("cacao.months.march"),
-    t("cacao.months.april"),
-    t("cacao.months.may"),
-    t("cacao.months.june"),
-    t("cacao.months.july"),
-    t("cacao.months.august"),
-    t("cacao.months.september"),
-    t("cacao.months.october"),
-    t("cacao.months.november"),
-    t("cacao.months.december"),
+    t("months.january"),
+    t("months.february"),
+    t("months.march"),
+    t("months.april"),
+    t("months.may"),
+    t("months.june"),
+    t("months.july"),
+    t("months.august"),
+    t("months.september"),
+    t("months.october"),
+    t("months.november"),
+    t("months.december"),
   ];
   const day = date.getDate();
   const monthIndex = date.getMonth();
@@ -236,18 +217,18 @@ function EventCard({ event }: Readonly<{ event: Event }>): JSX.Element {
   const formatMonthYear = (dateStr: string, t: (key: string) => string) => {
     const date = new Date(dateStr);
     const monthNames = [
-      t("cacao.months.january"),
-      t("cacao.months.february"),
-      t("cacao.months.march"),
-      t("cacao.months.april"),
-      t("cacao.months.may"),
-      t("cacao.months.june"),
-      t("cacao.months.july"),
-      t("cacao.months.august"),
-      t("cacao.months.september"),
-      t("cacao.months.october"),
-      t("cacao.months.november"),
-      t("cacao.months.december"),
+      t("months.january"),
+      t("months.february"),
+      t("months.march"),
+      t("months.april"),
+      t("months.may"),
+      t("months.june"),
+      t("months.july"),
+      t("months.august"),
+      t("months.september"),
+      t("months.october"),
+      t("months.november"),
+      t("months.december"),
     ];
     const monthIndex = date.getMonth();
     const year = date.getFullYear();
@@ -283,9 +264,7 @@ function EventHeading({ title }: Readonly<{ title: string }>): JSX.Element {
 function SignUpButton(): JSX.Element {
   const { t } = useTranslation("common");
   return (
-    <span className="text-green-600 hover:underline">
-      {t("cacao.events.signUp")}
-    </span>
+    <span className="text-green-600 hover:underline">{t("common.signUp")}</span>
   );
 }
 
@@ -293,19 +272,51 @@ function getWeekday(dateStr: string, t: (key: string) => string) {
   const date = new Date(dateStr);
   const weekday = date.getDay();
   const days = [
-    t("cacao.weekdays.sunday"),
-    t("cacao.weekdays.monday"),
-    t("cacao.weekdays.tuesday"),
-    t("cacao.weekdays.wednesday"),
-    t("cacao.weekdays.thursday"),
-    t("cacao.weekdays.friday"),
-    t("cacao.weekdays.saturday"),
+    t("weekdays.sunday"),
+    t("weekdays.monday"),
+    t("weekdays.tuesday"),
+    t("weekdays.wednesday"),
+    t("weekdays.thursday"),
+    t("weekdays.friday"),
+    t("weekdays.saturday"),
   ];
   return days[weekday];
 }
 
 function PracticalInfoSection(): JSX.Element {
-  return <></>;
+  const { t } = useTranslation("common");
+
+  const contributionItems = t("practicalInfo.contributionOptions", {
+    returnObjects: true,
+  }) as Array<string>;
+
+  return (
+    <div className="mt-8">
+      <SectionHeading title={t("practicalInfo.title")} />
+      <p className="leading-relaxed mb-4">
+        <b>{t("common.location")}</b>: {t("practicalInfo.location")}
+      </p>
+      <p className="leading-relaxed">
+        <b>{t("common.contribution")}</b>:
+      </p>
+      <ul className="list-disc list-outside ml-4 mb-4">
+        {contributionItems.map((item) => (
+          <li key={item}>{item}</li>
+        ))}
+      </ul>
+      <p className="leading-relaxed">
+        <FontAwesomeIcon icon={faPhone} className="w-5 h-5 mt-0.5" />
+        {t("practicalInfo.pleaseSignUp")}:{" "}
+        <a href="sms:+4796746355" className="text-green-600 hover:underline">
+          +47 967 46 355
+        </a>
+      </p>
+      <p className="leading-relaxed mb-4">{t("practicalInfo.orUseLinks")}.</p>
+      <p className="leading-relaxed">
+        {t("practicalInfo.cancellation")} {t("practicalInfo.cancellationFee")}
+      </p>
+    </div>
+  );
 }
 
 function TestimonialsSection(): JSX.Element {

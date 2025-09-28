@@ -30,16 +30,7 @@
       "title": "Om Kakao Mindfulness Praksis",
       "leadingText": "Kakao Mindfulness Praksis i Ålesund",
       "description1": "tilbyr en strukturert måte å pause, lade opp og skarpne fokus. Med støtte fra ceremoniell kakao, praktiske mindfulness-verktøy og en rolig oppsett, tar du deg ut av daglige krav og gir rom for klarhet og nærvær.",
-      "description2": "En gang i måneden, samler vi oss i en liten gruppe (rundt 10 deltakere) for et arrangement designet for å støtte alle – uansett om du leder andre, studerer, er mellom jobber, eller bare søker balanse i hverdagen. Praksisen skaper forhold for refleksjon, oppfrisket perspektiv og klarhet.",
-      "location": "Sted",
-      "locationValue": "ARtstudio, Keiser Wilhelms gate 53, Ålesund.",
-      "contribution": "Bidrag",
-      "contributionValue": "220 NOK.",
-      "signUp": "Meld deg på før du kommer",
-      "signUpSms": "eller",
-      "signUpLink": "Kommende arrangement lenker nedenfor",
-      "cancellation": "Hvis du ikke kan komme",
-      "cancellationText": "send en SMS minst 24 timer før arrangementet. Hvis ikke, ber jeg deg vennligst dekke arrangementgebyret, da kakaoen og materialene allerede vil være forberedt."
+      "description2": "En gang i måneden, samler vi oss i en liten gruppe (rundt 10 deltakere) for et arrangement designet for å støtte alle – uansett om du leder andre, studerer, er mellom jobber, eller bare søker balanse i hverdagen. Praksisen skaper forhold for refleksjon, oppfrisket perspektiv og klarhet."
     },
     "expectations": {
       "title": "Hva å forvente",
@@ -65,39 +56,49 @@
       "experience": "Ingen tidligere meditasjonserfaring er nødvendig.",
       "language": "Øktene holdes på Norsk, men du er velkommen til å svare på engelsk, latvisk eller russisk."
     },
-    "tips": {
-      "title": "Forberedelsestips",
-      "caffeine": "Unngå å drikke koffein på arrangementdagen",
-      "water": "Drikk mye vann gjennom dagen",
-      "intention": "Formuler en intensjon for deg selv"
-    },
     "events": {
       "title": "Kommende arrangementer",
-      "signUp": "Meld deg på",
       "dateToBeDefined": "Dato fastsettes senere"
-    },
-    "months": {
-      "january": "Januar",
-      "february": "Februar",
-      "march": "Mars",
-      "april": "April",
-      "may": "Mai",
-      "june": "Juni",
-      "july": "Juli",
-      "august": "August",
-      "september": "September",
-      "october": "Oktober",
-      "november": "November",
-      "december": "Desember"
-    },
-    "weekdays": {
-      "sunday": "Søndag",
-      "monday": "Mandag",
-      "tuesday": "Tirsdag",
-      "wednesday": "Onsdag",
-      "thursday": "Torsdag",
-      "friday": "Fredag",
-      "saturday": "Lørdag"
     }
+  },
+  "months": {
+    "january": "Januar",
+    "february": "Februar",
+    "march": "Mars",
+    "april": "April",
+    "may": "Mai",
+    "june": "Juni",
+    "july": "Juli",
+    "august": "August",
+    "september": "September",
+    "october": "Oktober",
+    "november": "November",
+    "december": "Desember"
+  },
+  "weekdays": {
+    "sunday": "Søndag",
+    "monday": "Mandag",
+    "tuesday": "Tirsdag",
+    "wednesday": "Onsdag",
+    "thursday": "Torsdag",
+    "friday": "Fredag",
+    "saturday": "Lørdag"
+  },
+  "practicalInfo": {
+    "title": "Praktisk informasjon",
+    "location": "ARtstudio, Keiser Wilhelms gate 53, Ålesund",
+    "contributionOptions": [
+      "Enkelt økt: 250 NOK",
+      "Klippekort (3 økter: 660 NOK) – anbefalt for de som vil bygge kontinuitet og styrke effekten av praksisen over tid. Kortet er gyldig i 6 måneder."
+    ],
+    "pleaseSignUp": "Vennligst meld deg på før du kommer",
+    "orUseLinks": "eller bruk lenkene til kommende arrangementer",
+    "cancellation": "Hvis du ikke kan delta, send en SMS minst 24 timer før.",
+    "cancellationFee": "Hvis ikke, ber vi deg vennligst dekke arrangementgebyret, da kakaoen og materialene allerede vil være forberedt."
+  },
+  "common": {
+    "location": "Sted",
+    "signUp": "Meld på",
+    "contribution": "Bidrag"
   }
 }
