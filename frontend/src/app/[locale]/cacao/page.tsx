@@ -231,16 +231,46 @@ function formatEventDate(
 
 function EventCard({ event }: Readonly<{ event: Event }>): JSX.Element {
   const { t, i18n } = useTranslation("common");
+  const dateKnown = event.signUpUrl !== "";
+
+  const formatMonthYear = (dateStr: string, t: (key: string) => string) => {
+    const date = new Date(dateStr);
+    const monthNames = [
+      t("cacao.months.january"),
+      t("cacao.months.february"),
+      t("cacao.months.march"),
+      t("cacao.months.april"),
+      t("cacao.months.may"),
+      t("cacao.months.june"),
+      t("cacao.months.july"),
+      t("cacao.months.august"),
+      t("cacao.months.september"),
+      t("cacao.months.october"),
+      t("cacao.months.november"),
+      t("cacao.months.december"),
+    ];
+    const monthIndex = date.getMonth();
+    const year = date.getFullYear();
+    return `${monthNames[monthIndex]} ${year}`;
+  };
 
   return (
-    <Card clickUrl={event.signUpUrl}>
+    <Card clickUrl={dateKnown ? event.signUpUrl : undefined}>
       <div className="p-4">
-        <EventHeading title={formatEventDate(event.date, t, i18n.language)} />
+        <EventHeading
+          title={
+            dateKnown
+              ? formatEventDate(event.date, t, i18n.language)
+              : formatMonthYear(event.date, t)
+          }
+        />
         <p className="text-gray-600 text-sm">
-          {getWeekday(event.date, t) + " " + event.time}
+          {dateKnown
+            ? getWeekday(event.date, t) + " " + event.time
+            : t("cacao.events.dateToBeDefined")}
         </p>
         <SmallVerticalSpacer />
-        <SignUpButton />
+        {dateKnown && <SignUpButton />}
       </div>
     </Card>
   );

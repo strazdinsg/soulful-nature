@@ -73,7 +73,8 @@
     },
     "events": {
       "title": "Kommende arrangementer",
-      "signUp": "Meld deg på"
+      "signUp": "Meld deg på",
+      "dateToBeDefined": "Dato fastsettes senere"
     },
     "months": {
       "january": "Januar",

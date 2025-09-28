@@ -73,7 +73,8 @@
     },
     "events": {
       "title": "Upcoming Events",
-      "signUp": "Sign up"
+      "signUp": "Sign up",
+      "dateToBeDefined": "Date to be defined"
     },
     "months": {
       "january": "January",
