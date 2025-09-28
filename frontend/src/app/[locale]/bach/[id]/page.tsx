@@ -23,7 +23,7 @@ export default function BachRemedyDetailPage(): JSX.Element {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center">
         <h1 className="text-2xl font-bold mb-4">Remedy not found</h1>
-        <Link href="/bach" className="text-blue-600 hover:underline">
+        <Link href="/bach" className="text-green-600 hover:underline">
           Back to remedies
         </Link>
       </div>
@@ -64,7 +64,7 @@ function RemedyDetails({
               />
             </div>
             <div className="mt-4">
-              <Link href="/bach" className="text-blue-600 hover:underline">
+              <Link href="/bach" className="text-green-600 hover:underline">
                 ← Back to all remedies
               </Link>
             </div>

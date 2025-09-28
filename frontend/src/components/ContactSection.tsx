@@ -16,7 +16,7 @@ export default function ContactSection(): JSX.Element {
           {t("contact.title")}:{" "}
           <a
             href="mailto:inguna@sfnature.no"
-            className="text-blue-600 hover:underline"
+            className="text-green-600 hover:underline"
           >
             inguna@sfnature.no
           </a>

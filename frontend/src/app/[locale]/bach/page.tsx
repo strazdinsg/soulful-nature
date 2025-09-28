@@ -179,7 +179,7 @@ function BachFlowerCard({
           <CardHeading title={name || "—"} />
           <p className="text-gray-600 min-h-[4rem]">{description || "—"}</p>
           <SmallVerticalSpacer />
-          <span className="text-blue-600 hover:underline">View details</span>
+          <span className="text-green-600 hover:underline">View details</span>
         </div>
       </div>
     </Card>
