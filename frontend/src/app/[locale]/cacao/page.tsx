@@ -11,7 +11,6 @@ import {
   faCommentSms,
   faLink,
 } from "@fortawesome/free-solid-svg-icons";
-import CardHeading from "@/components/CardHeading";
 import { cacaoCircleEvents, Event } from "@/data/events";
 import Card from "@/components/Card";
 import SmallVerticalSpacer from "@/components/SmallVerticalSpacer";
@@ -104,7 +103,7 @@ function AboutContent(): JSX.Element {
             icon: faLink,
             text: t("cacao.about.signUpLink"),
           },
-        ].map((tip, index) => (
+        ].map((tip) => (
           <li key={tip.icon.iconName} className="flex items-start gap-2">
             <FontAwesomeIcon icon={tip.icon} className="w-5 h-5 mt-0.5" />
             <span>{tip.text}</span>
