@@ -68,7 +68,7 @@ function LearnMoreButton({
   moreLinkTitle: string;
 }): JSX.Element {
   return (
-    <span className="text-blue-600 hover:underline lg:text-xl">
+    <span className="text-green-600 hover:underline lg:text-xl">
       {moreLinkTitle}
     </span>
   );
