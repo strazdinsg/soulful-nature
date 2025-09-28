@@ -1,5 +1,5 @@
 import HeroSection from "@/components/HeroSection";
-import ProductCardsSection from "@/components/ProductCardSection";
+import PageCardsSection from "@/components/PageCardSection";
 import ContactSection from "@/components/ContactSection";
 
 export default function LandingPage() {
@@ -7,9 +7,9 @@ export default function LandingPage() {
     <div className="min-h-screen flex flex-col">
       <HeroSection
         title="SOULFUL NATURE"
-        subtitle="Where bond with nature matters..."
+        subtitle="Where bond with self matters..."
       />
-      <ProductCardsSection />
+      <PageCardsSection />
       <ContactSection />
     </div>
   );

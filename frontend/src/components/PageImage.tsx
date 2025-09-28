@@ -6,7 +6,7 @@ import Image from "next/image";
  * @param altText - The alternative text of the image.
  * @returns The ProductImage component.
  */
-export default function ProductImage({
+export default function PageImage({
   imgSrc,
   altText,
 }: {
@@ -15,11 +15,11 @@ export default function ProductImage({
 }): JSX.Element {
   return (
     <Image
-      src={`/images/products/${imgSrc}`}
+      src={`/images/pages/${imgSrc}`}
       alt={altText}
-      width={400}
+      width={300}
       height={300}
-      className="w-full h-60 object-cover"
+      className="w-full h-full object-cover"
     />
   );
 }
