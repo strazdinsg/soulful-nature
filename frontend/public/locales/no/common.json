@@ -28,10 +28,9 @@
     },
     "about": {
       "title": "Om Kakao Mindfulness Praksis",
-      "description1": "Vi inviterer deg til å bli med i vår Kakao Sirkel i Ålesund for å oppleve en hjerte-sentrert praksis som blander kakao, meditasjon og mindfulness elementer for å oppmuntre til avslapning og dypere selvforbindelse.",
-      "description2": "Bli med i en liten gruppe (rundt 10 deltakere), skjerp sansene dine, og gi deg selv denne spesielle tiden.",
-      "description3": "Arrangementet organiseres en gang i måneden, det holdes på engelsk, men du er velkommen til å svare på norsk, latvisk og russisk også.",
-      "description4": "Tilgjengelig for alle, med eller uten meditasjonserfaring.",
+      "leadingText": "Kakao Mindfulness Praksis i Ålesund",
+      "description1": "tilbyr en strukturert måte å pause, lade opp og skarpne fokus. Med støtte fra ceremoniell kakao, praktiske mindfulness-verktøy og en rolig oppsett, tar du deg ut av daglige krav og gir rom for klarhet og nærvær.",
+      "description2": "En gang i måneden, samler vi oss i en liten gruppe (rundt 10 deltakere) for et arrangement designet for å støtte alle – uansett om du leder andre, studerer, er mellom jobber, eller bare søker balanse i hverdagen. Praksisen skaper forhold for refleksjon, oppfrisket perspektiv og klarhet.",
       "location": "Sted",
       "locationValue": "ARtstudio, Keiser Wilhelms gate 53, Ålesund.",
       "contribution": "Bidrag",
@@ -41,6 +40,30 @@
       "signUpLink": "Kommende arrangement lenker nedenfor",
       "cancellation": "Hvis du ikke kan komme",
       "cancellationText": "send en SMS minst 24 timer før arrangementet. Hvis ikke, ber jeg deg vennligst dekke arrangementgebyret, da kakaoen og materialene allerede vil være forberedt."
+    },
+    "expectations": {
+      "title": "Hva å forvente",
+      "leadingText": "Økten inneholder",
+      "items": [
+        {
+          "item": "Kakao",
+          "description": "ceremoniell kakao forberedt med eget hvetemel eller vann, ett smør til med honning. Denne naturlige drikken støtter fokus, balanse og rolig energi."
+        },
+        {
+          "item": "Mindfulness",
+          "description": "korte, praktiske øyeblikksanseringsøvelser, som fører deg gjennom alle fem sanser for å bringe nærvær og klarhet."
+        },
+        {
+          "item": "Musikkreise",
+          "description": "live lyd og instrumenter for å fremme ro og et nytt perspektiv."
+        },
+        {
+          "item": "Refleksjon og deling",
+          "description": "valgfritt, en kort runde for å dele erfaringer fra praksisen."
+        }
+      ],
+      "experience": "Ingen tidligere meditasjonserfaring er nødvendig.",
+      "language": "Øktene holdes på Norsk, men du er velkommen til å svare på engelsk, latvisk eller russisk."
     },
     "tips": {
       "title": "Forberedelsestips",

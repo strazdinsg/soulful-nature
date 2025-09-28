@@ -3,14 +3,6 @@
 import ContactSection from "@/components/ContactSection";
 import HeroSection from "@/components/HeroSection";
 import Section from "@/components/Section";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faLightbulb,
-  faMugHot,
-  faGlassWater,
-  faCommentSms,
-  faLink,
-} from "@fortawesome/free-solid-svg-icons";
 import { cacaoCircleEvents, Event } from "@/data/events";
 import Card from "@/components/Card";
 import SmallVerticalSpacer from "@/components/SmallVerticalSpacer";
@@ -28,14 +20,13 @@ export default function CacaoCirclePage(): JSX.Element {
         title={t("cacao.hero.title")}
         subtitle={t("cacao.hero.subtitle")}
       />
-      <AboutAndEventsSection />
-      <TipsSection />
+      <MainContentSection />
       <ContactSection />
     </>
   );
 }
 
-function AboutAndEventsSection(): JSX.Element {
+function MainContentSection(): JSX.Element {
   const [today, setToday] = useState<string>("");
 
   useEffect(() => {
@@ -47,15 +38,18 @@ function AboutAndEventsSection(): JSX.Element {
   return (
     <Section>
       <div className="pt-16 pb-8 px-8">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {/* About section - takes 5 columns on large, 2 columns on medium */}
-          <div className="md:col-span-2 text-[#252419]">
-            <AboutContent />
+        <div className="grid grid-cols-1 md:grid-cols-6 gap-8">
+          <div className="md:col-span-3 lg:col-span-4 text-[#252419]">
+            <AboutSection />
+            <div className="md:hidden">
+              <EventsSection today={today} />
+            </div>
+            <ExpectationSection />
+            <PracticalInfoSection />
+            <TestimonialsSection />
           </div>
-
-          {/* Events section - takes 1 column on large, 1 column on medium */}
-          <div className="lg:col-span-1 md:col-span-1">
-            <EventsContent today={today} />
+          <div className="hidden md:block lg:col-span-2 md:col-span-3">
+            <EventsSection today={today} />
           </div>
         </div>
       </div>
@@ -63,17 +57,17 @@ function AboutAndEventsSection(): JSX.Element {
   );
 }
 
-function AboutContent(): JSX.Element {
+function AboutSection(): JSX.Element {
   const { t } = useTranslation("common");
 
   return (
     <>
       <h2 className="text-3xl font-bold mb-4">{t("cacao.about.title")}</h2>
-      <p className="leading-relaxed mb-4">{t("cacao.about.description1")}</p>
-      <p className="leading-relaxed mb-4">{t("cacao.about.description2")}</p>
-      <p className="leading-relaxed mb-4">{t("cacao.about.description3")}</p>
-      <p className="leading-relaxed mb-4">{t("cacao.about.description4")}</p>
       <p className="leading-relaxed mb-4">
+        <b>{t("cacao.about.leadingText")}</b> {t("cacao.about.description1")}
+      </p>
+      <p className="leading-relaxed mb-4">{t("cacao.about.description2")}</p>
+      {/* <p className="leading-relaxed mb-4">
         <b>{t("cacao.about.location")}</b>: {t("cacao.about.locationValue")}
       </p>
       <p className="leading-relaxed mb-4">
@@ -91,7 +85,7 @@ function AboutContent(): JSX.Element {
               <>
                 <a
                   href="sms:+4796746355"
-                  className="text-blue-600 hover:underline"
+                  className="text-green-600 hover:underline"
                 >
                   +47 967 46 355
                 </a>
@@ -113,12 +107,12 @@ function AboutContent(): JSX.Element {
       <p className="leading-relaxed mb-4 mt-4">
         <b>{t("cacao.about.cancellation")}</b>:{" "}
         {t("cacao.about.cancellationText")}
-      </p>
+      </p> */}
     </>
   );
 }
 
-function EventsContent({ today }: Readonly<{ today: string }>): JSX.Element {
+function EventsSection({ today }: Readonly<{ today: string }>): JSX.Element {
   const { t } = useTranslation("common");
 
   if (!today) return <></>;
@@ -135,38 +129,61 @@ function EventsContent({ today }: Readonly<{ today: string }>): JSX.Element {
   );
 }
 
-function TipsSection(): JSX.Element {
+function ExpectationSection(): JSX.Element {
   const { t } = useTranslation("common");
 
+  const items = t("cacao.expectations.items", {
+    returnObjects: true,
+  }) as Array<{
+    item: string;
+    description: string;
+  }>;
+
   return (
-    <Section>
-      <div className="py-16 px-8">
-        <h2 className="text-3xl font-bold mb-4">{t("cacao.tips.title")}</h2>
-        <ul className="space-y-4">
-          {[
-            {
-              icon: faMugHot,
-              text: t("cacao.tips.caffeine"),
-            },
-            {
-              icon: faGlassWater,
-              text: t("cacao.tips.water"),
-            },
-            {
-              icon: faLightbulb,
-              text: t("cacao.tips.intention"),
-            },
-          ].map((tip) => (
-            <li key={tip.icon.iconName} className="flex items-start gap-2">
-              <FontAwesomeIcon icon={tip.icon} className="w-5 h-5 mt-0.5" />
-              <span>{tip.text}</span>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </Section>
+    <div className="mt-16">
+      <h2 className="text-3xl font-bold mb-4">
+        {t("cacao.expectations.title")}
+      </h2>
+      <p className="leading-relaxed">{t("cacao.expectations.leadingText")}:</p>
+      <ul className="space-y-2 list-disc list-outside ml-4 mb-4">
+        {items.map((item) => (
+          <li key={item.item}>
+            <span>
+              <b>{item.item}</b>: {item.description}
+            </span>
+          </li>
+        ))}
+      </ul>
+      <p className="leading-relaxed mb-4">
+        {t("cacao.expectations.experience")}
+      </p>
+      <p className="leading-relaxed mb-4">{t("cacao.expectations.language")}</p>
+    </div>
   );
 }
+
+/* <h2 className="text-3xl font-bold mb-4">{t("cacao.tips.title")}</h2>
+      <ul className="space-y-4">
+        {[
+          {
+            icon: faMugHot,
+            text: t("cacao.tips.caffeine"),
+          },
+          {
+            icon: faGlassWater,
+            text: t("cacao.tips.water"),
+          },
+          {
+            icon: faLightbulb,
+            text: t("cacao.tips.intention"),
+          },
+        ].map((tip) => (
+          <li key={tip.icon.iconName} className="flex items-start gap-2">
+            <FontAwesomeIcon icon={tip.icon} className="w-5 h-5 mt-0.5" />
+            <span>{tip.text}</span>
+          </li>
+        ))}
+      </ul> */
 
 function getUpcoming(events: Event[], today: string) {
   return events.filter((event) => event.date >= today);
@@ -230,13 +247,13 @@ function EventCard({ event }: Readonly<{ event: Event }>): JSX.Element {
 }
 
 function EventHeading({ title }: Readonly<{ title: string }>): JSX.Element {
-  return <h3 className="text-xl font-semibold mb-4 lg:text-2xl">{title}</h3>;
+  return <h3 className="text-lg font-semibold mb-4 lg:text-2xl">{title}</h3>;
 }
 
 function SignUpButton(): JSX.Element {
   const { t } = useTranslation("common");
   return (
-    <span className="text-blue-600 hover:underline">
+    <span className="text-green-600 hover:underline">
       {t("cacao.events.signUp")}
     </span>
   );
@@ -255,4 +272,12 @@ function getWeekday(dateStr: string, t: (key: string) => string) {
     t("cacao.weekdays.saturday"),
   ];
   return days[weekday];
+}
+
+function PracticalInfoSection(): JSX.Element {
+  return <></>;
+}
+
+function TestimonialsSection(): JSX.Element {
+  return <></>;
 }

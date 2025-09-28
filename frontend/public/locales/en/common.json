@@ -28,10 +28,9 @@
     },
     "about": {
       "title": "About Cacao Mindfulness Practice",
-      "description1": "We invite you to join our Cacao Circle in Ålesund to experience a heart-centered practice, blending cacao, meditation and mindfulness elements to encourage relaxation and deeper self-connection.",
-      "description2": "Join a small group (around 10 participants), sharpen your senses, and give yourself this special time.",
-      "description3": "The event is organised once a month, it is held in English, but you're welcome to respond in Norwegian, Latvian and Russian as well.",
-      "description4": "Available for anyone, with or without meditation experience.",
+      "leadingText": "Cacao Mindfulness Practice in Ålesund",
+      "description1": "offers a structured way to pause, recharge, and sharpen focus. With the support of ceremonial cacao, practical mindfulness tools, and a calm setting, you step out of daily demands and give space for clarity and presence.",
+      "description2": "Once a month, we gather in a small group (around 10 participants) for an evening designed to support everyone – whether you are leading others, studying, between jobs, or simply seeking balance in everyday life. The practice creates conditions for reflection, renewed perspective, and clarity.",
       "location": "Location",
       "locationValue": "ARtstudio, Keiser Wilhelms gate 53, Ålesund.",
       "contribution": "Contribution",
@@ -41,6 +40,30 @@
       "signUpLink": "Upcoming event links below",
       "cancellation": "If you can't make it",
       "cancellationText": "please send an SMS at least 24 hours before the event. If not, I kindly ask you to cover the event fee, as the cacao and materials will already be prepared."
+    },
+    "expectations": {
+      "title": "What to Expect",
+      "leadingText": "The session includes",
+      "items": [
+        {
+          "item": "Cacao",
+          "description": "ceremonial cacao prepared with homemade oat milk or water, a touch of salt, and honey. This natural drink supports focus, balance, and calm energy."
+        },
+        {
+          "item": "Mindfulness",
+          "description": "short, practical breathing and awareness exercises, guiding you through all five senses to bring presence and clarity."
+        },
+        {
+          "item": "Music journey",
+          "description": "live sounds and instruments to encourage relaxation and a fresh perspective."
+        },
+        {
+          "item": "Reflection & sharing",
+          "description": "optional, a brief round to share experience from the practice."
+        }
+      ],
+      "experience": "No previous meditation experience is required.",
+      "language": "The sessions are held in Norwegian, but you are welcome to respond in English, Latvian, or Russian."
     },
     "tips": {
       "title": "Preparation Tips",
