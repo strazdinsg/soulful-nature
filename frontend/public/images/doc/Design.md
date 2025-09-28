@@ -3,7 +3,7 @@
 ## Colors
 
 - Primary: #0e4726
-- Secondary: #0e4726
+- Secondary: #b8b67d
 
 ### Primary color tones
 
