@@ -100,5 +100,22 @@
     "location": "Sted",
     "signUp": "Meld på",
     "contribution": "Bidrag"
+  },
+  "testimonials": {
+    "title": "Erfaringer",
+    "items": [
+      {
+        "message": "Kakaomeditasjon har blitt en måte for meg å øve på å være helt til stede i nuet. Inguna skaper en trygg atmosfære og har en egen evne til å holde energien i rommet slik at tankene faller til ro. Hver gang er opplevelsen litt annerledes, men jeg sitter alltid igjen med den samme følelsen: ‘Dette var nøyaktig det jeg trengte.’",
+        "name": "Deltaker, Ålesund"
+      },
+      {
+        "message": "Testimonial 2",
+        "name": "Deltaker, Ålesund"
+      },
+      {
+        "message": "Testimonial 3",
+        "name": "Deltaker, Ålesund"
+      }
+    ]
   }
 }

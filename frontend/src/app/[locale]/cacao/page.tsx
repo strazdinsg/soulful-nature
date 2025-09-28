@@ -23,6 +23,7 @@ export default function CacaoCirclePage(): JSX.Element {
         subtitle={t("cacao.hero.subtitle")}
       />
       <MainContentSection />
+      <TestimonialsSection />
       <ContactSection />
     </>
   );
@@ -48,7 +49,6 @@ function MainContentSection(): JSX.Element {
             </div>
             <ExpectationSection />
             <PracticalInfoSection />
-            <TestimonialsSection />
           </div>
           <div className="hidden md:block lg:col-span-2 md:col-span-3">
             <EventsSection today={today} />
@@ -69,47 +69,6 @@ function AboutSection(): JSX.Element {
         <b>{t("cacao.about.leadingText")}</b> {t("cacao.about.description1")}
       </p>
       <p className="leading-relaxed mb-4">{t("cacao.about.description2")}</p>
-      {/* <p className="leading-relaxed mb-4">
-        <b>{t("cacao.about.location")}</b>: {t("cacao.about.locationValue")}
-      </p>
-      <p className="leading-relaxed mb-4">
-        <b>{t("cacao.about.contribution")}</b>:{" "}
-        {t("cacao.about.contributionValue")}
-      </p>
-      <p className="mb-0">
-        <b>{t("cacao.about.signUp")}</b>:
-      </p>
-      <ul className="mt-1">
-        {[
-          {
-            icon: faCommentSms,
-            text: (
-              <>
-                <a
-                  href="sms:+4796746355"
-                  className="text-green-600 hover:underline"
-                >
-                  +47 967 46 355
-                </a>
-                {", " + t("cacao.about.signUpSms")}
-              </>
-            ),
-          },
-          {
-            icon: faLink,
-            text: t("cacao.about.signUpLink"),
-          },
-        ].map((tip) => (
-          <li key={tip.icon.iconName} className="flex items-start gap-2">
-            <FontAwesomeIcon icon={tip.icon} className="w-5 h-5 mt-0.5" />
-            <span>{tip.text}</span>
-          </li>
-        ))}
-      </ul>
-      <p className="leading-relaxed mb-4 mt-4">
-        <b>{t("cacao.about.cancellation")}</b>:{" "}
-        {t("cacao.about.cancellationText")}
-      </p> */}
     </>
   );
 }
@@ -320,5 +279,31 @@ function PracticalInfoSection(): JSX.Element {
 }
 
 function TestimonialsSection(): JSX.Element {
-  return <></>;
+  const { t } = useTranslation("common");
+
+  const testimonials = t("testimonials.items", {
+    returnObjects: true,
+  }) as Array<{
+    message: string;
+    name: string;
+  }>;
+
+  return (
+    <Section>
+      <div className="pb-8 px-8">
+        <div className="bg-[#e7ede9] p-6">
+          <SectionHeading title={t("testimonials.title")} />
+          <div className="space-y-6">
+            {testimonials.map((testimonial) => (
+              <div key={testimonial.name}>
+                <p className="leading-relaxed text-gray-700 italic">
+                  &quot;{testimonial.message}&quot; -- {testimonial.name}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </Section>
+  );
 }
