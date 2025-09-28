@@ -7,10 +7,10 @@ import PageCardsSection from "@/components/PageCardSection";
 import ContactSection from "@/components/ContactSection";
 
 export default function LandingPage() {
-  const { t, i18n } = useTranslation("common");
+  const { t } = useTranslation("common");
 
   return (
-    <div className="min-h-screen flex flex-col" key={i18n.language}>
+    <div className="min-h-screen flex flex-col">
       <HeroSection title={t("hero.title")} subtitle={t("hero.subtitle")} />
       <WelcomeSection />
       <PageCardsSection />

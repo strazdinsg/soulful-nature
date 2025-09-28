@@ -17,6 +17,7 @@ export default function Card({
   children: React.ReactNode;
   clickUrl?: string;
 }>): JSX.Element {
+  const isAbsoluteUrl = clickUrl?.startsWith("http");
   const pathname = usePathname();
   const currentLocale = getLocaleFromPathname(pathname);
 
@@ -24,7 +25,7 @@ export default function Card({
     const localeAwareUrl = `/${currentLocale}${clickUrl}`;
     return (
       <Link
-        href={localeAwareUrl}
+        href={isAbsoluteUrl ? clickUrl : localeAwareUrl}
         className="card w-full max-w-2xl lg:max-w-4xl"
       >
         {children}

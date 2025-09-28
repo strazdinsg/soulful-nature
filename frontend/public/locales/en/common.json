@@ -20,5 +20,60 @@
       "description": "Cacao mindfulness practice combines warm cacao with reflection and presence. It offers a simple and effective way to slow down, reduce stress, and create space for clarity and balance in everyday life.",
       "moreLinkTitle": "Learn more"
     }
+  },
+  "cacao": {
+    "hero": {
+      "title": "CACAO MINDFULNESS PRACTICE",
+      "subtitle": "Enjoy your true self"
+    },
+    "about": {
+      "title": "About Cacao Mindfulness Practice",
+      "description1": "We invite you to join our Cacao Circle in Ålesund to experience a heart-centered practice, blending cacao, meditation and mindfulness elements to encourage relaxation and deeper self-connection.",
+      "description2": "Join a small group (around 10 participants), sharpen your senses, and give yourself this special time.",
+      "description3": "The event is organised once a month, it is held in English, but you're welcome to respond in Norwegian, Latvian and Russian as well.",
+      "description4": "Available for anyone, with or without meditation experience.",
+      "location": "Location",
+      "locationValue": "ARtstudio, Keiser Wilhelms gate 53, Ålesund.",
+      "contribution": "Contribution",
+      "contributionValue": "220 NOK.",
+      "signUp": "Sign up before coming",
+      "signUpSms": "or",
+      "signUpLink": "Upcoming event links below",
+      "cancellation": "If you can't make it",
+      "cancellationText": "please send an SMS at least 24 hours before the event. If not, I kindly ask you to cover the event fee, as the cacao and materials will already be prepared."
+    },
+    "tips": {
+      "title": "Preparation Tips",
+      "caffeine": "Avoid drinking caffeine the day of the event",
+      "water": "Drink plenty of water throughout the day",
+      "intention": "Formulate an intention for yourself"
+    },
+    "events": {
+      "title": "Upcoming Events",
+      "signUp": "Sign up"
+    },
+    "months": {
+      "january": "January",
+      "february": "February",
+      "march": "March",
+      "april": "April",
+      "may": "May",
+      "june": "June",
+      "july": "July",
+      "august": "August",
+      "september": "September",
+      "october": "October",
+      "november": "November",
+      "december": "December"
+    },
+    "weekdays": {
+      "sunday": "Sunday",
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday"
+    }
   }
 }

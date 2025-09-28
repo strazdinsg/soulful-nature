@@ -16,123 +16,27 @@ import { cacaoCircleEvents, Event } from "@/data/events";
 import Card from "@/components/Card";
 import SmallVerticalSpacer from "@/components/SmallVerticalSpacer";
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 export default function CacaoCirclePage(): JSX.Element {
+  const { t } = useTranslation("common");
+
   return (
     <>
       <HeroSection
         desktopImage="hero-cacao-desktop.jpg"
         mobileImage="hero-cacao-mobile.jpg"
-        title="CACAO CIRCLE"
-        subtitle="Enjoy your true self"
+        title={t("cacao.hero.title")}
+        subtitle={t("cacao.hero.subtitle")}
       />
-      <AboutSection />
-      <EventSection />
+      <AboutAndEventsSection />
       <TipsSection />
       <ContactSection />
     </>
   );
 }
 
-function AboutSection(): JSX.Element {
-  return (
-    <Section>
-      <div className="mb-16 pt-16 pb-8 px-8 text-[#252419]">
-        <h2 className="text-3xl font-bold mb-4">About Cacao Circle</h2>
-        <p className="leading-relaxed mb-4">
-          We invite you to join our Cacao Circle in Ålesund to experience a
-          heart-centered practice, blending cacao, meditation and mindfulness
-          elements to encourage relaxation and deeper self-connection.
-        </p>
-        <p className="leading-relaxed mb-4">
-          Join a small group (around 10 participants), sharpen your senses, and
-          give yourself this special time.
-        </p>
-        <p className="leading-relaxed mb-4">
-          The event is organised once a month, it is held in English, but you`re
-          welcome to respond in Norwegian, Latvian and Russian as well.
-        </p>
-        <p className="leading-relaxed mb-4">
-          Available for anyone, with or without meditation experience.
-        </p>
-        <p className="leading-relaxed mb-4">
-          <b>Location</b>: ARtstudio, Keiser Wilhelms gate 53, Ålesund.
-        </p>
-        <p className="leading-relaxed mb-4">
-          <b>Contribution</b>: 220 NOK.
-        </p>
-        <p className="mb-0">
-          <b>Sign up before coming</b>:
-        </p>
-        <ul className="mt-1">
-          {[
-            {
-              icon: faCommentSms,
-              text: (
-                <>
-                  <a
-                    href="sms:+4796746355"
-                    className="text-blue-600 hover:underline"
-                  >
-                    +47 967 46 355
-                  </a>
-                  {", or"}
-                </>
-              ),
-            },
-            {
-              icon: faLink,
-              text: "Upcoming event links below",
-            },
-          ].map((tip, index) => (
-            <li key={index} className="flex items-start gap-2">
-              <FontAwesomeIcon icon={tip.icon} className="w-5 h-5 mt-0.5" />
-              <span>{tip.text}</span>
-            </li>
-          ))}
-        </ul>
-        <p className="leading-relaxed mb-4 mt-4">
-          <b>If you can&apos;t make it</b>: please send an SMS at least 24 hours
-          before the event. If not, I kindly ask you to cover the event fee, as
-          the cacao and materials will already be prepared.
-        </p>
-      </div>
-    </Section>
-  );
-}
-
-function TipsSection(): JSX.Element {
-  return (
-    <Section>
-      <div className="py-16 px-8">
-        <h2 className="text-3xl font-bold mb-4">Preparation Tips</h2>
-        <ul className="space-y-4">
-          {[
-            {
-              icon: faMugHot,
-              text: "Avoid drinking caffeine the day of the event",
-            },
-            {
-              icon: faGlassWater,
-              text: "Drink plenty of water throughout the day",
-            },
-            {
-              icon: faLightbulb,
-              text: "Formulate an intention for yourself",
-            },
-          ].map((tip, index) => (
-            <li key={index} className="flex items-start gap-2">
-              <FontAwesomeIcon icon={tip.icon} className="w-5 h-5 mt-0.5" />
-              <span>{tip.text}</span>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </Section>
-  );
-}
-
-function EventSection(): JSX.Element {
+function AboutAndEventsSection(): JSX.Element {
   const [today, setToday] = useState<string>("");
 
   useEffect(() => {
@@ -141,17 +45,125 @@ function EventSection(): JSX.Element {
     setToday(t);
   }, []);
 
+  return (
+    <Section>
+      <div className="pt-16 pb-8 px-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {/* About section - takes 5 columns on large, 2 columns on medium */}
+          <div className="md:col-span-2 text-[#252419]">
+            <AboutContent />
+          </div>
+
+          {/* Events section - takes 1 column on large, 1 column on medium */}
+          <div className="lg:col-span-1 md:col-span-1">
+            <EventsContent today={today} />
+          </div>
+        </div>
+      </div>
+    </Section>
+  );
+}
+
+function AboutContent(): JSX.Element {
+  const { t } = useTranslation("common");
+
+  return (
+    <>
+      <h2 className="text-3xl font-bold mb-4">{t("cacao.about.title")}</h2>
+      <p className="leading-relaxed mb-4">{t("cacao.about.description1")}</p>
+      <p className="leading-relaxed mb-4">{t("cacao.about.description2")}</p>
+      <p className="leading-relaxed mb-4">{t("cacao.about.description3")}</p>
+      <p className="leading-relaxed mb-4">{t("cacao.about.description4")}</p>
+      <p className="leading-relaxed mb-4">
+        <b>{t("cacao.about.location")}</b>: {t("cacao.about.locationValue")}
+      </p>
+      <p className="leading-relaxed mb-4">
+        <b>{t("cacao.about.contribution")}</b>:{" "}
+        {t("cacao.about.contributionValue")}
+      </p>
+      <p className="mb-0">
+        <b>{t("cacao.about.signUp")}</b>:
+      </p>
+      <ul className="mt-1">
+        {[
+          {
+            icon: faCommentSms,
+            text: (
+              <>
+                <a
+                  href="sms:+4796746355"
+                  className="text-blue-600 hover:underline"
+                >
+                  +47 967 46 355
+                </a>
+                {", " + t("cacao.about.signUpSms")}
+              </>
+            ),
+          },
+          {
+            icon: faLink,
+            text: t("cacao.about.signUpLink"),
+          },
+        ].map((tip, index) => (
+          <li key={tip.icon.iconName} className="flex items-start gap-2">
+            <FontAwesomeIcon icon={tip.icon} className="w-5 h-5 mt-0.5" />
+            <span>{tip.text}</span>
+          </li>
+        ))}
+      </ul>
+      <p className="leading-relaxed mb-4 mt-4">
+        <b>{t("cacao.about.cancellation")}</b>:{" "}
+        {t("cacao.about.cancellationText")}
+      </p>
+    </>
+  );
+}
+
+function EventsContent({ today }: Readonly<{ today: string }>): JSX.Element {
+  const { t } = useTranslation("common");
+
   if (!today) return <></>;
 
   return (
-    <Section bgColor="bg-[#e7ede9]">
-      <div className="p-6">
-        <CardHeading title="Upcoming Events in 2025" />
-        <div className="flex gap-6 flex-wrap">
-          {getUpcoming(cacaoCircleEvents, today).map((event) => (
-            <EventCard key={event.date} event={event} />
+    <div className="bg-[#e7ede9] p-6 rounded-lg">
+      <EventHeading title={t("cacao.events.title")} />
+      <div className="flex flex-col gap-4 mt-4">
+        {getUpcoming(cacaoCircleEvents, today).map((event) => (
+          <EventCard key={event.date} event={event} />
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function TipsSection(): JSX.Element {
+  const { t } = useTranslation("common");
+
+  return (
+    <Section>
+      <div className="py-16 px-8">
+        <h2 className="text-3xl font-bold mb-4">{t("cacao.tips.title")}</h2>
+        <ul className="space-y-4">
+          {[
+            {
+              icon: faMugHot,
+              text: t("cacao.tips.caffeine"),
+            },
+            {
+              icon: faGlassWater,
+              text: t("cacao.tips.water"),
+            },
+            {
+              icon: faLightbulb,
+              text: t("cacao.tips.intention"),
+            },
+          ].map((tip) => (
+            <li key={tip.icon.iconName} className="flex items-start gap-2">
+              <FontAwesomeIcon icon={tip.icon} className="w-5 h-5 mt-0.5" />
+              <span>{tip.text}</span>
+            </li>
           ))}
-        </div>
+        </ul>
       </div>
     </Section>
   );
@@ -161,42 +173,55 @@ function getUpcoming(events: Event[], today: string) {
   return events.filter((event) => event.date >= today);
 }
 
-function formatEventDate(dateStr: string) {
+function formatEventDate(
+  dateStr: string,
+  t: (key: string) => string,
+  locale: string
+) {
   const date = new Date(dateStr);
   const monthNames = [
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December",
+    t("cacao.months.january"),
+    t("cacao.months.february"),
+    t("cacao.months.march"),
+    t("cacao.months.april"),
+    t("cacao.months.may"),
+    t("cacao.months.june"),
+    t("cacao.months.july"),
+    t("cacao.months.august"),
+    t("cacao.months.september"),
+    t("cacao.months.october"),
+    t("cacao.months.november"),
+    t("cacao.months.december"),
   ];
   const day = date.getDate();
   const monthIndex = date.getMonth();
-  const suffix =
-    day % 10 === 1 && day !== 11
-      ? "st"
-      : day % 10 === 2 && day !== 12
-      ? "nd"
-      : day % 10 === 3 && day !== 13
-      ? "rd"
-      : "th";
-  return `${monthNames[monthIndex]} ${day}${suffix}`;
+
+  if (locale === "no") {
+    // Norwegian format: "14. Oktober"
+    return `${day}. ${monthNames[monthIndex]}`;
+  } else {
+    // English format: "14th October"
+    let suffix = "th";
+    if (day % 10 === 1 && day !== 11) {
+      suffix = "st";
+    } else if (day % 10 === 2 && day !== 12) {
+      suffix = "nd";
+    } else if (day % 10 === 3 && day !== 13) {
+      suffix = "rd";
+    }
+    return `${monthNames[monthIndex]} ${day}${suffix}`;
+  }
 }
 
-function EventCard({ event }: { event: Event }): JSX.Element {
+function EventCard({ event }: Readonly<{ event: Event }>): JSX.Element {
+  const { t, i18n } = useTranslation("common");
+
   return (
     <Card clickUrl={event.signUpUrl}>
-      <div className="p-6 min-w-60">
-        <CardHeading title={formatEventDate(event.date)} />
-        <p className="text-gray-600">
-          {getWeekday(event.date) + " " + event.time}
+      <div className="p-4">
+        <EventHeading title={formatEventDate(event.date, t, i18n.language)} />
+        <p className="text-gray-600 text-sm">
+          {getWeekday(event.date, t) + " " + event.time}
         </p>
         <SmallVerticalSpacer />
         <SignUpButton />
@@ -205,21 +230,30 @@ function EventCard({ event }: { event: Event }): JSX.Element {
   );
 }
 
-function SignUpButton(): JSX.Element {
-  return <span className="text-blue-600 hover:underline">Sign up</span>;
+function EventHeading({ title }: Readonly<{ title: string }>): JSX.Element {
+  return <h3 className="text-xl font-semibold mb-4 lg:text-2xl">{title}</h3>;
 }
 
-function getWeekday(dateStr: string) {
+function SignUpButton(): JSX.Element {
+  const { t } = useTranslation("common");
+  return (
+    <span className="text-blue-600 hover:underline">
+      {t("cacao.events.signUp")}
+    </span>
+  );
+}
+
+function getWeekday(dateStr: string, t: (key: string) => string) {
   const date = new Date(dateStr);
   const weekday = date.getDay();
   const days = [
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday",
+    t("cacao.weekdays.sunday"),
+    t("cacao.weekdays.monday"),
+    t("cacao.weekdays.tuesday"),
+    t("cacao.weekdays.wednesday"),
+    t("cacao.weekdays.thursday"),
+    t("cacao.weekdays.friday"),
+    t("cacao.weekdays.saturday"),
   ];
   return days[weekday];
 }

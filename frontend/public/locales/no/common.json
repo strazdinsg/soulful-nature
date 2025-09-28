@@ -20,5 +20,60 @@
       "description": "Kakao-mindfulness praksis kombinerer varm kakao med refleksjon og nærvær. Det tilbyr en enkel og effektiv måte å sakke ned på, redusere stress og skape rom for klarhet og balanse i hverdagen.",
       "moreLinkTitle": "Lær mer"
     }
+  },
+  "cacao": {
+    "hero": {
+      "title": "KAKAO MINDFULNESS PRAKSIS",
+      "subtitle": "Nyt ditt sanne jeg"
+    },
+    "about": {
+      "title": "Om Kakao Mindfulness Praksis",
+      "description1": "Vi inviterer deg til å bli med i vår Kakao Sirkel i Ålesund for å oppleve en hjerte-sentrert praksis som blander kakao, meditasjon og mindfulness elementer for å oppmuntre til avslapning og dypere selvforbindelse.",
+      "description2": "Bli med i en liten gruppe (rundt 10 deltakere), skjerp sansene dine, og gi deg selv denne spesielle tiden.",
+      "description3": "Arrangementet organiseres en gang i måneden, det holdes på engelsk, men du er velkommen til å svare på norsk, latvisk og russisk også.",
+      "description4": "Tilgjengelig for alle, med eller uten meditasjonserfaring.",
+      "location": "Sted",
+      "locationValue": "ARtstudio, Keiser Wilhelms gate 53, Ålesund.",
+      "contribution": "Bidrag",
+      "contributionValue": "220 NOK.",
+      "signUp": "Meld deg på før du kommer",
+      "signUpSms": "eller",
+      "signUpLink": "Kommende arrangement lenker nedenfor",
+      "cancellation": "Hvis du ikke kan komme",
+      "cancellationText": "send en SMS minst 24 timer før arrangementet. Hvis ikke, ber jeg deg vennligst dekke arrangementgebyret, da kakaoen og materialene allerede vil være forberedt."
+    },
+    "tips": {
+      "title": "Forberedelsestips",
+      "caffeine": "Unngå å drikke koffein på arrangementdagen",
+      "water": "Drikk mye vann gjennom dagen",
+      "intention": "Formuler en intensjon for deg selv"
+    },
+    "events": {
+      "title": "Kommende arrangementer",
+      "signUp": "Meld deg på"
+    },
+    "months": {
+      "january": "Januar",
+      "february": "Februar",
+      "march": "Mars",
+      "april": "April",
+      "may": "Mai",
+      "june": "Juni",
+      "july": "Juli",
+      "august": "August",
+      "september": "September",
+      "october": "Oktober",
+      "november": "November",
+      "december": "Desember"
+    },
+    "weekdays": {
+      "sunday": "Søndag",
+      "monday": "Mandag",
+      "tuesday": "Tirsdag",
+      "wednesday": "Onsdag",
+      "thursday": "Torsdag",
+      "friday": "Fredag",
+      "saturday": "Lørdag"
+    }
   }
 }
