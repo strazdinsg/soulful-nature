@@ -6,15 +6,18 @@ import HeroSection from "@/components/HeroSection";
 import Section from "@/components/Section";
 import { moontime } from "@/app/fonts";
 import LargeVerticalSpacer from "@/components/LargeVerticalSpacer";
+import { useTranslation } from "react-i18next";
 
 export default function AboutPage(): JSX.Element {
+  const { t } = useTranslation("common");
+
   return (
     <>
       <HeroSection
         desktopImage="hero-about-desktop.jpg"
         mobileImage="hero-about-mobile.jpg"
-        title="CACAO AND ME"
-        subtitle="My journey with cacao"
+        title={t("about.hero.title")}
+        subtitle={t("about.hero.subtitle")}
       />
       <AboutSection />
       <ContactSection />
@@ -38,19 +41,27 @@ function AboutSection(): JSX.Element {
   );
 }
 
-function Paragraph({ children }: { children: React.ReactNode }): JSX.Element {
+function Paragraph({
+  children,
+}: Readonly<{ children: React.ReactNode }>): JSX.Element {
   return <p className="mb-4">{children}</p>;
 }
 
-function Heading({ children }: { children: React.ReactNode }): JSX.Element {
+function Heading({
+  children,
+}: Readonly<{ children: React.ReactNode }>): JSX.Element {
   return <h2 className="text-2xl font-bold mb-2 mt-8">{children}</h2>;
 }
 
-function TextSection({ children }: { children: React.ReactNode }): JSX.Element {
+function TextSection({
+  children,
+}: Readonly<{ children: React.ReactNode }>): JSX.Element {
   return <section className="overflow-hidden">{children}</section>;
 }
 
-function ListItem({ children }: { children: React.ReactNode }): JSX.Element {
+function ListItem({
+  children,
+}: Readonly<{ children: React.ReactNode }>): JSX.Element {
   return <li className="list-disc ml-6">{children}</li>;
 }
 
@@ -60,13 +71,13 @@ function ParagraphImage({
   width,
   height,
   imagePosition = "left",
-}: {
+}: Readonly<{
   imgSrc: string;
   altText: string;
   width: number;
   height: number;
   imagePosition?: "left" | "right";
-}): JSX.Element {
+}>): JSX.Element {
   const floatClass = imagePosition === "left" ? "float-left" : "float-right";
   const paddingClass = imagePosition === "left" ? "md:pr-4" : "md:pl-4";
 
@@ -82,23 +93,29 @@ function ParagraphImage({
 }
 
 function Signature(): JSX.Element {
+  const { t } = useTranslation("common");
+
   return (
     <>
       <p className={`mb-4 ${moontime.className} text-4xl text-[#0e4726]`}>
-        I invite you to join me in this practice — to share a cup of warm cacao,
-        take a pause from everyday life, and reconnect with yourself.
+        {t("about.signature.invitation")}
       </p>
       <p className={`pt-8 mb-4 ${moontime.className} text-6xl text-[#0e4726]`}>
-        Inguna
+        {t("about.signature.name")}
       </p>
     </>
   );
 }
 
 function HowItBeganSection(): JSX.Element {
+  const { t } = useTranslation("common");
+  const paragraphs = t("about.sections.howItBegan.paragraphs", {
+    returnObjects: true,
+  }) as string[];
+
   return (
     <TextSection>
-      <Heading>How it began</Heading>
+      <Heading>{t("about.sections.howItBegan.title")}</Heading>
       <ParagraphImage
         imgSrc="burnout.jpg"
         altText="Burned out candle"
@@ -106,32 +123,22 @@ function HowItBeganSection(): JSX.Element {
         height={731}
         imagePosition="left"
       />
-      <Paragraph>
-        In the autumn of 2021, I faced something I had never experienced before
-        — emotional breakdowns at work. Some days, even the smallest event felt
-        overwhelming. At that time, I held a leadership role in a high-pressure
-        industry where the expectations were relentless. On the outside, I
-        appeared strong. On the inside, I was burning out.
-      </Paragraph>
-      <Paragraph>
-        A visit to my doctor confirmed what I already knew: burnout. I was given
-        two choices — take a long sick leave, or make a significant change. I
-        chose change.
-      </Paragraph>
-      <Paragraph>
-        I have always loved working, solving challenges, and leading with a
-        strategic mindset. But I realized that to continue in leadership, I
-        needed a new approach — one that would not only restore my energy but
-        also make my performance sustainable.
-      </Paragraph>
+      {paragraphs.map((paragraph, index) => (
+        <Paragraph key={`howItBegan-${index}`}>{paragraph}</Paragraph>
+      ))}
     </TextSection>
   );
 }
 
 function TheSearchForBalanceSection(): JSX.Element {
+  const { t } = useTranslation("common");
+  const paragraphs = t("about.sections.searchForBalance.paragraphs", {
+    returnObjects: true,
+  }) as string[];
+
   return (
     <TextSection>
-      <Heading>The search for balance</Heading>
+      <Heading>{t("about.sections.searchForBalance.title")}</Heading>
       <ParagraphImage
         imgSrc="balance.jpg"
         altText="Calm sea"
@@ -139,31 +146,22 @@ function TheSearchForBalanceSection(): JSX.Element {
         height={600}
         imagePosition="right"
       />
-      <Paragraph>
-        Changing workplace reduced the immediate stress, but my energy was still
-        low. I wanted to understand what was happening inside me and how to
-        rebuild resilience in a lasting way.
-      </Paragraph>
-      <Paragraph>
-        This search led me to Tunsbergs Medical School, where I completed a
-        two-year course in Basic Medicine (Grunnmedisin). Alongside medical
-        knowledge, I explored mindfulness practices and other evidence-based
-        methods that support recovery, focus, and mental clarity.
-      </Paragraph>
-      <Paragraph>
-        I also learned that some of the world&apos;s top leaders take time away
-        on retreats to restore their energy, sharpen focus, and improve
-        creativity. That inspired me to experiment with new approaches that
-        could help me manage pressure and perform more sustainably.
-      </Paragraph>
+      {paragraphs.map((paragraph, index) => (
+        <Paragraph key={`searchForBalance-${index}`}>{paragraph}</Paragraph>
+      ))}
     </TextSection>
   );
 }
 
 function TheTurningPointSection(): JSX.Element {
+  const { t } = useTranslation("common");
+  const paragraphs = t("about.sections.turningPoint.paragraphs", {
+    returnObjects: true,
+  }) as string[];
+
   return (
     <TextSection>
-      <Heading>The turning point</Heading>
+      <Heading>{t("about.sections.turningPoint.title")}</Heading>
       <ParagraphImage
         imgSrc="turning-point.jpg"
         altText="Holding a feather in the hand"
@@ -171,26 +169,25 @@ function TheTurningPointSection(): JSX.Element {
         height={600}
         imagePosition="left"
       />
-      <Paragraph>
-        In June 2022, I attended my first retreat. One of the first gatherings
-        was a cacao ceremony — my very first experience with ceremonial cacao.
-      </Paragraph>
-      <Paragraph>
-        The experience was unlike anything I had known before. After drinking
-        warm cacao and listening to dedicated music, I felt carried into a
-        special flow. For some, it was sounds that stirred emotions and
-        memories; for me, it was images and impressions that surfaced, offering
-        new perspective. That moment became the true beginning of my cacao
-        journey.
-      </Paragraph>
+      {paragraphs.map((paragraph, index) => (
+        <Paragraph key={`turningPoint-${index}`}>{paragraph}</Paragraph>
+      ))}
     </TextSection>
   );
 }
 
 function WhatCacaoGaveMeSection(): JSX.Element {
+  const { t } = useTranslation("common");
+  const paragraphs = t("about.sections.whatCacaoGaveMe.paragraphs", {
+    returnObjects: true,
+  }) as string[];
+  const listItems = t("about.sections.whatCacaoGaveMe.listItems", {
+    returnObjects: true,
+  }) as string[];
+
   return (
     <TextSection>
-      <Heading>What cacao gave me</Heading>
+      <Heading>{t("about.sections.whatCacaoGaveMe.title")}</Heading>
       <ParagraphImage
         imgSrc="from-cacao.jpg"
         altText="Pouring cacao in a cup"
@@ -198,33 +195,26 @@ function WhatCacaoGaveMeSection(): JSX.Element {
         height={600}
         imagePosition="right"
       />
-      <Paragraph>
-        Cacao did not &quot;cure&quot; burnout overnight. But it gave me tools
-        that created lasting change:
-      </Paragraph>
+      <Paragraph>{paragraphs[0]}</Paragraph>
       <ul className="mb-4">
-        <ListItem>
-          To pause and regulate my nervous system under pressure.
-        </ListItem>
-        <ListItem>To ground myself when my mind was overloaded.</ListItem>
-        <ListItem>To welcome emotions instead of pushing them aside.</ListItem>
-        <ListItem>
-          To recover clarity, energy, and focus in a sustainable way.
-        </ListItem>
+        {listItems.map((item, index) => (
+          <ListItem key={`whatCacaoGaveMe-${index}`}>{item}</ListItem>
+        ))}
       </ul>
-      <Paragraph>
-        Over time, cacao became more than a drink — it became a practice of
-        balance. I discovered that mindfulness doesn&apos;t weaken strong
-        thinking or leadership — it makes it sustainable.
-      </Paragraph>
+      <Paragraph>{paragraphs[1]}</Paragraph>
     </TextSection>
   );
 }
 
 function CreatingPracticeSection(): JSX.Element {
+  const { t } = useTranslation("common");
+  const paragraphs = t("about.sections.creatingPractice.paragraphs", {
+    returnObjects: true,
+  }) as string[];
+
   return (
     <TextSection>
-      <Heading>Creating the Cacao Mindfulness Practice</Heading>
+      <Heading>{t("about.sections.creatingPractice.title")}</Heading>
       <ParagraphImage
         imgSrc="practice.jpg"
         altText="Lighting candles"
@@ -232,22 +222,9 @@ function CreatingPracticeSection(): JSX.Element {
         height={600}
         imagePosition="left"
       />
-      <Paragraph>
-        Eventually, I felt it was time to share this practice with others. That
-        is how the Cacao Mindfulness Practice was born — evenings of
-        candlelight, ceremonial cacao, mindful breathing, live music,
-        reflection, and connection.
-      </Paragraph>
-      <Paragraph>
-        These practices are not about escape. They are about resilience. They
-        create a pause in the middle of busy, demanding lives — a pause that
-        restores energy, focus, and calm.
-      </Paragraph>
-      <Paragraph>
-        For me, cacao has become more than a personal ritual. It is a leadership
-        wellness tool — a simple yet powerful way to prevent burnout, support
-        clarity, and strengthen resilience in business and beyond.
-      </Paragraph>
+      {paragraphs.map((paragraph, index) => (
+        <Paragraph key={`creatingPractice-${index}`}>{paragraph}</Paragraph>
+      ))}
     </TextSection>
   );
 }
@@ -274,11 +251,7 @@ function SignatureSection(): JSX.Element {
 }
 
 function LeadingText(): JSX.Element {
-  return (
-    <Paragraph>
-      From time to time, people ask me:{" "}
-      <i>&quot;How did you come to cacao mindfulness practice?&quot;</i>&nbsp;
-      Here is my story.
-    </Paragraph>
-  );
+  const { t } = useTranslation("common");
+
+  return <Paragraph>{t("about.leadingText")}</Paragraph>;
 }

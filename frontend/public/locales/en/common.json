@@ -101,6 +101,63 @@
     "signUp": "Sign up",
     "contribution": "Contribution"
   },
+  "about": {
+    "hero": {
+      "title": "CACAO AND ME",
+      "subtitle": "My journey with cacao"
+    },
+    "leadingText": "From time to time, people ask me: \"How did you come to cacao mindfulness practice?\" Here is my story.",
+    "sections": {
+      "howItBegan": {
+        "title": "How it began",
+        "paragraphs": [
+          "In the autumn of 2020, I faced something I had never experienced before — emotional breakdowns at work. Some days, even the smallest event felt overwhelming. At that time, I held a leadership role in a high-pressure industry where the expectations were relentless. On the outside, I appeared strong. On the inside, I was burning out.",
+          "A visit to my doctor confirmed what I already knew: burnout. I was given two choices — take a long sick leave, or make a significant change. I chose change.",
+          "I have always loved working, solving challenges, and leading with a strategic mindset. But I realized that to continue in leadership, I needed a new approach — one that would not only restore my energy but also make my performance sustainable."
+        ]
+      },
+      "searchForBalance": {
+        "title": "The search for balance",
+        "paragraphs": [
+          "Changing workplace reduced the immediate stress, but my energy was still low. I wanted to understand what was happening inside me and how to rebuild resilience in a lasting way.",
+          "This search led me to Tunsbergs Medical School, where I completed a two-year course in Basic Medicine (Grunnmedisin). Alongside medical knowledge, I explored mindfulness practices and other evidence-based methods that support recovery, focus, and mental clarity.",
+          "I also learned that some of the world's top leaders take time away on retreats to restore their energy, sharpen focus, and improve creativity. That inspired me to experiment with new approaches that could help me manage pressure and perform more sustainably."
+        ]
+      },
+      "turningPoint": {
+        "title": "The turning point",
+        "paragraphs": [
+          "In June 2022, I attended my first retreat. One of the first gatherings was a cacao ceremony — my very first experience with ceremonial cacao.",
+          "The experience was unlike anything I had known before. After drinking warm cacao and listening to dedicated music, I felt carried into a special flow. For some, it was sounds that stirred emotions and memories; for me, it was images and impressions that surfaced, offering new perspective. That moment became the true beginning of my cacao journey."
+        ]
+      },
+      "whatCacaoGaveMe": {
+        "title": "What cacao gave me",
+        "paragraphs": [
+          "Cacao did not \"cure\" burnout overnight. But it gave me tools that created lasting change:",
+          "Over time, cacao became more than a drink — it became a practice of balance. I discovered that mindfulness doesn't weaken strong thinking or leadership — it makes it sustainable."
+        ],
+        "listItems": [
+          "To pause and regulate my nervous system under pressure.",
+          "To ground myself when my mind was overloaded.",
+          "To welcome emotions instead of pushing them aside.",
+          "To recover clarity, energy, and focus in a sustainable way."
+        ]
+      },
+      "creatingPractice": {
+        "title": "Creating the Cacao Mindfulness Practice",
+        "paragraphs": [
+          "Eventually, I felt it was time to share this practice with others. That is how the Cacao Mindfulness Practice was born — evenings of candlelight, ceremonial cacao, mindful breathing, live music, reflection, and connection.",
+          "These practices are not about escape. They are about resilience. They create a pause in the middle of busy, demanding lives — a pause that restores energy, focus, and calm.",
+          "For me, cacao has become more than a personal ritual. It is a leadership wellness tool — a simple yet powerful way to prevent burnout, support clarity, and strengthen resilience in business and beyond."
+        ]
+      }
+    },
+    "signature": {
+      "invitation": "I invite you to join me in this practice — to share a cup of warm cacao, take a pause from everyday life, and reconnect with yourself.",
+      "name": "Inguna"
+    }
+  },
   "testimonials": {
     "title": "Testimonials",
     "items": [

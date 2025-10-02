@@ -30,7 +30,7 @@
       "title": "Om Kakao Mindfulness Praksis",
       "leadingText": "Kakao Mindfulness Praksis i Ålesund",
       "description1": "tilbyr en strukturert måte å pause, lade opp og skarpne fokus. Med støtte fra ceremoniell kakao, praktiske mindfulness-verktøy og en rolig oppsett, tar du deg ut av daglige krav og gir rom for klarhet og nærvær.",
-      "description2": "En gang i måneden, samler vi oss i en liten gruppe (rundt 10 deltakere) for et arrangement designet for å støtte alle – uansett om du leder andre, studerer, er mellom jobber, eller bare søker balanse i hverdagen. Praksisen skaper forhold for refleksjon, oppfrisket perspektiv og klarhet."
+      "description2": "En gang i måneden, samler vi oss i en liten gruppe (rundt 10 deltakere) for en kveld designet for å støtte alle – uansett om du leder andre, studerer, er mellom jobber, eller bare søker balanse i hverdagen. Praksisen skaper forhold for refleksjon, oppfrisket perspektiv og klarhet."
     },
     "expectations": {
       "title": "Hva å forvente",
@@ -38,15 +38,15 @@
       "items": [
         {
           "item": "Kakao",
-          "description": "ceremoniell kakao forberedt med eget hvetemel eller vann, ett smør til med honning. Denne naturlige drikken støtter fokus, balanse og rolig energi."
+          "description": "seremoniell kakao tilberedt med hjemmelaget havremelk eller vann, et hint av salt og honning. Denne naturlige drikken støtter fokus, balanse og rolig energi."
         },
         {
           "item": "Mindfulness",
-          "description": "korte, praktiske øyeblikksanseringsøvelser, som fører deg gjennom alle fem sanser for å bringe nærvær og klarhet."
+          "description": "korte, praktiske øyeblikksanseringsøvelser, som fører deg gjennom alle fem sanser for å skape tilstedeværelse og klarhet."
         },
         {
           "item": "Musikkreise",
-          "description": "live lyd og instrumenter for å fremme ro og et nytt perspektiv."
+          "description": "levende lyd og instrumenter for å fremme ro og et nytt perspektiv."
         },
         {
           "item": "Refleksjon og deling",
@@ -100,6 +100,63 @@
     "location": "Sted",
     "signUp": "Meld på",
     "contribution": "Bidrag"
+  },
+  "about": {
+    "hero": {
+      "title": "KAKAO OG MEG",
+      "subtitle": "Min reise med kakao"
+    },
+    "leadingText": "Av og til spør folk meg: \"Hvordan kom du til kakao-mindfulness praksis?\" Her er min historie.",
+    "sections": {
+      "howItBegan": {
+        "title": "Slik begynte det",
+        "paragraphs": [
+          "Høsten 2020 møtte jeg noe jeg aldri hadde opplevd før — emosjonelle sammenbrudd på jobb. Noen dager føltes selv de minste hendelsene overveldende. På den tiden hadde jeg en lederrolle i en høy-press bransje hvor forventningene var nådeløse. På utsiden så jeg sterk ut. På innsiden brente jeg ut.",
+          "Et besøk til legen min bekreftet det jeg allerede visste: utbrenthet. Jeg fikk to valg — ta lang sykemelding, eller gjøre en betydelig endring. Jeg valgte endring.",
+          "Jeg har alltid elsket å jobbe, løse utfordringer og lede med en strategisk tankegang. Men jeg innså at for å fortsette i ledelse, trengte jeg en ny tilnærming — en som ikke bare ville gjenopprette energien min, men også gjøre ytelsen min bærekraftig."
+        ]
+      },
+      "searchForBalance": {
+        "title": "Søket etter balanse",
+        "paragraphs": [
+          "Å bytte arbeidsplass reduserte den umiddelbare stressen, men energien min var fortsatt lav. Jeg ville forstå hva som skjedde inni meg og hvordan jeg kunne bygge opp motstandskraft på en varig måte.",
+          "Dette søket førte meg til Tunsbergs Medisinske Skole, hvor jeg fullførte et toårig kurs i Grunnmedisin. Sammen med medisinsk kunnskap utforsket jeg mindfulness-praksis og andre evidensbaserte metoder som støtter gjenoppretting, fokus og mental klarhet.",
+          "Jeg lærte også at noen av verdens toppledere tar seg tid bort på retreater for å gjenopprette energien, skjerpe fokus og forbedre kreativitet. Det inspirerte meg til å eksperimentere med nye tilnærminger som kunne hjelpe meg å håndtere press og prestere mer bærekraftig."
+        ]
+      },
+      "turningPoint": {
+        "title": "Vendepunktet",
+        "paragraphs": [
+          "I juni 2022 deltok jeg på min første retret. En av de første samlingene var en kakao-seremoni — min aller første opplevelse med seremoniell kakao.",
+          "Opplevelsen var ulik alt jeg hadde kjent før. Etter å ha drukket varm kakao og lyttet til dedikert musikk, følte jeg meg båret inn i en spesiell flyt. For noen var det lyder som rørte følelser og minner; for meg var det bilder og inntrykk som dukket opp og tilbød nytt perspektiv. Det øyeblikket ble den sanne begynnelsen på min kakao-reise."
+        ]
+      },
+      "whatCacaoGaveMe": {
+        "title": "Hva kakao ga meg",
+        "paragraphs": [
+          "Kakao \"kurerte\" ikke utbrenthet over natten. Men den ga meg verktøy som skapte varig endring:",
+          "Over tid ble kakao mer enn en drikk — den ble en praksis av balanse. Jeg oppdaget at mindfulness ikke svekker sterk tenkning eller ledelse — den gjør den bærekraftig."
+        ],
+        "listItems": [
+          "Å pause og regulere nervesystemet mitt under press.",
+          "Å grunne meg selv når sinnet mitt var overbelastet.",
+          "Å velkomme følelser i stedet for å skyve dem til side.",
+          "Å gjenopprette klarhet, energi og fokus på en bærekraftig måte."
+        ]
+      },
+      "creatingPractice": {
+        "title": "Skape Kakao Mindfulness Praksis",
+        "paragraphs": [
+          "Til slutt følte jeg at det var på tide å dele denne praksisen med andre. Slik ble Kakao Mindfulness Praksis født — kvelder med levende lys, seremoniell kakao, mindful pusting, levende musikk, refleksjon og forbindelse.",
+          "Disse praksisene handler ikke om å rømme. De handler om motstandskraft. De skaper en pause midt i travle, krevende liv — en pause som gjenoppretter energi, fokus og ro.",
+          "For meg har kakao blitt mer enn en personlig ritual. Det er et ledervelvære-verktøy — en enkel men kraftig måte å forhindre utbrenthet, støtte klarhet og styrke motstandskraft i forretning og utover."
+        ]
+      }
+    },
+    "signature": {
+      "invitation": "Jeg inviterer deg til å bli med meg i denne praksisen — å dele en kopp varm kakao, ta en pause fra hverdagen og koble til deg selv igjen.",
+      "name": "Inguna"
+    }
   },
   "testimonials": {
     "title": "Erfaringer",
