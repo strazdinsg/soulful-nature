@@ -22,7 +22,7 @@ export default function PageCard({
 
   return (
     <Card clickUrl={url}>
-      <div className="flex flex-col md:flex-row md:h-72 lg:h-[432px]">
+      <div className="flex flex-col md:flex-row md:h-80 lg:h-[432px]">
         <div className="md:w-72 lg:w-[432px]">
           <PageImage imgSrc={imgSrc} altText={altName} />
         </div>

@@ -26,12 +26,16 @@ export default function Card({
     return (
       <Link
         href={isAbsoluteUrl ? clickUrl : localeAwareUrl}
-        className="card w-full max-w-2xl lg:max-w-4xl"
+        className="card w-full max-w-sm md:max-w-xl lg:max-w-4xl"
       >
         {children}
       </Link>
     );
   } else {
-    return <div className="card w-full max-w-2xl lg:max-w-4xl">{children}</div>;
+    return (
+      <div className="card w-full max-w-sm md:max-w-xl lg:max-w-4xl">
+        {children}
+      </div>
+    );
   }
 }
