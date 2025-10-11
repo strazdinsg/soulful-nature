@@ -1,12 +1,15 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import ContactSection from "@/components/ContactSection";
 import HeroSection from "@/components/HeroSection";
 import Section from "@/components/Section";
 import { moontime } from "@/app/fonts";
 import LargeVerticalSpacer from "@/components/LargeVerticalSpacer";
 import { useTranslation } from "react-i18next";
+import { getLocaleFromPathname } from "@/lib/locale";
 
 export default function AboutPage(): JSX.Element {
   const { t } = useTranslation("common");
@@ -230,6 +233,10 @@ function CreatingPracticeSection(): JSX.Element {
 }
 
 function SignatureSection(): JSX.Element {
+  const { t } = useTranslation("common");
+  const pathname = usePathname();
+  const currentLocale = getLocaleFromPathname(pathname);
+
   return (
     <TextSection>
       <LargeVerticalSpacer />
@@ -246,6 +253,13 @@ function SignatureSection(): JSX.Element {
       <div className="hidden md:block">
         <Signature />
       </div>
+      <LargeVerticalSpacer />
+      <Link
+        href={`/${currentLocale}/cacao`}
+        className="text-green-600 hover:underline text-xl"
+      >
+        {t("about.learnMoreAndSignUp")}
+      </Link>
     </TextSection>
   );
 }
