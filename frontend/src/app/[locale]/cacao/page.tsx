@@ -158,13 +158,33 @@ function TestimonialsSection(): JSX.Element {
         <div className="bg-[#e7ede9] p-6">
           <SectionHeading title={t("testimonials.title")} />
           <div className="space-y-6">
-            {testimonials.map((testimonial, index) => (
-              <div key={testimonial.name + index}>
-                <p className="leading-relaxed text-gray-700 italic">
-                  &quot;{testimonial.message}&quot; -- {testimonial.name}
-                </p>
-              </div>
-            ))}
+            {testimonials.map((testimonial, index) => {
+              const paragraphs = testimonial.message.split("\n");
+              return (
+                <div key={testimonial.name + index}>
+                  <div className="leading-relaxed text-gray-700 italic">
+                    {paragraphs.map((paragraph, pIndex) => {
+                      const isFirstParagraph = pIndex === 0;
+                      const isLastParagraph = pIndex === paragraphs.length - 1;
+                      return (
+                        <p
+                          key={pIndex}
+                          className={isFirstParagraph ? "" : "mt-2"}
+                        >
+                          {isFirstParagraph && '"'}
+                          {paragraph}
+                          {isLastParagraph && (
+                            <>
+                              {'"'} -- {testimonial.name}
+                            </>
+                          )}
+                        </p>
+                      );
+                    })}
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </div>
       </div>
