@@ -8,7 +8,6 @@ import { Language } from "@/components/LanguageSelector";
  * @returns true if the term is found, false otherwise
  */
 export function searchInObject(
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   obj: any,
   term: string,
   lang: Language
