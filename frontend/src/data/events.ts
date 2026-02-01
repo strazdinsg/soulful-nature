@@ -66,17 +66,17 @@ export const cacaoCircleEvents = [
     signUpUrl: "https://forms.gle/ipNNwLpoScJxC6PW8",
   },
   {
-    date: "2026-02-10",
+    date: "2026-02-11",
     time: "18:00",
     signUpUrl: "https://forms.gle/jpBrHCUJ34tDzY6r9",
   },
   {
-    date: "2026-03-10",
+    date: "2026-03-11",
     time: "18:00",
     signUpUrl: "https://forms.gle/fp4utosGaF8gYV4A7",
   },
   {
-    date: "2026-04-14",
+    date: "2026-04-15",
     time: "18:00",
     signUpUrl: "https://forms.gle/hrgE2bnHSjTzvkzF6",
   },
