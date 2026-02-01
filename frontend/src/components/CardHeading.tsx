@@ -4,5 +4,9 @@
  * @returns The CardHeading component.
  */
 export default function CardHeading({ title }: { title: string }): JSX.Element {
-  return <h3 className="text-2xl font-semibold mb-4 lg:text-3xl">{title}</h3>;
+  return (
+    <h3 className="text-xl font-semibold mb-3 xl:text-2xl 2xl:text-3xl break-words">
+      {title}
+    </h3>
+  );
 }

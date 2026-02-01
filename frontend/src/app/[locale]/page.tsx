@@ -25,15 +25,15 @@ export default function LandingPage() {
       <WelcomeSection />
       <Section>
         <div className="pt-16 pb-8 px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-6 gap-8">
-            <div className="lg:col-span-4">
+          <div className="grid grid-cols-1 xl:grid-cols-6 gap-8">
+            <div className="xl:col-span-4">
               <PageCardsSection />
             </div>
-            <div className="hidden lg:block lg:col-span-2">
+            <div className="hidden xl:block xl:col-span-2">
               <EventsSection today={today} maxEvents={3} />
             </div>
           </div>
-          <div className="lg:hidden mt-8">
+          <div className="xl:hidden mt-8 max-w-sm md:max-w-xl lg:max-w-4xl mx-auto w-full">
             <EventsSection today={today} maxEvents={3} />
           </div>
         </div>

@@ -24,7 +24,7 @@ export default function EventsSection({
     : upcomingEvents;
 
   return (
-    <div className="bg-[#e7ede9] p-6 mb-16 max-w-sm mx-auto">
+    <div className="bg-[#e7ede9] p-6 mb-16 w-full">
       <EventHeading title={t("cacao.events.title")} />
       <div className="flex flex-col gap-4 mt-4">
         {eventsToShow.map((event) => (

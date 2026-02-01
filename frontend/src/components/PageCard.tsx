@@ -22,11 +22,11 @@ export default function PageCard({
 
   return (
     <Card clickUrl={url}>
-      <div className="flex flex-col md:flex-row md:h-80 lg:h-[432px]">
-        <div className="md:w-72 lg:w-[432px]">
+      <div className="flex flex-col md:flex-row md:min-h-80 lg:min-h-80 xl:min-h-[432px]">
+        <div className="md:w-72 lg:w-80 xl:w-[432px] shrink-0">
           <PageImage imgSrc={imgSrc} altText={altName} />
         </div>
-        <div className="flex-1">
+        <div className="flex-1 min-w-0">
           <PageDescription
             name={name}
             description={description}
@@ -51,9 +51,11 @@ function PageDescription({
   moreLinkTitle: string;
 }>): JSX.Element {
   return (
-    <div className="p-6 lg:p-9 h-full flex flex-col justify-center">
+    <div className="p-6 lg:p-9 h-full flex flex-col justify-center min-w-0">
       <CardHeading title={name} />
-      <p className="text-gray-600 lg:text-xl">{description}</p>
+      <p className="text-gray-600 text-sm lg:text-base xl:text-lg break-words">
+        {description}
+      </p>
       {showLearnMore && (
         <>
           <SmallVerticalSpacer />
@@ -70,7 +72,7 @@ function LearnMoreButton({
   moreLinkTitle: string;
 }>): JSX.Element {
   return (
-    <span className="text-green-600 hover:underline lg:text-xl">
+    <span className="text-green-600 hover:underline text-sm lg:text-base xl:text-lg">
       {moreLinkTitle}
     </span>
   );
