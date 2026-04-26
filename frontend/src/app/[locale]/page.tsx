@@ -16,7 +16,6 @@ export default function LandingPage() {
 
   useEffect(() => {
     const t = new Date().toISOString().split("T")[0];
-    console.log("Today's date:", t);
     setToday(t);
   }, []);
 

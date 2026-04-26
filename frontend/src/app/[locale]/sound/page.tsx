@@ -37,7 +37,6 @@ function MainContentSection(): JSX.Element {
 
   useEffect(() => {
     const t = new Date().toISOString().split("T")[0];
-    console.log("Today's date:", t);
     setToday(t);
   }, []);
 
@@ -118,9 +117,7 @@ function ExpectationSection(): JSX.Element {
       <p className="leading-relaxed mb-4">
         {t("sound.expectations.experience")}
       </p>
-      <p className="leading-relaxed mb-4">
-        {t("sound.expectations.language")}
-      </p>
+      <p className="leading-relaxed mb-4">{t("sound.expectations.language")}</p>
     </div>
   );
 }
