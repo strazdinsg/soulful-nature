@@ -56,6 +56,7 @@ function MainContentSection(): JSX.Element {
               />
             </div>
             <ExpectationSection />
+            <WhoIsItForSection />
             <PracticalInfoSection />
           </div>
           <div className="hidden md:block lg:col-span-2 md:col-span-3">
@@ -76,13 +77,24 @@ function MainContentSection(): JSX.Element {
 function AboutSection(): JSX.Element {
   const { t } = useTranslation("common");
 
+  const bodyParagraphs = t("sound.about.bodyParagraphs", {
+    returnObjects: true,
+  }) as string[];
+
   return (
     <>
       <SectionHeading title={t("sound.about.title")} />
+      <p className="text-lg md:text-xl text-gray-600 font-bold mb-6">
+        {t("sound.about.subheading")}
+      </p>
       <p className="leading-relaxed mb-4">
         <b>{t("sound.about.leadingText")}</b> {t("sound.about.description1")}
       </p>
-      <p className="leading-relaxed mb-4">{t("sound.about.description2")}</p>
+      {bodyParagraphs.map((paragraph, index) => (
+        <p key={index} className="leading-relaxed mb-4">
+          {paragraph}
+        </p>
+      ))}
     </>
   );
 }
@@ -94,36 +106,51 @@ function SectionHeading({ title }: Readonly<{ title: string }>): JSX.Element {
 function ExpectationSection(): JSX.Element {
   const { t } = useTranslation("common");
 
-  const items = t("sound.expectations.items", {
+  const bullets = t("sound.expectations.bullets", {
     returnObjects: true,
-  }) as Array<{
-    item: string;
-    description: string;
-  }>;
+  }) as string[];
 
   return (
     <div className="mt-8">
       <SectionHeading title={t("sound.expectations.title")} />
-      <p className="leading-relaxed">{t("sound.expectations.leadingText")}:</p>
-      <ul className="space-y-2 list-disc list-outside ml-4 mb-4">
-        {items.map((item) => (
-          <li key={item.item}>
-            <span>
-              <b>{item.item}</b>: {item.description}
-            </span>
-          </li>
+      <ul className="space-y-2 list-disc list-outside ml-4 mb-4 leading-relaxed">
+        {bullets.map((line, index) => (
+          <li key={index}>{line}</li>
         ))}
       </ul>
-      <p className="leading-relaxed mb-4">
-        {t("sound.expectations.experience")}
-      </p>
-      <p className="leading-relaxed mb-4">{t("sound.expectations.language")}</p>
+    </div>
+  );
+}
+
+function WhoIsItForSection(): JSX.Element {
+  const { t } = useTranslation("common");
+
+  const paragraphs = t("sound.whoIsItFor.paragraphs", {
+    returnObjects: true,
+  }) as string[];
+
+  return (
+    <div className="mt-8">
+      <SectionHeading title={t("sound.whoIsItFor.title")} />
+      {paragraphs.map((paragraph, index) => (
+        <p key={index} className="leading-relaxed mb-4">
+          {paragraph}
+        </p>
+      ))}
     </div>
   );
 }
 
 function PracticalInfoSection(): JSX.Element {
   const { t } = useTranslation("common");
+  const p = "sound.practicalInfo" as const;
+
+  const rows: Array<{ labelKey: string; valueKey: string }> = [
+    { labelKey: `${p}.durationLabel`, valueKey: `${p}.durationValue` },
+    { labelKey: `${p}.locationLabel`, valueKey: `${p}.locationValue` },
+    { labelKey: `${p}.bringLabel`, valueKey: `${p}.bringValue` },
+    { labelKey: `${p}.experienceLabel`, valueKey: `${p}.experienceValue` },
+  ];
 
   const contributionItems = t("practicalInfo.contributionOptions", {
     returnObjects: true,
@@ -131,10 +158,12 @@ function PracticalInfoSection(): JSX.Element {
 
   return (
     <div className="mt-8">
-      <SectionHeading title={t("practicalInfo.title")} />
-      <p className="leading-relaxed mb-4">
-        <b>{t("common.location")}</b>: {t("practicalInfo.location")}
-      </p>
+      <SectionHeading title={t(`${p}.title`)} />
+      {rows.map(({ labelKey, valueKey }) => (
+        <p key={labelKey} className="leading-relaxed mb-4">
+          <b>{t(labelKey)}</b>: {t(valueKey)}
+        </p>
+      ))}
       <p className="leading-relaxed">
         <b>{t("common.contribution")}</b>:
       </p>
@@ -151,9 +180,7 @@ function PracticalInfoSection(): JSX.Element {
         </a>
       </p>
       <p className="leading-relaxed mb-4">{t("practicalInfo.orUseLinks")}.</p>
-      <p className="leading-relaxed">
-        {t("practicalInfo.cancellation")} {t("practicalInfo.cancellationFee")}
-      </p>
+      <p className="leading-relaxed">{t("practicalInfo.cancellation")}</p>
     </div>
   );
 }

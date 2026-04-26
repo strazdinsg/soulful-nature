@@ -76,30 +76,44 @@
       "subtitle": "Breathe. Rest. Return to yourself."
     },
     "about": {
-      "title": "About Relax WithIn",
+      "title": "Relax WithIn",
+      "subheading": "A guided sound journey back to yourself",
       "leadingText": "Relax WithIn",
-      "description1": "is a guided sound bath experience with gentle meditation and calming instruments. This page is a placeholder—replace this copy with your full offering when you are ready.",
-      "description2": "Sessions are designed as a soft landing from everyday pace: time to listen, breathe, and come back to yourself in a supportive setting."
+      "description1": "is a gentle sound bath experience created to help you pause, breathe, and reconnect with yourself.",
+      "bodyParagraphs": [
+        "In everyday life, we often carry stress, thoughts, responsibilities, and tension in the body. This session invites you to slow down and enter a peaceful space where you can simply rest and receive.",
+        "We begin with a guided body relaxation meditation, helping you soften each part of the body and arrive into stillness. After this, you are invited to lie down comfortably and experience calming sounds from Tibetan singing bowls, Koshi bells, rainstick, and other soothing instruments.",
+        "The sounds create a relaxing atmosphere that supports deep rest, presence, and inner calm.",
+        "No previous experience with meditation or sound bath is needed. You are welcome exactly as you are."
+      ]
     },
     "expectations": {
-      "title": "What to Expect",
-      "leadingText": "A typical session may include",
-      "items": [
-        {
-          "item": "Opening",
-          "description": "a short grounding and intention-setting to arrive in the space together."
-        },
-        {
-          "item": "Sound bath",
-          "description": "immersion in live or recorded tones from bowls, chimes, and other gentle instruments."
-        },
-        {
-          "item": "Integration",
-          "description": "quiet time to notice how you feel before we slowly close the circle."
-        }
-      ],
-      "experience": "No previous experience with sound baths is required.",
-      "language": "Placeholder: add your language note here when details are confirmed."
+      "title": "What to expect",
+      "bullets": [
+        "A calm and welcoming atmosphere",
+        "Gentle guided body relaxation",
+        "Meditative sounds and vibrations",
+        "Time to rest, breathe, and reconnect",
+        "A peaceful moment just for yourself"
+      ]
+    },
+    "whoIsItFor": {
+      "title": "Who is it for?",
+      "paragraphs": [
+        "Relax WithIn is for you who feel tired, stressed, overstimulated, or simply wish to take a pause from everyday life.",
+        "It is also for you who want to create more space for calm, clarity, and balance."
+      ]
+    },
+    "practicalInfo": {
+      "title": "Practical information",
+      "durationLabel": "Duration",
+      "durationValue": "1 to 1,5 hours",
+      "locationLabel": "Location",
+      "locationValue": "K. Wilhelms gate 53, Ålesund",
+      "bringLabel": "Bring",
+      "bringValue": "Comfortable clothes, warm socks, water bottle, and anything that helps you feel cozy",
+      "experienceLabel": "Experience needed",
+      "experienceValue": "None"
     },
     "events": {
       "title": "Upcoming Events",
@@ -113,7 +127,7 @@
           "name": "Participant"
         },
         {
-          "message": "Because of my profession and daily habits, my mind is usually running non-stop whenever I’m awake. When I join a Cacao mindfulness practice, the atmosphere helps me relax and quiet my thoughts almost instantly. I settle into a calm state of being present, here and now. Along the way, I often experience meaningful visions and insights that support me both personally and professionally. The practice gives my mind the restorative pause it needs to return to full speed afterwards.",
+          "message": "Because of my profession and daily habits, my mind is usually running non-stop whenever I’m awake. When I join a mindfulness practice, the atmosphere helps me relax and quiet my thoughts almost instantly. I settle into a calm state of being present, here and now. Along the way, I often experience meaningful visions and insights that support me both personally and professionally. The practice gives my mind the restorative pause it needs to return to full speed afterwards.",
           "name": "Girts"
         },
         {
@@ -229,7 +243,7 @@
         "name": "Participant"
       },
       {
-        "message": "Because of my profession and daily habits, my mind is usually running non-stop whenever I’m awake. When I join a Cacao mindfulness practice, the atmosphere helps me relax and quiet my thoughts almost instantly. I settle into a calm state of being present, here and now. Along the way, I often experience meaningful visions and insights that support me both personally and professionally. The practice gives my mind the restorative pause it needs to return to full speed afterwards.",
+        "message": "Because of my profession and daily habits, my mind is usually running non-stop whenever I’m awake. When I join a mindfulness practice, the atmosphere helps me relax and quiet my thoughts almost instantly. I settle into a calm state of being present, here and now. Along the way, I often experience meaningful visions and insights that support me both personally and professionally. The practice gives my mind the restorative pause it needs to return to full speed afterwards.",
         "name": "Girts"
       },
       {

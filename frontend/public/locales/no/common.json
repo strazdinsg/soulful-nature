@@ -76,30 +76,44 @@
       "subtitle": "Finn roen inni deg"
     },
     "about": {
-      "title": "Om Relax WithIn",
+      "title": "Relax WithIn",
+      "subheading": "Finn roen inni deg",
       "leadingText": "Relax WithIn",
-      "description1": "er en guidet lydbad-opplevelse med rolig meditasjon og beroligende instrumenter. Denne siden er et utkast—erstatt teksten med ditt fulle tilbud når du er klar.",
-      "description2": "Øktene er laget som en myk landing fra hverdagens tempo: tid til å lytte, puste og finne tilbake til deg selv i et trygt rom."
+      "description1": "er en rolig og sanselig lydreise skapt for å hjelpe deg å lande, puste og komme tilbake til deg selv.",
+      "bodyParagraphs": [
+        "I hverdagen bærer vi ofte med oss stress, tanker, ansvar og spenninger i kroppen. Denne timen inviterer deg til å senke tempoet og tre inn i et fredelig rom der du kan hvile, lytte og bare være.",
+        "Vi starter med en guidet avspenning for hele kroppen, slik at du gradvis kan slippe spenninger og finne mer ro. Deretter inviteres du til å ligge komfortabelt og ta imot beroligende lyder fra tibetanske syngeskåler, Koshi-klokker, rainstick og andre myke instrumenter.",
+        "Lydene skaper en avslappende atmosfære som støtter dyp hvile, tilstedeværelse og indre ro.",
+        "Du trenger ingen erfaring med meditasjon eller lydbad. Du er velkommen akkurat som du er."
+      ]
     },
     "expectations": {
       "title": "Hva du kan forvente",
-      "leadingText": "En typisk økt kan inneholde",
-      "items": [
-        {
-          "item": "Åpning",
-          "description": "kort jording og intensjonssetting for å komme til stede sammen."
-        },
-        {
-          "item": "Lydbad",
-          "description": "fordypning i live eller innspilte toner fra skåler, bjeller og andre milde instrumenter."
-        },
-        {
-          "item": "Integrasjon",
-          "description": "stille tid for å merke hvordan du har det før vi sakte avslutter sirkelen."
-        }
-      ],
-      "experience": "Ingen tidligere erfaring med lydbad er nødvendig.",
-      "language": "Plassholder: legg til språkmerknad her når detaljer er bekreftet."
+      "bullets": [
+        "En rolig og trygg atmosfære",
+        "Guidet avspenning for kroppen",
+        "Meditative lyder og vibrasjoner",
+        "Tid til å hvile, puste og lande",
+        "Et fredelig øyeblikk bare for deg"
+      ]
+    },
+    "whoIsItFor": {
+      "title": "Hvem passer dette for?",
+      "paragraphs": [
+        "Relax WithIn passer for deg som føler deg sliten, stresset, overstimulert, eller som bare ønsker en pause fra hverdagen.",
+        "Det passer også for deg som ønsker mer rom for ro, klarhet og balanse i hverdagen."
+      ]
+    },
+    "practicalInfo": {
+      "title": "Praktisk informasjon",
+      "durationLabel": "Varighet",
+      "durationValue": "1–1,5 timer",
+      "locationLabel": "Sted",
+      "locationValue": "K. Wilhelms gate 53, Ålesund",
+      "bringLabel": "Ta med",
+      "bringValue": "Behagelige klær, varme sokker, vannflaske og godt humør",
+      "experienceLabel": "Erfaring",
+      "experienceValue": "Ingen erfaring er nødvendig"
     },
     "events": {
       "title": "Kommende arrangementer",
@@ -113,7 +127,7 @@
           "name": "Deltaker"
         },
         {
-          "message": "På grunn av yrket mitt og daglige vaner, løper tankene mine vanligvis non-stop når jeg er våken. Når jeg blir med på en kakao-mindfulness-praksis, hjelper atmosfæren meg med å slappe av og stille tankene mine nesten umiddelbart. Jeg finner meg til rette i en rolig tilstand av å være til stede, her og nå. Underveis opplever jeg ofte meningsfulle visjoner og innsikt som støtter meg både personlig og profesjonelt. Øvelsen gir tankene mine den gjenopprettende pausen den trenger for å komme tilbake til full fart etterpå.",
+          "message": "På grunn av yrket mitt og daglige vaner, løper tankene mine vanligvis non-stop når jeg er våken. Når jeg blir med på en mindfulness-praksis, hjelper atmosfæren meg med å slappe av og stille tankene mine nesten umiddelbart. Jeg finner meg til rette i en rolig tilstand av å være til stede, her og nå. Underveis opplever jeg ofte meningsfulle visjoner og innsikt som støtter meg både personlig og profesjonelt. Øvelsen gir tankene mine den gjenopprettende pausen den trenger for å komme tilbake til full fart etterpå.",
           "name": "Girts"
         },
         {
@@ -229,7 +243,7 @@
         "name": "Deltaker"
       },
       {
-        "message": "På grunn av yrket mitt og daglige vaner, løper tankene mine vanligvis non-stop når jeg er våken. Når jeg blir med på en kakao-mindfulness-praksis, hjelper atmosfæren meg med å slappe av og stille tankene mine nesten umiddelbart. Jeg finner meg til rette i en rolig tilstand av å være til stede, her og nå. Underveis opplever jeg ofte meningsfulle visjoner og innsikt som støtter meg både personlig og profesjonelt. Øvelsen gir tankene mine den gjenopprettende pausen den trenger for å komme tilbake til full fart etterpå.",
+        "message": "På grunn av yrket mitt og daglige vaner, løper tankene mine vanligvis non-stop når jeg er våken. Når jeg blir med på en mindfulness-praksis, hjelper atmosfæren meg med å slappe av og stille tankene mine nesten umiddelbart. Jeg finner meg til rette i en rolig tilstand av å være til stede, her og nå. Underveis opplever jeg ofte meningsfulle visjoner og innsikt som støtter meg både personlig og profesjonelt. Øvelsen gir tankene mine den gjenopprettende pausen den trenger for å komme tilbake til full fart etterpå.",
         "name": "Girts"
       },
       {
