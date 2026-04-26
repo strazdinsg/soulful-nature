@@ -1,7 +1,15 @@
+export type EventSource = "cacao" | "sound";
+
 export type Event = {
   date: string;
   time: string;
   signUpUrl: string;
+  /**
+   * Cacao vs sound — used on the home page merged event list so we can:
+   * pick the right “date not yet set” translation when `signUpUrl` is empty, and
+   * build stable unique React `key`s (`source` + date + time).
+   */
+  source?: EventSource;
 };
 
 export const cacaoCircleEvents = [
@@ -81,3 +89,26 @@ export const cacaoCircleEvents = [
     signUpUrl: "https://forms.gle/hrgE2bnHSjTzvkzF6",
   },
 ];
+
+/** Relax WithIn / sound bath sessions (add real dates and sign-up URLs when ready). */
+export const soundBathEvents: Event[] = [
+  {
+    date: "2026-05-20",
+    time: "18:00",
+    signUpUrl: "https://forms.gle/AzgyLnfysxnMBXgZA",
+  },
+  {
+    date: "2026-06-17",
+    time: "18:00",
+    signUpUrl: "https://forms.gle/FA3S4Y6ppR7GwxQSA",
+  },
+];
+
+/** Cacao + Relax WithIn events, sorted by date (and time) for the landing page sidebar. */
+export const mergedCacaoAndSoundEvents: Event[] = [
+  ...cacaoCircleEvents.map((e) => ({ ...e, source: "cacao" as const })),
+  ...soundBathEvents.map((e) => ({ ...e, source: "sound" as const })),
+].sort((a, b) => {
+  const byDate = a.date.localeCompare(b.date);
+  return byDate !== 0 ? byDate : a.time.localeCompare(b.time);
+});

@@ -4,6 +4,7 @@ import ContactSection from "@/components/ContactSection";
 import HeroSection from "@/components/HeroSection";
 import Section from "@/components/Section";
 import EventsSection from "@/components/EventsSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -32,7 +33,6 @@ function MainContentSection(): JSX.Element {
 
   useEffect(() => {
     const t = new Date().toISOString().split("T")[0];
-    console.log("Today's date:", t);
     setToday(t);
   }, []);
 
@@ -139,55 +139,5 @@ function PracticalInfoSection(): JSX.Element {
         {t("practicalInfo.cancellation")} {t("practicalInfo.cancellationFee")}
       </p>
     </div>
-  );
-}
-
-function TestimonialsSection(): JSX.Element {
-  const { t } = useTranslation("common");
-
-  const testimonials = t("testimonials.items", {
-    returnObjects: true,
-  }) as Array<{
-    message: string;
-    name: string;
-  }>;
-
-  return (
-    <Section>
-      <div className="pb-8 px-8">
-        <div className="bg-[#e7ede9] p-6">
-          <SectionHeading title={t("testimonials.title")} />
-          <div className="space-y-6">
-            {testimonials.map((testimonial, index) => {
-              const paragraphs = testimonial.message.split("\n");
-              return (
-                <div key={testimonial.name + index}>
-                  <div className="leading-relaxed text-gray-700 italic">
-                    {paragraphs.map((paragraph, pIndex) => {
-                      const isFirstParagraph = pIndex === 0;
-                      const isLastParagraph = pIndex === paragraphs.length - 1;
-                      return (
-                        <p
-                          key={pIndex}
-                          className={isFirstParagraph ? "" : "mt-2"}
-                        >
-                          {isFirstParagraph && '"'}
-                          {paragraph}
-                          {isLastParagraph && (
-                            <>
-                              {'"'} -- {testimonial.name}
-                            </>
-                          )}
-                        </p>
-                      );
-                    })}
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      </div>
-    </Section>
   );
 }

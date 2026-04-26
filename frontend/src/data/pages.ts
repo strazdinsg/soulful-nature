@@ -1,10 +1,18 @@
-export const pages = [
+export type PageCardConfig = {
+  id: number;
+  translationKey: string;
+  altName: string;
+  imgSrc: string;
+  url: string;
+};
+
+export const pages: PageCardConfig[] = [
   {
     id: 1,
-    translationKey: "cacaoAndMe",
+    translationKey: "relaxWithIn",
     altName: "",
-    imgSrc: "cacao-and-me.jpg",
-    url: "/about",
+    imgSrc: "sound.jpg",
+    url: "/sound",
   },
   {
     id: 2,
@@ -12,5 +20,12 @@ export const pages = [
     altName: "Cacao Mindfulness Practice",
     imgSrc: "cacao-circle.jpg",
     url: "/cacao",
+  },
+  {
+    id: 3,
+    translationKey: "cacaoAndMe",
+    altName: "",
+    imgSrc: "cacao-and-me.jpg",
+    url: "/about",
   },
 ];

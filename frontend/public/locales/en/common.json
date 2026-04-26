@@ -9,7 +9,16 @@
   "contact": {
     "title": "Get in Touch"
   },
+  "eventSeries": {
+    "cacao": "Cacao",
+    "sound": "Relax WithIn"
+  },
   "pages": {
+    "relaxWithIn": {
+      "name": "Relax WithIn",
+      "description": "A guided sound bath experience with gentle meditation and calming sounds, created to help you slow down, relax, and reconnect with yourself.",
+      "moreLinkTitle": "Learn more"
+    },
     "cacaoAndMe": {
       "name": "Cacao and Me",
       "description": "For me, cacao is more than a drink—it is a gentle way to pause, be in the moment, and reconnect with myself. Through cacao mindfulness practice, I have found calm, focus, and appreciation for simple moments.",
@@ -59,6 +68,73 @@
     "events": {
       "title": "Upcoming Events",
       "dateToBeDefined": "Date to be defined"
+    }
+  },
+  "sound": {
+    "hero": {
+      "title": "Relax WithIn",
+      "subtitle": "Breathe. Rest. Return to yourself."
+    },
+    "about": {
+      "title": "Relax WithIn",
+      "subheading": "A guided sound journey back to yourself",
+      "leadingText": "Relax WithIn",
+      "description1": "is a gentle sound bath experience created to help you pause, breathe, and reconnect with yourself.",
+      "bodyParagraphs": [
+        "In everyday life, we often carry stress, thoughts, responsibilities, and tension in the body. This session invites you to slow down and enter a peaceful space where you can simply rest and receive.",
+        "We begin with a guided body relaxation meditation, helping you soften each part of the body and arrive into stillness. After this, you are invited to lie down comfortably and experience calming sounds from Tibetan singing bowls, Koshi bells, rainstick, and other soothing instruments.",
+        "The sounds create a relaxing atmosphere that supports deep rest, presence, and inner calm.",
+        "No previous experience with meditation or sound bath is needed. You are welcome exactly as you are."
+      ]
+    },
+    "expectations": {
+      "title": "What to expect",
+      "bullets": [
+        "A calm and welcoming atmosphere",
+        "Gentle guided body relaxation",
+        "Meditative sounds and vibrations",
+        "Time to rest, breathe, and reconnect",
+        "A peaceful moment just for yourself"
+      ]
+    },
+    "whoIsItFor": {
+      "title": "Who is it for?",
+      "paragraphs": [
+        "Relax WithIn is for you who feel tired, stressed, overstimulated, or simply wish to take a pause from everyday life.",
+        "It is also for you who want to create more space for calm, clarity, and balance."
+      ]
+    },
+    "practicalInfo": {
+      "title": "Practical information",
+      "durationLabel": "Duration",
+      "durationValue": "1 to 1,5 hours",
+      "locationLabel": "Location",
+      "locationValue": "K. Wilhelms gate 53, Ålesund",
+      "bringLabel": "Bring",
+      "bringValue": "Comfortable clothes, warm socks, water bottle, and anything that helps you feel cozy",
+      "experienceLabel": "Experience needed",
+      "experienceValue": "None"
+    },
+    "events": {
+      "title": "Upcoming Events",
+      "dateToBeDefined": "Date to be defined"
+    },
+    "testimonials": {
+      "title": "Testimonials",
+      "items": [
+        {
+          "message": "Kakaomeditasjon har blitt en måte for meg å øve på å være helt til stede i nuet. Inguna skaper en trygg atmosfære og har en egen evne til å holde energien i rommet slik at tankene faller til ro. Hver gang er opplevelsen litt annerledes, men jeg sitter alltid igjen med den samme følelsen: ‘Dette var nøyaktig det jeg trengte.’",
+          "name": "Participant"
+        },
+        {
+          "message": "Because of my profession and daily habits, my mind is usually running non-stop whenever I’m awake. When I join a mindfulness practice, the atmosphere helps me relax and quiet my thoughts almost instantly. I settle into a calm state of being present, here and now. Along the way, I often experience meaningful visions and insights that support me both personally and professionally. The practice gives my mind the restorative pause it needs to return to full speed afterwards.",
+          "name": "Girts"
+        },
+        {
+          "message": "I would strongly recommend joining and discovering what it’s all about. No matter what stage of life you’re in, where you come from, or what your current state of mind is, we can all benefit from a moment of reflection and a deep breath. Here, you have the opportunity to experience exactly that.\nInguna is deeply passionate about her work. She creates a space of safety and invites you on an inner adventure without judgment or rush. What you gain from the circle is entirely up to you: maybe you simply need rest and reassurance, maybe you want to look at stresses in your life from a new perspective, or maybe you just want to be around open-minded people. Who knows 🙂\nAnd yes— the cacao is delicious and of exceptionally good quality!",
+          "name": "Participant"
+        }
+      ]
     }
   },
   "months": {
@@ -167,7 +243,7 @@
         "name": "Participant"
       },
       {
-        "message": "Because of my profession and daily habits, my mind is usually running non-stop whenever I’m awake. When I join a Cacao mindfulness practice, the atmosphere helps me relax and quiet my thoughts almost instantly. I settle into a calm state of being present, here and now. Along the way, I often experience meaningful visions and insights that support me both personally and professionally. The practice gives my mind the restorative pause it needs to return to full speed afterwards.",
+        "message": "Because of my profession and daily habits, my mind is usually running non-stop whenever I’m awake. When I join a mindfulness practice, the atmosphere helps me relax and quiet my thoughts almost instantly. I settle into a calm state of being present, here and now. Along the way, I often experience meaningful visions and insights that support me both personally and professionally. The practice gives my mind the restorative pause it needs to return to full speed afterwards.",
         "name": "Girts"
       },
       {
