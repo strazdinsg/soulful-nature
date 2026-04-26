@@ -23,6 +23,11 @@ const nextConfig: NextConfig = {
         destination: "/en/bach",
         permanent: true,
       },
+      {
+        source: "/sound",
+        destination: "/en/sound",
+        permanent: true,
+      },
     ];
   },
 };

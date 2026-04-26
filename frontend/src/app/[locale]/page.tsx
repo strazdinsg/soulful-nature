@@ -8,6 +8,7 @@ import PageCardsSection from "@/components/PageCardSection";
 import EventsSection from "@/components/EventsSection";
 import ContactSection from "@/components/ContactSection";
 import Section from "@/components/Section";
+import { mergedCacaoAndSoundEvents } from "@/data/events";
 
 export default function LandingPage() {
   const { t } = useTranslation("common");
@@ -30,11 +31,19 @@ export default function LandingPage() {
               <PageCardsSection />
             </div>
             <div className="hidden xl:block xl:col-span-2">
-              <EventsSection today={today} maxEvents={3} />
+              <EventsSection
+                today={today}
+                maxEvents={3}
+                events={mergedCacaoAndSoundEvents}
+              />
             </div>
           </div>
           <div className="xl:hidden mt-8 max-w-sm md:max-w-xl lg:max-w-4xl mx-auto w-full">
-            <EventsSection today={today} maxEvents={3} />
+            <EventsSection
+              today={today}
+              maxEvents={3}
+              events={mergedCacaoAndSoundEvents}
+            />
           </div>
         </div>
       </Section>

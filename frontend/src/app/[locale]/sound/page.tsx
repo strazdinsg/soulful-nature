@@ -5,24 +5,28 @@ import HeroSection from "@/components/HeroSection";
 import Section from "@/components/Section";
 import EventsSection from "@/components/EventsSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
+import { soundBathEvents } from "@/data/events";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
-export default function CacaoCirclePage(): JSX.Element {
+export default function SoundBathPage(): JSX.Element {
   const { t } = useTranslation("common");
 
   return (
     <>
       <HeroSection
-        desktopImage="hero-cacao-desktop.jpg"
-        mobileImage="hero-cacao-mobile.jpg"
-        title={t("cacao.hero.title")}
-        subtitle={t("cacao.hero.subtitle")}
+        desktopImage="pages/sound.jpg"
+        mobileImage="pages/sound.jpg"
+        title={t("sound.hero.title")}
+        subtitle={t("sound.hero.subtitle")}
       />
       <MainContentSection />
-      <TestimonialsSection />
+      <TestimonialsSection
+        titleKey="sound.testimonials.title"
+        itemsKey="sound.testimonials.items"
+      />
       <ContactSection />
     </>
   );
@@ -44,13 +48,25 @@ function MainContentSection(): JSX.Element {
           <div className="md:col-span-3 lg:col-span-4 text-[#252419]">
             <AboutSection />
             <div className="md:hidden">
-              <EventsSection today={today} />
+              <EventsSection
+                today={today}
+                events={soundBathEvents}
+                eventsTitleKey="sound.events.title"
+                dateToBeDefinedKey="sound.events.dateToBeDefined"
+                eventSeriesFallback="sound"
+              />
             </div>
             <ExpectationSection />
             <PracticalInfoSection />
           </div>
           <div className="hidden md:block lg:col-span-2 md:col-span-3">
-            <EventsSection today={today} />
+            <EventsSection
+              today={today}
+              events={soundBathEvents}
+              eventsTitleKey="sound.events.title"
+              dateToBeDefinedKey="sound.events.dateToBeDefined"
+              eventSeriesFallback="sound"
+            />
           </div>
         </div>
       </div>
@@ -63,11 +79,11 @@ function AboutSection(): JSX.Element {
 
   return (
     <>
-      <SectionHeading title={t("cacao.about.title")} />
+      <SectionHeading title={t("sound.about.title")} />
       <p className="leading-relaxed mb-4">
-        <b>{t("cacao.about.leadingText")}</b> {t("cacao.about.description1")}
+        <b>{t("sound.about.leadingText")}</b> {t("sound.about.description1")}
       </p>
-      <p className="leading-relaxed mb-4">{t("cacao.about.description2")}</p>
+      <p className="leading-relaxed mb-4">{t("sound.about.description2")}</p>
     </>
   );
 }
@@ -79,7 +95,7 @@ function SectionHeading({ title }: Readonly<{ title: string }>): JSX.Element {
 function ExpectationSection(): JSX.Element {
   const { t } = useTranslation("common");
 
-  const items = t("cacao.expectations.items", {
+  const items = t("sound.expectations.items", {
     returnObjects: true,
   }) as Array<{
     item: string;
@@ -88,8 +104,8 @@ function ExpectationSection(): JSX.Element {
 
   return (
     <div className="mt-8">
-      <SectionHeading title={t("cacao.expectations.title")} />
-      <p className="leading-relaxed">{t("cacao.expectations.leadingText")}:</p>
+      <SectionHeading title={t("sound.expectations.title")} />
+      <p className="leading-relaxed">{t("sound.expectations.leadingText")}:</p>
       <ul className="space-y-2 list-disc list-outside ml-4 mb-4">
         {items.map((item) => (
           <li key={item.item}>
@@ -100,9 +116,11 @@ function ExpectationSection(): JSX.Element {
         ))}
       </ul>
       <p className="leading-relaxed mb-4">
-        {t("cacao.expectations.experience")}
+        {t("sound.expectations.experience")}
       </p>
-      <p className="leading-relaxed mb-4">{t("cacao.expectations.language")}</p>
+      <p className="leading-relaxed mb-4">
+        {t("sound.expectations.language")}
+      </p>
     </div>
   );
 }
@@ -142,4 +160,3 @@ function PracticalInfoSection(): JSX.Element {
     </div>
   );
 }
-

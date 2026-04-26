@@ -9,7 +9,16 @@
   "contact": {
     "title": "Get in Touch"
   },
+  "eventSeries": {
+    "cacao": "Cacao",
+    "sound": "Relax WithIn"
+  },
   "pages": {
+    "relaxWithIn": {
+      "name": "Relax WithIn",
+      "description": "A guided sound bath experience with gentle meditation and calming sounds, created to help you slow down, relax, and reconnect with yourself.",
+      "moreLinkTitle": "Learn more"
+    },
     "cacaoAndMe": {
       "name": "Cacao and Me",
       "description": "For me, cacao is more than a drink—it is a gentle way to pause, be in the moment, and reconnect with myself. Through cacao mindfulness practice, I have found calm, focus, and appreciation for simple moments.",
@@ -59,6 +68,59 @@
     "events": {
       "title": "Upcoming Events",
       "dateToBeDefined": "Date to be defined"
+    }
+  },
+  "sound": {
+    "hero": {
+      "title": "Relax WithIn",
+      "subtitle": "Breathe. Rest. Return to yourself."
+    },
+    "about": {
+      "title": "About Relax WithIn",
+      "leadingText": "Relax WithIn",
+      "description1": "is a guided sound bath experience with gentle meditation and calming instruments. This page is a placeholder—replace this copy with your full offering when you are ready.",
+      "description2": "Sessions are designed as a soft landing from everyday pace: time to listen, breathe, and come back to yourself in a supportive setting."
+    },
+    "expectations": {
+      "title": "What to Expect",
+      "leadingText": "A typical session may include",
+      "items": [
+        {
+          "item": "Opening",
+          "description": "a short grounding and intention-setting to arrive in the space together."
+        },
+        {
+          "item": "Sound bath",
+          "description": "immersion in live or recorded tones from bowls, chimes, and other gentle instruments."
+        },
+        {
+          "item": "Integration",
+          "description": "quiet time to notice how you feel before we slowly close the circle."
+        }
+      ],
+      "experience": "No previous experience with sound baths is required.",
+      "language": "Placeholder: add your language note here when details are confirmed."
+    },
+    "events": {
+      "title": "Upcoming Events",
+      "dateToBeDefined": "Date to be defined"
+    },
+    "testimonials": {
+      "title": "Testimonials",
+      "items": [
+        {
+          "message": "Kakaomeditasjon har blitt en måte for meg å øve på å være helt til stede i nuet. Inguna skaper en trygg atmosfære og har en egen evne til å holde energien i rommet slik at tankene faller til ro. Hver gang er opplevelsen litt annerledes, men jeg sitter alltid igjen med den samme følelsen: ‘Dette var nøyaktig det jeg trengte.’",
+          "name": "Participant"
+        },
+        {
+          "message": "Because of my profession and daily habits, my mind is usually running non-stop whenever I’m awake. When I join a Cacao mindfulness practice, the atmosphere helps me relax and quiet my thoughts almost instantly. I settle into a calm state of being present, here and now. Along the way, I often experience meaningful visions and insights that support me both personally and professionally. The practice gives my mind the restorative pause it needs to return to full speed afterwards.",
+          "name": "Girts"
+        },
+        {
+          "message": "I would strongly recommend joining and discovering what it’s all about. No matter what stage of life you’re in, where you come from, or what your current state of mind is, we can all benefit from a moment of reflection and a deep breath. Here, you have the opportunity to experience exactly that.\nInguna is deeply passionate about her work. She creates a space of safety and invites you on an inner adventure without judgment or rush. What you gain from the circle is entirely up to you: maybe you simply need rest and reassurance, maybe you want to look at stresses in your life from a new perspective, or maybe you just want to be around open-minded people. Who knows 🙂\nAnd yes— the cacao is delicious and of exceptionally good quality!",
+          "name": "Participant"
+        }
+      ]
     }
   },
   "months": {

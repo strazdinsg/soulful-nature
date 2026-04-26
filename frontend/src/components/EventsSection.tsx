@@ -1,34 +1,52 @@
 "use client";
 
 import { useTranslation } from "react-i18next";
-import { cacaoCircleEvents, Event } from "@/data/events";
+import { cacaoCircleEvents, Event, EventSource } from "@/data/events";
 import Card from "@/components/Card";
 import SmallVerticalSpacer from "@/components/SmallVerticalSpacer";
 
 interface EventsSectionProps {
   today: string;
   maxEvents?: number;
+  events?: Event[];
+  eventsTitleKey?: string;
+  dateToBeDefinedKey?: string;
+  /** Used when an event has no `source` (cacao vs sound label on cards). */
+  eventSeriesFallback?: EventSource;
 }
 
 export default function EventsSection({
   today,
   maxEvents,
+  events = cacaoCircleEvents,
+  eventsTitleKey = "cacao.events.title",
+  dateToBeDefinedKey = "cacao.events.dateToBeDefined",
+  eventSeriesFallback = "cacao",
 }: EventsSectionProps): JSX.Element {
   const { t } = useTranslation("common");
 
   if (!today) return <></>;
 
-  const upcomingEvents = getUpcoming(cacaoCircleEvents, today);
+  const upcomingEvents = getUpcoming(events, today);
   const eventsToShow = maxEvents
     ? upcomingEvents.slice(0, maxEvents)
     : upcomingEvents;
 
   return (
     <div className="bg-[#e7ede9] p-6 mb-16 w-full">
-      <EventHeading title={t("cacao.events.title")} />
+      <EventHeading title={t(eventsTitleKey)} />
       <div className="flex flex-col gap-4 mt-4">
         {eventsToShow.map((event) => (
-          <EventCard key={event.date} event={event} />
+          <EventCard
+            key={
+              event.source != null
+                ? `${event.source}-${event.date}-${event.time}`
+                : `${event.date}-${event.time}`
+            }
+            event={event}
+            dateToBeDefinedKey={dateToBeDefinedKey}
+            eventSeriesFallback={eventSeriesFallback}
+          />
         ))}
       </div>
     </div>
@@ -79,9 +97,33 @@ function formatEventDate(
   }
 }
 
-function EventCard({ event }: Readonly<{ event: Event }>): JSX.Element {
+function tbdKeyForEvent(event: Event, fallback: string): string {
+  if (event.source === "sound") return "sound.events.dateToBeDefined";
+  if (event.source === "cacao") return "cacao.events.dateToBeDefined";
+  return fallback;
+}
+
+function inferEventSource(
+  event: Event,
+  fallback: EventSource
+): EventSource {
+  return event.source ?? fallback;
+}
+
+function EventCard({
+  event,
+  dateToBeDefinedKey,
+  eventSeriesFallback,
+}: Readonly<{
+  event: Event;
+  dateToBeDefinedKey: string;
+  eventSeriesFallback: EventSource;
+}>): JSX.Element {
   const { t, i18n } = useTranslation("common");
   const dateKnown = event.signUpUrl !== "";
+  const resolvedTbdKey = tbdKeyForEvent(event, dateToBeDefinedKey);
+  const source = inferEventSource(event, eventSeriesFallback);
+  const seriesLabel = t(`eventSeries.${source}`);
 
   const formatMonthYear = (dateStr: string, t: (key: string) => string) => {
     const date = new Date(dateStr);
@@ -108,16 +150,16 @@ function EventCard({ event }: Readonly<{ event: Event }>): JSX.Element {
     <Card clickUrl={dateKnown ? event.signUpUrl : undefined}>
       <div className="p-4">
         <EventHeading
-          title={
+          title={`${
             dateKnown
               ? formatEventDate(event.date, t, i18n.language)
               : formatMonthYear(event.date, t)
-          }
+          } — ${seriesLabel}`}
         />
         <p className="text-gray-600 text-sm">
           {dateKnown
             ? getWeekday(event.date, t) + " " + event.time
-            : t("cacao.events.dateToBeDefined")}
+            : t(resolvedTbdKey)}
         </p>
         <SmallVerticalSpacer />
         {dateKnown && <SignUpButton />}

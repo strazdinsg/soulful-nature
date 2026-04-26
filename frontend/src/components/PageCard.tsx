@@ -30,7 +30,6 @@ export default function PageCard({
           <PageDescription
             name={name}
             description={description}
-            showLearnMore={!!url}
             moreLinkTitle={moreLinkTitle}
           />
         </div>
@@ -42,12 +41,10 @@ export default function PageCard({
 function PageDescription({
   name,
   description,
-  showLearnMore,
   moreLinkTitle,
 }: Readonly<{
   name: string;
   description: string;
-  showLearnMore: boolean;
   moreLinkTitle: string;
 }>): JSX.Element {
   return (
@@ -56,12 +53,8 @@ function PageDescription({
       <p className="text-gray-600 text-sm lg:text-base xl:text-lg break-words">
         {description}
       </p>
-      {showLearnMore && (
-        <>
-          <SmallVerticalSpacer />
-          <LearnMoreButton moreLinkTitle={moreLinkTitle} />
-        </>
-      )}
+      <SmallVerticalSpacer />
+      <LearnMoreButton moreLinkTitle={moreLinkTitle} />
     </div>
   );
 }
