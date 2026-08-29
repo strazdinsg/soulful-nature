@@ -90,7 +90,7 @@ export const cacaoCircleEvents = [
   },
 ];
 
-/** Relax WithIn / sound bath sessions (add real dates and sign-up URLs when ready). */
+/** Sound & Breath / sound bath sessions (add real dates and sign-up URLs when ready). */
 export const soundBathEvents: Event[] = [
   {
     date: "2026-05-20",
@@ -104,7 +104,7 @@ export const soundBathEvents: Event[] = [
   },
 ];
 
-/** Cacao + Relax WithIn events, sorted by date (and time) for the landing page sidebar. */
+/** Cacao + Sound & Breath events, sorted by date (and time) for the landing page sidebar. */
 export const mergedCacaoAndSoundEvents: Event[] = [
   ...cacaoCircleEvents.map((e) => ({ ...e, source: "cacao" as const })),
   ...soundBathEvents.map((e) => ({ ...e, source: "sound" as const })),

@@ -175,8 +175,8 @@ function PracticalInfoSection(): JSX.Element {
       <p className="leading-relaxed">
         <FontAwesomeIcon icon={faPhone} className="w-5 h-5 mt-0.5" />
         {t("practicalInfo.pleaseSignUp")}:{" "}
-        <a href="sms:+4796746355" className="text-green-600 hover:underline">
-          +47 967 46 355
+        <a href="sms:+4792370207" className="text-green-600 hover:underline">
+          +47 92 37 02 07
         </a>
       </p>
       <p className="leading-relaxed mb-4">{t("practicalInfo.orUseLinks")}.</p>

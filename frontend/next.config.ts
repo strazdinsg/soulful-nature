@@ -28,6 +28,11 @@ const nextConfig: NextConfig = {
         destination: "/en/sound",
         permanent: true,
       },
+      {
+        source: "/nada",
+        destination: "/en/nada",
+        permanent: true,
+      },
     ];
   },
 };

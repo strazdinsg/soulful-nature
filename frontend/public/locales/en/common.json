@@ -11,12 +11,17 @@
   },
   "eventSeries": {
     "cacao": "Cacao",
-    "sound": "Relax WithIn"
+    "sound": "Sound & Breath"
   },
   "pages": {
     "relaxWithIn": {
-      "name": "Relax WithIn",
-      "description": "A guided sound bath experience with gentle meditation and calming sounds, created to help you slow down, relax, and reconnect with yourself.",
+      "name": "Sound & Breath",
+      "description": "A guided sound bath experience combined with breathing techniques to help you slow down, relax and reconnect with yourself.",
+      "moreLinkTitle": "Learn more"
+    },
+    "nadaAcupuncture": {
+      "name": "Relax with NADA",
+      "description": "NADA ear acupuncture is a simple five-point treatment that supports relaxation and helps you slow down. It is often used during periods of stress, inner restlessness, and sleep difficulties, offering a moment to reconnect with a sense of calm and balance.",
       "moreLinkTitle": "Learn more"
     },
     "cacaoAndMe": {
@@ -72,13 +77,13 @@
   },
   "sound": {
     "hero": {
-      "title": "Relax WithIn",
+      "title": "Sound & Breath",
       "subtitle": "Breathe. Rest. Return to yourself."
     },
     "about": {
-      "title": "Relax WithIn",
+      "title": "Sound & Breath",
       "subheading": "A guided sound journey back to yourself",
-      "leadingText": "Relax WithIn",
+      "leadingText": "Sound & Breath",
       "description1": "is a gentle sound bath experience created to help you pause, breathe, and reconnect with yourself.",
       "bodyParagraphs": [
         "In everyday life, we often carry stress, thoughts, responsibilities, and tension in the body. This session invites you to slow down and enter a peaceful space where you can simply rest and receive.",
@@ -100,7 +105,7 @@
     "whoIsItFor": {
       "title": "Who is it for?",
       "paragraphs": [
-        "Relax WithIn is for you who feel tired, stressed, overstimulated, or simply wish to take a pause from everyday life.",
+        "Sound & Breath is for you who feel tired, stressed, overstimulated, or simply wish to take a pause from everyday life.",
         "It is also for you who want to create more space for calm, clarity, and balance."
       ]
     },
@@ -109,7 +114,7 @@
       "durationLabel": "Duration",
       "durationValue": "1 to 1,5 hours",
       "locationLabel": "Location",
-      "locationValue": "K. Wilhelms gate 53, Ålesund",
+      "locationValue": "Kilden Helhetsterapi, Storledbakken 5A, 6003 Ålesund",
       "bringLabel": "Bring",
       "bringValue": "Comfortable clothes, warm socks, water bottle, and anything that helps you feel cozy",
       "experienceLabel": "Experience needed",
@@ -137,6 +142,101 @@
       ]
     }
   },
+  "nada": {
+    "hero": {
+      "title": "Relax with NADA",
+      "subtitle": "Pause. Breath. Find calm."
+    },
+    "about": {
+      "title": "Relax with NADA",
+      "subheading": "A calming reset for a busy mind",
+      "leadingText": "Relax with NADA",
+      "description1": "is a nonverbal 45-minute ear acupuncture session created to help you slow down, settle your thoughts, and give your body and mind a moment of rest.",
+      "bodyParagraphs": [
+        "In everyday life, our minds can stay busy long after the day itself has slowed down. Stress, thoughts, responsibilities, difficulty switching off, and problems with sleep can make it hard to truly relax and recover. This session offers you a simple space to pause, settle, and reset.",
+        "Five small acupuncture needles are placed in specific points in each ear. After this, you can sit or lie comfortably, listen to calming background music, breathe naturally, and rest.",
+        "The simplicity of NADA is part of what makes the experience special. There is nothing you need to explain, achieve, or perform during the session.",
+        "No previous experience with acupuncture is needed."
+      ]
+    },
+    "expectations": {
+      "title": "What to expect",
+      "bullets": [
+        "A calm and welcoming atmosphere",
+        "Five NADA acupuncture points in each ear using sterile, single-use needles",
+        "Calming background music",
+        "Around 45 minutes to sit or lie down and rest",
+        "No need to talk, explain, or perform",
+        "A simple moment to pause, settle, and reset"
+      ]
+    },
+    "whoIsItFor": {
+      "title": "Who is it for?",
+      "intro": "NADA may be suitable for you if you would like a moment to slow down and support relaxation, especially during periods with:",
+      "bullets": [
+        "stress",
+        "racing thoughts",
+        "inner restlessness",
+        "difficulty winding down",
+        "poor sleep"
+      ],
+      "paragraphs": [
+        "I became interested in NADA partly because I know myself how difficult it can be to switch off when the mind keeps going. That is why I was curious about such a simple method where you do not need to talk or actively do anything — you can just sit, listen to calming music and let the body settle.",
+        "NADA is a supportive practice and does not replace medical assessment or treatment when this is needed."
+      ]
+    },
+    "certification": {
+      "title": "Try NADA during my certification period",
+      "intro": "As part of my NADA certification process, I will be giving NADA sessions to 30 people and collecting practical experience and feedback along the way.",
+      "priceIntro": "During this certification period, the session price follows the guidelines from NADA Norge:",
+      "priceOptions": [
+        "Group session: 75 NOK",
+        "Private session: 100 NOK"
+      ],
+      "feedback": "After the session, I will also ask for a short feedback about how you experienced it and, if relevant, how you slept that night."
+    },
+    "practicalInfo": {
+      "title": "Practical information",
+      "durationLabel": "Duration",
+      "durationValue": "Approximately 45 minutes",
+      "locationLabel": "Location",
+      "locationValue": "Kilden Helhetsterapi, Storledbakken 5A, 6003 Ålesund",
+      "bringLabel": "Bring",
+      "bringValue": "Comfortable clothes. You do not need to bring anything special.",
+      "pleaseSignUp": "Please sign up before coming",
+      "cancellation": "If you can't attend, please send an SMS at least 24 hours before."
+    },
+    "precautions": {
+      "title": "Please be aware",
+      "intro": "Before booking a NADA session, please let me know if you:",
+      "bullets": [
+        "are pregnant",
+        "have received an organ transplant",
+        "have a medical implant or another condition that may be relevant to acupuncture",
+        "have an infection, inflammation, wound, or other problem affecting the ears",
+        "are feeling unwell or have a fever",
+        "are a blood donor"
+      ],
+      "paragraphs": [
+        "I use sterile, single-use acupuncture needles for every NADA session.",
+        "If you are a blood donor, please be aware that acupuncture can affect when you are allowed to donate blood. Norwegian blood-donation rules may require a waiting period of up to six months depending on who performed the acupuncture and the equipment used. Please check with your blood bank if regular blood donation is important to you.",
+        "If you are unsure whether NADA is suitable for you, please contact me before booking."
+      ]
+    },
+    "background": {
+      "title": "A little about NADA",
+      "paragraphs": [
+        "NADA was originally developed in the 1970s at Lincoln Hospital in New York as a supportive method for people going through addiction treatment. Since then, the standardized five-point ear acupuncture protocol has become widely used internationally, including within addiction treatment, mental health services and other settings where stress, inner restlessness and emotional strain are present.",
+        "The World Health Organization (WHO) has also recognized acupuncture as one of the supportive methods that may be used during withdrawal treatment, for example to relieve symptoms such as restlessness and sleeplessness.",
+        "Today, NADA is also used more broadly as a simple, non-verbal way to support relaxation and help people slow down during periods of stress, racing thoughts, inner restlessness or difficulty sleeping."
+      ],
+      "readMoreLink": "Read more about NADA at NADA Norge"
+    },
+    "signUp": {
+      "question": "Would you like to try a 45-minute NADA session?",
+      "button": "Sign up"
+    }
+  },
   "months": {
     "january": "January",
     "february": "February",
@@ -162,7 +262,7 @@
   },
   "practicalInfo": {
     "title": "Practical Information",
-    "location": "ARtstudio, Keiser Wilhelms gate 53, Ålesund",
+    "location": "Kilden Helhetsterapi, Storledbakken 5A, 6003 Ålesund",
     "contributionOptions": [
       "Single session: 250 NOK",
       "Clip-card (3 sessions: 660 NOK) – recommended for those who want to build continuity and strengthen the effect of the practice over time. The card is valid for 6 months."

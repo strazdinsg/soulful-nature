@@ -11,13 +11,18 @@
   },
   "eventSeries": {
     "cacao": "Kakao",
-    "sound": "Relax WithIn"
+    "sound": "Lyd & Pust"
   },
   "pages": {
     "relaxWithIn": {
-      "name": "Relax WithIn",
-      "description": "En guidet lydreise med rolig meditasjon og beroligende lyder, skapt for å hjelpe deg å senke tempoet, slappe av og komme tilbake til deg selv.",
+      "name": "Lyd & Pust",
+      "description": "En guidet lydbadopplevelse kombinert med pusteteknikker som hjelper deg å senke tempoet, slappe av og finne tilbake til deg selv.",
       "moreLinkTitle": "Lær mer"
+    },
+    "nadaAcupuncture": {
+      "name": "Relax med NADA",
+      "description": "NADA-øreakupunktur er en enkel behandling med fem punkter som støtter avspenning og hjelper deg med å roe ned. Den brukes ofte i perioder med stress, indre uro og søvnproblemer, og kan gi et lite pusterom og bidra til en følelse av ro og balanse.",
+      "moreLinkTitle": "Les mer"
     },
     "cacaoAndMe": {
       "name": "Kakao og meg",
@@ -72,13 +77,13 @@
   },
   "sound": {
     "hero": {
-      "title": "Relax WithIn",
+      "title": "Lyd & Pust",
       "subtitle": "Finn roen inni deg"
     },
     "about": {
-      "title": "Relax WithIn",
+      "title": "Lyd & Pust",
       "subheading": "Finn roen inni deg",
-      "leadingText": "Relax WithIn",
+      "leadingText": "Lyd & Pust",
       "description1": "er en rolig og sanselig lydreise skapt for å hjelpe deg å lande, puste og komme tilbake til deg selv.",
       "bodyParagraphs": [
         "I hverdagen bærer vi ofte med oss stress, tanker, ansvar og spenninger i kroppen. Denne timen inviterer deg til å senke tempoet og tre inn i et fredelig rom der du kan hvile, lytte og bare være.",
@@ -100,7 +105,7 @@
     "whoIsItFor": {
       "title": "Hvem passer dette for?",
       "paragraphs": [
-        "Relax WithIn passer for deg som føler deg sliten, stresset, overstimulert, eller som bare ønsker en pause fra hverdagen.",
+        "Lyd & Pust passer for deg som føler deg sliten, stresset, overstimulert, eller som bare ønsker en pause fra hverdagen.",
         "Det passer også for deg som ønsker mer rom for ro, klarhet og balanse i hverdagen."
       ]
     },
@@ -109,7 +114,7 @@
       "durationLabel": "Varighet",
       "durationValue": "1–1,5 timer",
       "locationLabel": "Sted",
-      "locationValue": "K. Wilhelms gate 53, Ålesund",
+      "locationValue": "Kilden Helhetsterapi, Storledbakken 5A, 6003 Ålesund",
       "bringLabel": "Ta med",
       "bringValue": "Behagelige klær, varme sokker, vannflaske og godt humør",
       "experienceLabel": "Erfaring",
@@ -137,6 +142,101 @@
       ]
     }
   },
+  "nada": {
+    "hero": {
+      "title": "Relax med NADA",
+      "subtitle": "Pause. Pust. Finn ro."
+    },
+    "about": {
+      "title": "Relax med NADA",
+      "subheading": "Et lite pusterom i en travel hverdag",
+      "leadingText": "Relax med NADA",
+      "description1": "er en non-verbal 45-minutters øreakupunkturøkt, laget for å hjelpe deg med å roe ned, samle tankene og gi kropp og sinn et lite pusterom.",
+      "bodyParagraphs": [
+        "I en travel hverdag kan hodet fortsette å jobbe lenge etter at dagen egentlig har roet seg. Stress, tanker, ansvar, problemer med å koble av og dårlig søvn kan gjøre det vanskelig å finne ordentlig ro og hente seg inn igjen. Denne økten gir deg et enkelt rom til å stoppe opp, finne ro og starte litt på nytt.",
+        "Fem små akupunkturnåler settes i bestemte punkter i hvert øre. Etterpå kan du sitte eller ligge komfortabelt, lytte til rolig bakgrunnsmusikk, puste naturlig og hvile.",
+        "Det enkle ved NADA er en viktig del av opplevelsen. Du trenger ikke å forklare noe, prestere eller få til noe under økten.",
+        "Du trenger ingen tidligere erfaring med akupunktur."
+      ]
+    },
+    "expectations": {
+      "title": "Hva kan du forvente?",
+      "bullets": [
+        "En rolig og behagelig atmosfære",
+        "Fem NADA-punkter i hvert øre med sterile engangsnåler",
+        "Rolig bakgrunnsmusikk",
+        "Rundt 45 minutter hvor du kan sitte eller ligge og hvile",
+        "Ingen behov for å snakke, forklare eller prestere",
+        "Et enkelt øyeblikk til å stoppe opp, finne ro og starte litt på nytt"
+      ]
+    },
+    "whoIsItFor": {
+      "title": "Hvem passer det for?",
+      "intro": "NADA kan passe for deg som ønsker et øyeblikk til å roe ned og støtte avspenning, spesielt i perioder med:",
+      "bullets": [
+        "stress",
+        "tankekjør",
+        "indre uro",
+        "problemer med å koble av",
+        "dårlig søvn"
+      ],
+      "paragraphs": [
+        "Jeg ble selv interessert i NADA blant annet fordi jeg vet hvor vanskelig det kan være å koble helt av når hodet fortsetter å jobbe. Derfor ble jeg nysgjerrig på en så enkel metode, hvor du ikke trenger å snakke om noe eller aktivt prøve å slappe av – du kan bare sitte, lytte til rolig musikk og la kroppen finne ro.",
+        "NADA er en støttende metode og erstatter ikke medisinsk vurdering eller behandling når dette er nødvendig."
+      ]
+    },
+    "certification": {
+      "title": "Prøv NADA mens jeg er i sertifiseringsprosessen",
+      "intro": "Som en del av NADA-sertifiseringen min skal jeg gjennomføre NADA-økter med 30 personer og samle praktisk erfaring og tilbakemeldinger underveis.",
+      "priceIntro": "I denne sertifiseringsperioden følger prisen retningslinjene fra NADA Norge:",
+      "priceOptions": [
+        "Gruppeøkt: 75 NOK",
+        "Privat økt: 100 NOK"
+      ],
+      "feedback": "Etter økten vil jeg også be om en kort tilbakemelding på hvordan du opplevde den og, dersom det er relevant, hvordan du sov den natten."
+    },
+    "practicalInfo": {
+      "title": "Praktisk informasjon",
+      "durationLabel": "Varighet",
+      "durationValue": "Ca. 45 minutter",
+      "locationLabel": "Sted",
+      "locationValue": "Kilden Helhetsterapi, Storledbakken 5A, 6003 Ålesund",
+      "bringLabel": "Ta med",
+      "bringValue": "Behagelige klær. Du trenger ikke å ta med noe spesielt.",
+      "pleaseSignUp": "Påmelding er nødvendig",
+      "cancellation": "Hvis du ikke kan komme, send gjerne SMS senest 24 timer før."
+    },
+    "precautions": {
+      "title": "Vær oppmerksom på",
+      "intro": "Før du bestiller en NADA-økt, gi meg beskjed dersom du:",
+      "bullets": [
+        "er gravid",
+        "har gjennomgått organtransplantasjon",
+        "har et medisinsk implantat eller en annen tilstand som kan være relevant ved akupunktur",
+        "har infeksjon, betennelse, sår eller andre problemer i eller rundt ørene",
+        "føler deg syk eller har feber",
+        "er blodgiver"
+      ],
+      "paragraphs": [
+        "Jeg bruker sterile engangsnåler ved alle NADA-økter.",
+        "Hvis du er blodgiver, vær oppmerksom på at akupunktur kan påvirke når du kan gi blod igjen. Norske regler for blodgivning kan innebære en ventetid på opptil seks måneder, avhengig av hvem som har utført akupunkturen og hvilket utstyr som er brukt. Dersom regelmessig blodgivning er viktig for deg, anbefaler jeg at du sjekker dette med blodbanken før du bestiller.",
+        "Er du usikker på om NADA passer for deg, ta gjerne kontakt med meg før du bestiller."
+      ]
+    },
+    "background": {
+      "title": "Litt om NADA",
+      "paragraphs": [
+        "NADA ble opprinnelig utviklet på 1970-tallet ved Lincoln Hospital i New York som en støttende metode for mennesker i behandling for avhengighet. Siden den gang har den standardiserte fempunktsprotokollen for øreakupunktur blitt tatt i bruk internasjonalt, blant annet innen rusbehandling, psykisk helse og andre områder der stress, indre uro og emosjonell belastning kan være en del av bildet.",
+        "Verdens helseorganisasjon (WHO) har også anerkjent akupunktur som en av de støttende metodene som kan brukes ved abstinensbehandling, blant annet for å lindre symptomer som uro og søvnproblemer.",
+        "I dag brukes NADA også bredere som en enkel, non-verbal metode for å støtte avspenning og hjelpe mennesker med å roe ned i perioder med stress, tankekjør, indre uro eller søvnproblemer."
+      ],
+      "readMoreLink": "Les mer om NADA hos NADA Norge"
+    },
+    "signUp": {
+      "question": "Har du lyst til å prøve en 45-minutters NADA-økt?",
+      "button": "Meld deg på"
+    }
+  },
   "months": {
     "january": "Januar",
     "february": "Februar",
@@ -162,7 +262,7 @@
   },
   "practicalInfo": {
     "title": "Praktisk informasjon",
-    "location": "ARtstudio, Keiser Wilhelms gate 53, Ålesund",
+    "location": "Kilden Helhetsterapi, Storledbakken 5A, 6003 Ålesund",
     "contributionOptions": [
       "Enkelt økt: 250 NOK",
       "Klippekort (3 økter: 660 NOK) – anbefalt for de som vil bygge kontinuitet og styrke effekten av praksisen over tid. Kortet er gyldig i 6 måneder."

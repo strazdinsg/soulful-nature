@@ -8,6 +8,13 @@ export type PageCardConfig = {
 
 export const pages: PageCardConfig[] = [
   {
+    id: 4,
+    translationKey: "nadaAcupuncture",
+    altName: "NADA ear acupuncture",
+    imgSrc: "nada.jpg",
+    url: "/nada",
+  },
+  {
     id: 1,
     translationKey: "relaxWithIn",
     altName: "",
