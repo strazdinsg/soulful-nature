@@ -1,5 +1,6 @@
 "use client";
 
+import Script from "next/script";
 import ContactSection from "@/components/ContactSection";
 import HeroSection from "@/components/HeroSection";
 import Section from "@/components/Section";
@@ -9,8 +10,11 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const NADA_NORGE_URL = "https://www.nadanorge.no/";
 
-/** Sign-up page for NADA sessions. Empty until the booking page is ready. */
-const SIGN_UP_URL = "";
+/** Setmore booking page for NADA sessions. */
+const SETMORE_URL = "https://sfnature.setmore.com";
+
+const SETMORE_SCRIPT_URL =
+  "https://assets.setmore.com/integration/book-now/live/v1/anywhere-book-now.js";
 
 export default function NadaAcupuncturePage(): JSX.Element {
   const { t } = useTranslation("common");
@@ -25,7 +29,34 @@ export default function NadaAcupuncturePage(): JSX.Element {
       />
       <MainContentSection />
       <ContactSection />
+      <Script id="setmore-book-now" src={SETMORE_SCRIPT_URL} />
     </>
+  );
+}
+
+/**
+ * Booking button linking to Setmore.
+ *
+ * It is a plain link so it always works: if Setmore's script loads, it upgrades
+ * the button into an overlay; if the script is blocked or fails, the link still
+ * opens the booking page. Only the first button carries Setmore's
+ * `Anywhere_button_iframe` id, since ids must be unique on a page.
+ */
+function BookingButton({
+  setmoreIframeId = false,
+}: Readonly<{ setmoreIframeId?: boolean }>): JSX.Element {
+  const { t } = useTranslation("common");
+
+  return (
+    <a
+      id={setmoreIframeId ? "Anywhere_button_iframe" : undefined}
+      className="anywhere-book-now-button inline-block bg-[#0e4726] hover:bg-[#0a3620] text-white font-semibold px-6 py-3 rounded-md transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b8b67d]"
+      href={SETMORE_URL}
+      data-booking-url={SETMORE_URL}
+      data-new-tab="false"
+    >
+      {t("nada.signUp.button")}
+    </a>
   );
 }
 
@@ -34,6 +65,9 @@ function MainContentSection(): JSX.Element {
     <Section>
       <div className="pt-16 pb-8 px-8">
         <div className="text-[#252419]">
+          <div className="mb-8">
+            <BookingButton setmoreIframeId />
+          </div>
           <AboutSection />
           <ExpectationSection />
           <WhoIsItForSection />
@@ -236,22 +270,7 @@ function SignUpSection(): JSX.Element {
   return (
     <div className="mt-8">
       <SectionHeading title={t("nada.signUp.question")} />
-      {SIGN_UP_URL ? (
-        <a
-          href={SIGN_UP_URL}
-          className="text-green-600 hover:underline text-lg"
-        >
-          {t("nada.signUp.button")}
-        </a>
-      ) : (
-        <p className="leading-relaxed">
-          <FontAwesomeIcon icon={faPhone} className="w-5 h-5 mt-0.5" />
-          {t("nada.practicalInfo.pleaseSignUp")}:{" "}
-          <a href="sms:+4792370207" className="text-green-600 hover:underline">
-            +47 92 37 02 07
-          </a>
-        </p>
-      )}
+      <BookingButton />
     </div>
   );
 }
