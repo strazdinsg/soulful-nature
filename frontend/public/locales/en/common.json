@@ -22,7 +22,8 @@
     "nadaAcupuncture": {
       "name": "Relax with NADA",
       "description": "NADA ear acupuncture is a simple five-point treatment that supports relaxation and helps you slow down. It is often used during periods of stress, inner restlessness, and sleep difficulties, offering a moment to reconnect with a sense of calm and balance.",
-      "moreLinkTitle": "Learn more"
+      "moreLinkTitle": "Learn more",
+      "bookLinkTitle": "Book session"
     },
     "cacaoAndMe": {
       "name": "Cacao and Me",

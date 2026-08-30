@@ -4,6 +4,8 @@ export type PageCardConfig = {
   altName: string;
   imgSrc: string;
   url: string;
+  /** Show a "book session" button on the card, alongside the "learn more" link. */
+  bookable?: boolean;
 };
 
 export const pages: PageCardConfig[] = [
@@ -13,6 +15,7 @@ export const pages: PageCardConfig[] = [
     altName: "NADA ear acupuncture",
     imgSrc: "nada.jpg",
     url: "/nada",
+    bookable: true,
   },
   {
     id: 1,

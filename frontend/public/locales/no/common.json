@@ -22,7 +22,8 @@
     "nadaAcupuncture": {
       "name": "Relax med NADA",
       "description": "NADA-øreakupunktur er en enkel behandling med fem punkter som støtter avspenning og hjelper deg med å roe ned. Den brukes ofte i perioder med stress, indre uro og søvnproblemer, og kan gi et lite pusterom og bidra til en følelse av ro og balanse.",
-      "moreLinkTitle": "Les mer"
+      "moreLinkTitle": "Les mer",
+      "bookLinkTitle": "Bestill time"
     },
     "cacaoAndMe": {
       "name": "Kakao og meg",

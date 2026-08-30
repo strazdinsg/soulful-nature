@@ -16,6 +16,7 @@ export default function PageCardsSection(): JSX.Element {
           altName={page.altName}
           imgSrc={page.imgSrc}
           url={page.url}
+          bookable={page.bookable}
           t={t}
         />
       ))}

@@ -33,7 +33,7 @@ export default function Card({
     );
   } else {
     return (
-      <div className="card w-full max-w-sm md:max-w-xl lg:max-w-4xl">
+      <div className="card relative w-full max-w-sm md:max-w-xl lg:max-w-4xl">
         {children}
       </div>
     );
