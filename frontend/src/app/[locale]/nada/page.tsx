@@ -69,8 +69,13 @@ function AboutSection(): JSX.Element {
   );
 }
 
+/**
+ * Long Norwegian compounds (e.g. "sertifiseringsprosessen") can be wider than a
+ * phone screen. `break-words` keeps them inside the layout; the soft hyphen in
+ * the translation decides where the break lands when one is needed.
+ */
 function SectionHeading({ title }: Readonly<{ title: string }>): JSX.Element {
-  return <h2 className="text-3xl font-bold mb-4">{title}</h2>;
+  return <h2 className="text-3xl font-bold mb-4 break-words">{title}</h2>;
 }
 
 function Paragraphs({
