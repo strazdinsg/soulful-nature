@@ -187,7 +187,7 @@
       ]
     },
     "certification": {
-      "title": "Prøv NADA mens jeg er i sertifiserings\u00adprosessen",
+      "title": "Prøv NADA mens jeg er i sertifiserings­prosessen",
       "intro": "Som en del av NADA-sertifiseringen min skal jeg gjennomføre NADA-økter med 30 personer og samle praktisk erfaring og tilbakemeldinger underveis.",
       "priceIntro": "I denne sertifiseringsperioden følger prisen retningslinjene fra NADA Norge:",
       "priceOptions": [
@@ -283,7 +283,6 @@
       "title": "MIN REISE",
       "subtitle": "Reisen bak SF Nature"
     },
-    "learnMoreAndSignUp": "Lær mer og bli med",
     "sections": [
       {
         "title": "Jeg har alltid likt et aktivt liv",
@@ -331,15 +330,16 @@
         ]
       },
       {
-        "title": "Det finnes ikke ett svar",
+        "title": "Finn det som passer for deg",
         "paragraphs": [
           "Jeg tror ikke det finnes én praksis, én metode eller ett svar som fungerer for alle.",
-          "Det som hjelper meg, er ikke nødvendigvis akkurat det som hjelper deg.",
-          "Og det synes jeg er helt naturlig.",
-          "Det jeg derimot tror på, er at vi kan bli flinkere til å legge merke til oss selv.",
-          "Vi kan legge merke til når tretthet ikke lenger bare er vanlig tretthet. Når stress har blitt noe vi bærer med oss hver dag. Når tankene aldri helt skrur seg av. Når søvnen endrer seg. Når vi slutter å glede oss over ting vi vanligvis liker.",
-          "Og kanskje, hvis vi legger merke til disse tegnene litt tidligere, kan vi også gjøre noe litt tidligere.",
-          "Før det blir for mye."
+          "Vi er alle forskjellige, og måten vi finner ro, balanse og rom for oss selv på, kan også være forskjellig.",
+          "Noen ganger trenger vi bevegelse. Andre ganger trenger vi stillhet. Noen ganger kan det være pust, lyd, refleksjon eller rett og slett et øyeblikk hvor ingenting forventes av oss.",
+          "Det viktigste er å legge merke til hva som hjelper deg.",
+          "Det er også slik jeg ser på praksisene jeg deler gjennom SF Nature. NADA, lyd, pust, mindfulness og cacao er ulike opplevelser, og hver av dem kan være en forskjellig vei til å ta en pause, finne tilbake til seg selv og kjenne etter hva som passer for deg.",
+          "Kanskje du kjenner deg spesielt igjen i én av dem, kanskje i flere, eller kanskje du oppdager noe helt annet underveis.",
+          "For meg handler det ikke om å fortelle deg hvilken vei du skal velge, men om å skape et rom hvor du kan prøve, kjenne etter og finne det som støtter deg best.",
+          "Og kanskje blir det også lettere å merke når vi trenger den pausen – før alt blir for mye."
         ]
       },
       {
