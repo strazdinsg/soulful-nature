@@ -6,8 +6,6 @@ import ContactSection from "@/components/ContactSection";
 import HeroSection from "@/components/HeroSection";
 import Section from "@/components/Section";
 import { useTranslation } from "react-i18next";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { SETMORE_SCRIPT_URL } from "@/data/booking";
 
 const NADA_NORGE_URL = "https://www.nadanorge.no/";
@@ -179,14 +177,14 @@ function PracticalInfoSection(): JSX.Element {
           <b>{t(labelKey)}</b>: {t(valueKey)}
         </p>
       ))}
-      <p className="leading-relaxed">
-        <FontAwesomeIcon icon={faPhone} className="w-5 h-5 mt-0.5" />
-        {t(`${p}.pleaseSignUp`)}:{" "}
+      <p className="leading-relaxed mb-4">{t(`${p}.pleaseSignUp`)}</p>
+      <BookingButton label={t("nada.signUp.button")} />
+      <p className="leading-relaxed mt-6">
+        {t(`${p}.cancellation`)}{" "}
         <a href="sms:+4792370207" className="text-green-600 hover:underline">
           +47 92 37 02 07
         </a>
       </p>
-      <p className="leading-relaxed">{t(`${p}.cancellation`)}</p>
     </div>
   );
 }

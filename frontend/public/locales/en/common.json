@@ -204,8 +204,8 @@
       "locationValue": "Kilden Helhetsterapi, Storledbakken 5A, 6003 Ålesund",
       "bringLabel": "Bring",
       "bringValue": "Comfortable clothes. You do not need to bring anything special.",
-      "pleaseSignUp": "Please sign up before coming",
-      "cancellation": "If you can't attend, please send an SMS at least 24 hours before."
+      "pleaseSignUp": "Please book a session before coming.",
+      "cancellation": "If you can't attend, please cancel your booking or send an SMS at least 24 hours before:"
     },
     "precautions": {
       "title": "Please be aware",
