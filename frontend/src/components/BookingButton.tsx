@@ -20,7 +20,7 @@ export default function BookingButton({
   return (
     <a
       id={setmoreIframeId ? "Anywhere_button_iframe" : undefined}
-      className={`anywhere-book-now-button inline-block bg-[#0e4726] hover:bg-[#0a3620] text-white font-semibold px-6 py-3 rounded-md transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b8b67d] ${className}`}
+      className={`anywhere-book-now-button inline-block bg-[#0e4726] hover:bg-[#0a3620] text-white font-semibold px-6 py-3 shadow-md hover:shadow-lg transition-[background-color,box-shadow] duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#b8b67d] ${className}`}
       href={SETMORE_URL}
       data-booking-url={SETMORE_URL}
       data-new-tab="false"
