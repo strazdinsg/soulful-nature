@@ -11,6 +11,60 @@ import LargeVerticalSpacer from "@/components/LargeVerticalSpacer";
 import { useTranslation } from "react-i18next";
 import { getLocaleFromPathname } from "@/lib/locale";
 
+type StorySection = Readonly<{
+  title: string;
+  paragraphs: string[];
+}>;
+
+type SectionImage = Readonly<{
+  imgSrc: string;
+  altText: string;
+  width: number;
+  height: number;
+  imagePosition: "left" | "right";
+}>;
+
+// One entry per story section, in order. `null` means the section has no image.
+const sectionImages: readonly (SectionImage | null)[] = [
+  null,
+  {
+    imgSrc: "burnout.jpg",
+    altText: "Burned out candle",
+    width: 800,
+    height: 731,
+    imagePosition: "left",
+  },
+  {
+    imgSrc: "balance.jpg",
+    altText: "Calm sea",
+    width: 800,
+    height: 600,
+    imagePosition: "right",
+  },
+  {
+    imgSrc: "from-cacao.jpg",
+    altText: "Pouring cacao in a cup",
+    width: 800,
+    height: 600,
+    imagePosition: "left",
+  },
+  {
+    imgSrc: "turning-point.jpg",
+    altText: "Holding a feather in the hand",
+    width: 800,
+    height: 600,
+    imagePosition: "right",
+  },
+  {
+    imgSrc: "practice.jpg",
+    altText: "Lighting candles",
+    width: 800,
+    height: 600,
+    imagePosition: "left",
+  },
+  null,
+];
+
 export default function AboutPage(): JSX.Element {
   const { t } = useTranslation("common");
 
@@ -29,15 +83,22 @@ export default function AboutPage(): JSX.Element {
 }
 
 function AboutSection(): JSX.Element {
+  const { t } = useTranslation("common");
+  const sections = t("about.sections", {
+    returnObjects: true,
+  }) as StorySection[];
+
   return (
     <Section topMargin={0}>
       <div className="mb-16 pt-16 pb-8 px-8 text-[#252419] max-w-4xl mx-auto">
-        <LeadingText />
-        <HowItBeganSection />
-        <TheSearchForBalanceSection />
-        <TheTurningPointSection />
-        <WhatCacaoGaveMeSection />
-        <CreatingPracticeSection />
+        {sections.map((section, index) => (
+          <StorySection
+            key={`story-${index}`}
+            section={section}
+            image={sectionImages[index] ?? null}
+            index={index}
+          />
+        ))}
         <SignatureSection />
       </div>
     </Section>
@@ -60,12 +121,6 @@ function TextSection({
   children,
 }: Readonly<{ children: React.ReactNode }>): JSX.Element {
   return <section className="overflow-hidden">{children}</section>;
-}
-
-function ListItem({
-  children,
-}: Readonly<{ children: React.ReactNode }>): JSX.Element {
-  return <li className="list-disc ml-6">{children}</li>;
 }
 
 function ParagraphImage({
@@ -95,140 +150,48 @@ function ParagraphImage({
   );
 }
 
+function StorySection({
+  section,
+  image,
+  index,
+}: Readonly<{
+  section: StorySection;
+  image: SectionImage | null;
+  index: number;
+}>): JSX.Element {
+  return (
+    <TextSection>
+      <Heading>{section.title}</Heading>
+      {image && <ParagraphImage {...image} />}
+      {section.paragraphs.map((paragraph, paragraphIndex) => (
+        <Paragraph key={`story-${index}-${paragraphIndex}`}>
+          {paragraph}
+        </Paragraph>
+      ))}
+    </TextSection>
+  );
+}
+
 function Signature(): JSX.Element {
   const { t } = useTranslation("common");
+  const lines = t("about.signature.lines", {
+    returnObjects: true,
+  }) as string[];
 
   return (
     <>
-      <p className={`mb-4 ${moontime.className} text-4xl text-[#0e4726]`}>
-        {t("about.signature.invitation")}
-      </p>
+      {lines.map((line, index) => (
+        <p
+          key={`signature-${index}`}
+          className={`mb-4 ${moontime.className} text-4xl text-[#0e4726]`}
+        >
+          {line}
+        </p>
+      ))}
       <p className={`pt-8 mb-4 ${moontime.className} text-6xl text-[#0e4726]`}>
         {t("about.signature.name")}
       </p>
     </>
-  );
-}
-
-function HowItBeganSection(): JSX.Element {
-  const { t } = useTranslation("common");
-  const paragraphs = t("about.sections.howItBegan.paragraphs", {
-    returnObjects: true,
-  }) as string[];
-
-  return (
-    <TextSection>
-      <Heading>{t("about.sections.howItBegan.title")}</Heading>
-      <ParagraphImage
-        imgSrc="burnout.jpg"
-        altText="Burned out candle"
-        width={800}
-        height={731}
-        imagePosition="left"
-      />
-      {paragraphs.map((paragraph, index) => (
-        <Paragraph key={`howItBegan-${index}`}>{paragraph}</Paragraph>
-      ))}
-    </TextSection>
-  );
-}
-
-function TheSearchForBalanceSection(): JSX.Element {
-  const { t } = useTranslation("common");
-  const paragraphs = t("about.sections.searchForBalance.paragraphs", {
-    returnObjects: true,
-  }) as string[];
-
-  return (
-    <TextSection>
-      <Heading>{t("about.sections.searchForBalance.title")}</Heading>
-      <ParagraphImage
-        imgSrc="balance.jpg"
-        altText="Calm sea"
-        width={800}
-        height={600}
-        imagePosition="right"
-      />
-      {paragraphs.map((paragraph, index) => (
-        <Paragraph key={`searchForBalance-${index}`}>{paragraph}</Paragraph>
-      ))}
-    </TextSection>
-  );
-}
-
-function TheTurningPointSection(): JSX.Element {
-  const { t } = useTranslation("common");
-  const paragraphs = t("about.sections.turningPoint.paragraphs", {
-    returnObjects: true,
-  }) as string[];
-
-  return (
-    <TextSection>
-      <Heading>{t("about.sections.turningPoint.title")}</Heading>
-      <ParagraphImage
-        imgSrc="turning-point.jpg"
-        altText="Holding a feather in the hand"
-        width={800}
-        height={600}
-        imagePosition="left"
-      />
-      {paragraphs.map((paragraph, index) => (
-        <Paragraph key={`turningPoint-${index}`}>{paragraph}</Paragraph>
-      ))}
-    </TextSection>
-  );
-}
-
-function WhatCacaoGaveMeSection(): JSX.Element {
-  const { t } = useTranslation("common");
-  const paragraphs = t("about.sections.whatCacaoGaveMe.paragraphs", {
-    returnObjects: true,
-  }) as string[];
-  const listItems = t("about.sections.whatCacaoGaveMe.listItems", {
-    returnObjects: true,
-  }) as string[];
-
-  return (
-    <TextSection>
-      <Heading>{t("about.sections.whatCacaoGaveMe.title")}</Heading>
-      <ParagraphImage
-        imgSrc="from-cacao.jpg"
-        altText="Pouring cacao in a cup"
-        width={800}
-        height={600}
-        imagePosition="right"
-      />
-      <Paragraph>{paragraphs[0]}</Paragraph>
-      <ul className="mb-4">
-        {listItems.map((item, index) => (
-          <ListItem key={`whatCacaoGaveMe-${index}`}>{item}</ListItem>
-        ))}
-      </ul>
-      <Paragraph>{paragraphs[1]}</Paragraph>
-    </TextSection>
-  );
-}
-
-function CreatingPracticeSection(): JSX.Element {
-  const { t } = useTranslation("common");
-  const paragraphs = t("about.sections.creatingPractice.paragraphs", {
-    returnObjects: true,
-  }) as string[];
-
-  return (
-    <TextSection>
-      <Heading>{t("about.sections.creatingPractice.title")}</Heading>
-      <ParagraphImage
-        imgSrc="practice.jpg"
-        altText="Lighting candles"
-        width={800}
-        height={600}
-        imagePosition="left"
-      />
-      {paragraphs.map((paragraph, index) => (
-        <Paragraph key={`creatingPractice-${index}`}>{paragraph}</Paragraph>
-      ))}
-    </TextSection>
   );
 }
 
@@ -262,10 +225,4 @@ function SignatureSection(): JSX.Element {
       </Link>
     </TextSection>
   );
-}
-
-function LeadingText(): JSX.Element {
-  const { t } = useTranslation("common");
-
-  return <Paragraph>{t("about.leadingText")}</Paragraph>;
 }

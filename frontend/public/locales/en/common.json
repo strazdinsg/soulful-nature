@@ -26,8 +26,8 @@
       "bookLinkTitle": "Book session"
     },
     "cacaoAndMe": {
-      "name": "Cacao and Me",
-      "description": "For me, cacao is more than a drink—it is a gentle way to pause, be in the moment, and reconnect with myself. Through cacao mindfulness practice, I have found calm, focus, and appreciation for simple moments.",
+      "name": "My Story",
+      "description": "Behind SF Nature is my own journey of learning to listen to myself a little earlier, slow down when I need to, and find balance in an active life. What I share today has grown from what I have learned, experienced and tried along the way.",
       "moreLinkTitle": "Read my story"
     },
     "cacaoMindfulness": {
@@ -280,59 +280,99 @@
   },
   "about": {
     "hero": {
-      "title": "CACAO AND ME",
-      "subtitle": "My journey with cacao"
+      "title": "MY STORY",
+      "subtitle": "The journey behind SF Nature"
     },
-    "leadingText": "From time to time, people ask me: \"How did you come to cacao mindfulness practice?\" Here is my story.",
     "learnMoreAndSignUp": "Learn more and sign up",
-    "sections": {
-      "howItBegan": {
-        "title": "How it began",
+    "sections": [
+      {
+        "title": "I have always liked an active life",
         "paragraphs": [
-          "In the autumn of 2020, I faced something I had never experienced before — emotional breakdowns at work. Some days, even the smallest event felt overwhelming. At that time, I held a leadership role in a high-pressure industry where the expectations were relentless. On the outside, I appeared strong. On the inside, I was burning out.",
-          "A visit to my doctor confirmed what I already knew: burnout. I was given two choices — take a long sick leave, or make a significant change. I chose change.",
-          "I have always loved working, solving challenges, and leading with a strategic mindset. But I realized that to continue in leadership, I needed a new approach — one that would not only restore my energy but also make my performance sustainable."
+          "I have always been someone who enjoys working, taking responsibility and having a lot going on. I still do.",
+          "I like challenges. I like finding solutions. I like being involved and feeling that I am moving things forward. My daytime work is an important part of who I am, and I genuinely enjoy it.",
+          "For a long time, I also believed that being strong meant being able to keep going. If something was difficult, I would simply work harder, find another solution and move forward.",
+          "And for a long time, that seemed to work."
         ]
       },
-      "searchForBalance": {
-        "title": "The search for balance",
+      {
+        "title": "When everything became too much",
         "paragraphs": [
-          "Changing workplace reduced the immediate stress, but my energy was still low. I wanted to understand what was happening inside me and how to rebuild resilience in a lasting way.",
-          "This search led me to Tunsbergs Medical School, where I completed a two-year course in Basic Medicine (Grunnmedisin). Alongside medical knowledge, I explored mindfulness practices and other evidence-based methods that support recovery, focus, and mental clarity.",
-          "I also learned that some of the world's top leaders take time away on retreats to restore their energy, sharpen focus, and improve creativity. That inspired me to experiment with new approaches that could help me manage pressure and perform more sustainably."
+          "At the end of 2020, I went through burnout.",
+          "It did not happen in one dramatic moment. Looking back, there had been signs along the way, but I had become very good at ignoring them.",
+          "I was tired, but I kept going. I was stressed, but I told myself it was temporary. There was always something that needed to be finished first.",
+          "Until eventually my body and mind simply said enough.",
+          "That period was difficult, but it also became an important turning point in my life. It made me realise how easy it is to lose contact with ourselves when we are constantly focused on everything we have to do.",
+          "I started asking myself questions I had never really stopped to ask before.",
+          "How am I actually doing? What does my body need? What does rest really mean? And how do we notice that we are getting close to our limit before we cross it?"
         ]
       },
-      "turningPoint": {
-        "title": "The turning point",
+      {
+        "title": "I wanted to understand why",
         "paragraphs": [
-          "In June 2022, I attended my first retreat. One of the first gatherings was a cacao ceremony — my very first experience with ceremonial cacao.",
-          "The experience was unlike anything I had known before. After drinking warm cacao and listening to dedicated music, I felt carried into a special flow. For some, it was sounds that stirred emotions and memories; for me, it was images and impressions that surfaced, offering new perspective. That moment became the true beginning of my cacao journey."
+          "When I started to feel better, I became very curious about what had actually happened to me.",
+          "I did not only want to recover. I wanted to understand why I had ended up there in the first place.",
+          "That curiosity was one of the reasons I started studying Basic Medicine at Tunsbergs Medical School.",
+          "I wanted to understand more about the body, stress, health and the connections between different systems. But in many ways, I was also trying to understand myself.",
+          "The more I learned, the more I became aware that wellbeing is not only about what happens when something is already wrong.",
+          "It is also about learning to notice the smaller signals much earlier."
         ]
       },
-      "whatCacaoGaveMe": {
-        "title": "What cacao gave me",
+      {
+        "title": "Trying, learning and discovering",
         "paragraphs": [
-          "Cacao did not \"cure\" burnout overnight. But it gave me tools that created lasting change:",
-          "Over time, cacao became more than a drink — it became a practice of balance. I discovered that mindfulness doesn't weaken strong thinking or leadership — it makes it sustainable."
-        ],
-        "listItems": [
-          "To pause and regulate my nervous system under pressure.",
-          "To ground myself when my mind was overloaded.",
-          "To welcome emotions instead of pushing them aside.",
-          "To recover clarity, energy, and focus in a sustainable way."
+          "My curiosity did not stop with theory.",
+          "Over the years, I have taken part in different courses, classes, retreats, ceremonies and sessions. I have explored mindfulness, breathing, sound, cacao and other practices.",
+          "Some experiences were powerful. Some were simply interesting. And some were not for me at all.",
+          "I tried things on myself first.",
+          "I wanted to understand how they actually felt, not only how they were described.",
+          "Little by little, I started collecting the things that genuinely helped me. Practices that made it easier to slow down. To breathe differently. To become more aware of what was happening inside me. To create a pause before simply continuing with the next thing.",
+          "And perhaps most importantly, I learned that these practices do not need to be complicated.",
+          "Sometimes a small pause can change much more than we expect."
         ]
       },
-      "creatingPractice": {
-        "title": "Creating the Cacao Mindfulness Practice",
+      {
+        "title": "There is no single answer",
         "paragraphs": [
-          "Eventually, I felt it was time to share this practice with others. That is how the Cacao Mindfulness Practice was born — evenings of candlelight, ceremonial cacao, mindful breathing, live music, reflection, and connection.",
-          "These practices are not about escape. They are about resilience. They create a pause in the middle of busy, demanding lives — a pause that restores energy, focus, and calm.",
-          "For me, cacao has become more than a personal ritual. It is a leadership wellness tool — a simple yet powerful way to prevent burnout, support clarity, and strengthen resilience in business and beyond."
+          "I do not believe that there is one practice, one method or one answer that works for everyone.",
+          "What helps me may not be exactly what helps you.",
+          "And I think that is completely natural.",
+          "What I do believe is that we can become better at noticing ourselves.",
+          "We can notice when tiredness is no longer just tiredness. When stress has become something we carry every day. When our thoughts never really switch off. When sleep changes. When we stop enjoying things we normally enjoy.",
+          "And perhaps, if we notice those signs a little earlier, we can also do something a little earlier.",
+          "Before everything becomes too much."
+        ]
+      },
+      {
+        "title": "How SF Nature came to life",
+        "paragraphs": [
+          "SF Nature grew slowly and naturally from this journey.",
+          "It was never about creating one particular method or telling people how they should live.",
+          "For me, it is simply a space where I can share some of the things I have learned, experienced and found helpful along the way.",
+          "Today, that includes NADA, sound, breathing, mindfulness and cacao.",
+          "Different practices, but with something in common: they all create a possibility to pause for a while.",
+          "I still love an active life. I still love my work, challenges and having things going on.",
+          "But now I understand much better that balance does not necessarily mean doing less.",
+          "Sometimes it means learning how to create small moments where we can stop, notice ourselves and reset before continuing."
+        ]
+      },
+      {
+        "title": "Why I want to share it",
+        "paragraphs": [
+          "I know what it feels like to realise too late that you have been pushing yourself too far.",
+          "And I also know how much it can mean to discover small tools that help you come back to yourself.",
+          "That is what I would like to share through SF Nature.",
+          "Not promises. Not perfect solutions.",
+          "Just experiences, practices and small possibilities that may help someone notice themselves a little more, relax a little deeper, or perhaps find something that works for them."
         ]
       }
-    },
+    ],
     "signature": {
-      "invitation": "I invite you to join me in this practice — to share a cup of warm cacao, take a pause from everyday life, and reconnect with yourself.",
+      "lines": [
+        "To you who are reading this…",
+        "I hope you remember to make space for yourself too.",
+        "Not only when everything becomes too much, but also in the middle of ordinary, busy life.",
+        "Pause. Breathe. Listen to yourself."
+      ],
       "name": "Inguna"
     }
   },
