@@ -188,12 +188,8 @@
     },
     "certification": {
       "title": "Prøv NADA mens jeg er i sertifiserings­prosessen",
-      "intro": "Som en del av NADA-sertifiseringen min skal jeg gjennomføre NADA-økter med 30 personer og samle praktisk erfaring og tilbakemeldinger underveis.",
-      "priceIntro": "I denne sertifiseringsperioden følger prisen retningslinjene fra NADA Norge:",
-      "priceOptions": [
-        "Gruppeøkt: 75 NOK",
-        "Privat økt: 100 NOK"
-      ],
+      "intro": "Som en del av NADA-sertifiseringen min skal jeg gjennomføre 30 praksissesjoner og samle praktisk erfaring og tilbakemeldinger underveis.",
+      "price": "I denne perioden tilbyr jeg NADA-sesjonene gratis.",
       "feedback": "Etter økten vil jeg også be om en kort tilbakemelding på hvordan du opplevde den og, dersom det er relevant, hvordan du sov den natten."
     },
     "practicalInfo": {

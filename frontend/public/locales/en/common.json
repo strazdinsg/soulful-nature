@@ -187,14 +187,10 @@
       ]
     },
     "certification": {
-      "title": "Try NADA during my certification period",
-      "intro": "As part of my NADA certification process, I will be giving NADA sessions to 30 people and collecting practical experience and feedback along the way.",
-      "priceIntro": "During this certification period, the session price follows the guidelines from NADA Norge:",
-      "priceOptions": [
-        "Group session: 75 NOK",
-        "Private session: 100 NOK"
-      ],
-      "feedback": "After the session, I will also ask for a short feedback about how you experienced it and, if relevant, how you slept that night."
+      "title": "Try NADA while I am completing my certification",
+      "intro": "As part of my NADA certification, I need to complete 30 practice sessions and gain practical experience and feedback along the way.",
+      "price": "During this period, I am offering the NADA sessions free of charge.",
+      "feedback": "After the session, I will also ask for a short reflection on how you experienced it and, if relevant, how you slept that night."
     },
     "practicalInfo": {
       "title": "Practical information",

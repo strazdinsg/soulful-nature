@@ -144,16 +144,11 @@ function WhoIsItForSection(): JSX.Element {
 function CertificationSection(): JSX.Element {
   const { t } = useTranslation("common");
 
-  const priceOptions = t("nada.certification.priceOptions", {
-    returnObjects: true,
-  }) as string[];
-
   return (
     <div className="mt-8">
       <SectionHeading title={t("nada.certification.title")} />
       <p className="leading-relaxed mb-4">{t("nada.certification.intro")}</p>
-      <p className="leading-relaxed">{t("nada.certification.priceIntro")}</p>
-      <BulletList items={priceOptions} />
+      <p className="leading-relaxed mb-4">{t("nada.certification.price")}</p>
       <p className="leading-relaxed mb-4">{t("nada.certification.feedback")}</p>
     </div>
   );
