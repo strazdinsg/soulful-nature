@@ -1,7 +1,12 @@
 "use client";
 
 import { useTranslation } from "react-i18next";
-import { cacaoCircleEvents, Event, EventSource } from "@/data/events";
+import {
+  cacaoCircleEvents,
+  Event,
+  EventSource,
+  getUpcomingEvents,
+} from "@/data/events";
 import Card from "@/components/Card";
 import SmallVerticalSpacer from "@/components/SmallVerticalSpacer";
 
@@ -22,15 +27,17 @@ export default function EventsSection({
   eventsTitleKey = "cacao.events.title",
   dateToBeDefinedKey = "cacao.events.dateToBeDefined",
   eventSeriesFallback = "cacao",
-}: EventsSectionProps): JSX.Element {
+}: EventsSectionProps): JSX.Element | null {
   const { t } = useTranslation("common");
 
-  if (!today) return <></>;
+  if (!today) return null;
 
-  const upcomingEvents = getUpcoming(events, today);
+  const upcomingEvents = getUpcomingEvents(events, today);
   const eventsToShow = maxEvents
     ? upcomingEvents.slice(0, maxEvents)
     : upcomingEvents;
+
+  if (eventsToShow.length === 0) return null;
 
   return (
     <div className="bg-[#e7ede9] p-6 mb-16 w-full">
@@ -51,10 +58,6 @@ export default function EventsSection({
       </div>
     </div>
   );
-}
-
-function getUpcoming(events: Event[], today: string) {
-  return events.filter((event) => event.date >= today);
 }
 
 function formatEventDate(

@@ -8,7 +8,7 @@ import PageCardsSection from "@/components/PageCardSection";
 import EventsSection from "@/components/EventsSection";
 import ContactSection from "@/components/ContactSection";
 import Section from "@/components/Section";
-import { mergedCacaoAndSoundEvents } from "@/data/events";
+import { getUpcomingEvents, mergedCacaoAndSoundEvents } from "@/data/events";
 
 export default function LandingPage() {
   const { t } = useTranslation("common");
@@ -19,31 +19,41 @@ export default function LandingPage() {
     setToday(t);
   }, []);
 
+  const hasUpcomingEvents =
+    today !== "" &&
+    getUpcomingEvents(mergedCacaoAndSoundEvents, today).length > 0;
+
   return (
     <div className="min-h-screen flex flex-col">
       <HeroSection title={t("hero.title")} subtitle={t("hero.subtitle")} />
       <WelcomeSection />
       <Section>
         <div className="pt-16 pb-8 px-8">
-          <div className="grid grid-cols-1 xl:grid-cols-6 gap-8">
-            <div className="xl:col-span-4">
-              <PageCardsSection />
+          {hasUpcomingEvents ? (
+            <div className="grid grid-cols-1 xl:grid-cols-6 gap-8">
+              <div className="xl:col-span-4">
+                <PageCardsSection />
+              </div>
+              <div className="hidden xl:block xl:col-span-2">
+                <EventsSection
+                  today={today}
+                  maxEvents={3}
+                  events={mergedCacaoAndSoundEvents}
+                />
+              </div>
             </div>
-            <div className="hidden xl:block xl:col-span-2">
+          ) : (
+            <PageCardsSection />
+          )}
+          {hasUpcomingEvents && (
+            <div className="xl:hidden mt-8 max-w-sm md:max-w-xl lg:max-w-4xl mx-auto w-full">
               <EventsSection
                 today={today}
                 maxEvents={3}
                 events={mergedCacaoAndSoundEvents}
               />
             </div>
-          </div>
-          <div className="xl:hidden mt-8 max-w-sm md:max-w-xl lg:max-w-4xl mx-auto w-full">
-            <EventsSection
-              today={today}
-              maxEvents={3}
-              events={mergedCacaoAndSoundEvents}
-            />
-          </div>
+          )}
         </div>
       </Section>
       <ContactSection />

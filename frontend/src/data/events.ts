@@ -104,6 +104,10 @@ export const soundBathEvents: Event[] = [
   },
 ];
 
+export function getUpcomingEvents(events: Event[], today: string): Event[] {
+  return events.filter((event) => event.date >= today);
+}
+
 /** Cacao + Sound & Breath events, sorted by date (and time) for the landing page sidebar. */
 export const mergedCacaoAndSoundEvents: Event[] = [
   ...cacaoCircleEvents.map((e) => ({ ...e, source: "cacao" as const })),
