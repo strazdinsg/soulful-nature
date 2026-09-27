@@ -1,13 +1,22 @@
 "use client";
 
+import Image from "next/image";
 import Script from "next/script";
+import { faClock, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import AcupunctureSpecialSection from "@/components/AcupunctureSpecialSection";
 import BookingButton from "@/components/BookingButton";
+import CheckList from "@/components/CheckList";
 import ContactSection from "@/components/ContactSection";
 import HeroSection from "@/components/HeroSection";
+import Paragraphs from "@/components/Paragraphs";
+import PracticalInfoCard from "@/components/PracticalInfoCard";
+import PriceFactCard from "@/components/PriceFactCard";
 import Section from "@/components/Section";
+import SectionHeading from "@/components/SectionHeading";
 import { useTranslation } from "react-i18next";
 import { SETMORE_SCRIPT_URL } from "@/data/booking";
+
+const SAGE_BG = "bg-[#e7ede9]";
 
 export default function RelaxWithNadaPage(): JSX.Element {
   const { t } = useTranslation("common");
@@ -20,20 +29,9 @@ export default function RelaxWithNadaPage(): JSX.Element {
         title={t("acupunctureNadaPage.hero.title")}
         subtitle={t("acupunctureNadaPage.hero.subtitle")}
       />
-      <MainContentSection />
-      <ContactSection />
-      <Script id="setmore-book-now" src={SETMORE_SCRIPT_URL} />
-    </>
-  );
-}
 
-function MainContentSection(): JSX.Element {
-  const { t } = useTranslation("common");
-
-  return (
-    <Section>
-      <div className="pt-16 pb-8 px-8">
-        <div className="text-[#252419]">
+      <Section topMargin={0}>
+        <div className="pt-16 pb-8 px-8 text-[#252419]">
           <div className="mb-8">
             <BookingButton
               label={t("acupunctureNadaPage.signUp.button")}
@@ -41,15 +39,37 @@ function MainContentSection(): JSX.Element {
             />
           </div>
           <AboutSection />
+        </div>
+      </Section>
+
+      <Section bgColor={SAGE_BG} topMargin={0}>
+        <div className="py-8 px-8 text-[#252419]">
           <ExpectationSection />
-          <CertificationSection />
-          <PracticalInfoSection />
+        </div>
+      </Section>
+
+      <Section topMargin={0}>
+        <div className="py-8 px-8 text-[#252419]">
+          <CertificationAndPracticalInfoSection />
+        </div>
+      </Section>
+
+      <Section bgColor={SAGE_BG} topMargin={0}>
+        <div className="py-8 px-8 text-[#252419]">
           <BeforeSessionSection />
+        </div>
+      </Section>
+
+      <Section topMargin={0}>
+        <div className="py-8 pb-16 px-8 text-[#252419]">
           <AcupunctureSpecialSection />
           <SignUpSection />
         </div>
-      </div>
-    </Section>
+      </Section>
+
+      <ContactSection />
+      <Script id="setmore-book-now" src={SETMORE_SCRIPT_URL} />
+    </>
   );
 }
 
@@ -63,36 +83,16 @@ function AboutSection(): JSX.Element {
   return (
     <>
       <SectionHeading title={t("acupunctureNadaPage.about.title")} />
+      <Image
+        src="/images/pages/acupuncture/nada.jpg"
+        alt=""
+        aria-hidden="true"
+        width={400}
+        height={400}
+        className="float-right w-32 md:w-44 h-auto pb-4 pl-4"
+      />
       <Paragraphs paragraphs={paragraphs} />
     </>
-  );
-}
-
-function SectionHeading({ title }: Readonly<{ title: string }>): JSX.Element {
-  return <h2 className="text-3xl font-bold mb-4 break-words">{title}</h2>;
-}
-
-function Paragraphs({
-  paragraphs,
-}: Readonly<{ paragraphs: string[] }>): JSX.Element {
-  return (
-    <>
-      {paragraphs.map((paragraph, index) => (
-        <p key={index} className="leading-relaxed mb-4">
-          {paragraph}
-        </p>
-      ))}
-    </>
-  );
-}
-
-function BulletList({ items }: Readonly<{ items: string[] }>): JSX.Element {
-  return (
-    <ul className="space-y-2 list-disc list-outside ml-4 mb-4 leading-relaxed">
-      {items.map((item, index) => (
-        <li key={index}>{item}</li>
-      ))}
-    </ul>
   );
 }
 
@@ -104,49 +104,44 @@ function ExpectationSection(): JSX.Element {
   }) as string[];
 
   return (
-    <div className="mt-8">
+    <div>
       <SectionHeading title={t("acupunctureNadaPage.expectations.title")} />
-      <BulletList items={bullets} />
+      <CheckList items={bullets} />
     </div>
   );
 }
 
-function CertificationSection(): JSX.Element {
-  const { t } = useTranslation("common");
-
-  const paragraphs = t("acupunctureNadaPage.certification.paragraphs", {
-    returnObjects: true,
-  }) as string[];
-
-  return (
-    <div className="mt-8">
-      <SectionHeading title={t("acupunctureNadaPage.certification.title")} />
-      <p className="leading-relaxed mb-4 font-semibold">
-        {t("acupunctureNadaPage.certification.price")}
-      </p>
-      <Paragraphs paragraphs={paragraphs} />
-    </div>
-  );
-}
-
-function PracticalInfoSection(): JSX.Element {
+function CertificationAndPracticalInfoSection(): JSX.Element {
   const { t } = useTranslation("common");
   const p = "acupunctureNadaPage.practicalInfo" as const;
 
-  const rows: Array<{ labelKey: string; valueKey: string }> = [
-    { labelKey: `${p}.durationLabel`, valueKey: `${p}.durationValue` },
-    { labelKey: `${p}.locationLabel`, valueKey: `${p}.locationValue` },
-    { labelKey: `${p}.priceLabel`, valueKey: `${p}.priceValue` },
-  ];
+  const certificationParagraphs = t(
+    "acupunctureNadaPage.certification.paragraphs",
+    { returnObjects: true }
+  ) as string[];
 
   return (
-    <div className="mt-8">
-      <SectionHeading title={t(`${p}.title`)} />
-      {rows.map(({ labelKey, valueKey }) => (
-        <p key={labelKey} className="leading-relaxed mb-4">
-          <b>{t(labelKey)}</b>: {t(valueKey)}
-        </p>
-      ))}
+    <div>
+      <PriceFactCard
+        title={t("acupunctureNadaPage.certification.title")}
+        price={t("acupunctureNadaPage.certification.price")}
+        paragraphs={certificationParagraphs}
+      />
+      <PracticalInfoCard
+        title={t(`${p}.title`)}
+        rows={[
+          {
+            icon: faClock,
+            label: t(`${p}.durationLabel`),
+            value: t(`${p}.durationValue`),
+          },
+          {
+            icon: faLocationDot,
+            label: t(`${p}.locationLabel`),
+            value: t(`${p}.locationValue`),
+          },
+        ]}
+      />
     </div>
   );
 }
@@ -159,7 +154,7 @@ function BeforeSessionSection(): JSX.Element {
   }) as string[];
 
   return (
-    <div className="mt-8">
+    <div>
       <SectionHeading title={t("acupunctureNadaPage.beforeSession.title")} />
       <Paragraphs paragraphs={paragraphs} />
     </div>

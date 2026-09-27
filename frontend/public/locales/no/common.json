@@ -202,9 +202,7 @@
       "durationLabel": "Varighet",
       "durationValue": "opptil 1 time",
       "locationLabel": "Sted",
-      "locationValue": "Kilden, Storledbakken 5A, Ålesund",
-      "priceLabel": "Pris i sertifiseringsperioden",
-      "priceValue": "100 NOK"
+      "locationValue": "Kilden, Storledbakken 5A, Ålesund"
     },
     "beforeSession": {
       "title": "Før sesjonen",
@@ -252,9 +250,7 @@
       "durationLabel": "Varighet",
       "durationValue": "opptil 1 time",
       "locationLabel": "Sted",
-      "locationValue": "Kilden, Storledbakken 5A, Ålesund",
-      "priceLabel": "Introduksjonspris",
-      "priceValue": "400 NOK"
+      "locationValue": "Kilden, Storledbakken 5A, Ålesund"
     },
     "beforeSession": {
       "title": "Før behandlingen",
@@ -304,9 +300,7 @@
       "durationLabel": "Varighet",
       "durationValue": "opptil 1 time",
       "locationLabel": "Sted",
-      "locationValue": "Kilden, Storledbakken 5A, Ålesund",
-      "priceLabel": "Introduksjonspris",
-      "priceValue": "400 NOK"
+      "locationValue": "Kilden, Storledbakken 5A, Ålesund"
     },
     "beforeSession": {
       "title": "Før behandlingen",
