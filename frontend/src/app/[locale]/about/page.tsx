@@ -4,7 +4,7 @@ import Image from "next/image";
 import ContactSection from "@/components/ContactSection";
 import HeroSection from "@/components/HeroSection";
 import Section from "@/components/Section";
-import { moontime } from "@/app/fonts";
+import { corinthia } from "@/app/fonts";
 import LargeVerticalSpacer from "@/components/LargeVerticalSpacer";
 import { useTranslation } from "react-i18next";
 
@@ -116,8 +116,11 @@ function Heading({
 
 function TextSection({
   children,
-}: Readonly<{ children: React.ReactNode }>): JSX.Element {
-  return <section className="overflow-hidden">{children}</section>;
+  className = "",
+}: Readonly<{ children: React.ReactNode; className?: string }>): JSX.Element {
+  return (
+    <section className={`overflow-hidden ${className}`}>{children}</section>
+  );
 }
 
 function ParagraphImage({
@@ -180,12 +183,14 @@ function Signature(): JSX.Element {
       {lines.map((line, index) => (
         <p
           key={`signature-${index}`}
-          className={`mb-4 ${moontime.className} text-4xl text-[#0e4726]`}
+          className={`mb-4 ${corinthia.className} text-4xl text-[#0e4726]`}
         >
           {line}
         </p>
       ))}
-      <p className={`pt-8 mb-4 ${moontime.className} text-6xl text-[#0e4726]`}>
+      <p
+        className={`pt-8 mb-4 ${corinthia.className} text-6xl text-[#0e4726]`}
+      >
         {t("about.signature.name")}
       </p>
     </>
@@ -194,7 +199,11 @@ function Signature(): JSX.Element {
 
 function SignatureSection(): JSX.Element {
   return (
-    <TextSection>
+    // The script font's swashes (e.g. the capital "J" in "Jeg håper...")
+    // dip slightly left of the glyph's own box. `pl-6` gives overflow-hidden
+    // extra room to the left before it clips, and `-ml-6` cancels the shift
+    // so the text still lines up with the rest of the page.
+    <TextSection className="pl-6 -ml-6">
       <LargeVerticalSpacer />
       <div className="md:hidden">
         <Signature />
