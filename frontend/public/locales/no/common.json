@@ -20,8 +20,8 @@
       "moreLinkTitle": "Lær mer"
     },
     "nadaAcupuncture": {
-      "name": "Relax med NADA",
-      "description": "NADA-øreakupunktur er en enkel behandling med fem punkter som støtter avspenning og hjelper deg med å roe ned. Den brukes ofte i perioder med stress, indre uro og søvnproblemer, og kan gi et lite pusterom og bidra til en følelse av ro og balanse.",
+      "name": "Akupunktur",
+      "description": "Ta et øyeblikk for deg selv med akupunktur i rolige og behagelige omgivelser. Velg mellom Relax med NADA, øreakupunktur og AcuNova-akupunktur – tre ulike tilnærminger som kan tilpasses det du ønsker å fokusere på.",
       "moreLinkTitle": "Les mer",
       "bookLinkTitle": "Bestill time"
     },
@@ -143,96 +143,189 @@
       ]
     }
   },
-  "nada": {
+  "acupuncture": {
+    "hero": {
+      "title": "Akupunktur",
+      "subtitle": "Ulike former – med tid og rom for deg."
+    },
+    "subPages": {
+      "nada": {
+        "name": "Relax med NADA",
+        "description": "NADA-øreakupunktur er en enkel behandling med fem punkter som støtter avspenning og hjelper deg med å roe ned. Den brukes ofte i perioder med stress, indre uro og søvnproblemer, og kan gi et lite pusterom og bidra til en følelse av ro og balanse.",
+        "moreLinkTitle": "Les mer"
+      },
+      "earAcupuncture": {
+        "name": "Øreakupunktur",
+        "description": "En individuell øreakupunkturtime med fokus på deg og det du ønsker å jobbe med. Behandlingen tar utgangspunkt i ulike punkter i øret og tilpasses dine behov.",
+        "moreLinkTitle": "Les mer"
+      },
+      "acuNova": {
+        "name": "AcuNova-akupunktur",
+        "description": "Moderne akupunkturmetode med særlig fokus på smertelindring ved både akutte og langvarige smerter. Behandlingen benytter spesifikke punkter, ofte rundt kroppens ledd og langs ryggraden.",
+        "moreLinkTitle": "Les mer"
+      }
+    }
+  },
+  "acupunctureNadaPage": {
     "hero": {
       "title": "Relax med NADA",
-      "subtitle": "Pause. Pust. Finn ro."
+      "subtitle": "Tid til å senke tempoet, puste og finne ro."
     },
     "about": {
-      "title": "Relax med NADA",
-      "subheading": "Et lite pusterom i en travel hverdag",
-      "leadingText": "Relax med NADA",
-      "description1": "er en non-verbal 45-minutters øreakupunkturøkt, laget for å hjelpe deg med å roe ned, samle tankene og gi kropp og sinn et lite pusterom.",
-      "bodyParagraphs": [
-        "I en travel hverdag kan hodet fortsette å jobbe lenge etter at dagen egentlig har roet seg. Stress, tanker, ansvar, problemer med å koble av og dårlig søvn kan gjøre det vanskelig å finne ordentlig ro og hente seg inn igjen. Denne økten gir deg et enkelt rom til å stoppe opp, finne ro og starte litt på nytt.",
-        "Fem små akupunkturnåler settes i bestemte punkter i hvert øre. Etterpå kan du sitte eller ligge komfortabelt, lytte til rolig bakgrunnsmusikk, puste naturlig og hvile.",
-        "Det enkle ved NADA er en viktig del av opplevelsen. Du trenger ikke å forklare noe, prestere eller få til noe under økten.",
-        "Du trenger ingen tidligere erfaring med akupunktur."
+      "title": "Et lite pusterom for deg",
+      "paragraphs": [
+        "NADA er en enkel form for øreakupunktur hvor fem bestemte punkter i hvert øre brukes. De samme punktene brukes hver gang, og det er derfor ikke behov for individuell diagnose eller en lang samtale før sesjonen.",
+        "Du sitter eller ligger rolig og lar nålene virke i omtrent 45 minutter. NADA kan være spesielt fint når du kjenner behov for mer ro, mindre tankekjør eller bedre søvn.",
+        "Det er ikke nødvendig med en lang samtale om hvordan du har det. Du er selvfølgelig velkommen til å snakke hvis du ønsker det, men hvis du foretrekker stillhet, er det også helt fint."
       ]
     },
     "expectations": {
       "title": "Hva kan du forvente?",
       "bullets": [
-        "En rolig og behagelig atmosfære",
-        "Fem NADA-punkter i hvert øre med sterile engangsnåler",
-        "Rolig bakgrunnsmusikk",
-        "Rundt 45 minutter hvor du kan sitte eller ligge og hvile",
-        "Ingen behov for å snakke, forklare eller prestere",
-        "Et enkelt øyeblikk til å stoppe opp, finne ro og starte litt på nytt"
-      ]
-    },
-    "whoIsItFor": {
-      "title": "Hvem passer det for?",
-      "intro": "NADA kan passe for deg som ønsker et øyeblikk til å roe ned og støtte avspenning, spesielt i perioder med:",
-      "bullets": [
-        "stress",
-        "tankekjør",
-        "indre uro",
-        "problemer med å koble av",
-        "dårlig søvn"
-      ],
-      "paragraphs": [
-        "Jeg ble selv interessert i NADA blant annet fordi jeg vet hvor vanskelig det kan være å koble helt av når hodet fortsetter å jobbe. Derfor ble jeg nysgjerrig på en så enkel metode, hvor du ikke trenger å snakke om noe eller aktivt prøve å slappe av – du kan bare sitte, lytte til rolig musikk og la kroppen finne ro.",
-        "NADA er en støttende metode og erstatter ikke medisinsk vurdering eller behandling når dette er nødvendig."
+        "Fem bestemte akupunkturpunkter i hvert øre",
+        "Sterile engangsnåler",
+        "Rundt 45 minutter til å sitte eller ligge mens nålene får virke",
+        "Ingen behov for å snakke hvis du foretrekker stillhet",
+        "Tid til å bare være og la sesjonen få gå sin gang"
       ]
     },
     "certification": {
-      "title": "Prøv NADA mens jeg er i sertifiserings­prosessen",
-      "intro": "Som en del av NADA-sertifiseringen min skal jeg gjennomføre 30 praksissesjoner og samle praktisk erfaring og tilbakemeldinger underveis.",
-      "price": "I denne perioden tilbyr jeg NADA-sesjonene gratis.",
-      "feedback": "Etter økten vil jeg også be om en kort tilbakemelding på hvordan du opplevde den og, dersom det er relevant, hvordan du sov den natten."
+      "title": "Pris i sertifiseringsperioden",
+      "price": "Pris: 100 NOK",
+      "paragraphs": [
+        "Som en del av NADA-sertifiseringen min skal jeg gjennomføre 30 praksissesjoner for å bygge erfaring og samle tilbakemeldinger. I denne perioden tilbyr jeg NADA-sesjoner for 100 NOK i henhold til retningslinjene fra NADA Norge.",
+        "Etter sesjonen kan jeg be om en kort tilbakemelding på hvordan du opplevde den og, dersom det er relevant, hvordan du sov den natten."
+      ]
     },
     "practicalInfo": {
       "title": "Praktisk informasjon",
       "durationLabel": "Varighet",
-      "durationValue": "Ca. 45 minutter",
+      "durationValue": "opptil 1 time",
       "locationLabel": "Sted",
-      "locationValue": "Kilden Helhetsterapi, Storledbakken 5A, 6003 Ålesund",
-      "bringLabel": "Ta med",
-      "bringValue": "Behagelige klær. Du trenger ikke å ta med noe spesielt.",
-      "pleaseSignUp": "Bestill time før du kommer.",
-      "cancellation": "Hvis du ikke kan komme, avbestill timen eller send SMS senest 24 timer før:"
+      "locationValue": "Kilden, Storledbakken 5A, Ålesund",
+      "priceLabel": "Pris i sertifiseringsperioden",
+      "priceValue": "100 NOK"
     },
-    "precautions": {
-      "title": "Vær oppmerksom på",
-      "intro": "Før du bestiller en NADA-økt, gi meg beskjed dersom du:",
-      "bullets": [
-        "er gravid",
-        "har gjennomgått organtransplantasjon",
-        "har et medisinsk implantat eller en annen tilstand som kan være relevant ved akupunktur",
-        "har infeksjon, betennelse, sår eller andre problemer i eller rundt ørene",
-        "føler deg syk eller har feber",
-        "er blodgiver"
-      ],
+    "beforeSession": {
+      "title": "Før sesjonen",
       "paragraphs": [
-        "Jeg bruker sterile engangsnåler ved alle NADA-økter.",
-        "Hvis du er blodgiver, vær oppmerksom på at akupunktur kan påvirke når du kan gi blod igjen. Norske regler for blodgivning kan innebære en ventetid på opptil seks måneder, avhengig av hvem som har utført akupunkturen og hvilket utstyr som er brukt. Dersom regelmessig blodgivning er viktig for deg, anbefaler jeg at du sjekker dette med blodbanken før du bestiller.",
-        "Er du usikker på om NADA passer for deg, ta gjerne kontakt med meg før du bestiller."
+        "Gi meg beskjed før du bestiller dersom du er gravid, har gjennomgått organtransplantasjon, har et medisinsk implantat, har infeksjon eller problemer i eller rundt ørene, føler deg syk eller har feber, eller er blodgiver.",
+        "Hvis du er usikker på om NADA passer for deg, ta gjerne kontakt før du bestiller."
       ]
     },
-    "background": {
-      "title": "Litt om NADA",
-      "paragraphs": [
-        "NADA ble opprinnelig utviklet på 1970-tallet ved Lincoln Hospital i New York som en støttende metode for mennesker i behandling for avhengighet. Siden den gang har den standardiserte fempunktsprotokollen for øreakupunktur blitt tatt i bruk internasjonalt, blant annet innen rusbehandling, psykisk helse og andre områder der stress, indre uro og emosjonell belastning kan være en del av bildet.",
-        "Verdens helseorganisasjon (WHO) har også anerkjent akupunktur som en av de støttende metodene som kan brukes ved abstinensbehandling, blant annet for å lindre symptomer som uro og søvnproblemer.",
-        "I dag brukes NADA også bredere som en enkel, non-verbal metode for å støtte avspenning og hjelpe mennesker med å roe ned i perioder med stress, tankekjør, indre uro eller søvnproblemer."
-      ],
-      "readMoreLink": "Les mer om NADA hos NADA Norge"
-    },
     "signUp": {
-      "question": "Har du lyst til å prøve en 45-minutters NADA-økt?",
       "button": "Bestill time"
     }
+  },
+  "acupunctureEarAcuPage": {
+    "hero": {
+      "title": "Øreakupunktur",
+      "subtitle": "Med fokus på det som er viktig for deg."
+    },
+    "about": {
+      "title": "En behandling tilpasset deg",
+      "paragraphs": [
+        "En individuell øreakupunkturtime med fokus på deg og det du ønsker hjelp med. I øreakupunktur brukes ulike kombinasjoner av punkter avhengig av problemstillingen. Behandlingen kan blant annet ha fokus på smerter og spenninger, stress og uro, søvn, støtte ved røyk- og snusslutt og ulike muskel- og skjelettplager.",
+        "Akupunkturpunktene velges og kombineres ut fra aktuell behandlingsprotokoll og din individuelle situasjon."
+      ]
+    },
+    "expectations": {
+      "title": "Hva kan du forvente?",
+      "bullets": [
+        "En kort samtale om hva du ønsker hjelp med",
+        "Individuelt utvalgte akupunkturpunkter i øret",
+        "Sterile engangsnåler",
+        "Tid til å sitte eller ligge mens nålene får virke",
+        "Nålene får virke i ca. 30–45 minutter"
+      ]
+    },
+    "price": {
+      "title": "Pris",
+      "regularPrice": "Ordinær pris: 800 NOK",
+      "introPrice": "Introduksjonspris: 400 NOK",
+      "paragraphs": [
+        "I en begrenset oppstartsperiode tilbyr jeg øreakupunktur til introduksjonspris mens jeg bygger videre på min praktiske erfaring med metoden."
+      ]
+    },
+    "practicalInfo": {
+      "title": "Praktisk informasjon",
+      "durationLabel": "Varighet",
+      "durationValue": "opptil 1 time",
+      "locationLabel": "Sted",
+      "locationValue": "Kilden, Storledbakken 5A, Ålesund",
+      "priceLabel": "Introduksjonspris",
+      "priceValue": "400 NOK"
+    },
+    "beforeSession": {
+      "title": "Før behandlingen",
+      "paragraphs": [
+        "Gi meg beskjed før du bestiller dersom du er gravid, har gjennomgått organtransplantasjon, har et medisinsk implantat, har infeksjon eller problemer i eller rundt ørene, føler deg syk eller har feber, eller er blodgiver.",
+        "Hvis du er usikker på om øreakupunktur passer for deg, ta gjerne kontakt før du bestiller."
+      ]
+    },
+    "signUp": {
+      "button": "Bestill time"
+    }
+  },
+  "acupunctureAcuNovaPage": {
+    "hero": {
+      "title": "AcuNova-akupunktur",
+      "subtitle": "Med fokus på smertelindring og bedre bevegelighet."
+    },
+    "about": {
+      "title": "Målrettet behandling",
+      "paragraphs": [
+        "AcuNova er en moderne akupunkturmetode med særlig fokus på smerter og ulike plager i kroppen. Den kan brukes med fokus på både akutte og langvarige smerter, blant annet i muskler, ledd og skjelett, samt øye- og øreplager og kroppens generelle motstandskraft og immunfunksjon.",
+        "Behandlingen tar utgangspunkt i spesifikke akupunkturpunkter, ofte rundt kroppens ledd og langs ryggraden. Hvilke punkter som brukes, tilpasses problemstillingen og behandlingen som er aktuell for deg."
+      ]
+    },
+    "expectations": {
+      "title": "Hva kan du forvente?",
+      "bullets": [
+        "En kort samtale om hva du ønsker hjelp med",
+        "Enkle tester ved behov før behandlingen",
+        "Individuelt tilpasset behandling ut fra problemstillingen",
+        "Sterile engangsnåler",
+        "Behandling på utvalgte punkter, ofte rundt ledd og langs ryggraden",
+        "Nålene får virke i ca. 30–45 minutter",
+        "Kort oppfølging og eventuelle nye tester etter behandlingen"
+      ]
+    },
+    "price": {
+      "title": "Pris",
+      "regularPrice": "Ordinær pris: 800 NOK",
+      "introPrice": "Introduksjonspris: 400 NOK",
+      "paragraphs": [
+        "I en begrenset oppstartsperiode tilbyr jeg behandlingen til introduksjonspris mens jeg bygger videre på min praktiske erfaring med AcuNova."
+      ]
+    },
+    "practicalInfo": {
+      "title": "Praktisk informasjon",
+      "durationLabel": "Varighet",
+      "durationValue": "opptil 1 time",
+      "locationLabel": "Sted",
+      "locationValue": "Kilden, Storledbakken 5A, Ålesund",
+      "priceLabel": "Introduksjonspris",
+      "priceValue": "400 NOK"
+    },
+    "beforeSession": {
+      "title": "Før behandlingen",
+      "paragraphs": [
+        "Gi meg beskjed før du bestiller dersom du er gravid, har gjennomgått organtransplantasjon, har et medisinsk implantat, føler deg syk eller har feber, eller er blodgiver.",
+        "Hvis du er usikker på om AcuNova-akupunktur passer for deg, ta gjerne kontakt før du bestiller."
+      ]
+    },
+    "signUp": {
+      "button": "Bestill time"
+    }
+  },
+  "acupunctureSpecialSection": {
+    "title": "Noe spesielt fra meg",
+    "paragraphs": [
+      "Jeg er veldig glad i lyd og musikk, og tror at de har en helt spesiell plass i livene våre. Jeg synes det er fascinerende hvor forskjellig lyd kan påvirke oss – den kan hjelpe oss med å senke tempoet og finne ro, inspirere til nye tanker, påvirke humøret eller rett og slett skape et øyeblikk til å stoppe opp og lytte.",
+      "Mens nålene får virke, ønsker jeg å bringe lyd inn i sesjonen gjennom syngeskåler, Koshi-klokker, rainstick og andre instrumenter. For meg er det en måte å gjøre denne tiden litt mer spesiell på – og det er noe jeg gjerne vil gi til alle som kommer til SF Nature.",
+      "Men du har alltid et valg. Hvis du kjenner at det du trenger akkurat den dagen er stillhet, da blir det stillhet."
+    ]
   },
   "months": {
     "january": "Januar",

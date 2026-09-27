@@ -11,6 +11,7 @@ import { getLocaleFromPathname } from "@/lib/locale";
 
 export default function PageCard({
   translationKey,
+  translationNamespace = "pages",
   altName,
   imgSrc,
   url,
@@ -18,6 +19,8 @@ export default function PageCard({
   t,
 }: Readonly<{
   translationKey: string;
+  /** Top-level translation section the card's copy lives under. */
+  translationNamespace?: string;
   altName: string;
   imgSrc: string;
   url: string;
@@ -25,10 +28,11 @@ export default function PageCard({
   bookable?: boolean;
   t: (key: string) => string;
 }>): JSX.Element {
-  const name = t(`pages.${translationKey}.name`);
-  const description = t(`pages.${translationKey}.description`);
-  const moreLinkTitle = t(`pages.${translationKey}.moreLinkTitle`);
-  const bookLinkTitle = t(`pages.${translationKey}.bookLinkTitle`);
+  const prefix = `${translationNamespace}.${translationKey}`;
+  const name = t(`${prefix}.name`);
+  const description = t(`${prefix}.description`);
+  const moreLinkTitle = t(`${prefix}.moreLinkTitle`);
+  const bookLinkTitle = t(`${prefix}.bookLinkTitle`);
 
   return (
     <Card>

@@ -30,7 +30,12 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/nada",
-        destination: "/en/nada",
+        destination: "/en/acupuncture/nada",
+        permanent: true,
+      },
+      {
+        source: "/acupuncture",
+        destination: "/en/acupuncture",
         permanent: true,
       },
     ];

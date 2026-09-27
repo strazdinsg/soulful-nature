@@ -20,8 +20,8 @@
       "moreLinkTitle": "Learn more"
     },
     "nadaAcupuncture": {
-      "name": "Relax with NADA",
-      "description": "NADA ear acupuncture is a simple five-point treatment that supports relaxation and helps you slow down. It is often used during periods of stress, inner restlessness, and sleep difficulties, offering a moment to reconnect with a sense of calm and balance.",
+      "name": "Acupuncture",
+      "description": "Take a moment for yourself with acupuncture in a calm and welcoming setting. Choose between Relax with NADA, Ear Acupuncture and AcuNova Acupuncture – three different approaches that can be adapted to what you are looking for.",
       "moreLinkTitle": "Learn more",
       "bookLinkTitle": "Book session"
     },
@@ -143,96 +143,189 @@
       ]
     }
   },
-  "nada": {
+  "acupuncture": {
+    "hero": {
+      "title": "Acupuncture",
+      "subtitle": "Different ways – with time and space for you."
+    },
+    "subPages": {
+      "nada": {
+        "name": "Relax with NADA",
+        "description": "NADA ear acupuncture is a simple five-point treatment that supports relaxation and helps you slow down. It is often used during periods of stress, inner restlessness, and sleep difficulties, offering a moment to reconnect with a sense of calm and balance.",
+        "moreLinkTitle": "Learn more"
+      },
+      "earAcupuncture": {
+        "name": "Ear Acupuncture",
+        "description": "An individual ear acupuncture session focused on you and what you would like to work with. The treatment uses different points in the ear and is tailored to your individual needs.",
+        "moreLinkTitle": "Learn more"
+      },
+      "acuNova": {
+        "name": "AcuNova Acupuncture",
+        "description": "A modern acupuncture method with a particular focus on pain relief for both acute and long-term pain. The treatment uses specific points, often around the body's joints and along the spine.",
+        "moreLinkTitle": "Learn more"
+      }
+    }
+  },
+  "acupunctureNadaPage": {
     "hero": {
       "title": "Relax with NADA",
-      "subtitle": "Pause. Breath. Find calm."
+      "subtitle": "Time to slow down, breathe and find calm."
     },
     "about": {
-      "title": "Relax with NADA",
-      "subheading": "A calming reset for a busy mind",
-      "leadingText": "Relax with NADA",
-      "description1": "is a nonverbal 45-minute ear acupuncture session created to help you slow down, settle your thoughts, and give your body and mind a moment of rest.",
-      "bodyParagraphs": [
-        "In everyday life, our minds can stay busy long after the day itself has slowed down. Stress, thoughts, responsibilities, difficulty switching off, and problems with sleep can make it hard to truly relax and recover. This session offers you a simple space to pause, settle, and reset.",
-        "Five small acupuncture needles are placed in specific points in each ear. After this, you can sit or lie comfortably, listen to calming background music, breathe naturally, and rest.",
-        "The simplicity of NADA is part of what makes the experience special. There is nothing you need to explain, achieve, or perform during the session.",
-        "No previous experience with acupuncture is needed."
+      "title": "A quiet pause for you",
+      "paragraphs": [
+        "NADA is a simple ear acupuncture method using five specific points in each ear. The same points are used each time, so there is no need for an individual diagnosis or a long conversation before the session.",
+        "You simply sit or lie down and allow the needles to work for around 45 minutes. NADA can be especially nice when you feel the need for more calm, fewer racing thoughts or better sleep.",
+        "There is no need for a long conversation about how you are feeling. You are welcome to talk if you would like to, but if you prefer quiet, that is completely fine too."
       ]
     },
     "expectations": {
-      "title": "What to expect",
+      "title": "What can you expect?",
       "bullets": [
-        "A calm and welcoming atmosphere",
-        "Five NADA acupuncture points in each ear using sterile, single-use needles",
-        "Calming background music",
-        "Around 45 minutes to sit or lie down and rest",
-        "No need to talk, explain, or perform",
-        "A simple moment to pause, settle, and reset"
-      ]
-    },
-    "whoIsItFor": {
-      "title": "Who is it for?",
-      "intro": "NADA may be suitable for you if you would like a moment to slow down and support relaxation, especially during periods with:",
-      "bullets": [
-        "stress",
-        "racing thoughts",
-        "inner restlessness",
-        "difficulty winding down",
-        "poor sleep"
-      ],
-      "paragraphs": [
-        "I became interested in NADA partly because I know myself how difficult it can be to switch off when the mind keeps going. That is why I was curious about such a simple method where you do not need to talk or actively do anything — you can just sit, listen to calming music and let the body settle.",
-        "NADA is a supportive practice and does not replace medical assessment or treatment when this is needed."
+        "Five specific acupuncture points in each ear",
+        "Sterile, single-use needles",
+        "Around 45 minutes to sit or lie down while the needles are working",
+        "No need to talk if you prefer quiet",
+        "Time to simply be and let the session unfold"
       ]
     },
     "certification": {
-      "title": "Try NADA while I am completing my certification",
-      "intro": "As part of my NADA certification, I need to complete 30 practice sessions and gain practical experience and feedback along the way.",
-      "price": "During this period, I am offering the NADA sessions free of charge.",
-      "feedback": "After the session, I will also ask for a short reflection on how you experienced it and, if relevant, how you slept that night."
+      "title": "Price during my certification period",
+      "price": "Price: NOK 100",
+      "paragraphs": [
+        "As part of my NADA certification, I am completing 30 practice sessions to build experience and collect feedback. During this period, I offer NADA sessions for NOK 100 in accordance with the guidelines from NADA Norway.",
+        "After the session, I may ask for short feedback about your experience and, when relevant, how you slept that night."
+      ]
     },
     "practicalInfo": {
       "title": "Practical information",
       "durationLabel": "Duration",
-      "durationValue": "Approximately 45 minutes",
+      "durationValue": "up to 1 hour",
       "locationLabel": "Location",
-      "locationValue": "Kilden Helhetsterapi, Storledbakken 5A, 6003 Ålesund",
-      "bringLabel": "Bring",
-      "bringValue": "Comfortable clothes. You do not need to bring anything special.",
-      "pleaseSignUp": "Please book a session before coming.",
-      "cancellation": "If you can't attend, please cancel your booking or send an SMS at least 24 hours before:"
+      "locationValue": "Kilden, Storledbakken 5A, Ålesund",
+      "priceLabel": "Price during certification",
+      "priceValue": "NOK 100"
     },
-    "precautions": {
-      "title": "Please be aware",
-      "intro": "Before booking a NADA session, please let me know if you:",
-      "bullets": [
-        "are pregnant",
-        "have received an organ transplant",
-        "have a medical implant or another condition that may be relevant to acupuncture",
-        "have an infection, inflammation, wound, or other problem affecting the ears",
-        "are feeling unwell or have a fever",
-        "are a blood donor"
-      ],
+    "beforeSession": {
+      "title": "Before your session",
       "paragraphs": [
-        "I use sterile, single-use acupuncture needles for every NADA session.",
-        "If you are a blood donor, please be aware that acupuncture can affect when you are allowed to donate blood. Norwegian blood-donation rules may require a waiting period of up to six months depending on who performed the acupuncture and the equipment used. Please check with your blood bank if regular blood donation is important to you.",
-        "If you are unsure whether NADA is suitable for you, please contact me before booking."
+        "Please let me know before booking if you are pregnant, have received an organ transplant, have a medical implant, have an infection or problem affecting the ears, are feeling unwell or have a fever, or are a blood donor.",
+        "If you are unsure whether NADA is suitable for you, please feel free to contact me before booking."
       ]
     },
-    "background": {
-      "title": "A little about NADA",
-      "paragraphs": [
-        "NADA was originally developed in the 1970s at Lincoln Hospital in New York as a supportive method for people going through addiction treatment. Since then, the standardized five-point ear acupuncture protocol has become widely used internationally, including within addiction treatment, mental health services and other settings where stress, inner restlessness and emotional strain are present.",
-        "The World Health Organization (WHO) has also recognized acupuncture as one of the supportive methods that may be used during withdrawal treatment, for example to relieve symptoms such as restlessness and sleeplessness.",
-        "Today, NADA is also used more broadly as a simple, non-verbal way to support relaxation and help people slow down during periods of stress, racing thoughts, inner restlessness or difficulty sleeping."
-      ],
-      "readMoreLink": "Read more about NADA at NADA Norge"
-    },
     "signUp": {
-      "question": "Would you like to try a 45-minute NADA session?",
       "button": "Book session"
     }
+  },
+  "acupunctureEarAcuPage": {
+    "hero": {
+      "title": "Ear Acupuncture",
+      "subtitle": "Focused on what matters to you."
+    },
+    "about": {
+      "title": "A treatment tailored to you",
+      "paragraphs": [
+        "An individual ear acupuncture session focused on you and what you would like help with. Ear acupuncture uses different combinations of points depending on the concern being addressed. It can be used with a focus on pain and tension, stress and anxiety, sleep, support when quitting smoking or other nicotine products, and different musculoskeletal concerns.",
+        "The acupuncture points are selected and combined according to the relevant treatment protocol and your individual situation."
+      ]
+    },
+    "expectations": {
+      "title": "What can you expect?",
+      "bullets": [
+        "A short conversation about what you would like help with",
+        "Individually selected acupuncture points in the ear",
+        "Sterile, single-use needles",
+        "Time to sit or lie down while the needles are working",
+        "The needles remain in place for approximately 30–45 minutes"
+      ]
+    },
+    "price": {
+      "title": "Price",
+      "regularPrice": "Regular price: NOK 800",
+      "introPrice": "Introductory price: NOK 400",
+      "paragraphs": [
+        "For a limited introductory period, I am offering Ear Acupuncture at a reduced price while I continue to build my practical experience with the method."
+      ]
+    },
+    "practicalInfo": {
+      "title": "Practical information",
+      "durationLabel": "Duration",
+      "durationValue": "up to 1 hour",
+      "locationLabel": "Location",
+      "locationValue": "Kilden, Storledbakken 5A, Ålesund",
+      "priceLabel": "Introductory price",
+      "priceValue": "NOK 400"
+    },
+    "beforeSession": {
+      "title": "Before treatment",
+      "paragraphs": [
+        "Please let me know before booking if you are pregnant, have received an organ transplant, have a medical implant, have an infection or problem affecting the ears, are feeling unwell or have a fever, or are a blood donor.",
+        "If you are unsure whether Ear Acupuncture is suitable for you, please feel free to contact me before booking."
+      ]
+    },
+    "signUp": {
+      "button": "Book session"
+    }
+  },
+  "acupunctureAcuNovaPage": {
+    "hero": {
+      "title": "AcuNova Acupuncture",
+      "subtitle": "With a focus on pain relief and improved mobility."
+    },
+    "about": {
+      "title": "Targeted treatment",
+      "paragraphs": [
+        "AcuNova is a modern acupuncture method with a particular focus on pain and physical concerns. It can be used with a focus on both acute and long-term pain, including pain in the muscles, joints and skeletal system, as well as eye and ear concerns and the body's general resilience and immune function.",
+        "The treatment uses specific acupuncture points, often around the body's joints and along the spine. The points are selected based on the concern being addressed and the treatment approach that is most relevant for you."
+      ]
+    },
+    "expectations": {
+      "title": "What can you expect?",
+      "bullets": [
+        "A short conversation about what you would like help with",
+        "Simple tests before treatment when relevant",
+        "An individually adapted treatment based on the concern being addressed",
+        "Sterile, single-use needles",
+        "Treatment at selected points, often around the joints and along the spine",
+        "The needles remain in place for approximately 30–45 minutes",
+        "A short follow-up and, when relevant, repeat testing after the treatment"
+      ]
+    },
+    "price": {
+      "title": "Price",
+      "regularPrice": "Regular price: NOK 800",
+      "introPrice": "Introductory price: NOK 400",
+      "paragraphs": [
+        "For a limited introductory period, I am offering AcuNova at a reduced price while I continue to build my practical experience with the method."
+      ]
+    },
+    "practicalInfo": {
+      "title": "Practical information",
+      "durationLabel": "Duration",
+      "durationValue": "up to 1 hour",
+      "locationLabel": "Location",
+      "locationValue": "Kilden, Storledbakken 5A, Ålesund",
+      "priceLabel": "Introductory price",
+      "priceValue": "NOK 400"
+    },
+    "beforeSession": {
+      "title": "Before treatment",
+      "paragraphs": [
+        "Please let me know before booking if you are pregnant, have received an organ transplant, have a medical implant, are feeling unwell or have a fever, or are a blood donor.",
+        "If you are unsure whether AcuNova acupuncture is suitable for you, please feel free to contact me before booking."
+      ]
+    },
+    "signUp": {
+      "button": "Book session"
+    }
+  },
+  "acupunctureSpecialSection": {
+    "title": "Something special from me",
+    "paragraphs": [
+      "I love sound and music, and I believe they have a special place in our lives. I find it fascinating how differently sound can affect us – it can help us slow down and find calm, inspire new thoughts, change our mood, or simply create a moment to pause and listen.",
+      "While the needles are working, I would like to bring sound into the session through singing bowls, Koshi chimes, rainstick and other instruments. For me, it is a way to make this time a little more special – and that is something I would like to give to everyone who comes to SF Nature.",
+      "But you always have a choice. If on that day you feel that what you need is silence, then silence it will be."
+    ]
   },
   "months": {
     "january": "January",

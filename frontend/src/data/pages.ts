@@ -14,7 +14,7 @@ export const pages: PageCardConfig[] = [
     translationKey: "nadaAcupuncture",
     altName: "NADA ear acupuncture",
     imgSrc: "nada.jpg",
-    url: "/nada",
+    url: "/acupuncture",
     bookable: true,
   },
   {
