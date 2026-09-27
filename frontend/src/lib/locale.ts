@@ -1,8 +1,8 @@
 /**
  * Extracts the locale from a pathname
  * @param pathname - The pathname to extract locale from
- * @returns "no" if pathname starts with "/no", otherwise "en"
+ * @returns "en" if pathname starts with "/en", otherwise "no"
  */
 export function getLocaleFromPathname(pathname: string): "en" | "no" {
-  return pathname.startsWith("/no") ? "no" : "en";
+  return pathname.startsWith("/en") ? "en" : "no";
 }
