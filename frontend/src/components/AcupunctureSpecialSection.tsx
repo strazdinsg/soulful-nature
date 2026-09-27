@@ -1,6 +1,7 @@
 "use client";
 
 import { useTranslation } from "react-i18next";
+import { corinthia } from "@/app/fonts";
 
 /**
  * "Something special from me" — identical on every acupuncture treatment page.
@@ -14,7 +15,9 @@ export default function AcupunctureSpecialSection(): JSX.Element {
 
   return (
     <div className="mt-8">
-      <h2 className="text-3xl font-bold mb-4 break-words">
+      <h2
+        className={`${corinthia.className} text-5xl mb-4 break-words text-[#0e4726]`}
+      >
         {t("acupunctureSpecialSection.title")}
       </h2>
       {paragraphs.map((paragraph, index) => (
