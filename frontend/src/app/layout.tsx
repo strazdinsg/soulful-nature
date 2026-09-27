@@ -6,9 +6,7 @@ import I18nProvider from "@/components/I18nProvider";
 
 export const metadata: Metadata = {
   title: "Soulful Nature",
-  description:
-    "Elevate your spirit with nature-inspired services, and soulful products at soulfulnature.no. " +
-    "Embark on a transformative journey today.",
+  description: "Find your moment of calm with acupuncture, sound and mindful practices.",
 };
 
 /**
